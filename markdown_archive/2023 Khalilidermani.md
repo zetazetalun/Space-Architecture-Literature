@@ -1,58 +1,61 @@
 # A Survey on Extraterrestrial Habitation Structures with a Focus on Energy-Saving 3D Printing Techniques
 
-**Authors:** Mitra Khalilidermani and Dariusz Knez  
-**Journal:** Applied Sciences, 2023, 13, 12913  
-**DOI:** https://doi.org/10.3390/app132312913
-
 ## Abstract
-In the past two decades, various space agencies have shown great enthusiasm for constructing habitable structures on lunar and Martian surfaces. This research evaluates different habitat construction techniques from technical, economic, and energy-consumption perspectives. The primary focus is on 3D printing. Findings suggest that a combination of 3D-printed components with an internal inflatable module is the most promising technique. Microwave sintering was identified as the most energy-saving approach for melting regolith.
+In the past two decades, various space agencies have shown great enthusiasm for constructing habitable structures on lunar and Martian surfaces. Consequently, several extraterrestrial structures have been proposed. This research provides a comprehensive review of habitat construction techniques from technical, economic, and energy-consumption perspectives. The primary focus is on the 3D printing technique, which has demonstrated significant potential in automated manufacturing. Findings indicate that a combination of 3D-printed components and an internal breathable inflatable module is the most promising technique. Microwave sintering was identified as the most energy-saving and reliable approach for melting on-site regolith for use in 3D printing.
 
 ## 1. Introduction
-Future space habitation is envisioned for the sustainability of mankind. Major programs like NASA's Artemis and Mars Exploration Program are currently driving research into permanent extraterrestrial habitats. Key challenges include unfavorable physics (microgravity, radiation), regolith soil characteristics, and uncertain construction techniques.
+Future space habitation is envisioned to preserve mankind's sustainability in the solar system. Large space agencies like NASA (US) and the European Union are presently tracing the construction of permanent habitats on the Moon and Mars. Recent evidence of water presence has given fresh impetus for rendering off-Earth life a reality. Key missions include NASA's Mars Exploration Program (Perseverance/Ingenuity) and the Artemis program.
 
 ## 2. Materials and Methods
+Habitat development is restricted by three main engineering challenges: unfavorable extraterrestrial physics, risky regolith characteristics, and uncertain construction techniques.
+
 ### 2.1. Physics-Based Challenges
-Primary challenges include:
-- Microgravity (instability of habitats, needs foundations).
-- Cryogenic temperatures (−230 °C on Moon, −140 °C on Mars).
-- Airless atmosphere (susceptibility to micrometeoroids).
-- Lack of magnetic fields (radiation exposure).
-- Surface radiations (solar winds, cosmic rays).
+Influential factors include microgravity (1.62 m/s² on Moon, 3.71 m/s² on Mars), cryogenic temperatures (-230 °C on Moon poles), lack of atmospheric pressure (susceptibility to micrometeoroids and radiation), lack of magnetic fields, and extreme surface radiation (solar winds, cosmic rays).
 
 ### 2.2. Aggregate Ability of the Regolith
-In situ resource utilization (ISRU) focuses on using local regolith. Regolith can be used in raw form (bags, shielding) or synthesized form (mixed with binders/additives). 3D printing technology utilizes sintered regolith to create building blocks.
+Regolith can be used in raw form (shielding) or synthesized form (combined with additives like epoxy or sulfur). 3D printing techniques use sintered regolith as building components. Microwave sintering is highlighted for its energy efficiency and penetration depth compared to laser and solar sintering.
 
 ### 2.3. Outpost Construction Techniques
+Table 1 summarizes construction techniques proposed for lunar, Martian, and cislunar environments.
+
 #### Table 1. Chronological order of major proposed extra-terrestrial outpost designs.
-| Reference | Year | Scenario (S,U,H) | Construction Technique | Material Type | Analysis Method |
-|-----------|------|------------------|-------------------------|---------------|-----------------|
-| [14] | 1992 | H | Flat truss | Lightweight Truss + regolith | Static |
-| [13] | 1992 | S | Inflatable | Kevlar 49 + regolith | Static/Numerical |
+| Reference | Year | S, U, H * | Construction Technique | Material Type | Analysis Method |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [14] | 1992 | H | Flat truss | Lightweight Truss and regolith cover | Static |
+| [13] | 1992 | S | Inflatable | Kevlar 49 and regolith cover | Static and numerical |
 | [15] | 1993 | S | Tensegrity | Unmentioned | Unmentioned |
-| [17] | 2006 | S | Deployable | laminates of AS4 Carbon PEEK | Dynamic/Numerical |
+| [58] | 1993 | S | Inflatable | Kevlar 49 and regolith cover | Static and numerical |
+| [59] | 1994 | H | Flat truss | Composite Truss and regolith cover | Static |
+| [69] | 1995 | H | Flat truss | Aluminum Truss and regolith cover | Static, Dynamic, and numerical |
+| [60] | 1996 | S | Inflatable | Kevlar and regolith cover | Static and numerical |
+| [70] | 1999 | S | Inflatable | Kevlar | Static |
+| [71] | 2000 | S | Inflatable | Kevlar | Static and numerical |
+| [72] | 2004 | S | Inflatable | Kevlar | Static |
+| [73] | 2004 | S | Inflatable | Kevlar | Static |
+| [74] | 2006 | S | Inflatable | Kevlar | Static |
+| [17] | 2006 | S | Deployable | laminates of AS4 Carbon PEEK | Dynamic and numerical |
+| [75] | 2006 | var | Deployable/Inflatable | Variable (review paper) | Not applicable |
 | [18] | 2006 | H | Arch | Aluminum | Numerical |
-| [21] | 2012 | S | 3D printing | Sintered regolith + sulfur | Not applicable |
-| [20] | 2014 | S | 3D Printing + Inflatable | Regolith | Numerical |
+| [19] | 2006 | H | Arch | Aluminum | Numerical |
+| [23] | 2006 | S | Truss and inflatable | Aluminum truss; Kevlar inflatable | Numerical |
+| [24] | 2008 | S | Truss and inflatable | Aluminum truss; Kevlar inflatable | Dynamic |
+| [68] | 2007 | S | Arch | Regolith-based sulfur concrete | Static and thermal |
+| [76] | 2010 | S | Arch | Regolith-derived voussoir dome | Static |
+| [21] | 2012 | S | 3D printing | Sintered regolith and sulfur concrete | Not applicable |
+| [25] | 2013 | S | Truss and inflatable | Aluminum truss; Kevlar inflatable | Numerical |
+| [20] | 2014 | S | 3D Printing/Inflatable | Regolith | Numerical |
 | [38] | 2017 | U | Tunnel | Precast lining | Numerical |
-| [79] | 2019 | S | 3D Printing | Sintered regolith | Destructive tests |
+| [77] | 2018 | S | Deployable | Mylar | Numerical/Empirical |
+| [39] | 2018 | U | Lava tubes | - | Static and numerical |
+| [78] | 2018 | S | Inflatable | ETFE membrane/Kevlar network | Numerical |
+| [79] | 2019 | S | 3D Printing | Sintered regolith | Destructive mechanical |
+\* (U = underground; S = surficial; H = hybrid).
 
-* (U = underground; S = surficial; H = hybrid)
-
-### 2.4. 3D Printing Technology Applications
-Three main techniques are discussed:
-1. **D-shape (Monolite):** Selective activation/solidification of layers.
-2. **Contour Crafting (CC):** Extrusion of binder-regolith mixtures (e.g., sulfur concrete).
-3. **Freeform Construction:** Layer-by-layer build-up.
-
-**Sintering Methods Comparison:**
-- **Laser Sintering:** High energy, high temperature gradient.
-- **Solar Sintering:** Dependent on location (difficult at poles).
-- **Microwave Sintering:** 33–44 times less energy than laser; greater heat penetration depth.
+### 2.4. Three-Dimensional Printing Technology Applications
+Applicable techniques include Monolite machine (D-shape), contour crafting (CC), and freeform construction. Notable projects include Khoshnevis and Zhang (2012), Cesaretti et al. (2014), and NASA’s 3D-Printed Habitat Challenge (2019) featuring AI Space Factory and Penn State University.
 
 ## 3. Results and Discussion
-Cryogenic temperatures are the most pressing challenge, affecting material selection and binder states. Inflatable modules are identified as the most appropriate for breathable environments due to high tensile strength and light weight. Using 3D printing to create a protective shell over these modules reduces transportation costs but requires binders from Earth (until ISRU alternatives for binders are matured).
+Cryogenic temperature is the most pressing physics-based challenge. Inflatable modules are highly suitable for breathable environments due to their strength, lightness, and low stowed volume. 3D printing allows construction without transporting raw bulk materials, but binder transport remains a significant cost factor.
 
 ## 4. Conclusions
-- Six physics-based challenges identified, with cryogenic temperature being the most restrictive.
-- 3D-printed components + internal inflatable modules is the optimal current design.
-- Binders represent 60% of transportation costs for 3D printed habitats; local binder production is critical for future sustainability.
+The study identifies microwave sintering as the most efficient planetary construction technique. A hybrid structure consisting of 3D-printed regolith protection over an internal inflatable module is recommended for future lunar and Martian habitation.
