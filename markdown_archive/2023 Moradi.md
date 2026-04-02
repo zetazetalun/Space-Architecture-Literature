@@ -1,37 +1,52 @@
-# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on Mars
+# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on mars
 
-**Journal:** MethodsX 11 (2023) 102270  
 **Authors:** Kasra Amini, Mojgan Moradi, Bahareh Vossoughi, Ehsan Dehghani Janabadi
+**Journal:** MethodsX 11 (2023) 102270
+**DOI:** https://doi.org/10.1016/j.mex.2023.102270
 
 ## Abstract
-Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members. This manuscript provides detailed insight on the lessons learned of the aforementioned comprehensive design attempt with core concerns including redundancy, modularity, and construction costs.
+Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members... This manuscript provides detailed insight on the lessons learned of the aforementioned comprehensive design attempt with, but not limited to, the following core concerns: 
+- The initial stand-point of such a design procedure relies on an ever increasing and comprehensive list of concerns...
+- Modularity in all layers of the design plays a key role in reducing construction, maintenance, and installation costs...
 
-## Method Details
+## Method details
 ### Background
-The research addresses the shift from survival-only mission mentalities to settlement-type inhabitation. It defines a selected list of concerns shaping the initial direction of the design, geometric specifications, and manufacturing planning of the MHUs.
+Reaching for promising target planets... Mars is inevitably the next body to be explored. This manuscript presents the design of Martian Habitat Units (MHUs), opening with a selected list of concerns shaping the initial direction of the design. The geometric specifications, plans and 3D sketches are presented, alongside power generation systems and manufacturing/construction planning.
 
-### Design Process
-The design is based on an architectural framework focused on human survival and psychological well-being. The crew size of nine was selected to minimize conflict and dysfunctionality. Proportions are calculated based on a 4x4x4m³ module growing in steps.
+### Design process
+The required spaces are organized in terms of proximity and accessibility. The best number of crew members for psychological well-being is about nine. Proportions are calculated based on a module of 4 x 4 x 4 m³ growing in three steps. 
 
-### Construction and Materiality
-*   **3D Printing:** The proposed scheme utilizes AI-assisted 3D printing using in-situ resources on the Martian surface.
-*   **Hierarchical Coding:** A top-down coding system addresses unit components to make robotic construction viable.
-*   **ADSM:** An Anti-Dust Settlement Membrane (adjustable paraboloid dome) protects the units and solar panels from dust storms.
+What sets the MHUs apart is the unique way of composing spaces and form. Interior gardens aligned with the main diagonal provide views to greenery. A hierarchical modular pattern is used in the exterior shell. The Anti-Dust Settlement Membrane (ADSM) creates a paraboloid dome-shaped membrane on top of the rhombus boundary to control flow fields and prevent dust settlement.
 
-## Key Design Features
-| Feature | Description |
+### Construction methods
+To make interactions possible for AI-assisted 3D printing, known as the ultimate good solution for construction, geometric properties of the building envelope are defined by equations. Robotics will construct MHUs before settlers land, utilizing in-situ materials.
+
+## Technical Data and Tables
+
+### Table 4: Primary power generation source nuclear fission reactor kilopower
+| Items | Specifications |
 | :--- | :--- |
-| **Extreme Redundancies** | Three-fold redundancy in "Active/Active" operational mode for LSS. |
-| **Double-Layered Pressure Vessel** | Interspace maintained at 80% of 1 atm to step pressure between interior and exterior. |
-| **Interior Gardens** | Provides psychological relief and supports closed-loop physio-chemical LSS. |
-| **Virtual Reality Interfaces** | Replaces traditional windows to maintain structural integrity while providing visual connection to the outside. |
-| **Hybrid Power System** | Integration of nuclear fission (Kilopower), solar farms, and wind turbines. |
+| Fuel | Solid U235 |
+| Cooling | Passive sodium liquid heat pipes |
+| Reactor thermal power | 43.3 kWt |
+| Power conversion output | 10 kWe |
+| Number of reactors per MHU | 18 - 27 |
+| Total daily energy | 4438.8 – 6658.2 kWh/day |
 
-## Technical Specifications (Tables 4-7 Summary)
-*   **Primary Power:** 18-27 Kilopower reactors per MHU (10 kWe output each).
-*   **Secondary Power:** 3400 m² of multi-junction photovoltaic cells per MHU.
-*   **Tertiary Power:** 5 Horizontal axis wind turbines (HAWT) for use during dust storms.
-*   **Energy Consumption:** Total daily demand of 3262.8 kWh/day per 9-person crew (includes factor of safety of 3).
+### Table 5: Secondary power generation source multi-junction photovoltaic cell
+| Design Parameters | Specifications |
+| :--- | :--- |
+| Area per MHU | 3400 m² |
+| Efficiency | 33% |
+| Performance ratio | 75% |
+| Consumable daily energy per MHU | 3251.53 kWh/day |
+
+### Major Features of MHUs
+- **Extreme Redundancies:** Three-fold redundancy in an "Active/Active" operational mode.
+- **Flow Controlling Measures:** Anti Dust-Settlement Membrane (ADSM) to protect solar panels from sand-storms.
+- **Double-Layered Pressure Vessel:** Interspace maintained at 80% of 1 atm to step-up pressure from outside to inside.
+- **Additive Manufacturing:** AI-based 3D printing with in-situ material for main structures.
+- **Modular Design:** 4-layered hexagonal pattern of modules.
 
 ## Conclusion
-The MHU project outlines a feasible path for long-duration Martian exploration through modularity, hierarchical design, and the integration of automated construction technologies using indigenous materials.
+The MHUs are designed to operate as a research base for long duration presence. AI-assisted life cycles start with robotic construction using in-situ materials before crew arrival. Reducing the required payload to instrumentation and robots instead of raw materials makes the mission realistic under current launcher capacities like Starship.
