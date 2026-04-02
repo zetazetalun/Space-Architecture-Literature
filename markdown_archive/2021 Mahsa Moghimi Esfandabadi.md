@@ -1,47 +1,43 @@
 # Pressurized Greenhouse: A Responsive Environment to Partial Gravity Conditions
 
-**Mahsa Moghimi Esfandabadi** and **Olga Bannova, Ph.D.**
-
-Sasakawa International Center for Space Architecture, Cullen College of Engineering, Houston, TX.
+**Mahsa Moghimi Esfandabadi** and **Olga Bannova, Ph.D.**  
+Sasakawa International Center for Space Architecture, Houston, TX.  
 
 ## ABSTRACT
-The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses: a habitable greenhouse focused on human factors/psychology and an industrial greenhouse focused on maximum nutrition production. A third concept—the "Pre-Breathe Greenhouse"—is proposed as a hybrid approach. This design accommodates a spectrum of pressure, oxygen, and carbon dioxide levels to serve as an alternative to tight airlocks for EVA preparation, improving crew wellness and reducing system mass.
+The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses: a habitable greenhouse focused on human factors/psychology and an industrial greenhouse focused on maximum nutrition with minimal cargo mass. The paper introduces a third "Middle Path": a greenhouse designed as a pre-breathing chamber. This module accommodates a spectrum of pressure and gas levels to facilitate transition between habitats and EVA suits. The design aims to optimize the environmental control and life support system (ECLSS) and improve crew psychological health by replacing tight airlocks with a garden environment during pre-breathing protocols.
 
-## INTRODUCTION
-For humans to survive long-duration missions on Mars, greenhouses are essential. Current designs fall into two categories: industrial-scale (prioritizing efficiency/low pressure) and habitable (prioritizing psychological wellness/full pressure). This paper presents a hybrid approach supporting variable pressures.
+## HABITABLE GREENHOUSES
+Habitable greenhouses integrate into the habitat/logistics modules, allowing direct crew access under Earth-like pressures (10.2–14.7 psi). This approach simplifies ECLSS by unifying the habitat and greenhouse atmospheres, providing psychological benefits like a "backyard" feel.
 
-### Greenhouse Design Approaches
+## INDUSTRIAL GREENHOUSE APPROACH
+Focuses on maximum crop yields. To minimize launch mass and resources, these are designed for low-pressure (hypobaria). A pressure under 60 kPa allows for new thermal insulation like SiO2 aerogels. Using natural/hybrid lighting can reduce shell mass significantly compared to high-pressure artificial lighting systems.
 
-1.  **Habitable Greenhouses:** Connected directly to habitats, sharing the same 101.3 kPa pressure and ECLSS. Focuses on the "backyard" feeling and psychological health.
-2.  **Industrial Greenhouses:** Aimed at maximizing crop yield. Operates at low pressure (approx. 30-60 kPa) to minimize launch mass. High-pressure inflatable shells (59.2 kPa) use significantly more mass than low-pressure shells.
-3.  **The Middle Path (Pre-Breathe Greenhouse):** A design allowing internal pressure to fluctuate between 34.48 and 56.5 kPa. This serves as a transition zone for astronauts preparing for surface EVAs (Extravehicular Activities).
+### Equivalent System Mass (ESM)
+*   **High Pressure (59.2 kPa) + Artificial Lighting:** ~280 Ton ESM
+*   **Low Pressure (30.0 kPa) + Natural Lighting:** ~135 Ton ESM
+*   Switching to natural/hybrid lighting reduces mass by 32.5% to 39.9%.
 
-### Technical Data
+## THE MIDDLE PATH: THE PRE-BREATHE GREENHOUSE
+To avoid decompression sickness (aerospace bends), astronauts must "pre-breathe" pure oxygen. Current protocols require hours in cramped airlocks. A pre-breathe greenhouse allows the environment to adapt to human physiological needs during surface missions. 
 
-#### Table 1: EVA protocols with different combinations of IR and O2 breathing mixtures
-| Step | Duration (min) | Pressure kPa (psi) | O2 % |
-| :--- | :--- | :--- | :--- |
-| Saturated | - | 56.5 (8.2) | 34 |
-| Purge | 0:02 / 0:08 | 56.5 (8.2) | 80/95 |
-| Depress | 0:01 | 56.5 -> 41.4 | 80/95 |
-| Prebreathe | 0:15 | 41.4 (6.0) | 80/95 |
-| Depress | 0:01 | 41.4 -> 29.7 | 80/95 |
-| EVA | 8:00h | 29.7 (4.3) | 80/95 |
+*   **Pressure Range:** 34.48 to 56.5 kPa.
+*   **Functionality:** Serves as a transition zone where crew can perform agricultural tasks or exercise while denitrogenating for EVA.
 
-#### Table 2: Total Spent Time in Greenhouse
-| Scenario | Total Time in Greenhouse | Pressure Range |
-| :--- | :--- | :--- |
-| 3x2h EVA | 7:20 | 101.3 kPa to 29.7 kPa |
-| 1x8h EVA | 4:40 | 101.3 kPa to 29.7 kPa |
+## SELECTION OF VALIDATION CRITERIA
+Evaluation is based on Figures of Merit (FOM) including nutrition support, resource requirements, and psychological benefits.
 
-#### Table 3: Figure of Merit (FOM) Comparison
+### Table 3: Figure of Merit
 | FOM | Private Garden | Industrial Greenhouse | Pre-Breathe Greenhouse |
 | :--- | :--- | :--- | :--- |
+| # Crew | 4 | 4 Or More | 4 Or More |
 | Nutrition Support | Low/Medium | High | High |
 | Mission Duration | Short | Long/Settlement | Long |
 | Resources | High | High | Medium |
+| Autonomous Ops | Low | High | Low/High |
 | Functionality | Single Function | Single Function | Multi-Functional |
+| Impact on Habitat | High | Low | Medium/Low |
+| Psychological | High | Low/Medium | High/Medium |
 | Area/Volume Util. | Not Efficient | Max Efficient | Efficient |
 
 ## CONCLUSIONS
-A pre-breathe greenhouse approach offers maximum benefits by utilizing fewer resources than habitable gardens while providing multifunctional capabilities. It serves as a psychological relief area, a food production site, and an operational transition zone for EVA, improving the overall mission efficiency and safety.
+A pre-breathe greenhouse offers a compromise between habitability and industrial efficiency. It provides multifunctional capabilities, low impact on habitat systems, and lower launch mass while maintaining 24/7 availability for the crew.

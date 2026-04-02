@@ -1,47 +1,56 @@
 # Biological growth as an alternative approach to on and off-Earth construction
 
-## Metadata
-- **Journal:** Frontiers in Built Environment, Section: Sustainable Design and Construction
-- **Date Published:** 19 September 2022
-- **DOI:** 10.3389/fbuil.2022.965145
-- **Authors:** Monika Brandić Lipińska, Chris Maurer, Dave Cadogan, James Head, Martyn Dade-Robertson, Ivan Glaucio Paulino-Lima, Chen Liu, Ruth Morrow, Debbie G. Senesky, Magdalini Theodoridou, Maikel C. Rheinstädter, Meng Zhang, and Lynn J. Rothschild
+**Authors:** Monika Brandić Lipińska, Chris Maurer, Dave Cadogan, James Head, Martyn Dade-Robertson, Ivan Glaucio Paulino-Lima, Chen Liu, Ruth Morrow, Debbie G. Senesky, Magdalini Theodoridou, Maikel C. Rheinstädter, Meng Zhang, and Lynn J. Rothschild
+
+**Published:** 19 September 2022  
+**DOI:** 10.3389/fbuil.2022.965145
 
 ## Abstract
-A critical aspect of human space exploration is the ability to construct habitats while minimizing payload mass launched from Earth. This paper proposes the use of fungal bio-composites for growing extra-terrestrial structures directly at the destination. These materials are fire-resistant, insulating, and can be used independently or in conjunction with regolith. The study outlines the potential and challenges of using these bio-composites for long-duration space missions on the Moon and Mars.
+A critical aspect of human space exploration and eventual settlement is the ability to construct habitats while minimizing payload mass launched from Earth. To respond to this challenge, we have proposed the use of fungal bio-composites for growing extra-terrestrial structures, directly at the destination, significantly lowering the mass of structural materials transported from Earth and minimizing the need for high mass robotic operations and infrastructure preparations. This research describes mycelium-based composites as an alternative biological approach for constructing regenerative and adaptive buildings in extreme environments and extraterrestrial habitats.
 
-## 1. Introduction
-Transporting materials to Low Earth Orbit (LEO) costs between $2,720 and $10,000 per kg. Using locally available building materials (ISRU) is crucial. This paper introduces "growing architecture" using mycelium-based bio-composites as a sustainable, regenerative, and adaptive solution for extreme environments.
+## 1 Introduction
+Building on the Moon and Mars involves massive energy, mass, and volume trade-offs. Using locally available building materials (ISRU) is crucial. This paper explores "growing architecture" using mycelium-based bio-composites, which are fire-resistant, insulating, and can be used independently or with regolith.
 
-## 2. State of the Art: Construction Strategies
+## 2 State of the art—construction approaches
+Lunar and Martian environments require pressurized, radiation-shielded structures. Existing concepts range from rigid modules to regolith 3D printing and ice habitats.
 
-| Strategy | Rigid Modules | Inflatable/Deployable | Regolith 3D Printing | Regolith Solar Sintering | Ice Habitats | Growing Habitats |
+### Table 1: Comparison of construction strategies
+
+| Feature | Rigid modules | Inflatable modules | Regolith 3D printing | Regolith solar sintering | Ice habitats | Habitats in lava tubes | Growing habitats |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Up mass | very high | medium | medium | medium | medium | high | low |
+| Energy for construction | medium | low | high | medium | high | high | low |
+| Flexibility | low | low | medium | medium | medium | low | high |
+| Autonomy | — | — | medium | small | medium | — | medium/high |
+| Infrastructure prep | medium | medium | high | high | high | medium | medium |
+| Radiation protection | low | low | high | high | high | high | medium |
+| Reliability | high | medium | medium | medium | low | low | medium |
+| Dependence on Earth | very high | high | medium | low | low | medium | low |
+
+## 4 Mycelium as a medium
+Fungal mycelium consists of branching hyphae that can bind substrates. Mycomaterials are light, have excellent mechanical properties, radiation protection capabilities, and do not outgas.
+
+### Table 2: Material comparison for ISRU construction
+
+| Material | Compressed regolith | Sintered basalt | Sulfur concrete | Lunar regolith | Ice | Mycoterial |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Up mass** | Very high | Medium | Medium | Medium | Medium | **Low** |
-| **Energy** | Medium | Low | High | Medium | High | **Low** |
-| **Flexibility** | Low | Low | Medium | Medium | Medium | **High** |
-| **Autonomy** | — | — | Medium | Small | Medium | **Medium/High** |
-| **Reliability** | High | Medium | Medium | Medium | Low | **Medium** |
-| **Earth Dep.** | Very high | High | Medium | Low | Low | **Low** |
+| Compression strength | 40 MPa | 206 MPa | 53.5 MPa | 17.24 MPa | 3 MPa | 26 MPa |
+| Modulus of elasticity | — | — | — | 5,100 MPa | 275 MPa |
+| U-value (per inch) | — | 20 | — | — | 2.22 | 0.33 |
+| Temp to produce | — | 1,400°C | 130°C | 1,025°C | >0°C | 20°C |
 
-## 3. Technology Description
-### 3.1 Engineered Living Materials (ELMs)
-ELMs consist of living cells that modulate material performance. In space, a single "seed" could contain the information to grow a large structure autonomously.
+### Table 3: Measured mechanical properties of mycelium biocomposites
 
-### 3.2 Mycelium as a Medium
-Fungal mycelium consists of branching hyphae. When grown into biocomposites, it creates lightweight structures with high mechanical properties and radiation shielding. 
-
-#### Table: Mechanical Properties of Mycelium Biocomposites
-| Species | Elastic Modulus (MPa) | Strength (MPa) |
+| Specimen | Elastic modulus (MPa) | Strength (MPa) |
 | :--- | :--- | :--- |
-| *Ganoderma Lucidum* | 275 | 26 |
-| *Phellinus Linteus* | 21 | 1.57 |
-| *Annulohypoxylon* | 80 | 5.05 |
+| Ganoderma Lucidum | 275 | 26 |
+| Phellinus Linteus | 21 | 1.57 |
+| Annulohypoxylon | 80 | 5.05 |
 
-## 4. Off-Earth Myco-architecture Concepts
-1. **Standalone Approach (Moon):** Uses inflatable structures as a scaffold/bioreactor to provide geometry and nutrients for mycelium growth. This minimizes upmass to just spores and scaffolds.
-2. **Regolith Reinforcement (Mars):** Mycelium acts as a binder for Martian regolith (sand/dust), creating a solid biocomposite. This reduces the amount of biological mass needed from Earth.
+## 6 Off-Earth myco-architecture
+Two main strategies are proposed:
+1. **Standalone Inflatables:** Using a deployable inflatable shell as a mold where mycelium grows within cavities, supported by a vascular system for nutrients and water.
+2. **Regolith Reinforcement:** Mycelium acts as a binder for loose regolith, significantly reducing the amount of biomass required from Earth.
 
-## 5. Challenges and Future Potential
-- **Planetary Protection:** Adhering to COSPAR guidelines to prevent forward contamination of Mars.
-- **Environmental Testing:** Need for testing in high-radiation, low-gravity, and low-pressure environments (using the Planet Simulator).
-- **Multifunctionality:** Potential for self-healing, waste degradation, and integrated biosensors (e.g., using *B. subtilis* to report structural stress).
+## 7 Future Potential
+Biological processes could provide self-healing capabilities, radiation protection (via melanin-rich fungi), and life support functions like oxygen production and waste recycling within the structure itself.

@@ -1,48 +1,51 @@
 # Overview of the Lunar In Situ Resource Utilization Techniques for Future Lunar Missions
 
+**Authors:** Peng Zhang, Wei Dai, Ran Niu, Guang Zhang, Guanghui Liu, Xin Liu, Zheng Bo, Zhi Wang, Haibo Zheng, Chengbao Liu, Hanzhe Yang, Yifan Bai, Yang Zhang, Dong Yan, Kefa Zhou, and Ming Gao
+
+**Publication:** *Space: Science & Technology*, 2023, Vol. 3, Article 0037.
+**DOI:** https://doi.org/10.34133/space.0037
+
 ## Abstract
-Building a lunar base by in situ resource utilization (ISRU) will drastically reduce the reliance of supplies from Earth. This article provides a comprehensive review of the latest progress of several ISRU technologies, including in situ water access, in situ oxygen production, in situ construction and manufacture, in situ energy utilization, and in situ life support and plant cultivation on the Moon. Ultimately, a 3-step development plan for lunar ISRU technologies in the next decade is proposed.
+Building a lunar base by in situ resource utilization (ISRU) will drastically reduce reliance on supplies from Earth. This article provides a comprehensive review of past processes and latest progress in ISRU technologies, including water access, oxygen production, in situ construction/manufacture, energy utilization, and life support. A 3-step development plan for lunar ISRU technologies is proposed for the next decade.
+
+## Introduction
+The Moon is the first target for human deep-space exploration and a permanent scientific station. Lunar environmental conditions (high vacuum, low gravity, extreme temperature) offer factors for astronomical observation and materials research, while mineral, water/ice, and energy resources are vital for survival.
 
 ## Natural Resources on the Moon
+*   **Mineral Resources:** Silicate minerals (pyroxene, plagioclase, olivine) make up >90% of rocks. Oxide minerals (ilmenite, spinels) are concentrated in mare basalts (~20% volume).
+*   **Water/Ice:** Estimated 2.9 × 10¹² kg in permanently shadowed regions (PSRs). Apollo 15/17 samples showed 5-30 ppm; Chang'E-5 estimated at least 170 ppm.
+*   **Solar Energy:** Radiant energy flux of ~1.1 × 10¹³ ergs/cm² per year.
 
-### Mineral Resources
-Table 1 shows the significant lunar mineral modal proportions (volume %) in soils from Apollo (A) and Luna (L) sampling sites.
+### Table 1: Significant lunar mineral modal proportions (volume %)
 
-**Table 1: Lunar Mineral Proportions**
-| Mineral | A | A | A-14 | A-H | A-M | A-16 | A-H | A-M | L-16 | L-20 | L-24 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plagioclase | 21.4 | 23.2 | 31.8 | 34.1 | 12.9 | 69.1 | 39.3 | 34.1 | 14.2 | 52.1 | 20.9 |
-| Pyroxene | 44.9 | 38.2 | 31.9 | 38.0 | 61.1 | 8.5 | 27.7 | 30.1 | 57.3 | 27.0 | 51.6 |
-| Olivine | 2.1 | 5.4 | 6.7 | 5.9 | 5.3 | 3.9 | 11.6 | 0.2 | 10.0 | 6.6 | 17.5 |
-| Silica | 0.7 | 1.1 | 0.7 | 0.9 | – | 0.0 | 0.1 | – | 0.0 | 0.5 | 1.7 |
-| Ilmenite | 6.5 | 2.7 | 1.3 | 0.4 | 0.8 | 0.4 | 3.7 | 12.8 | 1.8 | 0.0 | 1.0 |
-| Total | 99.9 | 99.9 | 100.0 | 99.9 | 99.9 | 99.8 | 100.0 | 99.9 | 99.9 | 99.9 | 99.9 |
-
-### Volatile Resources
-**Table 2: Solar wind implanted volatiles in lunar regolith**
-| Volatile | Concentration (ppm) | Avg mass per m³ (g) |
-| :--- | :--- | :--- |
-| H | 46 ± 16 | 76 |
-| ³He | 0.0042 ± 0.0034 | 0.007 |
-| ⁴He | 14.0 ± 11.3 | 23 |
-| C | 124 ± 45 | 206 |
-| N | 81 ± 37 | 135 |
+| Mineral | Apollo (A) | A-14 | A-16 | L-16 | L-20 | L-24 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plagioclase | 21.4 | 31.8 | 69.1 | 14.2 | 52.1 | 20.9 |
+| Pyroxene | 44.9 | 31.9 | 8.5 | 57.3 | 27.0 | 51.6 |
+| Olivine | 2.1 | 6.7 | 3.9 | 10.0 | 6.6 | 17.5 |
+| Ilmenite | 6.5 | 1.3 | 0.4 | 1.8 | 0.0 | 1.0 |
+| Others | 25.1 | 28.3 | 18.1 | 16.7 | 14.3 | 9.0 |
 
 ## In Situ Lunar Construction Techniques
+Extreme lunar environments render Earth construction methods unsuitable. The paper reviews:
 
-### Additive Manufacturing (AM)
-- **Contour Crafting:** A gantry-based 3D printing technique using liquid-state binders to crystallize materials. NASA selected this to explore quick lunar infrastructure.
-- **D-Shape Method:** Developed by ESA to produce protective shells for habitats. Challenges include fluid injection under low gravity/vacuum and the mass of liquid ink.
+### Additive Manufacturing (AM) Techniques
+*   **Contour Crafting:** A gantry-based 3D printing technique using liquid-state binders (e.g., sulfur concrete). NASA selected this for quick infrastructure but notes challenges with vacuum pumping.
+*   **D-Shape:** Uses liquid ink to produce large-scale outer protective shells for habitats. Drawbacks include the mass of liquid ink transported from Earth and fluid injection issues in low gravity.
 
 ### Sintering Techniques
-- **Microwave Sintering:** High efficiency and even heating of molten regolith. Demonstrates improved strength compared to radiant heating.
-- **Solar Sintering:** Uses concentrated sunlight; viable for dust mitigation and small structural components like microtruss structures.
+*   **Microwave Sintering:** Proposed as an alternative to furnaces. It offers high efficiency and even heating. Apollo 17 soil experiments showed improved formability and strength.
+*   **Solar Sintering:** Uses concentrated sunlight. Hintze et al. developed solar sintering for dust mitigation using Fresnel lenses. It is slower and depth-limited compared to microwave sintering.
 
 ### Extrusion Printing
-- Utilizes regolith inks modified with photocurable resins. Liu et al. (2019) reported compressive strength of 428.1 MPa and flexure strength of 129.5 MPa.
+*   Uses lunar regolith inks. Liu et al. (2019) mixed CLRS-2 simulant with photocurable resins, achieving compressive strengths of 428.1 MPa.
 
-## 3-Step Roadmap
-1. **By 2027:** Mineral resource exploration and usability assessment.
-2. **By 2030:** In situ experiments on the lunar surface using payload payloads.
-3. **By 2035:** Pilot-scale replenishment for medium-term residence.
-4. **By 2040:** Large-scale replenishment for long-term residency and Mars missions.
+## Life Support and Artificial Ecosystems
+*   **BIOS-3 (Soviet Union/Russia):** Achieved >90% gas/water recycling.
+*   **Lunar Palace 1 (China):** Earth-based large-scale crewed comprehensive BLSS. Conducted "Lunar Palace 365" experiment (370 days), achieving 100% regeneration of oxygen/water and 83% regeneration of food.
+
+## Proposed Roadmap (Figure 13)
+1.  **2027:** Mineral resource exploration and usability assessment.
+2.  **2030:** In situ experiments on lunar surfaces using experimental payloads.
+3.  **2035:** Pilot-scale replenishment of vital survival matters for long-term residence.
+4.  **2040:** Large-scale replenishment for long-term lunar and Martian missions.
