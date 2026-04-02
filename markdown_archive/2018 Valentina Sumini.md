@@ -1,49 +1,69 @@
 # Multiobjective Optimization for Structural Design of Lunar Habitats
 
-**Authors:** Valentina Sumini; Sam Wald; Caitlin Mueller; Claudio Chesi; and Olivier L. de Weck
+**Valentina Sumini¹; Sam Wald²; Caitlin Mueller³; Claudio Chesi⁴; and Olivier L. de Weck⁵**
 
-## Abstract
-Much like their Earth-based counterparts, the requirements of future space habitat structures can be defined by their ability to protect their occupants and provide usable space to live and work in an extreme, isolated environment. Due to the high cost of transporting resources off of Earth’s surface, recent efforts focus on developing increasingly Earth-independent structural designs. These new designs use local regolith-based materials as a possible solution for long-term extraterrestrial sustainability. With a focus on an Earth-independent habitat, this research looks at architectures that use spherical regolith-based concrete shells with carbon fiber polymer reinforcement. The research approach is to formulate the structural design problem as a multi-objective optimization of the habitat shell. The objectives that apply to the shell geometry and cross section include the minimization of transportation and construction costs, and the minimization of the probability of loss due to radiation and micrometeorite events. Direct trade-offs arise. The multi-objective optimization applies Pareto optimization to determine which design elements or options afford the greatest effectiveness or efficiency. The authors examine candidate design solutions based on priorities and performance thresholds which indicate that ISRU-based reinforced concrete may be a valuable future investment. While the cases presented here are limited to lunar surface systems, both the general architectures and the methodology for analysis and design are applicable to future Mars settlements.
+¹Digital Structures Research Group, Dept. of Civil and Environmental Engineering, MIT
+²Dept. of Aeronautics and Astronautics, MIT
+³Digital Structures Research Group, Dept. of Civil and Environmental Engineering, MIT
+⁴Dept. of Architecture, Built Environment and Construction Engineering, Politecnico di Milano
+⁵Dept. of Aeronautics and Astronautics, MIT
 
-## Introduction
-Designing a structure for construction on the lunar surface includes several topics, such as the relationships between severe lunar temperature cycles and structural and material fatigue; structural sensitivity to temperature differentials; and the very low-temperature effects and possibility of brittle fractures. Moreover, due to the virtual absence of atmosphere and magnetic field, space radiation on the Moon is far higher than on Earth. In order to protect the inner core of the outpost from solar wind, solar flares and Galactic Cosmic Rays (GCR), a regolith shelter is considered the most meaningful solution.
+## ABSTRACT
 
-## Concepts and Materials
+Much like their Earth-based counterparts, the requirements of future space habitat structures can be defined by their ability to protect their occupants and provide usable space to live and work in an extreme, isolated environment. Due to the high cost of transporting resources off of Earth’s surface, recent efforts focus on developing increasingly Earth-independent structural designs. These new designs use local regolith-based materials as a possible solution for long-term extraterrestrial sustainability. With a focus on an Earth-independent habitat, this research looks at architectures that use spherical regolith-based concrete shells with carbon fiber polymer reinforcement. The research approach is to formulate the structural design problem as a multi-objective optimization of the habitat shell. The objectives include the minimization of transportation and construction costs, and the minimization of the probability of loss due to radiation and micrometeorite events. Direct trade-offs arise. The authors examine candidate design solutions based on priorities and performance thresholds which indicate that ISRU-based reinforced concrete may be a valuable future investment. While the cases presented here are limited to lunar surface systems, both the general architectures and the methodology for analysis and design are applicable to future Mars settlements.
+
+## INTRODUCTION
+
+Humans have relied on structures for protection for thousands of years, using local materials (e.g., caves, igloos) or mobile systems (yurts). In the potential futures of the human species, it may prove necessary to move beyond Earth. However, protection from harsh environments is required. Recent efforts have focused on developing Earth-independent structural designs that use local regolith-based materials for long-term sustainability. We investigated the impact of material geometrical variables on reinforced concrete shells in five figures of merit compared to a baseline aluminum shell case.
+
+## PRIOR STUDIES ON LUNAR HABITAT STRUCTURAL OPTIMIZATION
+
+Previous studies investigated pressurized aluminum dome habitats (Ruess 2006), inflatables inside protective catenary shells (Benvenuti 2013), and optimal radiation shielding (Tripathi 2001). Bodiford (2006) performed a multi-objective trade study of ten construction approaches. San Soucie (2007) used genetic algorithms for dome-type shells. This research builds on these by applying multi-objective evaluation to pressurized domed habitats constructed from regolith-based concrete reinforced with Earth-sourced materials.
+
+## LUNAR HABITATS: CONCEPTS AND MATERIALS
 
 ### Lunar Concrete for Habitats
-The establishment of a manned human colony on the Moon (or on Mars) will need some form of infrastructure to shelter the astronauts and scientific instrumentations from a very harsh environment. Building a robotic fabricated habitat would reduce the risk of radiation exposure for construction workers.
+Establishing a manned colony on the Moon or Mars requires infrastructure to shelter astronauts. Designing for the lunar surface involves addressing temperature cycles, material fatigue, high vacuum effects (out-gassing), and new failure modes like micrometeorite impacts. Due to the absence of a magnetic field and atmosphere, regolith shelters are considered the most meaningful solution for radiation protection.
+
+Literature mentions Foster + Partners' design using D-Shape 3D printing technology and Neil Leach/Behrokh Khoshnevis' Contour Crafting for robotic fabrication. Using local materials is critical due to transportation costs (estimated at US$ 2 million per brick).
+
+*   **Aluminum Shell:** Represents typical systems used in the ISS.
+*   **Reinforced Concrete Shell:** Considers a spherical dome in regolith with an inner bladder layer in contact with the concrete shell. Carbon fiber reinforced polymers (CFRP) are used to resist tension stresses and enhance micrometeorite performance.
 
 ### Material Properties
-Based on potential materials of interest in the family of ceramics, the expected material strength for the regolith is assumed to be between 10 and 100 MPa with a density between 1000 to 3000 kg/m³.
+
+Expected material strength for regolith is assumed between 10 and 100 MPa with a density between 1000 to 3000 kg/m³.
 
 **Table 1. Material properties**
 
 | Property | Units | Value |
 | :--- | :--- | :--- |
 | Concrete density | Kg/m³ | 2200 |
-| Concrete allowable stress | Pa | 33.8*10^6 |
+| Concrete allowable stress | Pa | 33.8*10⁶ |
 | Aluminum density | Kg/m³ | 2700 |
-| Aluminum tensile allowable stress | Pa | 280*10^6 |
+| Aluminum tensile allowable stress | Pa | 280*10⁶ |
 
-## Methodology
-Each of the spherical geometries is defined by a set of three variables:
-1. **Interior Radius (X_1):** Overall size of the habitat.
-2. **Tensile Layer Thickness (X_2):** Effective thickness of the CFRP reinforcing members.
-3. **Concrete Layer Thickness (X_3):** Depth of the regolith concrete from interior to exterior.
+## METHODOLOGY
 
-### Objectives Used for Evaluation
-1. **Pressurized Volume:** Maximizing usable space.
-2. **Terrestrial Material Mass:** Minimizing mass brought from Earth (CFRP and cement additives).
-3. **Lunar Material Mass:** Proxies for complexity of processing and construction in-situ.
-4. **Impact Protection:** Goal to afford 0.993 "Probability of No Penetration" (PMP) over 5 years.
-5. **Radiation Protection:** Minimizing GCR dose using equivalent shielding depth.
+### Primary Structure Generation and Evaluation Process
+Geometries are defined by three variables: interior radius ($X_1$), thickness of shell tensile layer ($X_2$), and thickness of concrete layer ($X_3$). Feasible geometries are evaluated on five objectives:
+1.  Internal pressurized volume (maximize)
+2.  Material mass from Earth (minimize)
+3.  Material mass from Moon (minimize)
+4.  Radiation protection (maximize/minimize dose)
+5.  Meteoroid protection (maximize mass resisted)
 
-## Results
-The results show that reinforced concrete habitats significantly increase meteoroid and radiation protection compared to the aluminum case. While the minimum dose from GCR in an aluminum habitat is approximately 7.5 cSv, the concrete case minimum is reduced to 5.8 cSv at 0.3 meters thickness. More importantly, reinforced concrete can stop micrometeoroids of masses orders of magnitude greater than what is possible with aluminum shells within analyzed ranges.
+## RESULTS
 
-**Table 2. Possible habitat configurations for aluminum and concrete typologies**
+Variable ranges were restricted to: $X_1 = [2, 6]m$, $X_2 = [0.01, 0.1]m$, $X_3 = [0, 0.3]m$. Results show that maximum payload from Earth is reduced for CFRP-reinforced systems due to high strength/low density compared to aluminum. Reinforced concrete habitats significantly increase protection against meteoroids and radiation.
 
-| Variable/Objective | Aluminum | Concrete | Unit |
+## DISCUSSION
+
+Performance goals include a recommended volume of 226 m³ for 4 crew over 180 days. A reference mass of 55,000 kg of concrete is assumed to be produceable in-situ based on one lander's capacity.
+
+**Table 2. Possible habitat configurations with design variables and objectives for aluminum and concrete typologies.**
+
+| | Aluminum | Concrete | Units |
 | :--- | :--- | :--- | :--- |
 | Radius | 4.22 | 4.67 | m |
 | Tensile Thickness | 0.009 | 0.012 | m |
@@ -54,5 +74,6 @@ The results show that reinforced concrete habitats significantly increase meteor
 | Meteoroid | 2.94e-6 | 1.04e-5 | kg |
 | Dose | 15.3 | 9.7 | cSv |
 
-## Conclusion
-Space habitat structures must serve multiple functions. Pareto optimization allows decision makers to understand the trade-offs between these functions. Reinforced concrete is indicated as a valuable material for further investigation, as it provides a path to satisfying all mission performance goals (volume, mass, and protection) where baseline aluminum structures may fall short.
+## CONCLUSION
+
+Pareto optimization allows decision-makers to understand trade-offs without pre-weighting priorities. Reinforced concrete is a valuable material for further investigation in lunar habitat structures to balance cost and safety.
