@@ -1,37 +1,39 @@
 # Blood, sweat, and tears: extraterrestrial regolith biocomposites with in vivo binders
 
-**Authors:** A.D. Roberts, D.R. Whittall, R. Breitling, E. Takano, J.J. Blaker, S. Hay, N.S. Scrutton
-**Journal:** Materials Today Bio 12 (2021) 100136
+**Authors:** A.D. Roberts, D.R. Whittall, R. Breitling, E. Takano, J.J. Blaker, S. Hay, N.S. Scrutton  
+**Journal:** Materials Today Bio 12 (2021) 100136  
 **DOI:** https://doi.org/10.1016/j.mtbio.2021.100136
 
 ## Abstract
-The exploitation of resources *in situ*—including regolith, water, and atmospheric gases—will be vital for crewed missions to Mars. This work explores human serum albumin (HSA), a protein from blood plasma, as a binder for simulated Lunar and Martian regolith to produce 'extraterrestrial regolith biocomposites' (ERBs). HSA-based ERBs displayed compressive strengths as high as 25.0 MPa. The incorporation of urea (from urine/sweat) increased strength by over 300%, reaching 39.7 MPa. The study also demonstrates the potential for 3D-printing these biocomposites.
+The high cost and significant time delay associated with delivering payloads to the Martian surface means that exploitation of resources *in situ* will be an important part of any crewed mission to the Red Planet. This work explores the use of human serum albumin (HSA)—a common protein obtained from blood plasma—as a binder for simulated Lunar and Martian regolith to produce 'extraterrestrial regolith biocomposites' (ERBs). HSA-based ERBs displayed compressive strengths as high as 25.0 MPa. The incorporation of urea—which could be extracted from the urine, sweat, or tears of astronauts—could further increase the compressive strength by over 300% to 39.7 MPa. Furthermore, we demonstrate that HSA-ERBs have the potential to be 3D-printed, opening up an avenue for extraterrestrial construction using human-derived feedstocks.
 
 ## 1. Introduction
-Early extraterrestrial colonies will likely exploit regolith as bulk material for radiation and meteor shielding. Mechanical stabilization of regolith is necessary to prevent erosion from high-velocity exhaust or dust storms. While biological or cement-based binders have been explored, the exploitation of resources produced by astronauts themselves (*in vivo*) has received little attention.
+Due to the high cost of extra-orbital payload delivery, early extraterrestrial colonies will likely exploit regolith as a bulk material for radiation and meteor shielding. mechanical stabilization is necessary to prevent erosion. HSA produced by astronauts *in vivo* could be extracted and combined with Lunar or Martian regolith.
 
-## 2. Key Technical Data
+## 2. Materials and Methods
+- **HSA Solutions:** 30 wt% solution dissolved in deionized water or urea solutions.
+- **Regolith Simulants:** Lunar Highlands Simulant 1 (LHS-1) and Martian Global Simulant 1 (MGS-1).
+- **Fabrication:** HSA solution infused into pores of regolith powder via syringe. Hardened at 65 °C for 20 hours.
+- **Testing:** Uniaxial compression tests (ASTM C39/C39M), Circular dichroism (CD), and FE-SEM imaging.
 
-### Table 1: Comparison of Regolith Stabilization Technologies
-| Method | UCS (MPa) | Processing Energy | Primary Disadvantages |
-| :--- | :--- | :--- | :--- |
-| Melted and cast regolith | 550 | 360 (very high) | Extremely high energy/temp (1200–1500 °C) |
-| Sintered regolith | 14.5 | High | High energy/temp (1000–1200 °C) |
-| Extraterrestrial concrete | 75.5 | High | High water consumption; sparse precursors |
-| ERBs with HSA | 25.0 | Low | Limited production; crew wellbeing concerns |
-| ERBs with HSA and urea | 39.7 | Low | Limited production; crew wellbeing concerns |
+## 3. Results
 
-### Table 2: Performance of HSA-ERBs (Selected Data)
-| Regolith Type | HSA Conc. (wt. %) | Binder-to-Regolith Ratio | UCS (MPa) | Elastic Modulus (MPa) |
+### Table 1: Comparison of mechanical properties and processing energy
+| Method | UCS (MPa) | Processing energy (kWh/MT) | Primary disadvantages | Refs |
 | :--- | :--- | :--- | :--- | :--- |
-| MGS-1 (Mars) | 35 | 8.1 ± 0.3 | 9.3 ± 1.2 | 968 ± 390 |
-| LHS-1 (Moon) | 35 | 8.6 ± 0.3 | 25.0 ± 3.1 | 1618 ± 479 |
-| LHS-1 + Urea | 30 (HSA) + 3M (Urea) | 8.0 ± 0.3 | 39.7 ± 3.9 | 1746 ± 354 |
+| Melted and cast regolith | 550 | 360 (very high) | Extremely high energy and temperature | [7,20] |
+| Sintered regolith | 14.5 | 156 (high) | High processing energy and temperature | [7,20, 21] |
+| Extraterrestrial concrete | 75.5 | High | High energy and water consumption | [7] |
+| ERBs with HSA | 25.0 | Low | Limited production; Potential crew impact | This study |
+| ERBs with HSA and urea | 39.7 | Low | Limited production; Potential crew impact | This study |
 
-## 3. Findings
-- **Mechanism:** Adhesion is attributed to the dehydration-induced reorganization of protein secondary structure into a densely hydrogen-bonded β-sheet network, similar to spider silk.
-- **Urea Effect:** Urea acts as a protein denaturant that facilitates unfolding, significantly increasing the cohesive strength of the biocomposite.
-- **3D-Printing:** A proof-of-concept 3D-printed structure using MGS-1 and 15 wt% HSA sustained a 600 N force.
+### Mechanical Properties
+- **HSA-LHS-1 (Moon):** Highest UCS of 25.0 MPa (35 wt% HSA concentration).
+- **HSA-MGS-1 (Mars):** Highest UCS of 9.3 MPa (35 wt% HSA concentration).
+- **Urea Impact:** Adding 3 M urea to 30 wt% HSA/LHS-1 increased UCS from 12.3 MPa to 39.7 MPa.
+
+### 3D-Printing Potential
+A mixture of MGS-1 and HSA (15 wt%) was successfully manually extruded in layers to a height of 2 cm, demonstrating structural integrity post-dehydration. The 3D-printed structure sustained an ultimate compressive force of 600 N.
 
 ## 4. Conclusions
-HSA-ERBs circumvent the need for heavy *in situ* binder production equipment. While significant further investigation into fatigue and long-term health effects of plasma donation is needed, HSA-ERBs could provide a critical emergency or secondary construction material for early Martian or Lunar colonies.
+HSA-ERBs could serve as a mortar for sandbag-based construction or as a feedstock for additive manufacturing. Calculations suggest a crew of six over a 72-week mission could produce enough HSA to construct habitat space for one additional astronaut. This method circumvents the need for heavy, malfunction-prone *in situ* binder production equipment.
