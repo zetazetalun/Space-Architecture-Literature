@@ -6,31 +6,32 @@
 **DOI:** 10.3390/genes9070348
 
 ## Abstract
-The interest in human space journeys to distant planets and moons has been re-ignited. Plants could play a critical role in producing food and biomass feedstock for the microbial manufacture of materials, chemicals, and medicines in long-term interplanetary outposts. However, plants will not perform optimally in different planetary habitats. We discuss bioengineering endeavors to take full advantage of plants in a Martian greenhouse and propose a roadmap for adapting life to Mars using synthetic biology.
+The interest in human space journeys to distant planets and moons has been re-ignited, with ongoing plans for manned missions to Mars. Beyond basic survival, plants could play a critical role in bioregenerative life support systems, producing food and biomass feedstock for the microbial manufacture of materials, chemicals, and medicines. This article discusses bioengineering endeavors to adapt plant life to Martian conditions and proposes a 'Mars Biofoundry' roadmap for research.
 
 ## 1. Taking Full Advantage of Plants on Extraterrestrial Human Outposts
-Human exploration of deep space, specifically Mars, requires sustainable long-duration operations. Logistical costs of resupply from Earth are a major limiting factor. Plants contribute to bioregenerative life support systems by supplying O2, fixing CO2, and recycling waste/water, while providing precursors for manufacturing medicines and materials.
+Sustainable human presence on alien planetary bodies requires reducing logistical costs of resupply from Earth. Plants contribute to sustaining bioregenerative life support systems by:
+- Supplying oxygen ($O_2$)
+- Fixing carbon dioxide ($CO_2$)
+- Recycling waste and water ($H_2O$)
+- Providing food and precursors for manufacturing medicines and materials.
 
 ## 2. Refactoring Plants for Enhanced Performance on Mars
-To achieve self-sufficiency, plants must be engineered for Martian conditions (43% of Earth's sunlight, UV radiation, and low temperatures).
+Mars presents challenges including low sunlight intensity (~43% of Earth's), UV radiation, and extreme temperatures. Potential synthetic biology solutions include:
+- **Enhancing Photosynthesis:** Engineering light-harvesting antennas to access broader spectral regions (UV and infrared).
+- **Stress Tolerance:** Manipulating stomatal behavior for drought resilience and expressing ice-binding proteins for cold tolerance.
+- **Optimizing Yield:** Redesigning plant architecture and root systems for high-density cultivation and optimal nutrient acquisition in greenhouses.
 
-### 2.1 Enhancing Photosynthesis and Photoprotection
-*   **Goal:** Expand light-harvesting spectrum to UV/Infrared and improve Rubisco CO2 fixation.
-*   **Benefit:** Energy savings by reducing reliance on artificial lighting.
+## 3. Tailoring Microorganisms to Complement and Facilitate Plant Life on Mars
+Microbes can be engineered for crucial tasks in habitat establishment:
+- **Soil Conditioning:** Engineering bacteria to reduce toxic perchlorate salts ($MgClO_4$ and $CaClO_4$) in Martian regolith.
+- **Moisture Retention:** Engineering microbes to produce extracellular polysaccharides to bind soil particles and mitigate desiccation.
+- **Bio-manufacturing:** Using plant biomass as a feedstock for microbial fermentation to produce medicines, metabolites, and materials on-demand.
 
-### 2.2 Improving Drought and Cold Tolerance
-*   **Strategies:** Manipulating stomatal behavior, engineering crassulacean acid metabolism, and expressing ice-binding proteins or synthetic circadian regulation to match Martian days (~24.5 h).
+## 4. A Roadmap for Research on Adapting Life to Mars
+The authors propose the **'Mars Biofoundry'**: an automated platform for the rapid design-build-test cycle of biological systems. This platform would enable:
+- High-throughput phenotyping under simulated Martian conditions.
+- Remote monitoring of performance in miniature growth facilities on the Martian surface.
+- Accelerated exploration of the bioengineering design-space for space applications.
 
-### 2.3 Engineering High Yield and Functional Food
-*   **Focus:** High biomass productivity in limited greenhouse space, root architecture for optimal nutrient acquisition, and biofortification (e.g., carotenoids).
-
-## 3. Tailoring Microorganisms to Facilitate Plant Life on Mars
-Microbes are essential for:
-*   **Soil Conditioning:** Removing toxic perchlorates from Martian regolith and increasing moisture retention using extracellular polysaccharides.
-*   **ISRU Manufacturing:** Converting plant biomass (sugars) into proteins, metabolites, materials, and medicines via microbial fermentation (e.g., using *Pichia pastoris*).
-
-## 4. A Roadmap for Research: The Mars Biofoundry
-A proposed 'Mars Biofoundry' would use an automated platform for the design-build-test cycle of synthetic biology to expedite engineering biological systems for Martian conditions. This includes using microorganisms as plant-proxies for rapid screening of genetic designs.
-
-## 5. Conclusion
-Developing technology for sustaining humans on Mars will drive advancements in agricultural productivity and sustainable industry on Earth.
+## 5. From Earth to Mars and Back to Earth
+Developing technologies for Mars will have direct benefits for Earth, particularly in food security, sustainable industrial manufacturing, and improved understanding of plant biology under extreme stress.
