@@ -1,20 +1,26 @@
 # Lunar soils, simulants and lunar construction materials: An overview
 
-**Authors:** Yusuf Cengiz Toklu, Pinar Akpinar  
-**Journal:** Advances in Space Research 70 (2022) 762–779
+## Metadata
+- **Journal:** Advances in Space Research 70 (2022) 762–779
+- **Authors:** Yusuf Cengiz Toklu, Pinar Akpinar
+- **DOI:** 10.1016/j.asr.2022.05.017
+- **Received:** 8 November 2021; **Accepted:** 10 May 2022
 
 ## Abstract
-One of the hot subjects in space civil engineering is the research for establishing outposts on space bodies, starting with the Moon. This wide research topic mainly covers learning about ground conditions and soils of these extraterrestrial bodies, looking for means of using the soil in producing construction materials, designing structures appropriate for local conditions, and finally choosing construction techniques to be applied using mainly these materials. In this paper, an overview is presented on three aspects of using local materials in lunar construction activities: nature of in-situ soils obtained with lunar missions, the variety of lunar soil simulants produced on Earth, and their use in producing lunar construction materials.
+This paper presents an overview of three aspects of using local materials in lunar construction activities: the nature of in-situ soils obtained through lunar missions, the variety of lunar soil simulants produced on Earth, and their use in producing lunar construction materials such as cement, concrete, and brick.
 
 ## 1. Introduction
-Construction materials to be used in lunar structures will be mostly raw materials found on the Moon (regolith) due to the high cost of transportation from Earth. The operations to obtain original lunar samples available for research is currently less than 400 kg (Apollo, Luna, and Chang'e missions).
+Civil engineering on the Moon will rely heavily on raw materials found in-situ due to the extreme costs of transport from Earth. The primary available material is regolith, which can be processed into cement, concrete, or bricks.
 
-## 2. Lunar missions and lunar soil samples
-Landing sites of Luna and Apollo missions have provided diverse samples from mare areas (darker basaltic lavas) and highlands (lighter anorthosites). Recent Chang'e 5 samples from 2020 added ~2 kg of regolith from a younger basaltic site.
+## 2. Lunar Missions and Soil Samples
+The paper reviews samples brought back by the Soviet Luna Program and the US Apollo missions. 
+- **Apollo 11-17:** Total sample return approx. 382 kg.
+- **Luna 16, 20, 24:** Approx. 300 g.
+- **Chang’e 5 (2020):** Approx. 2 kg.
 
 ### Table 1: Apollo Lunar Landings and returned samples
 | Apollo Mission | Launch Date | Landing Site | Sample Return (kg) |
-| :--- | :--- | :--- | :--- |
+|---|---|---|---|
 | 11 | 16 Jul 1969 | Mare Tranquilitatis | 21.55 |
 | 12 | 14 Nov 1969 | Oceanus Procellarum | 34.35 |
 | 14 | 31 Jan 1971 | Fra Mauro | 42.28 |
@@ -22,36 +28,36 @@ Landing sites of Luna and Apollo missions have provided diverse samples from mar
 | 16 | 16 Apr 1972 | Descartes | 95.71 |
 | 17 | 07 Dec 1972 | Taurus-Littrow | 110.52 |
 
-## 3. Lunar soil simulants
-Because real regolith is limited, simulants are produced using terrestrial resources to mimic chemical and geotechnical properties. A survey of 35 projects shows that 13% of simulant use is for construction and 17% for excavation.
+## 3. Lunar Soil Simulants
+Because original samples are limited, Earth-based simulants are critical. A survey of 35 lunar projects showed that 13% of simulant needs are for construction and 17% for excavation. The paper provides a comprehensive list of 54 simulants (e.g., MLS-1, JSC-1, FJS-1, NU-LHT, CAS-1, DNA-1, TBG-1).
 
-### Table 3: Selected list of lunar regolith simulants (until 2021)
-| Simulant | Country | Year | Related Reference |
-| :--- | :--- | :--- | :--- |
-| MLS-1 | USA | 1971 | Weiblen et al. |
-| JSC-1 | USA | 1993 | McKay et al. |
-| CAS-1 | China | 2008 | Zheng et al. |
-| EAC-1 | Germany | 2017 | Nash et al. |
-| DNA-1 | Italy | 2014 | Cesaretti et al. |
-| TBG-1 | Turkey | 2021 | Toklu et al. |
+## 4. Lunar Construction Materials
 
-## 4. Lunar construction materials
-ISRU is the core concept for planning future missions. Materials explored include:
-- **Regolith-based cements/concretes:** Treated at 2000°C using solar panels.
-- **Sulfur-based concrete:** Water-less, using sulfur as a binder. Reaches 70-80% strength in 24h.
-- **Geopolymerized regolith:** Near-zero water consumption using alkaline activators.
-- **3D Printing (Additive Manufacturing):** Key approach for complex geometries (e.g., D-Shape technology, sintering-based AM).
-- **Sintered/Cast Regolith:** Compacted solid materials acquired via heat treatment.
+### 4.1. Ordinary Cements and Concretes
+Regolith can serve as an aggregate. However, the lack of liquid water and extreme temperature swings (+120°C to -180°C) make conventional hydration difficult on the Moon.
 
-### Table 4: Types of lunar construction materials and performances
-| Type of Lunar Construction Material | Examples Studies | Reported Max Compressive Strength | Reported Max Flexural Strength |
-| :--- | :--- | :--- | :--- |
-| Ordinary Concrete | Lin, 1985 | - | - |
-| Sulfur-based Concrete | Omar, 1993; Grugel, 2012 | ~47 MPa | 3.7 MPa |
-| Geopolymer Concrete | Wang et al., 2017 | ~50 MPa | - |
-| 3D Printed Elements | Cesaretti et al., 2014 | 20.35 MPa | 7.1 MPa |
-| Sintered/Cast Blocks | Happel, 1993 | 538 MPa | 34.5 MPa |
-| Regolith + Graphene | Lauermannova et al., 2021 | 68.2 MPa | 19.3 MPa |
+### 4.2. Sulfur-based Lunar Concretes
+Sulfur concrete is a water-less alternative. Sulfur melts at 119°C and binds aggregates as it hardens at 148°C. It can reach 70-80% strength within 24 hours.
 
-## 5. Conclusive remarks
-The Moon will be the first object for extraterrestrial colonization. While many techniques show promise (sintered blocks showing strength up to 538 MPa), research is still at its infancy. Future work must focus on systematic experiments finding the best materials for the harsh lunar environment.
+### 4.3. Polymer-based Lunar Concretes
+Uses binders like epoxy or polyethylene. Studies show strengths ranging from 12 to 60 MPa depending on binder content.
+
+### 4.4. Geopolymerized Regolith Concretes
+Formed through dehydration-polycondensation processes. Some studies achieved strengths of 26-35 MPa with nearly zero water consumption during manufacture.
+
+### 4.5. 3D Printing / Additive Manufacturing
+Technologies include:
+- **Binder Jetting:** DNA-1 simulant with liquid binder (strength ~20 MPa).
+- **Sintering:** Using lasers, solar concentrators, or microwaves to fuse particles below their melting point.
+
+### Table 4: Strength Performance Summary
+| Material Type | Reported Max Compressive Strength | Reported Max Flexural Strength |
+|---|---|---|
+| Sulfur-based Concrete | 31 - 47 MPa | 3.7 MPa |
+| Polymer-based Concrete | 12.9 - 16 MPa | ~60 MPa |
+| Geopolymer Concrete | 35 - 50 MPa | N/A |
+| 3D Printed Regolith | ~20 MPa | 7.1 MPa |
+| Sintered Blocks | >200 - 538 MPa | 34.5 MPa |
+
+## 5. Conclusive Remarks
+Lunar construction is still in its infancy. Future work must focus on the fidelity of simulants and systematic experimental validation of material performance under harsh lunar conditions.
