@@ -1,36 +1,43 @@
 # Deep learning technology for construction machinery and robotics
 
-## Metadata
-- **Journal:** Automation in Construction 150 (2023) 104852
-- **Authors:** Ke You, Cheng Zhou, Lieyun Ding
-- **DOI:** 10.1016/j.autcon.2023.104852
+**Authors:** Ke You, Cheng Zhou, Lieyun Ding  
+**Journal:** Automation in Construction  
+**Year:** 2023
 
 ## Abstract
-Construction machinery and robots are essential equipment for major infrastructure. The application of deep learning technology can improve construction quality and alleviate labor shortages. This systematic review identifies four main perspectives: (1) perception; (2) navigation and planning; (3) control; and (4) human-robot interaction. It highlights 'extraterrestrial construction' as a potential future outlook and solution for the industry.
+Construction machinery and robots are essential equipment for major infrastructure. The application of deep learning technology can improve construction quality and alleviate labor shortages. This paper provides a systematic review from perspectives of perception, navigation/planning, control, and human-robot interaction. It identifies extraterrestrial construction as a significant future outlook.
 
 ## 1. Introduction
-Autonomous control of unmanned construction machinery is particularly valuable for long-distance communication scenarios, such as the upcoming lunar and Mars construction. These environments require systems that do not rely on real-time human intervention due to communication latencies.
+Robots can perform repetitive operations instead of workers, reducing manual labor and improving safety. Autonomous control of unmanned machinery is essential for upcoming lunar and Mars construction due to long-distance communication delays.
 
-## 2. Research Focus Areas
-### 2.3. Machine Types
-The review focuses on:
-- Excavators and loaders (Earthmoving)
-- 3D printer extruders (Additive Manufacturing)
-- Shield machines (Tunneling)
-- Mining robotics
+## 2. Research Dimensions
+- **Perception:** Vision-based and LiDAR-based object detection and tracking.
+- **Navigation and Planning:** Localization, pose estimation, and motion planning.
+- **Control:** Classical, data-driven (CNN, RNN, DRL), and hybrid methods.
+- **Human-Robot Interaction (HRI):** Teleoperation, imitation learning, and collective construction.
 
-## 3. Perception
-Real-time and accurate environmental perception is critical for safety. Sensors used include:
-- Vision-based (RGB cameras)
-- LiDAR-based (3D point clouds)
-- Sensor fusion (LiDAR + RGB)
+## 3. Extraterrestrial Construction (Section 7.2.4)
+Planetary exploration requires in situ construction under different gravity, atmosphere, and radiation conditions. Deep learning will play a major role in reconstructing machinery dynamics and redesigning control methods for lunar and Martian environments.
 
-## 4. Navigation and Planning
-Localization and pose estimation are required for autonomous operation. Hardware includes RTK-GPS (on Earth), IMU, and depth cameras. For planetary construction, SLAM (Simultaneous Localization and Mapping) in low-light and unknown environments is essential.
+### Table 1: High-Frequency Countries in Research
+| No. | Count | Percentage | Countries/Regions |
+|---|---|---|---|
+| 1 | 46 | 33.6 | USA |
+| 2 | 41 | 19.1 | China |
+| 3 | 12 | 13.6 | England |
+| 4 | 9 | 11.8 | Australia |
+| 5 | 8 | 7.3 | Switzerland |
 
-## 7. Discussion and Future Outlook
-### 7.2.4. Extraterrestrial Construction
-Planetary exploration requires in situ construction under varied gravity, atmospheric, and radiation conditions. AI technology, specifically deep learning, will play a major role in reconstructing dynamics models and control methods for lunar and Martian habitation construction (e.g., the Xuanwu lunar habitation concept).
+### Table 3: High-Frequency Categories
+| No. | Count | Percentage | Categories |
+|---|---|---|---|
+| 1 | 82 | 63.2 | Engineering |
+| 2 | 47 | 36.3 | Computer Science |
+| 3 | 34 | 26.5 | Construction Building Technology |
+| 4 | 22 | 16.8 | Robotics |
+| 5 | 9 | 7.2 | Automation Control Systems |
 
-## 8. Conclusions
-Key knowledge gaps include dataset limitation, lack of interpretability, and insufficient autonomous intelligence. Future solutions include generative deep learning and the application of these technologies to extraterrestrial environments.
+## 4. Key Findings
+- Deep Reinforcement Learning (DRL) is effective for autonomous bucket control in loaders and excavators.
+- Aerial Additive Manufacturing (AM) using multiple robots is a viable path for large-scale unbounded construction.
+- Imitation learning allows robots to acquire expert knowledge from human operators for complex tasks like earthmoving.
