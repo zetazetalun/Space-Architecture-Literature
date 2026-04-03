@@ -1,19 +1,24 @@
 # Envisioning Extraterrestrial Construction and the Future Construction Workforce: A Collective Perspective
 
-**Authors:** Amirhosein Jafari, Yimin Zhu, Suniti Karunatillake, Jennifer Qian, Shinhee Jeong, Ali Kazemian, and Andrew Webb
+## Authors
+Amirhosein Jafari, Yimin Zhu, Suniti Karunatillake, Jennifer Qian, Shinhee Jeong, Ali Kazemian, and Andrew Webb
 
 ## Abstract
-Humanity’s evolution toward an interplanetary species poses a new frontier for the construction industry: extraterrestrial construction. This paper summarizes the outcomes of an interdisciplinary workshop structured around three core themes: future work (extraterrestrial construction), future workers (extraterrestrial workforce), and future technology (emerging technologies for workforce training).
+Humanity's evolution toward an interplanetary species poses a new frontier for the construction industry: extraterrestrial construction. With fast technological advancements in manufacturing and robotics, it is a matter of when, not if, before humans make perpetual habitats on nearby planetary bodies. This paper summarizes the outcomes of a national interdisciplinary workshop structured around three core themes: future work (extraterrestrial construction), future workers (extraterrestrial workforce), and future technology (emerging technologies for workforce training).
+
+## Keywords
+Extraterrestrial Construction; Workforce Training; Construction Technology; Robotics.
 
 ## 1 Introduction
-NASA and ESA have revealed plans to establish permanent human habitats on the Moon and Mars by 2040. Extraterrestrial construction—building structures on planetary bodies outside Earth—is envisioned as a technology-intensive field requiring automated construction processes, robotics, and in-situ resource utilization (ISRU) to ensure feasibility and sustainability.
+NASA and ESA have revealed plans to establish permanent human habitats on the Moon and Mars by 2040. Extraterrestrial construction involves building anthropogenic environments in outer space to enable human activities. These processes will require automated construction optimized for hostile environments (radiation, vacuum, etc.) and the use of in-situ resources.
 
 ## 2 Methodology
-The study utilized a brainstorming workshop technique involving 26 experts from diverse fields including engineering, construction science, architecture, robotics, and planetary geoscience. 
+A brainstorming workshop was used to identify needs, challenges, and solutions. 26 experts from diverse fields including robotics, construction science, and planetary geoscience participated.
 
-### Table 1: Demographic information of the participants
+## 3 Workshop Information
+**Table 1: Demographic information of the participants**
 | Category | Level | No (Percent) |
-| :--- | :--- | :--- |
+|---|---|---|
 | Organization | NASA-Affiliated | 6 (23.1%) |
 | | Technological/Educational | 3 (11.5%) |
 | | R1 Research Institution | 14 (53.8%) |
@@ -23,21 +28,21 @@ The study utilized a brainstorming workshop technique involving 26 experts from 
 | | Human-Computer Interaction | 4 (15.4%) |
 | | Technology in Education | 7 (26.9%) |
 
-## 3 Summary of Outcomes
+## 4 Summary of Outcomes
+### 4.1 Theme 1: Extraterrestrial Construction
+1. **Site Conditions:** Differences in gravity, radiation, and vacuum must be determined.
+2. **Protocols:** Conventional construction tasks change under planetary conditions (e.g., lower gravity affects excavation).
+3. **ISRU:** In-situ Resource Utilization is a necessity due to Earth-to-space shipping costs.
+4. **Taxonomy:** Need for consistent technical terms and units to avoid mission failures.
+5. **Human-in-the-loop:** Required for machine repair, supervision, and handling unexpected scenarios.
+6. **Human-robot collaboration (HRC):** Salient feature where robots depend on human workers to anticipate changes.
+7. **Teleoperation:** Necessary for remote operations but limited by latency (e.g., 20 mins to Mars).
 
-### Theme 1: Extraterrestrial Construction
-*   **Site Conditions:** Must account for radiation, gravity differences, vacuum, and abrasive regolith.
-*   **ISRU:** Essential due to the prohibitive cost of delivery from Earth. Materials must be identifiable from orbit.
-*   **Human-in-the-loop:** While robot-intensive, human workers are essential for equipment repair, handling malfunctions, and providing creative oversight that AI cannot yet replicate.
-*   **Teleoperation:** Significant constraints include latency (e.g., 20 minutes between Earth and Mars).
+### 4.2 Theme 2: Extraterrestrial Construction Workforce
+Workers need specialized skills: situational awareness, geological knowledge, teleoperation dexterity, and cross-disciplinary collaboration. Trust in technology and handling isolation are also key factors.
 
-### Theme 2: Extraterrestrial Construction Workforce
-*   **Skills Required:** Situational awareness, knowledge of planetary geology, teleoperation capability, and the ability to trust/manage autonomous systems.
-*   **Cross-training:** Intersection of mechatronics, electrical engineering, and programming is vital.
+### 4.3 Theme 3: Emerging Technologies for Workforce Training
+AI-XR (Extended Reality) environments are recommended for immersive, interactive training. Simulations must account for sensory deprivation, low gravity, and decision-making protocols.
 
-### Theme 3: Emerging Technologies for Workforce Training
-*   **AI-XR (Extended Reality):** Immersive simulations are necessary to replicate low gravity, sensory deprivation, and unique lighting conditions.
-*   **Digital Twins:** Effective for simulating failures and lessons learned in a safe environment.
-
-## 4 Conclusions
-Extraterrestrial construction requires robotic processes optimized for extreme environments. However, humans will remain central through high-level collaboration (HRC) and teleoperation. Training must transition to learner-centered constructivist models using AI and XR to prepare for the unique physical and psychological demands of space construction.
+## 5 Conclusions and Takeaways
+Extraterrestrial construction requires robotic optimization for extreme environments and a workforce capable of adaptive, human-in-the-loop collaboration. Future training should transition toward learner-centered constructivist paradigms using intelligent, immersive simulations.
