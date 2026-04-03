@@ -1,50 +1,39 @@
 # Designing sustainable built environments for Mars habitation: Integrating innovations in architecture, systems, and human well-being
 
-## Metadata
-- **Authors:** Hongli Sun, Mengfan Duan, Yifan Wu, Yunyi Zeng, Hengxin Zhao, Shuangdui Wu, Borong Lin, Ronggui Yang, Gang Tan
-- **Publication:** Nexus 1, 100030, September 17, 2024
-- **DOI:** https://doi.org/10.1016/j.ynexs.2024.100030
+**Authors:** Hongli Sun, Mengfan Duan, Yifan Wu, Yunyi Zeng, Hengxin Zhao, Shuangdui Wu, Borong Lin, Ronggui Yang, and Gang Tan
+**Journal:** Nexus
+**DOI:** https://doi.org/10.1016/j.ynexs.2024.100030
+**Date:** September 17, 2024
 
 ## Summary
-Migration to Mars and building livable habitation are critical for human progress. This review emphasizes a "habitation design to operation" developmental path, illustrating a systemic outlook of Mars habitation environment control technologies for sustainability and occupant health. It highlights that achieving a sustainable extraterrestrial residential environment requires a multidisciplinary approach combining resources, energy, and human factors.
+Migration to Mars and building livable habitation gradually become prosperous and arduous roads for human progress. Although many technical breakthroughs have been achieved for supporting migration, sustainable survival on Mars needs further attention. The Mars habitation module serves as humans' first barrier from the harsh extraterrestrial conditions that people will spend almost 100% of time in the module. Thus, the indoor physical environment plays an important role in long-term and even permanent living on Mars. However, unlike developing a single technology, achieving a sustainable extraterrestrial residential environment is not simply a technical stacking but a comprehensive multidisciplinary issue that combines resources, energy, and human health.
 
-## Introduction
-Mars presents a higher migration prospect compared to the Moon or ISS due to its 24-hour rhythm, safer atmosphere, and available in situ resources. Mars dwelling involves two key aspects: resource sustainability (efficient construction and operation) and human sustainability (healthy survival).
+## Table 1: Environmental and living characteristics comparison
 
-### Table 1: Environmental and living characteristics comparison
-| Feature | Earth | ISS | Moon | Mars |
+| Characteristic | Earth | ISS | Moon | Mars |
 | :--- | :--- | :--- | :--- | :--- |
-| **Space for living** | >148M km² | 110-916 m³ | Polar region/Lava pipe | Large space/Inner lava pipe |
-| **Atmosphere** | 78% N₂, 21% O₂ | Artificial | None | Rarefied CO₂ (95.3%) |
+| **Space for living** | Over 148 million sq km | ~1026 m³ (total) | Polar region, Lava pipes | Large space, Inner lava pipes |
+| **Atmosphere** | 78% N2, 21% O2 | Artificial | None | Rarefied CO2 (95.3%) |
+| **Temperature** | -90 to 50°C | -270°C | -190 to +137°C | -120 to -60°C |
 | **Gravity** | 1 g | None | 1/6 g | 1/3 g |
-| **In situ resources** | Wide varieties | None | SiO₂, Al₂O₃, CaO | Martian soil, Basalt, Volcanic ash |
-| **Energy sources** | Solar, Wind, Tidal | Solar | Solar, Helium-3 | Solar, Radioactive isotope |
+| **Solar Radiation** | 1353 W/m² | - | - | 587 W/m² |
+| **Pressure** | 101.3 kPa | None | 3 x 10⁻¹³ kPa | 0.6 kPa |
+| **Circadian Rhythm** | 23 h 56 min | None | 28 days | 24 h 37 min |
+| **In situ resources** | Wide varieties | None | SiO2, Al2O3, CaO | Martian soil, Basalt, Volcanic ash |
+| **Energy Sources** | Solar, Wind, Tidal | Solar | Solar, Helium-3 | Solar, RTG |
 
-## Design of Mars Habitation Module
-### Module Form and Location
-- **Above-ground:** Often inflatable-flexible composite structures with outer shells to resist radiation (e.g., Mars Ice House, Marsha).
-- **Underground/Semi-underground:** Utilizing Martian lava tubes to withstand harsh space risks and radiation.
+## Key Findings on Construction and Materials
 
-### Construction Materials (ISRU)
-- **Martian Basalt:** High radiation resistance and low permeability.
-- **Sulfur-based Concrete:** Suitable for construction due to ease of operation, fast solidification, and recyclability in cold environments.
-- **Regolith/Soil:** Can be used via 3D printing to protect humans from radiation and heavy ions.
-- **Ice:** Imagined as water domes to protect against solar radiation.
+### 1. In Situ Resource Utilization (ISRU)
+- **Basalt:** Abundant on the Martian surface; offers radiation resistance, high specific heat, and low permeability. It can be used for rock wool board (thermal insulation).
+- **Martian Soil/Regolith:** Can be used to create Martian concrete. Sulfur-based concrete is particularly suitable due to fast solidification and recyclability in dry, cold environments.
+- **Metal Oxides:** Martian soil is rich in iron minerals (approx. 15 wt%), which can be processed into advanced materials.
+- **Water/Ice:** Glaciers or subsurface ice (e.g., accessed via the RedWater system) are essential for life support and indoor humidity control.
 
-### Automated Construction
-- **3D Printing:** Offers possibilities for utilizing in situ materials.
-- **Robotic Construction:** Includes autonomous systems like "Team Zopherus" (internal printing chamber) and "Chinese Super Mason" (assembling planetary bricks).
+### 2. Automated and Additive Construction
+- **3D Printing:** Essential for utilizing ISRU materials. Examples include the 'Planetary LEGO Brick' and autonomous robotic construction systems like 'Team Zopherus' or the 'Chinese Super Mason' mission.
+- **Structural Forms:** Designs include above-ground inflatable-flexible composite structures (e.g., Mars Ice House, MARSHA), underground cavern networks (ZA Architects), and semi-underground habitats using lava tubes to shield against radiation.
 
-## Operation Technologies
-### Thermal and Air Control
-- **Insulation:** Multi-layer insulation, PU polyfoam, and silica aerogels.
-- **Heat Management:** Heat pipes, flexible radiation materials, and waste heat recovery systems.
-- **Life Support:** Electrolyzed water and pressurized oxygen tanks; mechanical ventilation for air purification and circulation.
-
-### Human Well-being
-- **Lighting:** Rhythmic artificial lighting to simulate Earth's circadian rhythms and mitigate psychological effects of isolation.
-- **Acoustics/Materiality:** Using color and smell to promote psychological relaxation.
-- **Personalization:** AI-driven personalized control systems for individual thermal and ventilation preferences.
-
-## Key Findings Summary
-Sustainable Mars habitation requires a paradigm shift from technical stacking to a performance-centered design that bridges habitation construction (ISRU, 3D printing) and operational environmental control. The research identifies five critical challenges: optimized module forms, robust ISRU construction methods, reliable energy sources (Nuclear/PV), integrated life support, and human-centric bionic indoor environments.
+### 3. Sustainable Design Integration
+- **Performance-Centered Design:** Moving from traditional structure-centered design to performance-centered approaches using AI and parametric design (genetic algorithms) to optimize energy efficiency and thermal comfort.
+- **Environmental Control:** Integration of high-performance building envelopes (aerogels, BIPV windows, thermochromic glass) with life support systems (regenerative oxygen/water systems).
