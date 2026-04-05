@@ -1,28 +1,33 @@
 # Off Earth Landing and Launch Pad Construction—A Critical Technology for Establishing a Long-Term Presence on Extraterrestrial Surfaces
 
-**Authors:** Nathan J. Gelino, Robert P. Mueller, Robert W. Moses, James G. Mantovani, Philip T. Metzger, Brad C. Buckles, and Laurent Sibille
+**Authors:** Nathan J. Gelino, Robert P. Mueller, Robert W. Moses, Ph.D., James G. Mantovani, Ph.D., Philip T. Metzger, Ph.D., Brad C. Buckles, and Laurent Sibille, Ph.D.
+**Publication:** Earth and Space 2021, ASCE
 
-**Published in:** Earth and Space 2021
+## ABSTRACT
+In 2017, Space Policy Directive–1 was issued to lead the return of humans to the Moon for long-term exploration. A sustained presence requires numerous landings/launches, but interactions between rocket plumes and unprepared surfaces cause regolith erosion and high-velocity ejecta. This paper baselines the state of the art for off-Earth landing/launch pad (LLP) construction, identifies technology gaps, and establishes metrics for trade studies.
 
-## Abstract
-In 2017, Space Policy Directive–1 was issued to ensure that “the United States will lead the return of humans to the Moon for long-term exploration and utilization.” A long-term presence on the Moon will require numerous lunar landings and launches. Interactions between rocket engine plumes and the unprepared lunar surface will lead to erosion and ejection of regolith particles at high velocities. This ejecta elevates mission risks by obscuring sensors, cratering the surface, and damaging surrounding assets. The construction of reusable landing/launch pad (LLP) infrastructure is a method to mitigate such risks. This paper summarizes previous work towards LLP construction, identifies technology gaps, and establishes metrics for comparing construction technologies.
+## INTRODUCTION
+A Launch & Landing Complex (LLC) on Earth is a well-defined system. However, for the Moon and Mars, functionally equivalent infrastructure must be developed for repeated, safe operations. Plume impingement on lunar regolith creates blast ejecta traveling >2,000 m/s, risking damage to landers, surrounding assets, and orbital infrastructure. Future spaceports require mitigations for these risks.
 
-## Introduction
-Terrestrial Launch & Landing Complexes (LLC) are complex systems providing structural support, exhaust management, and safety services. NASA plans to land human-rated spacecraft on the Moon and Mars, requiring functionally equivalent LLCs for sustained presence. The focus of this paper is the technologies and methods needed to construct the Launch & Landing pad (LLP) and associated blast barriers.
+## MOTIVATION
+1. Establish state of the art in LLP construction.
+2. Propose criteria for trade studies.
+3. Share NASA Swamp Works concepts.
+4. Baseline current Technology Readiness Levels (TRLs).
 
-## Preliminary Engineering Assessment
-NASA’s Artemis program targets a sustained human presence by 2028. Large-scale HLS landers require engines with 100 kN of thrust. Based on Apollo data, an HLS lander might displace 16 metric tons of regolith during landing on unmodified surfaces. Ejecta can travel at velocities exceeding lunar escape velocity, causing severe hardware damage.
+## PRELIMINARY ENGINEERING ASSESSMENT
+NASA's Artemis program targets humans on the Moon by 2024. Large-scale Human Landing System (HLS) landers require 100 kN thrust. It is estimated that an HLS lander could displace 16 metric tons of regolith during landing on unmodified surfaces, with ejecta exceeding lunar escape velocity.
 
-## State of the Art and Past Work
-Current LLP construction technology is at approximately TRL-2. Key research includes:
-- **Sintered Basalt Pavers:** A robotically constructed VTVL pad using sintered basalt pavers (Hawaii, 2016). Testing with a Class M solid propellant engine showed some paver lifting due to seam weakness.
-- **Soil Stabilization:** Investigation of rock beds and pavers (Van Susante and Metzger, 2016).
-- **Lunar Concrete:** Pads made with Korean lunar simulants, polymer binders, and glass fiber (Lee, 2012).
+## STATE OF THE ART AND PAST WORK
+The overall TRL for LLP construction is approximately TRL-2. Key past work includes:
+- **VTVL Pad (2016):** Robotically constructed from sintered basalt pavers in Hawaii; demonstrated construction using only in situ materials.
+- **Soil Stabilization (2016):** Investigation of rocks, pavers, and compacted regolith for erosion mitigation.
+- **Lunar Concrete (2012):** Pad made with KOHLS-1 simulant, polymer binders, and glass fiber tested for compression strength.
 
-## Trade Study Criteria
-The paper establishes 18 criteria across three phases for comparing LLP concepts.
+## TRADE STUDY CRITERIA
+The construction process is divided into Preparation and Staging, Construction, and Operations and Maintenance phases.
 
-### Table 1. Key Trade Study Criteria for LLP Concepts
+**Table 1. Key Trade Study Criteria for LLP Concepts**
 | Preparation and Staging Phase | Construction Phase | Operations and Maintenance Phase |
 | :--- | :--- | :--- |
 | Up-Mass of Construction Materials and Systems | Constructability | Performance as a Landing/Launch Surface |
@@ -32,13 +37,12 @@ The paper establishes 18 criteria across three phases for comparing LLP concepts
 | Reliance on Lunar, Gateway and Earth Crew Interaction | Reliance on Lunar, Gateway and Earth Crew Interaction | Robotics and Autonomy |
 | Robotics and Autonomy | Robotics and Autonomy | Required Power |
 | Robustness of process | Robustness of process | Lifecycle cost |
-| Current Technology Readiness Level | Current Technology Readiness Level | | 
-| Required Power | Required Power | | 
-| | Ability to Verify As-Built Performance | | 
+| Current Technology Readiness Level | Current Technology Readiness Level | |
+| Required Power | Required Power | |
+| | Ability to Verify As-Built Performance | |
 
-## Landing/Launch Pad Concepts
-
-### Table 2. Launch and Landing Pad Concepts
+## LANDING/LAUNCH PAD CONCEPTS
+**Table 2. LLP Structure Concepts**
 - Minimal Preparation
 - Existing Topography
 - Compacted Regolith Surface
@@ -48,12 +52,12 @@ The paper establishes 18 criteria across three phases for comparing LLP concepts
 - Surface Stabilization Applications
 - Regolith Bags
 - Ice Bladders
-- Pavers
+- Pavers (Sintered or Polymer bound)
 - Metallic Plates
-- Deployable Structures
+- Deployable Structures (Mats/Blankets)
 - Direct Emplacement of Sintered Structures
 - Direct Emplacement of Polymer Concretes
 - Direct Emplacement of a Concrete Pad
 
-## Conclusion
-LLP infrastructure is necessary to reduce mission risks and enable sustainable lunar activity. This paper baselines the state of the art, provides a listing of known LLP concepts, and identifies criteria for trade studies to guide future technical development.
+## CONCLUSION
+LLP infrastructure is necessary to reduce mission risks for long-term lunar/martian activities. All current concepts remain at a low TRL. Prototypes must be built and subjected to simulated lunar conditions (vacuum, radiation, plume impingement) to raise the TRL for future deployment.
