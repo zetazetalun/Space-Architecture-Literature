@@ -1,59 +1,72 @@
-# Materials and design concepts for space-resilient structures
+# Materials and Design Concepts for Space-Resilient Structures
 
 **Authors:** Mohannad Z. Naser, Alaa I. Chehab
 **Journal:** Progress in Aerospace Sciences 98 (2018) 74–90
+**DOI:** https://doi.org/10.1016/j.paerosci.2018.03.004
 
 ## Abstract
-Space exploration and terraforming nearby planets have been fascinating concepts for the longest time. Nowadays, that technological advancements with regard to space exploration are thriving, it is only a matter of time before humans can start colonizing nearby moons and planets. This paper presents a state-of-the-art literature review on recent developments of "space-native" construction materials, and highlights evolutionary design concepts for "space-resilient" structures (i.e., colonies and habitats). This paper also details effects of harsh (and unique) space environments on various terrestrial and extraterrestrial construction materials, as well as on space infrastructure and structural systems. The feasibility of exploiting available space resources in terms of "in-situ resource utilization" and "harvesting of elements and compounds", as well as emergence of enabling technologies such as "cultured (lab-grown)" space construction materials are discussed. Towards the end of the present review, number of limitations and challenges facing Lunar and Martian exploration, and venues in-need for urgent research are identified and examined.
+This paper presents a state-of-the-art literature review on recent developments of “space-native” construction materials and highlights evolutionary design concepts for “space-resilient” structures. It details the effects of harsh space environments on materials and structural systems. The feasibility of in-situ resource utilization (ISRU), harvesting elements from asteroids, and enabling technologies like 3D printing and lab-grown materials are examined.
 
 ## 1. Introduction
-Humans are exploring nearby moons and planets like Mars and the Moon. Due to the high cost of transportation ($20,000/kg to the Moon), using in-situ resources (ISRU) is essential. Current research focuses on materials like concrete composites, metals/alloys, and bio-inspired materials for habitat fabrication.
+Space colonization requires habitats that withstand extreme environments while being fabricated using in-situ resources. Transporting materials from Earth is cost-prohibitive ($20,000/kg to the Moon), necessitating the use of lunar and Martian regolith for construction. 
 
 ## 2. Background on Extraterrestrial Exploration
-Table 1 highlights the key differences between Earth, the Moon, Mars, and other exoplanets (Kepler-452b, Proxima-Centauri b) in terms of mass, gravity, atmosphere, and temperature. The space environment presents challenges like high-energy charged particles, UV irradiation, and meteorite impacts.
+Key differences between Earth, Moon, and Mars include gravity, atmospheric pressure, and radiation levels.
 
 ### Table 1: Key differences between Earth, Moon, Mars, and other exoplanets
 | Parameter | Earth | Moon | Mars | Kepler-452b | Proxima-Centauri b |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Total Mass (%) | – | 1.2 | 10.7 | 190 | 80–110 |
-| Distance from Earth (km) | – | 3.84 x 10^5 | 2.25 x 10^8 | 1.32 x 10^{16} | 3.9 x 10^{13} |
+| Total Mass Compared to Earth (%) | – | 1.2 | 10.7 | 190 | 80–110 |
 | Day Period (hrs) | 23.9 | 655.7 | 24.7 | – | – |
-| Revolution (days) | 365.3 | 27.3 | 686.9 | 384.8 | 11.2 |
-| Avg Surface Temp (°C) | 13 | -30 | -57 | -8 | -39 |
-| Atmos. Pressure (kPa) | 101.3 | negligible | 0.7 | unknown | unknown |
+| Average Surface Temp (°C) | 13 | -30 | -57 | -8 | -39 |
+| Atmospheric Pressure (kPa) | 101.3 | negligible | 0.7 | unknown | unknown |
 
 ## 3. Space Resources
-### 3.1. In-situ Resource Utilization (ISRU)
-ISRU involves harnessing raw materials to produce products for exploration. Lunar soil contains alumina, calcium oxide, and silicates. Comparisons of chemical content between lunar basalt and Martian soil show high amounts of SiO2 and FeO (Table 2).
+### 3.1 In-situ Resource Utilization (ISRU)
+Lunar and Martian soils contain alumina, calcium oxide, and silicate, making the production of cementitious materials possible.
 
 ### Table 2: Chemical content of lunar and Martian Samples (% weight)
 | Constituent | Lunar Basalt | Martian Sample | Martian Lava | Cement |
 | :--- | :--- | :--- | :--- | :--- |
 | SiO2 | 45.03 | 44.7 | 44.48 | 20.13 |
 | Al2O3 | 7.27 | 5.7 | 11.25 | 5.98 |
-| FeO/Fe2O3 | 21.09 | 18.2 | 14.38 | 2.35 |
+| FeO/Fe2O3 | 21.09 | 18.2 | 11.38 | 2.35 |
 | MgO | 16.45 | 8.3 | 17.32 | 1.19 |
 | CaO | 8.01 | 5.6 | 9.54 | 64.01 |
 
 ## 4. Properties of Space Construction Materials
-### 4.1. Concrete Derivatives
-Concrete is highly potential for space construction. Options include:
-- **Sulfur Concrete:** Created by melting sulfur (120-150°C) and mixing with regolith. It is waterless and gains strength quickly.
-- **Geopolymers:** Produced from aluminosilicate precursors and alkaline solutions. Can reach compressive strengths of 16-33 MPa.
-- **Polymeric Concrete:** Uses resins/epoxies as binders instead of water.
+### 4.1 Concrete Derivates
+Concrete is considered the highest potential material. 
+- **Lunar Concrete:** Compressive strength ~75.7 MPa (with water).
+- **Sulfur Concrete:** Waterless; melts at 120–150°C. Strengths range from 39–75.7 MPa (Lunar) and 20–63 MPa (Martian).
+- **Geopolymers:** Produced from aluminosilicate precursors and alkaline solutions; strengths 16.6–33.1 MPa.
 
-### 4.2. Metals and Alloys
-Aluminum, magnesium, iron, and titanium can be mined. Aluminum and magnesium are attractive for their low density and processing ease.
+### 4.2 Metals and Alloys
+Aluminum (Al), Magnesium (Mg), Iron (Fe), and Titanium (Ti) are available for mining. Aluminum and Magnesium are preferred due to low density and lower melting points.
 
 ## 5. Processing of Space Construction Materials
-Methods discussed include:
-- **Solar and Laser Sintering:** Melting powder into solid layers.
-- **Microwave Sintering:** Volumetric heating using microwave fields.
-- **3D Printing:** Layer-by-layer accumulation of materials.
+- **Solar and Laser Sintering:** Heating regolith to bond particles into solids.
+- **Microwave Sintering:** Volumetric heating; can penetrate 13.4 mm into lunar simulant.
+- **Dry-Mix/Steam-Injection (DMSI):** Using steam to hydrate cement particles in a vacuum.
 
-## 6. Structural Concepts
-Habitats are categorized as:
-1. **Rigid/Terrestrial-like:** High robustness but heavy and hard to transport.
-2. **Inflatable:** High packing coefficient, easy to transport, but vulnerable to punctures.
-3. **Underground (Lava Tubes):** Provides natural protection from radiation and meteorites.
-4. **Mobile Bases:** Roving habitats that increase exploration range.
+## 6. Design and Construction for Space Structures
+Space habitats must provide radiation shielding (often using surface regolith), resist internal pressure, and accommodate thermal expansion.
+
+## 7. Structural Concepts
+1. **First Gen:** Earth-imported modules (30-45 day missions).
+2. **Second Gen:** Hybrid (imported + indigenous, 1-3 year missions).
+3. **Third Gen:** Fully self-sufficient colonies.
+
+### Structural Types
+- **Rigid Bases:** Terrestrial-like framing, often concrete-based.
+- **Inflatable Bases:** High packing coefficient, efficient support but susceptible to puncture.
+- **Cable Bases:** Tension-based framing.
+- **Underground Bases:** Utilization of natural lava tubes for protection.
+
+## 8. Research and Future Needs
+- **Additive Printing:** 3D printing of regolith structures (e.g., D_SHAPE technology).
+- **Robo-engineers:** Autonomous construction systems are critical due to communication delays.
+- **Material Characterization:** Better understanding of material behavior in vacuum and radiation is needed.
+
+## 9. Summary and Conclusions
+Space habitats will evolve through generations. Concrete and its derivatives remain the most promising materials due to ISRU. Overcoming logistics and developing automated processing technologies are the next major hurdles.
