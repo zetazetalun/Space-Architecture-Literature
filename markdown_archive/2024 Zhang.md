@@ -1,1 +1,53 @@
-# Multi-objective design optimization of clam-inspired drilling into the lunar regolith\n\n## Abstract\nCharacterization of the lunar regolith is critical for the extraction and utilization of in situ resources for building a permanent base on the Moon. However, due to challenges in drilling (high cost, low gravity), there is a need for efficient drilling tools. This paper presents a two-stage multi-objective optimization design framework for a clam-inspired drill. Using the discrete element method (DEM) and lunar highlands simulant (LHS-1) parameters, the geometry and controlling strategies are optimized. In the first stage, parameters like anchor height, shape, and cone apex angle are optimized to minimize cost and power consumption. In the second stage, controlling strategies (downward, rotation, and expansion velocities) are optimized for effectiveness and efficiency. The framework provides a guide for bio-inspired extraterrestrial tools.\n\n## 1 Introduction\nThe Artemis mission highlights the necessity of utilizing in situ resources on the Moon for long-term space exploration. Lunar regolith has great prospects in construction and habituation. Drilling is essential for site investigation and understanding the regolith properties. Bio-inspired strategies, specifically clam-inspired designs, offer highly efficient, low-cost solutions for subsurface exploration via self-drilling robots.\n\n## 2 Framework and Numerical Modeling\n### 2.1 Numerical modeling of the clam-inspired drilling process\nThe razor clam drill consists of a slender shell, two convex valves, and a stretchable foot. The process involves: (I) cone penetration, (II) anchor expansion, and (III) self-penetration. Simulations used Particle Flow Code (PFC3D) with LHS-1 simulant properties.\n\n**Table 1: Input parameters for numerical simulations**\n| Parameter | Value |\n| :--- | :--- |\n| Particle density, rho (kg/m3) | 2720 |\n| Porosity, n | 0.45 |\n| Particle radius, rp (m) | 0.004 |\n| Damping coefficient | 0.7 |\n| Particle effective modulus (Pa) | 5 x 10^7 |\n| Wall normal stiffness (N/m3) | 1.5 x 10^7 |\n\n### 2.2 Informed design decision\nThe first stage seeks optimal geometry **G** to minimize cost **C** and power **W**. A Pareto front is used to identify the 'knee point' as the preferred design.\n\n**Table 2: Design space for the clam-inspired drill design**\n| Category | Design parameter | Design space |\n| :--- | :--- | :--- |\n| Drill geometry | Anchor height, H (m) | 3r, 4r, 5r |\n| | Anchor shape, b (m) | 3r, 5r, infinity |\n| | Cone apex angle, alpha (deg) | 30, 60, 90 |\n| Controlling strategies | Downward velocity, VD (m/s) | 0.01, 0.02, 0.04 |\n| | Rotation velocity, VR (rpm) | 0, 100, 400 |\n| | Expansion velocity, VE | 0.01, 0.02, 0.04 |\n| | Anchor-cone distance, L (m) | 1r, 3r, 5r |\n\n## 5 Concluding remarks\n1. Cylinder-shaped anchors and sharp tips are effective in reducing penetration resistance.\n2. Optimal drill geometry is an arc-shaped anchor with the smallest height and moderate cone apex angle (H=3r, b=5r, alpha=60 deg).\n3. Low downward velocity, high rotation, and low expansion velocity with closer anchor-cone distance enhance performance.\n4. The optimal controlling strategies identified are VD=0.01 m/s, VR=0, VE=0.01, L=3r within the specific design space tested.
+# Multi-objective design optimization of clam-inspired drilling into the lunar regolith
+
+**Authors:** Liang Zhang, Lei Wang, Quan Sun, Jesus Badal, Qiushi Chen  
+**Journal:** Acta Geotechnica (2024) 19:1379–1396  
+**DOI:** https://doi.org/10.1007/s11440-023-02119-5  
+
+## Abstract
+Characterization of the lunar regolith is critical for the extraction and utilization of in situ resources for building a permanent base on the Moon. This paper presents a two-stage multi-objective optimization design framework for a clam-inspired drill into the lunar regolith using the discrete element method (DEM) based on lunar highlands simulant (LHS-1) parameters. The study optimizes both geometry (anchor height, shape, cone apex angle) and controlling strategies (velocities, anchor-cone distance) to minimize construction cost and power consumption while maximizing drilling effectiveness and efficiency.
+
+## 1. Introduction
+Lunar exploration requires the utilization of in situ resources for long-term strategies (e.g., Artemis mission). Drilling is essential for site investigation and resource extraction. Bio-inspired strategies, such as clam-inspired drilling, offer potential for high-efficiency, low-cost, and sustainable designs. This study addresses the lack of optimization reports for such tools in a lunar environment.
+
+## 2. Numerical Modeling
+- **Software:** 3D DEM-based program Particle Flow Code (PFC3D) version 7.0.
+- **Simulant:** Lunar Highlands Simulant (LHS-1).
+- **Environment:** Low gravity (1.625 m/s²).
+- **Process Phases:** 
+    1. Phase I: Cone penetration.
+    2. Phase II: Anchor expansion.
+    3. Phase III: Self-penetration.
+
+## 3. Design Parameters & Optimization
+
+### Table 1: Input parameters for numerical simulations
+| Parameter | Value |
+| :--- | :--- |
+| Particle density, ρ | 2720 kg/m³ |
+| Porosity, n | 0.45 |
+| Particle radius, rp | 0.004 m |
+| Particle effective modulus, E* | 5 × 10⁷ Pa |
+| Normal-to-shear stiffness ratio, K* | 1.0 |
+
+### Table 2: Design space for optimization
+| Category | Design parameter | Design space |
+| :--- | :--- | :--- |
+| **Drill geometry** | Anchor height, H | 3r, 4r, 5r |
+| | Anchor shape, b | 3r, 5r, ∞ |
+| | Cone apex angle, α | 30°, 60°, 90° |
+| **Controlling strategies** | Downward velocity, VD | 0.01, 0.02, 0.04 m/s |
+| | Rotation velocity, VR | 0, 100, 400 rpm |
+| | Expansion velocity, VE | 0.01, 0.02, 0.04 |
+| | Anchor-cone distance, L | 1r, 3r, 5r |
+
+## 4. Results
+- **Optimal Geometry:** Shortest anchor height (H=3r), arc-shaped anchor (b=5r), and moderate cone apex angle (α=60°) were identified as the best trade-off between cost and power.
+- **Optimal Controlling Strategies:** The most preferred strategies were downward velocity VD = 0.01 m/s, rotation velocity VR = 0, expansion velocity VE = 0.01, and anchor-cone distance L = 3r.
+- **Efficiency:** Bio-inspired drilling significantly reduces penetration resistance by exploiting stress relaxation around the anchor.
+
+## 5. Conclusions
+1. Cylinder-shaped anchors and sharp tips effectively reduce penetration resistance.
+2. Anchor height has a minor effect on penetration resistance but impacts construction cost.
+3. Low downward/rotation velocities allow better regolith particle adjustment, enhancing drilling effectiveness.
+4. Closer anchor-cone distances improve the stress reduction effect at the cone tip.
