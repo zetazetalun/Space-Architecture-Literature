@@ -1,21 +1,19 @@
 # Effect of grain size distribution on stress-strain behavior of lunar soil simulants
 
-**Authors:** Mehmet Murat Monkul, Amina Dacic  
-**Journal:** Advances in Space Research 60 (2017) 636–651  
-**Published:** 11 May 2017  
-**DOI:** 10.1016/j.asr.2017.04.029
+**Authors:** Mehmet Murat Monkul, Amina Dacic
+**Journal:** Advances in Space Research 60 (2017) 636–651
+**Received:** 24 February 2017; **Accepted:** 29 April 2017; **Available online:** 11 May 2017
 
 ## Abstract
-Geotechnical behavior of the lunar soils is important for engineering analyses regarding various aspects of the future extraterrestrial settlement plans including lunar exploration and construction. The goal of this study is to investigate how and to what extent the variations in the grain size distribution of different lunar soil simulants affect their shear strength and volume change behaviors. Static simple shear tests were conducted on four lunar soil simulants. Results indicate that gradational parameters, such as mean grain size, coefficient of uniformity, and fines content, influence the shear strength and volumetric dilatancy at different levels based on initial specimen fabric and silt-sand matrix interactions.
+Geotechnical behavior of the lunar soils is important for engineering analyses regarding various aspects of the future extraterrestrial settlement plans including lunar exploration and construction. Many lunar soil simulants had been produced so far, in order to resemble lunar soils and conduct such analyses. The goal of this study is to investigate how and to what extent the variations in the grain size distribution of different lunar soil simulants affect their shear strength and volume change behaviors, both of which are quite important for constitutive modeling and geotechnical design. Static simple shear tests were conducted on four lunar soil simulants that were reproduced in terms of original gradation characteristics. The results indicate that various gradational parameters, such as mean grain size, coefficient of uniformity and fines content influence the shear strength, the amount of volumetric dilatancy, and the rate of dilatancy of simulant specimens in different levels when they were compared at the same density or void ratio.
 
 ## 1. Introduction
-Establishing permanent lunar bases requires interaction with local regolith. This is critical for the design of structures such as laboratories, storage facilities, power plants, and radiation shielding. Understanding geotechnical properties is vital for sustainability of lunar bases.
+Lunar bases would be a good trial to extend towards relatively distant planets such as Mars. Virtually every structure necessary for a land base needs to interact with the local regolith. Such interaction is important for the design of lunar structures (laboratories, telescopes, storage, facilities), soft landing, terramechanics of rovers, site preparation, and radiation shielding.
 
-## 2. Grain size distributions of lunar soil simulants
-LSC simulants are designed to mimic lunar regolith. Mean grain size ($D_{50}$) of lunar soil is typically around 0.072 mm, with a coefficient of uniformity ($CU$) of 16 and curvature ($CC$) of 1.2. Based on USCS, lunar soil is classified as silty sand (SM) to sandy silt (ML).
+## 2. Grain Size Distributions of Lunar Soil Simulants
 
-### Table 1: Gradational parameters of various lunar soil simulants
-| Simulant name | Country | Fines content (%) | $D_{50}$ (mm) | $CU$ | USCS symbol |
+### Table 1: Gradational parameters of lunar soil simulants
+| Simulant name | Country of origin | Fines content (%) | D50 (mm) | CU (=D60/D10) | USCS symbol |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | JSC-1 | USA | 36 | 0.12 | 7.5 | SM |
 | JSC-1A | USA | 47 | 0.086 | 6.3 | SM |
@@ -25,16 +23,25 @@ LSC simulants are designed to mimic lunar regolith. Mean grain size ($D_{50}$) o
 | FJS-1 | Japan | 53 | 0.071 | 5.5 | ML |
 | NAO-1 | China | 62 | 0.054 | 18 | ML |
 | TJ-1 | China | 23 | 0.26 | 21.5 | SM |
+| OB-1 | Canada | 38 | 0.111 | ? | SM |
 | BP-1 | USA | 40 | 0.098 | 11.8 | SM |
+| ALS-1 | Australia | 50 | 0.075 | 18.5 | ML |
+| UNB-AN-1 | USA | 13 | 0.19 | ? | SM |
 | QH-E | China | 52 | 0.071 | 12.1 | ML |
 
-## 3. Experimental program
-Static simple shear tests were preferred over triaxial tests to investigate stress-strain behavior. Specimens were tested in drained conditions with a diameter of 64 mm and height of 20 mm. Testing stresses ranged from 10 to 40 kPa, corresponding to depths of 3.6 to 14.6 m below the lunar surface.
+## 3. Experimental Program
+Static simple shear tests were used to investigate the stress-strain behavior of reconstituted lunar soil simulants. Specimens were tested at a bulk density of 1.68 g/cm³, reflecting values obtained from Apollo drill core samples.
 
-## 4. Summary of Results
-- **Shear Strength:** For sand-dominated fabrics (FC < 25%), increasing fines significantly reduces the rate of dilation. For silt-dominated fabrics (FC > 40%), fines content has a negligible effect on the rate of dilation at the same density.
-- **Dilatancy:** Well-graded simulants (high $CU$) were unexpectedly less dilative than poorly graded ones in some cases due to the 'fabric' effect where silt grains occupy intergranular voids or separate sand grains.
-- **Cohesion:** High cohesion values reported in literature are often due to over-compaction and linear approximation of curved failure envelopes rather than chemical bonding.
+### Table 4: Density index parameters for tested simulants
+| Tested simulant | Consolidated density (g/cm³) | Consolidated void ratio (ec) | Intergranular void ratio (es) |
+| :--- | :--- | :--- | :--- |
+| Y-GRC-1 (10 kPa) | 1.71 | 0.548 | 0.629 |
+| Y-TJ-1 (10 kPa) | 1.74 | 0.533 | 0.982 |
+| Y-BP-1 (10 kPa) | 1.72 | 0.549 | 1.562 |
+| Y-QH-E (10 kPa) | 1.69 | 0.582 | 2.264 |
 
-## 5. Conclusions
-Gradational characteristics of lunar soil simulants significantly influence their shear strength and volume change behaviors. These effects must be carefully evaluated for lunar construction activities, including site preparation and base infrastructure design.
+## 6. Summary and Conclusions
+1. Gradational characteristics (D50, CU, FC) of lunar soil simulants influence their shear strength and volume change behaviors significantly.
+2. Drained shear strength and peak secant friction angles (φsec-peak) of Y-GRC-1 were found to be slightly greater than Y-TJ-1.
+3. For the second pair (Y-BP-1 vs Y-QH-E), shear strength and φsec-peak were observed to increase with decreasing D50.
+4. Simulants with sand-dominated fabrics (FC < 25%) show significantly reduced rates of dilation when fines content (FC) increases. For silt-dominated fabrics (FC > 40%), increasing FC has a negligible effect on the rate of dilation.
