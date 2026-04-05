@@ -1,53 +1,41 @@
 # Overview of the Lunar In Situ Resource Utilization Techniques for Future Lunar Missions
 
+**Authors:** Peng Zhang, Wei Dai, Ran Niu, Guang Zhang, Guanghui Liu, Xin Liu, Zheng Bo, Zhi Wang, Haibo Zheng, Chengbao Liu, Hanzhe Yang, Yifan Bai, Yang Zhang, Dong Yan, Kefa Zhou, and Ming Gao.
 **Journal:** Space: Science & Technology
-**Authors:** Peng Zhang, Wei Dai, Ran Niu, Guang Zhang, Guanghui Liu, Xin Liu, Zheng Bo, Zhi Wang, Haibo Zheng, Chengbao Liu, Hanzhe Yang, Yifan Bai, Yang Zhang, Dong Yan, Kefa Zhou, and Ming Gao
-**Published:** June 1, 2023
+**Date:** June 1, 2023
+**DOI:** 10.34133/space.0037
 
 ## Abstract
-Building a lunar base by in situ resource utilization (ISRU) will drastically reduce the reliance of supplies from Earth. This article provides a comprehensive review of the past developing processes of ISRU and the latest progress of several ISRU technologies, including in situ water access, in situ oxygen production, in situ construction and manufacture, in situ energy utilization, and in situ life support and plant cultivation on the Moon.
+Building a lunar base by in situ resource utilization (ISRU) will drastically reduce the reliance of supplies from Earth. This article provides a comprehensive review of several ISRU technologies, including in situ water access, oxygen production, construction and manufacture, energy utilization, and life support/plant cultivation. A 3-step development plan is proposed with the ultimate aim of establishing a permanent lunar station.
 
-## Natural Resources on the Moon
+## 1. Natural Resources on the Moon
+Lunar resources include mineral resources (silicates, oxides, native metals), water/ice in permanently shadowed regions (PSRs), volatiles (H, He, C, N), and solar energy.
 
-### Mineral Resources
-Minerals of the lunar crust are categorized as silicate minerals, oxide minerals, native metals, sulfide minerals, and phosphate minerals. Silicate minerals (pyroxene, plagioclase feldspar, and olivine) make up more than 90% of the volume of most lunar rocks.
+### Table 1: Lunar mineral modal proportions (volume %)
+| Mineral | A | A | A-14 | A-H | A-M | A-16 | A-H | A-M | L-16 | L-20 | L-24 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plagioclase | 21.4 | 23.2 | 31.8 | 34.1 | 12.9 | 69.1 | 39.3 | 34.1 | 14.2 | 52.1 | 20.9 |
+| Pyroxene | 44.9 | 38.2 | 31.9 | 38.0 | 61.1 | 8.5 | 27.7 | 30.1 | 57.3 | 27.0 | 51.6 |
+| Olivine | 2.1 | 5.4 | 6.7 | 5.9 | 5.3 | 3.9 | 11.6 | 0.2 | 10.0 | 6.6 | 17.5 |
+| Ilmenite | 6.5 | 2.7 | 1.3 | 0.4 | 0.8 | 0.4 | 3.7 | 12.8 | 1.8 | 0.0 | 1.0 |
+| Total | 99.9 | 99.9 | 100.0 | 99.9 | 99.9 | 99.8 | 100.0 | 99.9 | 99.9 | 99.9 | 99.9 |
 
-**Table 1. Significant lunar mineral modal proportions (volume %)**
-| Site | Plagioclase | Pyroxene | Olivine | Silica | Ilmenite | Mare glass | Highland glass | Total |
-|---|---|---|---|---|---|---|---|---|
-| A | 21.4 | 44.9 | 2.1 | 0.7 | 6.5 | 16.0 | 8.3 | 99.9 |
-| A | 23.2 | 38.2 | 5.4 | 1.1 | 2.7 | 15.1 | 14.2 | 99.9 |
-| A-14 | 31.8 | 31.9 | 6.7 | 0.7 | 1.3 | 2.6 | 25.0 | 100.0 |
-| A-H | 34.1 | 38.0 | 5.9 | 0.9 | 0.4 | 15.9 | 4.8 | 100.0 |
-| A-16 | 69.1 | 8.5 | 3.9 | 0.0 | 0.4 | 0.9 | 17.1 | 99.9 |
-| L-16 | 14.2 | 57.3 | 10.0 | 0.0 | 1.8 | 5.5 | 11.2 | 100.0 |
+## 2. In Situ Water and Oxygen Production
+- **Thermal Extraction:** Uses solar-thermal mining or drill-based systems to sublimate ice from polar regolith.
+- **Hydrogen Reduction:** Heating ilmenite (FeTiO3) with hydrogen to produce water and iron.
+- **Molten Regolith Electrolysis (MRE):** Direct electrolysis of molten regolith to extract oxygen and deposit metals. Yields can reach 15–37.5% oxygen extraction.
 
-### Volatile Resources
-**Table 2. Average concentrations of solar wind implanted volatiles**
-| Volatile | Concentration (ppm) | Avg mass per m3 (g) |
-|---|---|---|
-| H | 46  16 | 76 |
-| 3He | 0.0042  0.0034 | 0.007 |
-| 4He | 14.0  11.3 | 23 |
-| C | 124  45 | 206 |
-| N | 81  37 | 135 |
+## 3. In Situ Lunar Construction Techniques
+- **Additive Manufacturing (AM):** Includes Contour Crafting (gantry-based 3D printing using binders) and the D-Shape method.
+- **Sintering:** Microwave sintering and solar sintering of regolith to form structural elements. Microwave sintering offers high efficiency and even heating.
+- **Fiber Refining:** Fabrication of continuous basalt fibers from lunar soil for structural reinforcement. Tensile strengths up to 1400 MPa have been achieved with simulants.
 
-## In Situ Lunar Construction Techniques
+## 4. In Situ Energy and Life Support
+- **Thermal Storage:** Using regolith as a Thermal Energy Storage (TES) medium to survive the lunar night.
+- **Artificial Ecosystems:** Bioregenerative Life Support Systems (BLSS) like China's "Lunar Palace 1" and "Space 180," which achieved high rates of oxygen (100%), water (99%), and food (over 70%) regeneration.
 
-### AM Techniques of Lunar Soils
-Additive Manufacturing (AM) methods include:
-1. **Contour Crafting:** A gantry-based technique using liquid binders to crystallize materials layer by layer. NASA selected this for infrastructure due to its convenience, though vacuum pumping remains a challenge.
-2. **D-Shape:** Developed by ESA to produce protective shells. It utilizes a large-scale printing process but requires the transport of large amounts of liquid ink from Earth.
-
-### Sintering Techniques
-1. **Microwave Sintering:** Uses microwave energy to heat regolith. Experiments with Apollo 17 soil showed improved formability and strength.
-2. **Solar Sintering:** Uses concentrated sunlight via Fresnel lenses. It is a viable technique as solar energy is limitless, though depth of sintering is limited.
-
-### Extrusion Printing of Lunar Regolith Inks
-Involves mixing regolith with binders (e.g., poly(lactic-co-glycolic acid) or photocurable resins). Slurries exhibit excellent printability with compressive strengths up to 428.1 MPa.
-
-## Roadmap for Future ISRU Technology
-- **2027:** Mineral resource exploration and usability assessment.
-- **2030:** In situ experiments on lunar surfaces using payloads.
-- **2035:** Pilot-scale replenishment of vital survival matters for medium-term residence.
-- **2040:** Large-scale replenishment for long-term lunar and future Martian missions.
+## 5. Development Roadmap
+- **Stage 1 (By 2027):** Resource exploration and assessment.
+- **Stage 2 (By 2030):** Technical verification via payload experiments.
+- **Stage 3 (By 2035):** Pilot-scale replenishment of survival matters.
+- **Ultimate Goal (By 2040):** Large-scale ISRU for long-term lunar residence and Mars missions.
