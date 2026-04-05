@@ -1,42 +1,31 @@
 # Seismic Vulnerability Assessment of Non-Structural Elements Inside an Inflatable Lunar Habitat
 
-**Authors:** Oscar D. Forero, Julio A. Ramirez, Ph.D., and Shirley J. Dyke, Ph.D.
-**Publication:** Earth and Space 2024, ASCE
+**Oscar D. Forero**; **Julio A. Ramirez, Ph.D.**; and **Shirley J. Dyke, Ph.D.**
 
-## Abstract
-The existence of moonquakes has often been overlooked in lunar habitat design. Using NASA's Moon to Mars Architecture requirements, a procedure for vulnerability assessment is developed for essential non-structural elements (NSE), specifically the environmental control and life support system (ECLSS), inside an inflatable habitat. The study compares launch dynamic environments with lunar seismic hazards. Findings suggest that significant disturbances and long-lasting vibrations from moonquakes require effective mitigation measures, as they differ fundamentally from launch vibrations.
+**Earth and Space 2024** | **© ASCE** | **625**
 
-## Introduction
-NASA's Artemis program plans for surface missions by the end of the decade, focusing on inflatable habitats due to their payload volume efficiency. While designed for launch vibrations, the impact of shallow moonquakes—the most critical seismic events for lunar infrastructure—on these habitats has been a low priority. This paper addresses these concerns by comparing habitat performance under launch vibrations and shallow moonquakes through a torus-shaped inflatable structure case study.
+### ABSTRACT
+The spirit of exploration and pursuit of knowledge are once again driving humanity to seek a human presence on extraterrestrial bodies. While numerous challenges must be overcome to achieve this goal, the existence of moonquakes has often been overlooked. The Apollo Passive Seismic Experiment (APSE) collected 8 years' worth of data, offering the scientific community insights into the Moon's internal mechanisms. Using NASA's Moon to Mars Architecture requirements for surface habitation, a procedure for vulnerability assessment is developed herein for essential non-structural elements (NSE) inside an inflatable habitat. The NSE element used for this study is the environmental control and life support system (ECLSS). The aim of this study is to propose an approach to assess the vulnerability of the NSE that supports essential equipment under a paucity of information related to the seismic hazard. We also emphasize herein that the launch dynamic environment behaves differently, yielding a need to equip a future habitat with seismic mitigation measures. The findings in this work suggest that due to epistemic uncertainty, significant disturbances may result in long-lasting vibrations that need to be considered as they may require effective mitigation measures.
 
-## Case Study
-The analyzed Class I habitat is a torus-shaped inflatable structure mounted atop a lander, housing an ECLSS universal pallet. 
-- **Habitat Dimensions:** torus stands 6 meters high, encompasses two floors supported by a hydraulic jack system.
-- **Pallet Dimensions:** 0.60m x 0.60m x 1.80m, constructed with an aluminum frame.
-- **Configurations:** The habitat has distinct dynamic configurations for launch (undeployed) and lunar surface (fully deployed).
+### INTRODUCTION
+In recent years, global interest in Lunar exploration has surged, mirroring the enthusiasm of the Apollo era. Under NASA's Artemis program, plans are underway for a short-term surface mission by the end of this decade. To support these ambitions, it is crucial to explore surface habitat concepts, particularly inflatable habitats. Inflatable habitats offer an advantage by significantly increasing payload volume upon deployment.
 
-### Figures Summary
-- **Figure 1:** Conceptual 3D views of the habitat in deployed and undeployed states.
-- **Figure 2:** Internal view of the ECLSS universal pallet.
-- **Figure 3 & 4:** Sine sweep and random vibration test signals based on Atlas V, Falcon, and NASA-STD-7001B specifications.
-- **Figure 5:** Compilation of eleven shallow moonquake events from Apollo data used for analysis (magnitudes M1.8 to M3.2).
-- **Figure 6:** Frequency-occurrence relationship from the Apollo Passive Seismic Experiment (APSE).
-- **Figure 7:** Process flow for lunar seismic vulnerability assessment.
-- **Figure 8:** Structural response (displacement) of the deployed habitat.
-- **Figure 9:** Deformed shapes of the ECLSS under scaled lunar seismic environments.
+Despite these developments, the impact of seismic motions on Lunar habitats has not received attention. Lunar seismic research from Apollo missions uncovered that the Moon experiences seismic activity, with shallow moonquakes being the most critical events. Limited data hinders precise vulnerability assessment, and its importance has been a low priority due to the claim that habitats are designed for the rigors of launch vibrations.
 
-## Launch and Lunar Seismic Environments
-### Launch Dynamic Environment
-Payloads face dynamic loads from engine ignition, liftoff, and aerodynamic pressure. Tests include sine sweep and random vibration. These serve as a foundational design reference for the habitat while in its stowed configuration.
+### CASE STUDY
+The study chooses a torus-shaped inflatable Class I habitat mounted atop a lander. The habitat houses the Environmental Control and Life Support System (ECLSS) universal pallet design (Collins Aerospace). The torus stands 6 meters high with two floors supported by a cantilever hydraulic jack system.
 
-### Lunar Seismic Motion Environment
-Data from the APSE recorded ~12,000 events, with 28 shallow moonquakes being the most energetic. Unlike Earth, ground acceleration on the Moon can reach up to 1.6g_L or even 4g_L near the epicenter due to low attenuation in the fractured lunar crust. However, data is scarce as sensors were placed far apart.
+### LUNAR SEISMIC MOTION ENVIRONMENT
+The seismic data from the Apollo Passive Seismic Experiment (APSE) identified approximately 12,000 events, with 28 shallow moonquakes (High-Frequency Teleseismic events) being the most energetic. While launch loads are high, moonquakes occur at distances that suggest ground acceleration can reach up to 1.6g_L or even 4g_L near the epicenter.
 
-## Numerical Simulation and Results
-Using Newmark's method for dynamic analysis, the study compared the habitat's response to launch vs. moonquakes.
-- **Duration:** Launch effects persist for minutes, while lunar seismic responses can last over an hour.
-- **Frequency:** Moonquakes operate at low frequencies (<10Hz), which can resonate with the habitat structure.
-- **Displacement:** For a scaled 1.0g_L seismic event, the deployed habitat showed a 2.4cm maximum displacement, compared to 0.6cm in the undeployed launch state. A scale factor of 3.0g_L was found to produce deformation similar to the launch environment, though with different frequency characteristics.
+### NUMERICAL SIMULATION AND RESULTS
+Simulation revealed that seismic motion produces distinct responses compared to launch environments:
+- **Displacement:** The deployed structure exhibited a maximum displacement of 2.4 cm (at 1.0g_L scaling), whereas the undeployed structure in the payload fairing experienced 0.6 cm.
+- **Duration:** Seismic responses lasted for over an hour, while launch environment effects persisted for only a few minutes.
+- **Scaling:** A scale factor of 3.0g_L was identified as the ground acceleration that approximated the deformation responses required for launch environment design.
 
-## Discussion and Conclusion
-Lunar seismic conditions differ significantly from launch loads in amplitude, frequency, and duration. Low-frequency moonquakes may resonate with specific habitat designs, potentially causing material fatigue or fracture over long-term missions. The disparity in responses between the primary structure and NSEs like the ECLSS highlights the need for seismic-specific mitigation strategies to ensure functionality during and after lunar seismic events.
+### DISCUSSION
+The Lunar seismic environment operates at lower frequencies (<10Hz) compared to launch environments, which can resonate with certain habitat designs. The prolonged duration of events could have implications for material integrity (fracture and fatigue). There is a disparity in how the primary structure and non-structural elements (NSE) respond; while the habitat responded more to seismic motion, the ECLSS pallet (with higher fundamental frequency) responded more to launch-induced vibrations.
+
+### CONCLUSION
+Ignoring the risk of the Lunar seismic environment by only considering launch loads could result in undesired outcomes for habitats and contents during extended performance periods. Future work must refine probabilistic methods in Lunar seismic assessment.
