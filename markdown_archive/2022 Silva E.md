@@ -1,47 +1,37 @@
 # Eco-friendly additive construction: Analysis of the printability of earthen-based matrices stabilized with potato starch gel and sisal fibers
 
 **Journal:** Construction and Building Materials 347 (2022) 128556  
-**Date:** Available online 29 July 2022  
 **Authors:** Guido Silva, Robert Ñañez, Diana Zavaleta, Valeria Burgos, Suyeon Kim, Gaby Ruiz, Miguel A. Pando, Rafael Aguilar, Javier Nakamatsu
 
 ## Abstract
-3D printing for construction is a disruptive technology with potential for rapid applications such as social housing, temporary shelters, and recently, for extraterrestrial habitats. Most current matrices rely on hydraulic cement, which is not easily available in remote locations. This article studies the printable capabilities of earthen-based matrices using potato starch as a natural stabilizer and sisal fibers to control shrinkage. Results indicate that matrices reinforced with 1% sisal fibers and stabilized with up to 5% starch gels show improved workability and minor cracking, suitable for 3D printing.
+3D printing for construction purposes is a disruptive technology with potential for rapid applications in social housing, disaster relief, and extraterrestrial habitats. This study evaluates earthen-based matrices using potato starch as a natural stabilizer and sisal fibers for shrinkage control. Results indicate that matrices with 1% sisal fibers and 5% starch gel show improved workability, minimal cracking, and significant strength gains, opening new lines for eco-friendly construction alternatives.
 
 ## 1. Introduction
-3D printing (additive construction) allows for the creation of structural elements from digital designs using layer-by-layer deposition. Benefits include reduced material waste, improved workforce safety, and design flexibility (e.g., bio-inspired honeycomb patterns). The process involves delivery, deposition, motion, and control systems.
+3D printing (additive manufacturing) in construction uses layer-by-layer deposition of extrudable materials. Benefits include reduced waste, improved safety, and design flexibility. For remote locations (including space), hydraulic cement is often unavailable; hence, soil-based matrices are preferred. 
 
 ## 2. Additive construction using earthen-based matrices
-### 2.1. Summary of recent advances
-Recent interest in using soil for 3D printing stems from its low environmental impact and local availability. Literature defines two subtopics:
-1. **Earthen-based 3D printing:** Clay soil matrices for terrestrial use.
-2. **Regolith-based 3D printing:** Matrices composed of lunar and Martian rocks and sand simulants for extraterrestrial construction.
+The literature identifies two subtopics: (1) earthen-based 3D printing (clay soil) and (2) regolith-based 3D printing (Lunar and Martian rock/sand simulants). Approximately 46% of publications in this niche focus on regolith for extraterrestrial habitats, exploring binders like sulfur or sintering methods (microwave, solar, laser).
 
-46% of publications on soil-based 3D printing focus on regolith for extraterrestrial habitats. Techniques explored include melting thermoplastic binders (e.g., solid sulfur at 140°C) and sintering (microwave, solar, laser, or digital light sintering).
+## 3. Analysis of printability
+### 3.1 Materials
+- **Base Soil:** Low plasticity sandy clay (CL) from Lima, Peru. High SiO2 (58.6%) and Al2O3 (15.6%).
+- **Stabilizer:** Food-grade potato starch (amylose and amylopectin).
+- **Reinforcement:** Sisal fibers (Agave sisalana), 10mm length, aspect ratio 73, tensile strength 508 MPa.
 
-## 3. Analysis of printability capabilities
-### 3.1. Materials
-*   **Base Soil:** Obtained from a quarry in Lima, Peru. Classified as low plasticity sandy clay (CL) per USCS. Chemical composition: 58.6% SiO2, 15.6% Al2O3.
-*   **Stabilizer:** Food-grade potato starch (amylose and amylopectin) prepared as a gel at 90°C.
-*   **Fiber:** Sisal fibers (Agave sisalana) cut to 10 mm length (aspect ratio 73).
+### 3.2 Experimental Matrix Summary
+| Matrix ID | Starch Gel Conc. (%) | Added Liquid (%) | Fiber Addition (%) |
+| :--- | :--- | :--- | :--- |
+| EW(20) | 0.0 | 20 | 0.0 |
+| ES2.5%(25) | 2.5 | 25 | 0.0 |
+| ES5.0%(28) | 5.0 | 28 | 0.0 |
+| EFS2.5%(24)| 2.5 | 24 | 1.0 |
+| EFS5.0%(27)| 5.0 | 27 | 1.0 |
 
-### 3.2. Experimental Program
-Matrix terminology:
-*   **EW:** Base soil + water
-*   **ES:** Base soil + starch gel
-*   **EFS:** Base soil + starch gel + sisal fibers
-
-### Table 1: Chemical composition of base soil
-| SiO2 | Al2O3 | Fe2O3 | K2O | MgO | CaO | Na2O | Others |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 58.6 | 15.6 | 6.4 | 2.0 | 2.5 | 4.1 | 2.1 | 8.6 |
-
-## 4. Results and Discussions
-*   **Fresh State:** Starch gel increases viscosity, requiring higher liquid percentages for pumpability. Natural fibers were effective in lowering the mixture's viscosity.
-*   **Yield Strength:** Printable matrices showed yield strengths between 2.3 and 6.8 kPa.
-*   **Shrinkage:** Unreinforced mixtures (EW, ES) failed due to cracks > 1mm. Fiber-reinforced mixtures (EFS) passed with cracks < 0.8mm.
-*   **Buildability:** Control mixtures supported 16 layers. EFS mixtures with 5% starch supported 12 layers but showed less deformation over time than control mixtures.
-*   **Mechanical Strength:** Increased strengths of up to 157% at 28 days were achieved with 5% starch gel compared to control matrices.
-*   **Capillarity:** Starch gel significantly reduced water absorption (from 0.611 to 0.0903 kg/m²min⁰·⁵).
+## 4. Results and Discussion
+- **Yield Strength:** Printable matrices ranged from 2.3 to 6.8 kPa. Fiber-reinforced matrices (EFS) had yield strengths 72% to 172% higher than control soil-water mixtures.
+- **Shrinkage:** Unreinforced mixtures (EW, ES) failed due to cracks > 1mm. Fiber-reinforced (EFS) passed with cracks < 0.8mm.
+- **Compressive Strength:** Additives increased strength by 116%, 135%, and 157% at 3, 7, and 28 days respectively compared to control. The EFS5.0%(27) reached ~2.2 MPa at 28 days.
+- **Water Absorption:** Starch gel significantly reduced capillarity absorption from 0.611 to 0.0903 kg/m²min⁰·⁵.
 
 ## 5. Conclusions
-The study presented the "Colibri" 3D printing prototype. EFS5.0%(27) (soil + 5% starch gel + 1% sisal fiber) showed the best characteristics: yield strength of 4.3 kPa, compressive strength of 2.2 MPa, and significant reduction in shrinkage cracking and water absorption.
+The study demonstrates the feasibility of 3D printing with bio-stabilized soil. The combination of potato starch and sisal fibers creates a printable composite with adequate green strength and hardened properties, suitable for sustainable and extreme-environment construction.
