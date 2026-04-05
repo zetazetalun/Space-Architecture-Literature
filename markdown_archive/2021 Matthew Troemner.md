@@ -1,49 +1,46 @@
 # Design and Analysis of 3D-Printable Thin-Shell Dome Structures for Extraterrestrial Habitation
 
 **Authors:** Matthew Troemner, Elham Ramyar, Benton Johnson, and Gianluca Cusatis
-
-**Affiliations:** 
-1. Dept. of Civil and Environmental Engineering, Northwestern Univ., Evanston, IL.
-2. Skidmore, Owings & Merrill LLP, Chicago, IL.
+**Affiliations:** Northwestern Univ., Skidmore, Owings & Merrill LLP
+**Year:** 2021
 
 ## Abstract
-Extreme environmental conditions and the availability of novel construction techniques dictate the form of Martian habitats. This paper presents the design and analysis of a dome-shaped Martian habitat developed for NASA’s 3D-Printed Habitat Challenge. The structure features a novel composite hemispheric-parabolic dome optimized for self-weight and environmental loads. It is designed to be 3D-printed on an inflatable pressure vessel using 'Marscrete,' a Martian concrete made primarily from local regolith and sulfur. The study examines structural performance under Martian loading (wind, regolith deposition, gravity) and meteorite impacts, alongside a construction scheme and internal layout for four people.
+Extreme environmental conditions and novel construction techniques will dictate Martian habitat forms. This paper presents the design of a dome-shaped Martian habitat created for NASA’s 3D-Printed Habitat Challenge. The structure utilizes a composite hemispheric-parabolic dome optimized for 3D-printing on an inflatable pressure vessel using 'Marscrete' (Martian regolith and sulfur). Structural performance is assessed under Martian gravity, wind, regolith storms, and meteorite impacts.
 
 ## Introduction
-Martian missions require semi-permanent structures because material transit is cumbersome. Utilization of locally-sourced, in situ materials and automated fabrication techniques is essential. NASA's 3D-Printed Habitat Challenge (launched 2015) required habitats to sustain four astronauts for one Earth-year within 93 square meters of living space.
+Future Mars missions require semi-permanent structures using in situ resource utilization (ISRU) and automated fabrication due to the difficulty of transporting materials from Earth. NASA’s 3D-Printed Habitat Challenge (2015) set requirements for a 1-year mission for 4 astronauts, providing 93 sq meters of space.
 
 ## Design Basis
-The habitat form was driven by:
-* **Constructability:** Minimizing overhanging regions to reduce support needs and maximizing continuity to reduce 'cold joints'.
-* **Usability:** Creating a protective and comfortable internal environment.
-* **Geometry:** A hemispheric-parabolic dome was selected. The interior matches the hemispherical pressure vessel, while the exterior is parabolic to ensure loading results in compressive rather than tensile stresses.
-* **Shell Thickness:** Optimized thin shell varying from 21 to 108 cm.
+- **Form:** Internal hemispherical dome with an outer parabolic dome.
+- **Material:** Marscrete (quasi-brittle behavior), optimized to keep stresses compressive.
+- **Optimization:** Shell thicknesses range from 21 to 108 cm.
 
 ## Construction Method
-1. **Site Preparation:** Autonomous rovers clear debris and prepare the foundation cut.
-2. **Foundation Printing:** Initially printed using an articulated arm-type 3D-printer.
-3. **Deployment:** A collapsible dome pressure vessel is inflated to serve as construction support.
-4. **Printing:** An articulating arm reaches the apex, where a crawler robot is deployed to circumnavigate the vessel for layer-by-layer printing.
-5. **Completion:** An oculus is affixed at the peak; the pressure vessel is slightly deflated to allow for independent thermal deformation.
+1. Site preparation by autonomous rovers.
+2. 3D-printing of the foundation.
+3. Deployment and inflation of a collapsible pressure vessel.
+4. Printing over the vessel using an articulated arm and a 'crawler' robot to avoid the need for printed supports.
+5. Deflation of the vessel to allow for independent thermal expansion.
 
 ## Environment and Loading
-* **Gravity:** 3.71 m/s² (38% of Earth).
-* **Wind Load:** Calculated as 9.79 Pa (standard) to 60.0 Pa (high density dust).
-* **Sand Buildup:** Static pressure load of 2,780 Pa applied to half the structure (unbalanced dunes).
-* **Meteorite Impact:** Risk assessment conducted using atmospheric loss and deceleration data.
+- **Gravity:** 3.71 m/s² (38% of Earth's).
+- **Wind Load:** Calculated at 9.79 Pa (conservative estimate at 70 mph), increased to 60.0 Pa for analysis.
+- **Sand/Regolith Load:** 2,780 Pa static pressure load on one half of the structure (representing dunes).
+- **Impact:** Assessment of meteorite impact risks.
 
 ## Load Analysis
-Finite element static analysis showed the structure remained in the elastic region under all loads (self-weight, wind, and unbalanced sand), with deformations less than 1.0 mm.
+Finite element analysis showed the structure remained in the elastic region under all loads with deformation less than 1.0 mm.
 
 ## Meteorite Impact Performance
-Lattice Discrete Particle Model (LDPM) simulations determined:
-* **Critical Load:** A surface-normal impact of a 7,390g spherical meteorite at 6.29 km/sec.
-* **Probability:** Estimated hazardous impact probability during a one-year mission is approximately 6.9 × 10⁻⁹.
+- **Method:** Lattice Discrete Particle Model (LDPM) simulation.
+- **Critical Impact:** A surface-normal impact of a 7,390g meteorite at 6.29 km/sec is the failure threshold.
+- **Risk:** Probability of a hazardous impact during a one-year mission is approximately 6.9 x 10⁻⁹.
 
 ## Proposed Layout
-* **Central Area:** Round common area for recreation with a transparent oculus.
-* **Semicircular Regions:** One public (kitchen, workspace, lab) and one private (bedrooms, lavatory).
-* **Entries:** One personnel airlock and one docking port for the Multi-Mission Space Exploration Vehicle (MMSEV).
+- **Inspiration:** 'Tiny house' and NASA HI-SEAS designs.
+- **Center:** Round common area for recreation with a transparent oculus.
+- **Zones:** Semicircular public (kitchen/lab) and private (bedrooms/lavatory) regions.
+- **Entries:** One personnel airlock and one docking port for the MMSEV.
 
 ## Conclusions
-The habitat design surpasses structural and functional requirements for Martian habitation. The hemispheric-parabolic dome and unique construction scheme eliminate the need for printed supports and demonstrate high resistance to Martian environmental loads and meteorite impacts.
+The design surpasses Martian habitat requirements, offering structural integrity under typical loads and meteorite resistance up to 7 kg. The construction scheme eliminates the need for temporary printed supports.
