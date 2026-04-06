@@ -1,39 +1,60 @@
 # Rheological Properties of Lunar Mortars
 
+**Authors:** Joanna J. Sokołowska, Piotr Woyciechowski, Maciej Kalinowski
+**Journal:** Applied Sciences (MDPI)
+**Date:** July 2021
+
 ## Abstract
-NASA has revealed that they plan to resume manned missions and ensure the permanent presence of people in the so-called habitats on the Moon by 2024. Moon habitats are expected to be built using local resources—it is planned to use lunar regolith as aggregate in lunar concrete. Lunar concrete design requires a new approach in terms of both the production technology and the operating conditions significantly different from the Earth. Numerous compositions of cement “lunar micro-mortars” and “lunar mortars” were made and tested to study rheological properties, namely, the consistency, which largely depend on the morphology of the fine-grained filler, i.e., regolith. The obtained results made it possible to develop preliminary compositions for “lunar mortars” (possible to apply in, e.g., 3D concrete printing) and to prepare, test, and evaluate mortar properties in comparison to traditional quartz mortars.
+NASA plans to resume manned missions to the Moon and establish permanent habitats by 2024. These habitats are expected to be built using local resources, such as lunar regolith as aggregate in lunar concrete. This study investigates cement-based "lunar mortars" using lunar regolith simulant (LRS) to assess rheological properties like consistency, which are critical for applications such as 3D concrete printing. The results provide preliminary compositions for lunar mortars and evaluate their properties compared to traditional quartz mortars under Earth laboratory conditions.
 
 ## 1. Introduction
-The implementation of the concept of extraterrestrial habitats requires the development of material and execution concepts of a lunar habitat. Scientists for decades have been supporting the concept of using locally available resources to build a base/habitat, including lunar regolith. In terms of the binder, three groups of concrete can be distinguished: polymer concretes, sulfur concretes, and ordinary concretes (with ordinary Portland cement, OPC).
+The implementation of extraterrestrial habitats requires the development of material and execution concepts. Due to the high cost of transporting materials to the Moon (~$75,000/kg), In Situ Resource Utilization (ISRU) of lunar regolith is essential. While polymer and sulfur concretes have been explored, this research focuses on ordinary Portland cement (OPC) based composites, assuming potential water ice availability at the lunar poles.
 
-## 3. Materials and Methods
-### Table 3. Physical and mechanical properties of cement.
+## 2. Material Characteristics
+
+### 1.1. Lunar Regolith
+Lunar regolith is a dust-like layer (4–15 m thick) consisting of spherical and oblong grain dust, angular rock particles, and dendritic slag grains. The d50 median values for fine fractions range from 42–130 μm.
+
+**Table 1. Lunar soil grain distribution (Apollo missions 11, 12, 14, 15)**
+| Mission | Number of Samples | d20, mm | d50, mm | d80, mm |
+| :--- | :--- | :--- | :--- | :--- |
+| Apollo 11 | 13 | 0.016–0.030 | 0.048–0.105 | 0.163–0.720 |
+| Apollo 12 | 55 | 0.013–0.033 | 0.042–0.094 | 0.167–0.440 |
+| Apollo 14 | 24 | 0.013–0.036 | 0.044–0.130 | 0.061–0.200 |
+| Apollo 15 | 19 | 0.014–0.019 | 0.051–0.108 | 0.180–0.400 |
+| Altogether | 111 | 0.013–0.036 | 0.042–0.130 | 0.163–0.720 |
+
+### 1.2. Lunar Regolith Simulant (LRS)
+The research used a Polish lunar regolith simulant (AGK-2010) created to map the sharp-edged morphology and grain size distribution of real lunar regolith. It has a bulk density of 1.290–1.300 g/cm³, an internal friction angle of 36.5–38.5°, and cohesion of 3.8–4.1 kPa.
+
+## 3. Experimental Program
+The program included stage-wise testing of micro-fillers, initial determination of filler content, rheology of micro-mortars, and mechanical properties of final mortars.
+
+**Table 3. Physical and mechanical properties of cement (CEM I 42.5 R)**
 | Physical and Mechanical Properties | EN 197-1 Requirements | Average Values |
-|---|---|---| 
+| :--- | :--- | :--- |
 | Beginning of setting time [min] | min. 60 | 192 |
-| Compressive strength after 2 days | min. 20.0 | 29.1 |
-| Compressive strength after 28 days | 42.5–62.5 | 55.5 |
-| Specific surface area [cm2/g] | - | 3816 |
+| Compressive strength (2 days) [MPa] | min. 20.0 | 29.1 |
+| Compressive strength (28 days) [MPa] | 42.5–62.5 | 55.5 |
+| Specific surface area [cm²/g] | - | 3816 |
 | Water for standard consistency [%] | - | 27.0 |
 
-### Table 4. Statistical parameters describing particle size distribution of LRS and QP.
-| Parameter | LRS | QP |
-|---|---|---|
-| Dmin [µm] | 1.0 | <1.0 (0.584) |
-| D50 (median) [µm] | 37.0 | 21.5 |
-| Dav (average) [µm] | 54.9 | 28.4 |
-| Dmax [µm] | 300.5 | 152.4 |
-| Specific surface area [cm2/cm3] | 3981 | 7036 |
-| Density [g/cm3] | 2.641 | 2.650 |
-
 ## 4. Results and Discussion
-The simple micrograph confirmed that the tested lunar regolith simulant (LRS) is characterized by sharp-edged particles. This morphology affects the consistency of mixes negatively, increasing water demand. However, the study showed that replacing 20% of aggregate with LRS (with 1.0% superplasticizer) resulted in a flow diameter of 245 mm, which is suitable for 3D printing applications (recommended range 180-240 mm). 
 
-### Table 5. Compositions of mortars and flow table test results.
-| No | Water [g] | Cement [g] | Aggregate [g] | W/C | Admixture [%] | LRS [% agg.] | D [mm] |
-|---|---|---|---|---|---|---|---|
-| 1 (ref.) | 225 | 450 | 1350 | 0.50 | 0.0 | 0.0 | 206 |
-| 3 | 225 | 450 | 1350 | 0.50 | 1.0 | 20.0 | 245 |
+### 4.1. Rheology of Lunar Mortars
+Tests showed that replacing 20% (by weight) of standard aggregate with LRS required the use of superplasticizers (1% of cement mass) to maintain consistency. Mortars with 20% LRS achieved a flow diameter of 245 mm, which is suitable for 3D printing technologies.
 
-## 6. Conclusions
-The research confirmed the sharp-edged morphology of LRS particles, which negatively affects the consistency but can be managed using superplasticizers. Mechanical properties of regolith-based cement composites (flexural strength 7 MPa, compressive strength 50 MPa) are sufficient for lunar construction purposes. The developed consistency meets the requirements for 3D concrete printing technology.
+**Table 5. Mortar compositions and flow table results (D)**
+| No | Water [g] | Cement [g] | Aggregate [g] | W/C [g/g] | Admixture [% c.m.] | QP [% agg.] | LRS [% agg.] | D [mm] |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 (ref) | 225 | 450 | 1350 | 0.50 | 0.0 | 0.0 | 0.0 | 206 |
+| 2 | 225 | 450 | 1350 | 0.50 | 1.0 | 20.0 | 0.0 | 208 |
+| 3 | 225 | 450 | 1350 | 0.50 | 1.0 | 0.0 | 20.0 | 245 |
+
+### 4.2. Mechanical Properties
+Mortars with 20% LRS showed compressive strengths (50.6 MPa) and flexural strengths (6.8 MPa) practically identical to standard quartz mortars.
+
+## 5. Conclusions
+1. The sharp-edged morphology of LRS increases water demand compared to standard sand.
+2. Successful substitution of 20% aggregate with LRS is possible while maintaining 3D-printable consistency using superplasticizers.
+3. Mechanical properties of LRS-based mortars are sufficient for lunar construction purposes, matching Earth-standard mortars.
