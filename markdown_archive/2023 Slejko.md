@@ -1,55 +1,48 @@
 # Vacuum 3D printing of highly filled polymeric matrix composites
 
-**Emanuele Alberto Slejko, Nicholas Sesto Gorella, Advenit Makaya, Paolo Gallina, Nicola Scuor, Stefano Seriani**
-
-**Published:** 25 December 2022 (Acta Astronautica 204 (2023) 25–33)
+**Authors:** Emanuele Alberto Slejko, Nicholas Sesto Gorella, Advenit Makaya, Paolo Gallina, Nicola Scuor, Stefano Seriani
+**Journal:** Acta Astronautica 204 (2023) 25–33
+**DOI:** 10.1016/j.actaastro.2022.12.033
 
 ## Abstract
-In this contribution, we have investigated how polymeric matrix composites for aerospace applications are affected, when fabricated at low pressure, by the additive manufacturing process. Commercial filaments have been selected based on their representativeness of materials derived from lunar resources. Standard samples of thermoplastic polymers reinforced by organic fibers and inorganic fillers have been printed inside a vacuum chamber, and their mechanical and thermal properties have been characterized and discussed based on the printing conditions.
+In this contribution, we have investigated how polymeric matrix composites for aerospace applications are affected, when fabricated at low pressure, by the additive manufacturing process. Commercial filaments have been selected based on their representativeness of materials derived from lunar resources. Standard samples of thermoplastic polymers reinforced by organic fibers and inorganic fillers have been printed inside a vacuum chamber, and their mechanical and thermal properties have been characterized and discussed based on the printing conditions. The reported study represents a preliminary investigation of the potential applicability of the 3D printing technology on highly filled polymers for extraterrestrial applications.
 
 ## 1. Introduction
-Vacuum 3D printing enables production of structures in-orbit or on-planet without requiring pressurized environments. This is particularly relevant for In Situ Resource Utilization (ISRU), using raw materials present in target environments like the Moon or Mars. While regolith-based concrete is energy-intensive, polymeric composites offer ease of processing for complex geometries.
+Vacuum 3D printing is a critical technology for the space sector to enable in-orbit or on-planet manufacturing. It eliminates the need for pressurized environments and enables the construction of large structures. This study focuses on In Situ Resource Utilization (ISRU) materials, such as regolith-based composites.
 
 ## 2. Materials and Methods
 ### 2.1. Materials
-Three commercial filaments were used:
-1. PLA (unfilled)
-2. PLA filled with 40% organic fibers (pine wood fibers)
-3. PLA filled with 50% inorganic clays (CaSiO3 - representative of lunar regolith)
+Three filaments were used: PLA, PLA with 40% organic fibers (pine wood), and PLA with 50% inorganic clays (CaSiO3) representing lunar resources.
 
-### 2.3. 3D printer specifications
-A modified Monoprice Select Mini V2 was used.
-
-**Table 1: Main characteristics of the 3D printer**
+### 2.3. Printer Specifications
 | Characteristic | Value |
-|---|---|
-| Build Volume | 120 x 120 x 120 mm |
-| Resolution | 100-300 μm |
+| :--- | :--- |
+| Build Volume | 120 × 120 × 120 mm |
+| Resolution | 100–300 μm |
 | Filament Diameter | 1.75 mm |
+| Nozzle Diameter | 0.4 mm |
+| Max. Print Speed | 55 mm/s |
 | Max. Extruder Temperature | 250 °C |
 | Max. Build Plate Temperature | 60 °C |
 
-### 2.4. 3D printer adaptation
-The printer was modified for vacuum operation ($10^{-4}$ bar):
-- Extruder motor relocated to avoid overheating.
-- Cooling fans replaced with copper thermal braids for conductive cooling.
-- Control board moved outside the vacuum chamber.
+### 2.4. Adaptation
+A Monoprice Select Mini V2 was modified with copper thermal braids for conductive cooling in vacuum and relocation of electronics outside the chamber.
 
-**Table 2: Printing setup parameters**
+### 2.6. Printing Conditions
 | Parameter | Value |
-|---|---|
+| :--- | :--- |
 | Layer Height | 0.175 mm |
+| Wall Thickness | 1.05 mm |
 | Infill Density | 100% |
 | Printing Temperature | 215.0 °C |
 | Build Plate Temperature | 45.0 °C |
+| Flow | 100% |
 | Print Speed | 50 mm/s |
 
 ## 3. Results and Discussion
-### 3.1. Material Characterization
-The clay filler (CaSiO3) is representative of lunar soil in terms of composition and size (mean size 9.3 μm). Mechanical properties of parts printed at 1 bar and $10^{-4}$ bar showed no major differences in ultimate strength or modulus.
-
-### 3.2. Dimensional Accuracy
-Low-pressure prints exhibited dimensional deviations: samples were thinner but wider than their atmospheric counterparts. This is attributed to increased surface tension of the molten strand in vacuum, leading to enhanced wettability on the substrate.
+- **Mechanical Properties:** No major differences were observed between atmospheric and vacuum-printed (10^-4 bar) samples regarding ultimate strength and modulus.
+- **Composition:** FTIR and TGA confirmed that the chemical composition and thermal degradation behavior remained largely unchanged regardless of pressure.
+- **Dimensional Accuracy:** Vacuum-printed samples were thinner but wider than atmospheric counterparts. This is attributed to increased surface tension of molten strands in vacuum, leading to enhanced wettability on the substrate.
 
 ## 4. Conclusions
-3D printing in a vacuum is feasible with minor printer modifications. While mechanical and thermal properties remain stable, dimensional accuracy must be addressed through design compensation to account for increased strand spreading.
+3D printing in a 10^-4 bar vacuum is feasible with modifications to hardware (e.g., thermal management via conduction). While mechanical and thermal properties are stable, dimensional deviations occur and must be compensated for in design.
