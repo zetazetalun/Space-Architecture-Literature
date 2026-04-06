@@ -1,55 +1,43 @@
 # Design of an Autonomously Deployable Mars Habitat
 
-**Conference Paper** · July 2021  
 **Authors:** Rudolf Walther Erdem Neumerkel, Miruna Vecerdi, Sandra Häuplik-Meusburger  
-**Affiliation:** TU Wien, 1040, Austria  
-**Publication:** 50th International Conference on Environmental Systems (ICES-2021-398)
+**Publication:** 50th International Conference on Environmental Systems (ICES)  
+**Date:** July 2021
 
 ## Abstract
-This paper presents a proposal for the design of an autonomously deployable habitat for a long-duration manned mission on Mars. Key drivers in the design were the payload and volume constraints of Starship and addressing habitability challenges implied by Martian conditions. The habitat is conceived to be transported in compacted form and to expand to a habitable volume by autonomously deploying after being placed on the Martian surface. For this, the integration of several different kinetic structures is proposed: a protective casing, a vertically sliding core, radially expanding girders and an inflatable membrane. 
+This paper presents a proposal for the design of an autonomously deployable habitat for a long-duration manned mission on Mars. Key drivers in the design were the payload and volume constraints of Starship and addressing habitability challenges. The habitat is conceived to be transported in compacted form and expand to a habitable volume by autonomously deploying after being placed on the Martian surface. The design integrates kinetic structures: a protective casing, a vertically sliding core, radially expanding girders, and an inflatable membrane. 
 
-## I. Introduction
-The Martian environment is characterized by extremely low atmospheric pressure, low gravity, extreme temperatures, micrometeoroid and orbital debris (MMOD) impacts, and heavy radiation. A solution for dealing with the restricted fairing dimensions of current launch vehicles is making use of a deployable habitat architecture. Once placed on the Martian surface, the habitat must autonomously expand to a habitable volume, providing a pressurized enclosure, thermal management, and radiation protection.
+## 1. Introduction
+The Martian environment requires enclosures that address low pressure, extreme temperatures, MMOD impacts, and heavy radiation. This design proposes a deployable architecture that fits within the fairing of a heavy launch vehicle (Starship) and withstands launch/landing loads while expanding autonomously on the surface to provide a pressurized, radiation-protected environment.
 
-## II. Design Method
-The design integrates several elements:
-1.  **Protective Casing:** A rigid shell divided into 3 identical parts that interlock during transportation. It includes docking interfaces for egress/ingress and windows for psychological wellbeing.
-2.  **Telescopic Core:** The primary rigid structure with a hexagonal base, containing technical units (sanitary, kitchen, hydroponics) and a water tank at the top for radiation protection and natural light (cupola).
-3.  **Expanding Girders:** Radially oriented foldable girders that push the casing elements outward using torsional and compressive springs.
-4.  **Inflatable Membrane:** A multi-layered system (Nomex, CepacHD200, Kevlar) that creates the pressurized environment. The outermost layer is a fillable chamber for loose regolith (up to 100cm thickness) for radiation and MMOD protection.
+## 2. Design Method
+The habitat consists of four integrated systems:
+1. **Casing (1):** A protective rigid shell divided into three identical parts that interlock for transport. It includes docking interfaces and windows.
+2. **Telescopic Core (2):** The primary rigid structure with a hexagonal base. It features a water-filled cupola on top for natural lighting and radiation protection.
+3. **Expanding Girders (3):** Radially oriented foldable girders that connect the core to the casing elements, initiated by springs to push the casing outward during deployment.
+4. **Inflatable Membrane (4):** A multi-layered hybrid system suitable for creating a pressurized environment.
 
-### II.D. Regolith Calculations
-Atmospheric and dead weight pressure are calculated as only 7.8% of the internal pressure (1 bar). Thus, the internal pressure can easily support the regolith layer.
-- $P_{regolith} = 7107.11 \text{ Pa}$
-- $P_{internal} = 100,000 \text{ Pa}$
+### Membrane Layers
+*   **Interior Layer:** Nomex (fire-resistant), CepacHD200 air bladders, and Kevlar felt.
+*   **Middle Part:** Woven Kevlar belts for pressure loads.
+*   **Outside Layer:** Dust protection and a fillable chamber layer for ground-up regolith (up to 100cm thick).
 
-## III. Arrival and Deployment Choreography
-The design allows for two units to be transported within the SpaceX Starship cargo space (100t capacity). Total weight of one habitat is approximately 28t. 
-- **Step 1:** Habitat placed at location.
-- **Step 2:** Casing elements unlock; girders push outwards.
-- **Step 3:** Membrane begins inflation, causing the core to slide vertically.
-- **Step 4:** Robotic filling of the outer membrane with regolith.
-- **Expansion Factor:** From 180m³ (compacted) to 921m³ (pressurized volume).
+## 3. Arrival and Deployment Choreography
+*   **Transport:** Two stacked habitats fit within the Starship fairing (Total weight ~28t each).
+*   **Deployment:** Casing elements unlock; compressive springs release girders; inflation initiates; the building pressure and kinematics double the core height.
+*   **ISRU Integration:** Once deployed, robotic missions fill the outer membrane chambers with regolith, providing simpler and faster protection than 3D sintering.
 
-## Table 1. Listing of Components
+## 4. Technical Data
 
-| Component | Material | Volume [m³] | Density [kg/m³] | Mass [kg] |
-| :--- | :--- | :--- | :--- | :--- |
-| core frame | aluminium | 0.26 | 2740 | 712.40 |
-| cupola structure | aluminium | 0.13 | 2740 | 356.20 |
-| cupola glass | glass | 0.15 | 2500 | 375.00 |
-| base | aluminium | 0.42 | 2740 | 1150.80 |
-| watertank | PE | 0.16 | 940 | 150.40 |
-| technical units | GF r. polymer | 0.80 | 1800 | 1440.00 |
-| girders | titanium | 0.25 | 4506 | 1126.50 |
-| floor | PE | 3.05 | 940 | 2867.00 |
-| casing shell | aluminium | 1.82 | 2740 | 4986.80 |
-| membrane struct. layer | kevlar | 2.34 | 1400 | 3279.50 |
-| membrane ext. layer | kevlar | 1.76 | 1400 | 2459.10 |
-| **TOTAL** | | | | **27988.53** |
+| Parameter | Value |
+| :--- | :--- |
+| Compacted Bounding Volume | ~180 m³ |
+| Deployed Habitable Volume | ~921 m³ |
+| Expandability Factor | ~5 |
+| Estimated Total Mass | 27,988.53 kg |
+| Crew Capacity | 4 - 6 persons |
+| Internal Pressure | 100,000 Pa (1 bar) |
+| Regolith Shielding Thickness | Up to 100 cm |
 
-## IV. Architectural Quality
-The floorplan is divided into two zones: social interaction (facing the kitchen/atrium) and quiet areas (crew quarters). The core acts as a vertical and horizontal circulation hub. Natural light is provided through the cupola and casing windows.
-
-## V. Conclusion
-The study proposes a hybrid deployable system that addresses transportation constraints and environmental challenges on Mars. The automated regolith-filling method is presented as a faster and lower-risk alternative to 3D sintering for shielding.
+## 5. Conclusion
+The design addresses transportation constraints and the harsh Martian environment through a modular, reconfigurable habitat. The integrated deployment mechanism allows for rapid occupancy with lower-risk ISRU approaches (regolith filling).
