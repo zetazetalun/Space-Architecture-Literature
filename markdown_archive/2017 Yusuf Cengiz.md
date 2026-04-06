@@ -1,31 +1,26 @@
 # SPACE RESEARCH AND EXTRATERRESTRIAL CONSTRUCTION INDUSTRY
 
 **Authors:** Yusuf Cengiz TOKLU (Okan University), Ali Erdem ÇERÇEVIK (Bilecik Seyh Edebali University)
-**Conference:** 2017 8th International Conference on Recent Advances in Space Technologies (RAST)
-**Publisher:** IEEE
+**Published in:** 2017 8th International Conference on Recent Advances in Space Technologies (RAST)
 
-## Abstract
-Advance of civilization has been realized through the ages by exploration of unknown parts of the Earth and by exploiting new resources thus acquired. Humans will now explore and exploit new areas beyond Earth. Habitation on these new space bodies will firstly necessitate construction of outposts. Thus construction on the Moon, Mars, and other space bodies is an important component of space research. This article presents an overview of space research together with innovations awaited in space construction industry.
+### Abstract
+Advance of civilization has been realized through the ages by exploration of unknown parts of the Earth and by exploiting new resources thus acquired. As a natural continuation of this process, humans will now explore and exploit new areas beyond Earth. Habitation on these new space bodies will firstly necessitate construction of outposts. This article presents an overview of space research together with innovations in the space construction industry and the feedback of these studies to the construction industry in general.
 
-## I. INTRODUCTION
-The process of globalization is considered complete. Human expansion is now moving towards "spatialization." The loop of resource discovery leading to economic and technological growth is now leading humans to extraterrestrial places.
+### I. Introduction
+Human expansion has historically followed a loop where new environments lead to richer resources, which in turn advance economy and technology, enabling further expansion. This process, termed 'globalization', is now moving towards 'spatialization' as we target the Moon, Mars, and beyond.
 
-## II. SPATIALIZATION - WORLD 2050
-By 2100, the human world will consist of Earth, Moon, Mars, and the space between them. Expansion beyond 2200 will likely include Jupiter and its satellites.
+### II. Spatialization - World 2050
+The paper predicts that by 2100, the human 'world' will encompass Earth, the Moon, Mars, and the space between them. Manned missions to Mars are expected around 2050.
 
-## III. PIONEERS OF GOING TO MOON AND MARS
-Only 10 countries have proved satellite launch capacity, and only three (US, Russia, China) have sent humans to space. Manned missions to Mars are expected around 2050. Private organizations are now also planning manned missions.
+### III. Habitation / Construction on Space Bodies
+Construction is a multidimensional task essential for founding outposts. Due to high transport costs (approx. $20,000/kg to the Moon), maximizing the use of in-situ materials is critical.
 
-## IV. HUMANS ON SPACE BODIES
-Extraterrestrial environments are hostile, requiring special measures for survival. Space research has already produced over 30,000 innovations that benefit terrestrial life.
+#### A. In-situ materials and plants on space bodies
+Five types of products are identified based on material source and manufacturing location:
 
-## V. HABITATION / CONSTRUCTION ON SPACE BODIES
-Construction on space bodies will be carried out by civil engineers in collaboration with other disciplines. Because of high transport costs ($20,000/kg to the Moon), ISRU is essential.
+**TABLE I. TYPES OF PRODUCTS ON SPACE BODIES**
 
-### A. In-situ materials and plants on space bodies
-Five types of products are considered for space bodies based on the origin of resources and the processing plant location:
-
-| Product Type | Resources: Earth | Resources: S. Body | Plant: Earth | Plant: S. Body |
+| PRODUCT | RESOURCES (EARTH) | RESOURCES (S. BODY) | PLANT (EARTH) | PLANT (S. BODY) |
 | :--- | :---: | :---: | :---: | :---: |
 | 1 | X | | X | |
 | 2 | X | | | X |
@@ -33,30 +28,30 @@ Five types of products are considered for space bodies based on the origin of re
 | 4 | | X | | X |
 | 5 | X | X | X | X |
 
-Initial uses of ISRU include regolith coverage for radiation protection and gabions filled with in-situ dust.
+Initial ISRU uses include:
+- Regolith coverage for radiation protection.
+- Construction of walls using reinforced regolith.
+- Gabions filled with in-situ dust.
 
-### B. A better understanding of structures
-Loads in space differ from Earth. Internal pressure is more critical than external gravitational loads in many designs. Key structural concepts include:
-- Constructions in lava tubes
-- Habitats embedded in regolith
-- Tensegric structures
-- Inflatable structures
-- Extensive use of prestressing
+#### B. Structural Considerations
+Key structural differences in space include:
+- Predominance of internal pressure over external gravitational loads.
+- Zero tolerance for cracks.
+- Use of lava tubes, inflatable structures, and tensegric structures.
+- Extensive use of prestressing.
 
-### C. Automated construction
-Due to the dangers of manual labor, mining and construction will be fully automated. Many kinds of robots will be developed for specialized works.
+#### C. Automated Construction
+Due to hazardous environments, construction will be fully automated. This includes automated mining, earthwork, and robotic assembly systems.
 
-### D. Special construction machines
-Machines will be electrically operated, tele-commanded, and designed to withstand lunar/Martian dust. Lightness is a challenge for stability, requiring special design measures.
+#### D. Special Construction Machines
+Lunar and Martian conditions require machines that are:
+- Electrically operated.
+- Fully automatic or tele-commanded.
+- Light-weight but powerful.
+- Protected against abrasive dust.
 
-### E. Nonlinearity
-Space structures will exploit materials to their maximum limits, requiring non-linear design approaches to save on supply costs.
+#### E. Building Information Systems (BIS)
+Structures will be 'smart', featuring sensors for pressure, temperature, CO2, and structural strain. These mechatronic systems will manage resources and security autonomously.
 
-### F. Building Information Systems (BIS)
-Structures will be managed by central systems using sensors (pressure, temperature, O2, stress/strain). These smart systems will act as mechatronic units.
-
-### G. Waste treatment
-Advanced recycling systems will treat liquid, solid, and gaseous wastes for repeated use.
-
-## CONCLUSIONS
-Civil engineering must adapt to new natures. The transition from globalization to spatialization marks a historical shift where humanity moves from Earth to space bodies using fully elaborated plans and feedback-driven innovations.
+### CONCLUSIONS
+Space construction is a natural continuation of human history. The transition from globalization to spatialization requires careful planning, where civil engineers must adapt to new environments and utilize local resources to ensure the success of extraterrestrial habitation.
