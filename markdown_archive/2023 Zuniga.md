@@ -1,42 +1,33 @@
 # SUITABILITY OF SILICONE FOR SOFT-ROBOTIC EXPLORATION OF TERRESTRIAL AND EXTRATERRESTRIAL OCEAN WORLDS
 
 **Authors:** A. Nuncio Zuniga, W. Fink
-**Affiliation:** Visual and Autonomous Exploration Systems Research Laboratory, University of Arizona
-**Journal:** Space Science and Technology, 2023, Vol. 29, No. 3, pp. 47–56
+**Journal:** Space Science and Technology (Космічна наука і технологія), 2023, Vol. 29, No. 3
 **DOI:** 10.15407/knit2023.03.047
 
-## ABSTRACT
-This work revisits mechanical and chemical properties of silicone rubber — Ecoflex — to assess its suitability for soft-robotic explorer construction and sealing for electronics in extreme planetary liquid environments, such as Earth's oceans and extraterrestrial ocean worlds (e.g., Europa, Titan, Enceladus). The study tests strain across temperatures, re-bonding properties for additive manufacturing, and resistance to dissolution in salt water and hydrocarbon liquids.
+## Abstract
+This work assesses the suitability of silicone rubber (Ecoflex) for constructing soft-robotic explorers and sealants for electronics in extreme planetary liquid environments, such as Earth's oceans and extraterrestrial ocean worlds (Europa, Titan, Enceladus). The study examines strain at varying temperatures, re-bonding properties for additive manufacturing, and resistance to dissolution in polar and non-polar liquids.
 
-## 1. INTRODUCTION
-Subsurface oceans on planetary bodies like Europa, Titan, and Enceladus are prime targets for astrobiological exploration. Current underwater autonomous vehicles are dominated by rigid frames, which limit access through small apertures. Soft robotics offers a more flexible paradigm. This paper evaluates silicone rubber for constructing these explorers and sealing their communication beacons and sensor pods.
+## 1. Introduction
+Subsurface oceans on planetary bodies like Europa, Titan, and Enceladus are primary targets for astrobiological exploration. This paper revisits the experimental suitability of silicone rubber for constructing flexible explorers and sealing communication beacons and sensor pods for these extreme environments.
 
-## 2. MATERIALS AND METHODS
-- **Material:** Ecoflex™ 00-30 silicone rubber (Smooth-On, Inc.).
-- **Testing Parameters:**
-  - **Strain Testing:** Various A:B mixing ratios (20:80, 50:50, 80:20) at temperatures from -5°C to 40°C.
-  - **Very Low Temperature Testing:** Freezing behavior tested at -7.5°C, -20°C, -80°C, and -196°C (liquid nitrogen).
-  - **Re-bonding:** Testing the ability of newly curing silicone to bond with previously cured samples (up to 6 days old).
-  - **Chemical Resistance:** Submersion in salt water (3.5% and saturated) and mineral oil (hydrocarbon stand-in).
-  - **Electrical Properties:** Tested encapsulation of a Raspberry Pi-based beacon for short-circuiting and signal transmission.
+## 2. Materials and Methods
+### 2.1 Ecoflex Overview
+Ecoflex 00-30 was tested using different A:B mixing ratios (20:80, 50:50, 80:20). It cures in approximately 4 hours at room temperature and is known for its resistance to freezing and high elasticity.
 
-## 4. RESULTS
-### 4.1. Strain Testing
-Increased amounts of compound A (hardener) led to a stiffer material. Strain results were largely temperature-independent within the measured range (-5°C to 40°C).
+### 2.2 Testing Procedures
+- **Strain Testing:** Rectangular prisms (1.25 x 1.00 x 7.50 cm) were tested at temperatures ranging from -5°C to 40°C under various clamp forces.
+- **Low Temperature Testing:** Samples were exposed to temperatures of -7.5°C, -20°C, -80°C, and -196°C (liquid nitrogen).
+- **Re-bonding Ability:** Cured samples were joined with fresh liquid Ecoflex to test the potential for additive manufacturing (3D printing).
+- **Chemical Resistance:** Submersion in salt water (3.5% and saturated) and mineral oil for multiple weeks.
+- **Electrical Non-conductivity:** Encapsulation of a Raspberry Pi Zero W to test for short-circuiting.
 
-### 4.2. Stretching to Failure
-At room temperature (~23°C), 50:50 mix prisms broke at an elongation of 553.3 ± 20.5%, lower than the manufacturer's claimed 900% but sufficient for robotic flexing.
+## 3. Results
+- **Mechanical Properties:** Increased amounts of compound A led to stiffer material. Strain results were largely temperature-independent within the -5°C to 40°C range.
+- **Elongation:** Room temperature stretching of 50:50 mix samples reached a breaking point at 553.3% ± 20.5% elongation (lower than the manufacturer's 900% claim).
+- **Temperature Resilience:** Samples did not freeze at -20°C but froze at -80°C. At -196°C, samples shattered. However, freezing was fully reversible; all samples returned to pre-freezing pliability once thawed to room temperature.
+- **Additive Manufacturing (Re-bonding):** New Ecoflex successfully bonded to samples up to 6 days old, creating an indistinguishable interface that did not break under stress.
+- **Chemical Resistance:** No signs of degradation in salt water for 21 days or mineral oil for two months.
+- **Hermeticity:** Encapsulated electronics maintained wireless communication for at least 21 days while submerged in saturated salt water.
 
-### 4.3. Very Low Temperature Testing
-Samples did not freeze at -20°C. They froze at -80°C and -196°C but returned to pre-freezing pliability once thawed. Liquid nitrogen submersion caused shattering, but the property was fully reversible upon warming.
-
-### 4.4. Re-bonding Ability
-Newly curing Ecoflex successfully bonded to samples up to 6 days old, creating an interface nearly indistinguishable from a single cure. This supports additive manufacturing applications.
-
-### 4.5. Dissolution and Conductivity
-- **Dissolution:** No degradation in salt water for 21 days or mineral oil for two months.
-- **Non-Polarity:** The material did not mix with polar dyes, confirming non-polarity during curing.
-- **Non-Conductivity:** A Raspberry Pi encapsulated in Ecoflex functioned perfectly without short-circuiting for 6 hours underwater.
-
-## 5. DISCUSSION & CONCLUSIONS
-Ecoflex 00-30 is an excellent encapsulation option for soft robotics in temperatures above -50°C. While too brittle for Titan's hydrocarbon lakes (~94 K), it is suitable for terrestrial oceans and potentially warmer subsurface water oceans on Europa and Enceladus. The re-bonding property allows for additive manufacturing and modular construction of robotic systems.
+## 4. Discussion & Conclusions
+Ecoflex 00-30 is an excellent material for soft-robotic construction and electronic encapsulation for temperatures above -50°C. While it may not remain flexible at the extreme lows of Titan's lakes (94 K), its re-bonding ability makes it highly suitable for additive manufacturing of robotic shells and sensor housings in aqueous extraterrestrial environments.
