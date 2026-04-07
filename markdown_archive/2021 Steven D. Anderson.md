@@ -1,49 +1,52 @@
 # Solar-Powered Additive Manufacturing in Extraterrestrial Environments
 
 **Authors:** Steven D. Anderson, Jekan Thangavelautham
-**Institution:** Space and Terrestrial Robotic Exploration Laboratory, Dept. of Aerospace and Mechanical Engineering, Univ. of Arizona, Tucson, AZ
-**Published in:** Earth and Space 2021 (ASCE)
+**Affiliation:** Space and Terrestrial Robotic Exploration Laboratory, Univ. of Arizona, Tucson, AZ
+**Conference:** Earth and Space 2021
+**Publisher:** ASCE
 
-## Abstract
-Kickstarting a space economy requires building habitats and infrastructure from in-situ resources. This paper proposes an additive manufacturing process based on selective laser sintering (SLS), replacing the laser with a Fresnel lens to focus sunlight. This system relies on renewable solar energy to sinter materials like sand and regolith. The study analyzes conceptual design, prototype development, and simulations to determine operating parameters for lunar and planetary construction.
+## ABSTRACT
+Kickstarting a space economy will require building communication relays, refueling depots, repair depots, habitats, and mining bases from in-situ resources in strategic locations between Earth, Moon, and Mars. Due to the high costs inherent in transporting resources from the Earth’s surface to these locations, new methods of material extraction and construction are necessary. This paper proposes the development of solar additive manufacturing printers for melting and use of sand for construction. The system replaces the laser in the Selective Laser Sintering (SLS) process with a large Fresnel lens to focus sunlight, relying fully on renewable solar energy.
 
-## Introduction
-Long-duration missions require sustainable construction methods for refueling depots, repair depots, and human/robotic habitats. Due to high transport costs from Earth, material extraction and utilization (ISRU) are paramount. 3D printing is a leading candidate for autonomous, pre-deployment construction.
+## INTRODUCTION
+As commercial and government agencies plan long-duration missions, a new economy requires infrastructure (refueling depots, habitats, etc.) on the Moon, Mars, and asteroids. High export costs make in-situ resource utilization (ISRU) paramount. 3D printing is a leading candidate for autonomous, pre-deployment construction.
 
-## Challenges to Extreme Environment Additive Manufacturing
-- **Material Availability:** In-situ resources are the only feasible option to cut costs, requiring extraction and refinement.
-- **Power Systems:** AM is energy-intensive. Heating processed material and operating electrical systems require significant power allocation in remote locations.
+## CHALLENGES TO EXTREME ENVIRONMENT ADDITIVE MANUFACTURING
+- **Material Availability:** Importing materials is too costly; ISRU is necessary but requires extraction and refinement.
+- **Power Systems:** Energy-intensive operations (gathering, refinement, heating) must be accounted for in remote locations.
 
-## Design Method: Solar SLS
-Selective Laser Sintering (SLS) is identified as more energy-efficient than Fused Deposition Modeling (FDM). 
-- **Energy Comparison:** A study found SLS consumed ~40 kWh/kg while FDM consumed ~115 kWh/kg for polymeric materials.
-- **Fresnel Lens:** Replaces the CO2 laser. It reduces weight while preserving optical performance to focus solar thermal energy directly onto the powder bed.
+## OBJECTIVE
+To develop an additive manufacturing method that is:
+1. Low-cost and low-energy.
+2. Adaptable to various extraterrestrial environments.
+3. Adherent to ISRU concepts.
+4. Suitable for autonomous operation.
 
-## Feasibility and Calculations
+## DESIGN METHOD
+While Fused Deposition Modeling (FDM) is common, it is energy-intensive. Selective Laser Sintering (SLS) is promising because it requires minimal material pre-processing and lower energy (sintering vs. melting). By replacing the CO2 laser with a Fresnel lens, energy requirements can be almost eliminated by using renewable solar energy.
 
-### Table 1: Solar Irradiance at Various Locations
-| Object | Mean Distance (AU) | Mean Solar Irradiance (W/m²) |
+### Energy Comparison
+| Process | Material | Specific Energy Consumption |
 | :--- | :--- | :--- |
-| Mercury | 0.387 | 9247 |
-| Venus | 0.723 | 2643 |
-| Earth/Moon | 0.995 | 1395 |
-| Mars | 1.520 | 597.9 |
-| Asteroid Belt | 2.700 | 189.5 |
-| Jupiter | 5.205 | 50.99 |
-| Saturn | 9.585 | 15.04 |
-| Uranus | 19.250 | 3.728 |
-| Neptune | 30.100 | 1.525 |
-| Pluto | 39.500 | 0.885 |
+| SLS | Polymeric | ~40 kWh/kg |
+| FDM | Polymeric | 115 kWh/kg |
 
-### Table 2: Achievable Lens Power (W)
-Calculated using a 1 m² lens at 50% efficiency.
-| Location | Achievable Lens Power (W) |
-| :--- | :--- |
-| Earth Surface | 393 |
-| Moon | 548 |
-| Mars | 235 |
+## FEASIBILITY AND CALCULATIONS
+Solar irradiance varies by location (Figure 6). The study calculates lens power using a conservative 50% efficiency estimate for a 1 m² Fresnel lens.
 
-### Table 3: Power Requirements and Feed Rates
+### Figure 6: Solar Irradiance (W/m²)
+| Object | Mean Sun Distance (AU) | Max Irradiance | Min Irradiance | Mean Irradiance |
+| :--- | :--- | :--- | :--- | :--- |
+| Earth/Moon | 0.995 | 1438 | 1354 | 1395 |
+| Mars | 1.520 | 725.3 | 501.3 | 597.9 |
+| Asteroid Belt | 2.700 | 285.4 | 134.9 | 189.5 |
+
+### Figure 8: Achievable Lens Power (W) for 1 m² Lens
+- Earth Surface: 393 W
+- Moon: 548 W
+- Mars: 235 W
+
+### Figure 9: Power Requirements and Feed Rates for Sintering
 | Location | Material | Required Sinter Power (W) | Feed Rate (mm/s) |
 | :--- | :--- | :--- | :--- |
 | Earth Surface | Sand | 351 | 2.50 |
@@ -51,13 +54,11 @@ Calculated using a 1 m² lens at 50% efficiency.
 | Mars | Basalt | 236 | 4.50 |
 | Deimos | Carbonaceous Chondrite | 97 | 5.00 |
 
-## Employment of Technology
-Solar sinter technology is best suited for a robotic fleet tasked with autonomous construction prior to human arrival. Concepts include a mobile rover equipped with a Fresnel lens and a leveling blade (similar to a road grader) to sinter foundations, roads, and structural components directly onto the surface.
+## EMPLOYMENT OF TECHNOLOGY
+The technology is best suited for an autonomous robotic fleet. A rover equipped with a Fresnel lens and a leveling blade (grader) would sinter regolith directly onto the surface to build foundations, roads, and structural components.
 
-## Experimental Design
-- **Objective:** Reach ~1100°C to sinter quartzite sand.
-- **Scale:** Mid-scale design (75cm x 75cm) for vacuum chamber testing.
-- **Control:** Arduino Mega and Ramps 1.4 board using Gcode; X-Y motion for the print bed while the focused beam remains fixed.
+## EXPERIMENTAL DESIGN
+The researchers are building a mid-scale prototype (75cm x 75cm) for testing in vacuum chambers. It uses an Arduino Mega and Ramps 1.4 for Gcode-based movement control of the print bed and solar tracking for the lens.
 
-## Conclusion
-Solar sintering offers a low-energy, ISRU-based alternative for extraterrestrial construction. By tuning parameters like travel rates and lens aperture, it provides high versatility for building essential infrastructure in power-constrained environments.
+## CONCLUSION
+Solar sintering offers a practical, low-energy alternative to FDM for extraterrestrial construction. By tuning print parameters like travel rates and focal points, the system can adapt to different materials and solar environments, enabling autonomous infrastructure development.
