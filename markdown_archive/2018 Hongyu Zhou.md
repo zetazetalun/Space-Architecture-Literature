@@ -1,1 +1,52 @@
-# Earth and Space 2018 600\n\n# Thermal and Mechanical Properties of Cementitious Composites for Additive Construction of Energy-Saving Habitats\n\nHongyu Zhou, Adam L. Brooks, Dominic Hanna, and Babak Salarieh\n\n**Abstract**\nLightweight cementitious composites (LWCC) are cement-based materials combined with lightweight fillers. Because of its advantages in reducing both structural weight and thermal conductivity, it has the potential to be used in the construction of terrestrial and extraterrestrial habitats. Furthermore, since it has relatively small and spherical-shaped aggregates, LWCC is also suitable for extrusion-based 3-D printing. In this research, a comprehensive and thorough study was carried out to investigate the effects of different lightweight fillers on both the mechanical and thermal properties of LWCC. Various lightweight fillers including three types of hollow glass microspheres (HGM) and two fly ash cenospheres (FACs) are studied in conjunction with various particle size, shell wall thickness, and volume fractions. Both mechanical and thermophysical properties were tested. The results indicated that the thermal property of LWCC is mostly governed by the volume fraction of LWFs whereas the mechanical properties are heavily affected by the type and property of LWF particles included. In addition, to understand the materials' mechanical performance under high strain rate, split Hopkinson pressure bar (SHPB) tests were conducted for strain rate ranging from 400 s⁻¹ to 1000 s⁻¹.\n\n## Introduction\n### Cementitious Materials for Additive Construction\nProvoked by recent advancements in additive manufacturing (Wu et al. 2016), 3D printable concrete has been explored as an alternative method to construct concrete structures. 3-D printing of cementitious materials has the potential to address several major challenges faced by the current concrete industry: (i) it eliminates the use of formwork (mold) and vibration; (ii) the highly automated construction process can reduce material waste and construction time; and (iii) it allows for a new approach for concrete design where composition can be parametrically varied.\n\n### Table 1. Properties of the lightweight particle fillers.\n| LWF Type | Material | Particle Size D10 (μm) | Particle Size D50 (μm) | Particle Size D90 (μm) | Wall Thickness - t (μm) | Density (g/cm³) | Crush Strength (MPa) |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| HGM K25 | Hollow glass microsphere (HGM) | 25 | 55 | 90 | 0.85 | 0.25 | 0.75 |\n| HGM S38HS | HGM | 19 | 44 | 70 | 1.20 | 0.28 | 5.5 |\n| HGM S60 | HGM | 12 | 29 | 48 | 1.49 | 0.60 | 10 |\n| FAC E106 | Fly ash cenosphere (FAC) | 42.6 | 81.3 | 125.2 | 4.8 | 0.91 | 1.6-3.2 |\n| FAC E200/600 | FAC | 81.3 | 349.1 | 457.2 | 16.5 | 0.82 | 1.6-3.2 |\n\n### Table 2. Density, mechanical, and thermal properties of LWCC tested.\n| Mix ID | LWMI Material Type | LWF Fraction vf (%) | Air Content (%) | Oven Dry Density (kg/m³) | Compressive Strength (MPa) | Thermal Conductivity (W m⁻¹K⁻¹) |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| K25-0 | Reference | 0 | 5 | 1974 | 55.1 | 2.30 |\n| K25-4 | HGM K25 | 29.3 | 3.5 | 1344 | 21.5 | 0.62 |\n| S38HS-4 | HGM S38HS | 28.59 | 1.25 | 1434 | 35.2 | 0.66 |\n| S60-2 | HGM S60 | 14.60 | 1.25 | 1836 | 61.2 | 1.35 |\n| E106-2 | FAC E106 | 13.75 | 2.75 | 1787 | 59.7 | 1.44 |\n| E200/600-4 | FAC E200/600 | 24.51 | 6 | 1396 | 35.4 | 0.80 |\n\n## Conclusions\n- Thermal properties of LWCCs are primarily dictated by the volume fraction of LWF and are insensitive to the type of LWF used.\n- Mechanical properties are greatly affected by LWF particle properties including size, shell thickness, and crushing strength.\n- LWCC materials are suitable for structural load bearing if LWF volume fraction is controlled.\n- Smaller size LWF particles are better distributed and suitable for extrusion-based additive construction.\n- LWCC is strain-rate sensitive under dynamic compressive loading.
+# Thermal and Mechanical Properties of Cementitious Composites for Additive Construction of Energy-Saving Habitats
+
+**Authors:** Hongyu Zhou, Adam L. Brooks, Dominic Hanna, and Babak Salarieh
+**Affiliation:** Dept. of Civil and Environmental Engineering, Univ. of Alabama in Huntsville, Huntsville, AL 35758, USA
+**Published in:** Earth and Space 2018
+
+## ABSTRACT
+Lightweight cementitious composites (LWCC) are cement-based materials combined with lightweight fillers (LWF). Because of its advantages in reducing both structural weight and thermal conductivity, it has the potential to be used in the construction of terrestrial and extraterrestrial habitats. Since it has relatively small and spherical shaped aggregates, LWCC is also suitable for extrusion-based 3D printing. This research investigates the effects of different lightweight fillers (hollow glass microspheres (HGM) and fly ash cenospheres (FACs)) on the mechanical and thermal properties of LWCC.
+
+## INTRODUCTION
+3D printable concrete has been explored as an alternative method to construct concrete structures. It eliminates formwork, reduces labor costs, and allows for highly automated construction with optimized material design. LWCC reduces structural weight and dead loads while improving thermal resistance and fire resistance compared to normal-weight concrete.
+
+## EXPERIMENTAL PROGRAM
+### Material Preparation and Mixture Design
+- **Binder:** ASTM Type I/II Portland cement, silica sand, water, and superplasticizer.
+- **Water/Cement Ratio (w/c):** 0.43.
+- **Fillers (LWF):** 
+  - Hollow Glass Microspheres (HGM): K25, S38HS, S60.
+  - Fly Ash Cenospheres (FAC): E106, E200/600.
+- **Volume Fractions (vf):** 7%, 14%, 21%, and 28%.
+
+### Table 1. Properties of the lightweight particle fillers.
+| LWF Type | Material | D10 (μm) | D50 (μm) | D90 (μm) | Wall Thickness (μm) | Density (g/cm³) | Crush Strength (MPa) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| HGM K25 | Hollow Glass | 25 | 55 | 90 | 0.85 | 0.25 | 0.75 |
+| HGM S38HS | Hollow Glass | 19 | 44 | 70 | 1.20 | 0.28 | 5.5 |
+| HGM S60 | Hollow Glass | 12 | 29 | 48 | 1.49 | 0.60 | 10 |
+| FAC E106 | Fly Ash | 42.6 | 81.3 | 125.2 | 4.8 | 0.91 | 1.6-3.2 |
+| FAC E200/600 | Fly Ash | 81.3 | 349.1 | 457.2 | 16.5 | 0.82 | 1.6-3.2 |
+
+## RESULTS AND DISCUSSION
+### Compressive Strength
+Compressive strength is a function of LWF particle size and shell property. Strength generally increases with higher HGM concentration at low volume fractions (<15%) due to improved rheology. However, strength decreases at higher volume fractions (>15%) as hollow structures allow crack propagation. Smaller particles with thicker shells (e.g., S60) yield higher mechanical strength compared to larger, thinner-walled particles (e.g., K25).
+
+### Thermal Properties
+Thermal conductivity is primarily dictated by the volume fraction of LWF rather than the type or size of the filler. As LWF volume fraction increases to 28%, thermal conductivity reduces to approximately 0.65-0.8 W/m·K, compared to 2.1-2.2 W/m·K for the control mortar.
+
+### Table 2. Density, mechanical, and thermal properties of LWCC tested (Selected Data).
+| Mix ID | LWF Fraction vf (%) | Oven Dry Density (kg/m³) | Compressive Strength (MPa) | Thermal Conductivity (W/m·K) |
+| :--- | :--- | :--- | :--- | :--- |
+| K25-0 | 0 | 1974 | 55.1 | 2.30 |
+| K25-4 | 29.3 | 1344 | 21.5 | 0.62 |
+| S60-2 | 14.60 | 1836 | 61.2 | 1.35 |
+| E106-3 | 21.00 | 1669 | 62.8 | 1.15 |
+| E200/600-4 | 24.51 | 1396 | 35.4 | 0.80 |
+
+## CONCLUSIONS
+1. Thermal properties are dictated by the volume fraction of LWF and are insensitive to the filler type.
+2. Mechanical properties are greatly affected by particle size, shell thickness, and crushing strength.
+3. LWCC materials are suitable for structural load-bearing in habitats if volume fractions are controlled.
+4. Smaller LWF particles are better distributed and highly suitable for extrusion-based additive construction.
+5. LWCC compressive behavior is strain-rate sensitive, with dynamic strength increasing significantly under high-impact loading.
