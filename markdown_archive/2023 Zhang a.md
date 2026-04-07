@@ -1,45 +1,34 @@
 # Multi-objective design optimization of clam-inspired drilling into the lunar regolith
 
-**Authors:** Liang Zhang, Lei Wang, Quan Sun, Jesus Badal, Qiushi Chen  
-**Journal:** Acta Geotechnica (2024) 19:1379–1396  
-**DOI:** https://doi.org/10.1007/s11440-023-02119-5
+**Authors:** Liang Zhang, Lei Wang, Quan Sun, Jesus Badal, Qiushi Chen
+**Published:** Acta Geotechnica (2024)
+**DOI:** 10.1007/s11440-023-02119-5
 
 ## Abstract
-In recent years, many nations have launched lunar exploration missions. Characterization of the lunar regolith is critical for the extraction and utilization of in situ resources for building a permanent base on the Moon. However, due to many challenges faced in the drilling operation on the Moon (e.g., high cost, low gravity, and other lunar environment conditions), there is a need to develop efficient drilling tools for in situ characterization of lunar regolith. Seeking an optimal lunar drill design with effective and efficient controlling strategies has become a matter of urgency. This paper presents a two-stage multi-objective optimization design framework for the clam-inspired drill design into the lunar regolith.
+In recent years, many nations have launched lunar exploration missions. Characterization of the lunar regolith is critical for the extraction and utilization of in situ resources for building a permanent base on the Moon. This paper presents a two-stage multi-objective optimization design framework for a clam-inspired drill into the lunar regolith using the discrete element method (DEM) based on lunar highlands simulant (LHS-1) parameters. The framework optimizes both geometry (anchor height, shape, cone apex angle) and controlling strategies (velocities and anchor-cone distance) to minimize construction cost and power consumption while maximizing drilling effectiveness and efficiency.
 
-## 1 Introduction
-The recent Artemis mission has highlighted the necessity for utilizing the in situ resources on the Moon for NASA’s long-term strategy to build technologies for further space exploration. With limited resources on the Moon, the lunar regolith has great prospects in the construction and habituation on the Moon. Drilling, as one of the most effective and straightforward approaches to characterizing the lunar regolith, is crucial for studies on the lunar regolith.
+## 1. Introduction
+Artemis missions highlight the necessity for utilizing in situ resources on the Moon. Drilling is essential for site investigation and resource characterization. Bio-inspired strategies, such as clam-inspired designs, offer potential for high-efficiency, low-cost drilling tools suitable for extreme lunar environments characterized by low gravity and high transport costs.
 
-## 2 Two-stage multi-objective optimization framework
+## 2. Methodology
+### 2.1 Numerical Modeling
+- **Software:** 3D DEM-based program Particle Flow Code (PFC3D) v7.0.
+- **Simulant:** Lunar Highlands Simulant (LHS-1).
+- **Gravity:** 1.625 m/s².
+- **Drilling Phases:** 
+  1. Phase I: Cone penetration.
+  2. Phase II: Anchor expansion.
+  3. Phase III: Self-penetration.
 
-### 2.1 Numerical modeling of the clam-inspired drilling process
-The razor clam consists of a slender rigid shell, two convex shell valves, and a stretchable foot. The drilling process can be divided into three phases: 
-1. **Phase I:** Cone penetration.
-2. **Phase II:** Anchor expansion.
-3. **Phase III:** Self-penetration.
+### 2.2 Optimization Framework
+- **Stage 1 (Geometry):** Objectives include minimizing construction cost (surface area) and total power consumption. Parameters: Anchor height (H), Anchor shape (b), Cone apex angle (α).
+- **Stage 2 (Control Strategies):** Objectives include maximizing drilling effectiveness (E1) and efficiency (E2). Parameters: Downward velocity (VD), Rotation velocity (VR), Expansion velocity (VE), Anchor-cone distance (L).
 
-The 3D DEM-based program Particle Flow Code (PFC3D) version 7.0 is adopted for the numerical simulations. The lunar regolith is represented using the lunar highlands simulant (LHS-1).
+## 3. Results
+- **Optimal Geometry:** Identified at the knee point of the Pareto front: H = 3r, b = 5r, α = 60°.
+- **Optimal Strategies:** VD = 0.01 m/s, VR = 0 (no rotation preferred for efficiency in the specific optimized model), VE = 0.01 m/s, and L = 3r.
+- **Effect of Geometry:** Cylinder-shaped anchors and sharp tips are more effective at reducing penetration resistance.
+- **Effect of Control:** Low downward and expansion velocities allow more time for regolith particles to transfer load, improving performance.
 
-### Table 1: Input parameters adopted for the numerical simulations
-| Parameter | Value |
-| :--- | :--- |
-| Particle density, ρ (kg/m³) | 2720 |
-| Porosity, n | 0.45 |
-| Particle radius, rp (m) | 0.004 |
-| Damping coefficient, γ (kg/s) | 0.7 |
-| Ball-wall friction coefficient, fpw | 0.3 |
-| Coefficient of sliding friction, fps | 0.9 |
-| Coefficient of rolling friction, fpr | 0.3 |
-| Particle effective modulus, E* (Pa) | 5 × 10⁷ |
-| Normal-to-shear stiffness ratio, K* | 1.0 |
-| Wall normal stiffness, kn (N/m³) | 1.5 × 10⁷ |
-| Wall shear stiffness, ks (N/m³) | 1.5 × 10⁷ |
-
-## 3 Results of multi-objective optimization
-- **Geometry Optimization:** The shortest anchor height (H=3r) is identified as the most preferable design because it causes minimal difference on candidates while contributing to more stress relaxation. A cone apex angle of α = 60° reaches an optimal trade-off between construction cost and total power consumption.
-- **Control Strategy Optimization:** The final optimal design of the controlling strategies is determined as VD = 0.01 m/s (downward velocity), VR = 0 (rotation velocity), VE = 0.01 (expansion velocity), and L = 3r (anchor-cone distance).
-
-## 5 Concluding remarks
-1. Cylinder-shaped anchors and sharp tips are effective in the reduction of penetration resistance.
-2. Optimal drill geometry is determined as an arc-shaped anchor with the smallest height and moderate cone apex angle (H = 3r, b = 5r, and α = 60°).
-3. Low downward velocity and low expansion velocity contribute to the decrease of penetration resistance by allowing regolith particles time to transfer load and adjust stress states.
+## 4. Conclusion
+The two-stage optimization framework provide an efficient solution for bio-inspired drill design on the Moon. The optimal design balances the trade-off between power consumption and drilling performance, serving as a guide for future extraterrestrial sub-surface exploration tools.
