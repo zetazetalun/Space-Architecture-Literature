@@ -1,49 +1,49 @@
 # The Research Facility on the Moon
 
-**Mikolaj S. Trus**
-Graduate of the Architecture Studies, Cracow Univ. of Technology, Kraków, Poland.
+**Author:** Mikolaj S. Trus  
+**Affiliation:** Graduate of the Architecture Studies, Cracow Univ. of Technology, Kraków, Poland.
 
-## ABSTRACT
+### ABSTRACT
 The research facility on the Moon is an experimental, structural design for space exploration. It was developed as the Student Master Thesis at Cracow University of Technology, Faculty of Architecture. The main goal was to introduce innovative extraterrestrial architecture. Modularity, multifunctionality, and simplicity of the concept were key objectives. It was crucial to ensure the safety of the lunar crew. The facility is formed from seven modules. The construction of each of them consists of repetitive, easy to transport components. Project is prepared to host twelve astronauts, but it is expected to expand in the future.
 
-## INTRODUCTION
+### INTRODUCTION
 
-### Historical background
-The history of spaceflight spans nearly eighty years, from the V2 rocket crossing the Karman line in 1944 to the Apollo missions. Recently, lunar exploration has regained popularity with a focus on facilities, 3D printing, and new materials.
+**Historical background.** Research on the Moon facilities, transport possibilities, 3d-printing technology, new materials and space ergonomy has taken a faster turn. Architecture and studies in this field can freely go beyond the borders of reality and break away from planet's surface.
 
-### Concept
-The crewed base concept was born in February 2019. Strict requirements regarding mass, dimensions, and form were defined by transport limitations. The Moon’s environment poses threats including low gravity, lack of atmosphere, meteors, solar radiation, and extreme temperature amplitudes.
+**Concept.** The idea of a crewed base on the Moon was born in February 2019. Difficulties related to transport defined strict requirements regarding mass, dimensions, and form. The Moon environment is hostile, characterized by low gravity, no atmosphere, meteors, and solar radiation.
 
-## METHODS
+### METHODS
 
-- **Hand drawing:** Used for initial visualization, concluding that spherical shapes are most efficient.
-- **Virtual model:** Geometry was developed in Blender 3D. Truncated icosahedrons were identified as the most useful modular units.
-- **3D printing:** A physical scale model (1:200) was produced to verify the results of the virtual design.
-- **Technical drawings:** CAD programs were used to create detailed sections and floor plans.
+1. **Hand drawing:** Focused on visual stimuli and fast visualization of experimental ideas. Defined the spherical shape as most efficient.
+2. **Virtual model:** Visualizing geometry in Blender 3D. Precisely controlled shape, scale, and modularity. Defined truncated icosahedrons as the most useful base geometry.
+3. **3d printing:** Used to verify virtual design results by creating scaled physical models.
+4. **Technical drawings:** Produced detailed sections and floorplans using CAD programs to ensure clarity and determine functional interiors.
 
-## RESULTS
+### RESULTS
 
-### Construction
-The research chose a rigid assembly system over inflatables for better predictability in altered gravity and safety. The form is based on a truncated icosahedron (12 regular pentagons, 20 regular hexagons). 
-- **Module Dimensions:** 10.02 m diameter; 520 m³ accessible volume.
-- **Sub-division:** The spherical modules are divided into 20 repetitive triangular elements to solve transport issues.
-- **Corridors:** Two types (pentagonal and hexagonal) serve as connection nodes, allowing for unlimited expansion (vertical, horizontal, or spherical).
+**Construction.** A rigid assembly system was chosen over inflatables for predictability in lunar gravity. The design uses a truncated icosahedron shape (12 pentagons, 20 hexagons) for optimal pressure distribution and volume-to-surface ratio. 
+- **Exoskeleton:** A light rod construction system reinforced with internal support bars.
+- **Modularity:** The structure is divided into twenty repetitive triangular elements.
+- **Corridors:** Based on elongated antiprisms (pentagonal or hexagonal) connecting the spherical modules.
 
-### Protection
-A multilayer shell was designed to mitigate radiation and temperature amplitude:
-1. **Internal layer:** 20 cm thick thermal insulation.
-2. **Vacuum gap:** 5 cm space acting as a thermal insulator.
-3. **External layer:** 5 cm thick layer to absorb solar radiation and temperature differences.
-4. **Regolith:** A final stage involves covering the structure with lunar regolith for radiation and meteor protection.
+**Protection.** A multilayer shell system was defined to counter radiation and temperature amplitude:
+- **Internal layer:** 20 cm thick thermal insulation.
+- **Middle layer:** 5 cm vacuum gap as a thermal insulator.
+- **External layer:** 5 cm thin layer to absorb temperature differences and radiation.
+- **Final shielding:** The structure is intended to be covered with lunar regolith.
 
-### Function
-The basic complex consists of seven modules:
-- Six modules arranged in a circle (3 high, 3 low) on light posts to minimize ground contact.
-- One central module acting as a common space and communication node.
-- Capacities: Sleeping areas for 4 astronauts per module, laboratory sectors, dining areas, and a gym.
+**Function.** The basic concept consists of seven spherical modules (six in a circle, one central node).
+- **Top modules:** Living and sleeping areas for 4 astronauts each.
+- **Bottom modules:** Dining/kitchen, laboratory sector, and a gym.
+- **Capacity:** Designed for a crew of twelve.
 
-## DISCUSSION
-The concept utilizes repetitive rigid components rather than the inflatable approach favored by designs like Foster + Partners. While both address transport constraints, this modular system emphasizes additive growth and structural predictability.
+**Dimensions:**
+- **Module Diameter:** 10.02 m
+- **Module Volume:** 520 m³
+- **Truncated Icosahedron Edge:** 2.10 m
 
-## CONCLUSION
-The design addresses the physical and structural requirements of the lunar environment through modular polyhedrons. It provides a flexible and adjustable framework for a lunar research facility capable of hosting twelve astronauts with potential for expansion.
+### DISCUSSION
+The concept is compared to the Foster + Partners Lunar Habitation project. While the Foster design uses inflatable modules and 3D-printed regolith shells, this proposal utilizes repetitive rigid components and a vacuum-insulated shell system, with regolith added in later stages.
+
+### CONCLUSION
+The research proves the potential of regular polyhedrons in extraterrestrial architecture. Transport issues are resolved via repetitive modular components. The concept meets structural and physical requirements for the lunar environment, offering a flexible and adjustable design for a Research Facility On The Moon.
