@@ -1,22 +1,23 @@
 # Arching Effect of Planetary Regolith Simulant under Extraterrestrial Gravities
 
 **Authors:** Ruilin Li, Guoqing Zhou, and Matthew R. Hall
-**Journal:** Journal of Aerospace Engineering (ASCE)
-**Date:** 2018
+**Journal:** Journal of Aerospace Engineering, ASCE
+**Date:** November 2018
 **DOI:** 10.1061/(ASCE)AS.1943-5525.0000927
 
 ## Abstract
-This paper studies the influence of extraterrestrial gravities on the arching effect surrounding deeply buried structures in planetary regolith using trapdoor experiments. Off-earth regoliths are physically simulated using a magnetically sensitive planetary regolith simulant, whereas gravities are simulated by applying a uniform magnetic body force. The results show that gravity has a significant influence on both the unloading rate for soil pressure on the trapdoor and the reduction in soil pressure.
+Attention has been devoted to the construction of off-earth base construction and mineral mining in recent years. This paper studies the influence of extraterrestrial gravities on the arching effect surrounding deeply buried structures in planetary regolith using trapdoor experiments. Off-earth regoliths are physically simulated using a magnetically sensitive planetary regolith simulant, whereas the gravities are simulated by applying a uniform magnetic body force. The results show that the gravity has a significant influence on both the unloading rate for soil pressure on the trapdoor and the reduction in soil pressure. 
 
-## 1. Introduction
-Off-earth base construction and mineral mining are primary mission goals for Moon and Mars exploration. Significant challenges exist in off-earth geotechnical engineering due to different environmental and geomaterial properties. Lunar regolith (0–15 m thickness) and Martian regolith exhibit unique porosity-related weak interparticle cohesion due to electrostatic charges and ultrahigh vacuums.
+## Introduction
+Off-earth base construction and mineral mining will be primary missions. However, significantly different environments and geomaterial properties on the surface of the Moon, Mars, or asteroids bring challenges to off-earth geotechnical engineering. The arching effect is a universal phenomenon resulting in a redistribution of soil pressure on underground structures.
 
-## 2. Trapdoor Experiments
-### 2.1 Planetary Regolith Simulant
-A magnetically sensitive simulant was developed to model:
-- Granular morphology
-- Fine-grained particles
-- Porosity/density-dependent weak interparticle cohesion
+## Trapdoor Experiments
+
+### Planetary Regolith Simulant
+A magnetically sensitive planetary regolith simulant was developed to model off-earth regoliths. Typical characteristics simulated include:
+1. Granular morphology.
+2. Fine-grained particles.
+3. Porosity/density-dependent weak interparticle cohesion.
 
 **Table 1: Physical properties of magnetic particles and quartz particles**
 | Category | Quartz particles | Magnetic particles |
@@ -25,24 +26,18 @@ A magnetically sensitive simulant was developed to model:
 | Special surface area (m²/g) | 0.21 | 6.00–7.00 |
 | Bulk density (kg/m³) | 2,650 | 600 |
 | Specific gravity | 2.64 | 2.83 |
-| Details | SiO₂: 99.40% | Saturation magnetization: 60–120 emu/g |
+| Details | SiO₂: 99.40%; Fe₂O₃: 0.03%; Al₂O₃: 0.20% | Saturation magnetization: 60–120 emu/g |
 
-### 2.2 Extraterrestrial Gravities Simulation
-Gravities were simulated by applying a magnetic body force to the simulant using a magnetic device consisting of a long solenoid and conjugate short solenoids. This allowed for simulated gravitational accelerations ($g_m$) ranging from $0.3g$ to $2.9g$.
+### Extraterrestrial Gravities Simulation
+Extraterrestrial gravities were simulated by applying a magnetic body force to the simulant using a magnetic device consisting of solenoids. This allowed simulation of gravities ranging from 0.3g to 2.9g.
 
-## 3. Results and Discussion
-### 3.1 Unloading Rates
-- Soil pressure and normalized soil pressure unload rapidly at lower gravity.
-- The unloading rate for soil pressure increases as gravity increases.
-- The normalized soil pressure appears to reach a stable state at higher gravity levels.
+## Key Experimental Results
+- **Soil Pressure Evolution:** Gravity significantly influences the unloading rate. Soil pressure unloads rapidly when moving the trapdoor down at lower gravity.
+- **Normalized Pressure:** As gravity increases, the normalized soil pressure appears to reach a stable state.
+- **Unloading Rate:** The unloading rate for soil pressure increases with gravity, while the rate for normalized soil pressure decreases.
 
-### 3.2 Theoretical Solution
-A theoretical solution for soil pressure on the trapdoor is proposed, accounting for:
-- Gravity-induced stress levels
-- Stress gradients on interparticle friction resistance
-- Parabolic slip surfaces inside the regolith
+## Theoretical Considerations
+A theoretical solution was proposed accounting for gravity-induced stress levels and stress gradients on interparticle friction. The predicted values demonstrate good agreement with experimental results, especially under low-gravity conditions.
 
-## 4. Conclusions
-- Unloading rates for soil pressure on trapdoors are strongly affected by gravity.
-- Soil pressure reduction increases when gravity increases, though the normalized quantity decreases.
-- The proposed theoretical solution provides a method to estimate downward loading on trapdoor-like underground structures in off-earth engineering applications.
+## Conclusions
+The experiments indicate that gravity strongly affects both the unloading rate and pressure reduction. The study provides an approach to estimate downward loading on trapdoor-like underground structures (e.g., buried modules or tunnels) in off-earth engineering.
