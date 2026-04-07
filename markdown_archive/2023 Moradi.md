@@ -1,1 +1,25 @@
-# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on mars\n\n**Authors:** Kasra Amini, Mojgan Moradi, Bahareh Vossoughi, Ehsan Dehghani Janabadi\n**Journal:** MethodsX 11 (2023) 102270\n**DOI:** 10.1016/j.mex.2023.102270\n\n## Abstract\nCentered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members... This manuscript provides detailed insight on the lessons learned of the aforementioned comprehensive design attempt with, but not limited to, the following core concerns: redundancy, modularity, and geometric modularity.\n\n## Method details\n### Background\nThe survival-only mission mentality will morph to a more settlement-type inhabitation. The study presents the Martian Habitat Units (MHUs), focusing on geometric specifications, power generation systems, and manufacturing/construction planning.\n\n### Design process\nThe challenge of designing habitat units in an unconventional design context like Mars is put into an architectural framework. The proportion of spaces are calculated based on a module of 4 x 4 x 4 m3 growing in three steps (four, six, and nine residents). MHUs use a hierarchical modular pattern and an adjustable exterior flow controlling mechanism known as the Anti-Dust Settlement Membrane (ADSM).\n\n### Construction\nTo make interactions possible for AI-assisted 3D printing, geometric properties of the building envelope are defined by equations. The process utilizes in-situ materials (Martian regolith) to minimize transportation costs.\n\n## Technical Specifications\n\n### Table 4: Primary power generation source nuclear fission reactor kilopower\n| Items | Specifications |\n|---|---|\n| Fuel | Solid U235 |\n| Cooling | Passive sodium liquid heat pipes |\n| Reactor thermal power | 43.3 kWt |\n| Power conversion output | 10 kWe |\n| Number of reactors per MHU | 18 - 27 |\n| Consumable daily energy per MHU | 2959.2 – 4438.8 kWh/day |\n\n### Table 5: Secondary power generation source multi-junction photovoltaic cell\n| Design Parameters | Specifications |\n|---|---|\n| Area per MHU | 3400 m2 |\n| Efficiency | 33% |\n| Lowest daily average radiation | 0.644 kW/m2 |\n| Performance ratio | 75% |\n| Consumable daily energy per MHU | 3251.53 kWh/day |\n\n### Table 7: MHU energy consumption\n| Items | Values |\n|---|---|\n| MHU total energy consumption (9-crew) | 1087.61 kWh/day |\n| Safety factor | 3 |\n| Total daily energy demand per MHU | 3262.8 kWh/day |\n\n## Conclusion\nThe MHUs are designed to operate as a research base for long-duration presence. The use of AI-assisted 3D printing with in-situ materials significantly reduces construction payloads. Energy security is managed through a redundant mix of nuclear fission reactors, solar farms, and wind turbines.
+# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on mars
+
+## Abstract
+Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members to live and carry on with the local challenges of scientific and exploratory life. The manuscript provides detailed insight into lessons learned regarding design concerns, redundancies, and geometric modularity.
+
+## Method Details
+- **Method Name:** Iterative Design
+- **Focus:** Space Technology, Architecture, and Space Colonization.
+- **Design Requirements:** Derived from NASA-STD-3001, DRA 5.0, and COSPAR policies.
+
+## Design Specifications (MHUs)
+- **Modularity:** 4-layered hierarchy of hexagonal constructs with a growth rate of √3.
+- **Structure:** Two-decked habitat with communal/working areas on the bottom level and private suites on the second level.
+- **Envelope:** Cube dimensions of 73.96 × 51.7 × 14–24 m.
+- **Protection:** Anti-Dust Settlement Membrane (ADSM) - a paraboloid dome-shaped membrane on top of the units to minimize dust settlement and control flow fields.
+
+## Construction and Manufacturing
+- **Method:** AI-assisted 3D printing using in-situ materials (Martian regolith).
+- **Process:** Robotic arms provide granulated Martian regolith as raw material for 3D printers to construct main structures before crew arrival.
+- **Redundancy:** Three-fold redundancy in 'Active/Active' operational mode for safety and reliability.
+
+## Power Systems
+- **Primary:** Nuclear fission (NASA Kilopower reactors). 18-27 reactors per MHU are proposed.
+- **Secondary:** Multi-junction photovoltaic cells (Solar farm).
+- **Tertiary:** Horizontal axis wind turbines (HAWT) for use during dust storms.
