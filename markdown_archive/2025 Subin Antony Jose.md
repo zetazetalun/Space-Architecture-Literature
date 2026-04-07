@@ -1,53 +1,51 @@
 # In-Space Manufacturing: Technologies, Challenges, and Future Horizons
 
+**Authors:** Subin Antony Jose, Jordan Jackson, Jayden Foster, Terrence Silva, Ethan Markham and Pradeep L. Menezes  
+**Publisher:** MDPI, Journal of Manufacturing and Materials Processing  
+**Published:** March 5, 2025  
+**DOI:** 10.3390/jmmp9030084
+
 ## Abstract
-In-space manufacturing (ISM) represents a transformative frontier in space exploration and industrial production, offering the potential to revolutionize how goods are produced and resources are utilized beyond Earth. This paper explores multifaceted aspects of ISM, including its evolution, technologies, challenges, and future prospects. It examines terrestrial and space-based manufacturing processes, emphasizing additive manufacturing (AM), advanced materials processing, autonomous robotic systems, and biomanufacturing. Key concepts such as resource optimization and reduction of launch costs are analyzed alongside challenges like microgravity, vacuum conditions, and radiation exposure. Ultimately, this work provides a comprehensive roadmap for advancing ISM technologies for sustainable and scalable space exploration.
+In-space manufacturing (ISM) represents a transformative frontier in space exploration, offering the potential to revolutionize how goods are produced and resources are utilized beyond Earth. This paper explores the multifaceted aspects of ISM, including its evolution, technologies, challenges, and future prospects. It emphasizes additive manufacturing, advanced materials processing, and autonomous robotic systems while addressing the unique constraints of the space environment.
 
 ## 1. Introduction
-In-space manufacturing (ISM) refers to the production and fabrication of components in environments beyond planetary surfaces, typically in microgravity or strong vacuum conditions. Since the 1960s, ISM has progressed from Skylab experiments to advanced manufacturing on the ISS. ISM enables on-demand fabrication, repair, and recycling, which is critical for missions venture further from Earth where resupply is prohibitive. Primary objectives include waste reduction, in-situ damage repair, and the construction of structures necessary for extended space exploration.
+In-space manufacturing refers to production in environments beyond planetary surfaces, typically in microgravity or vacuum. Primary objectives include on-demand fabrication, repair, and recycling of components to reduce launch mass and minimize dependence on Earth-based supply chains.
 
 ## 2. Technologies and Methods for ISM
-### 2.1 Additive Manufacturing in Microgravity
-AM (3D printing) is a critical technology for ISM. Several distinct processes are summarized in Table 1:
 
-**Table 1. Additive manufacturing processes and challenges.**
+### 2.1. Additive Manufacturing (AM) in Microgravity
+AM is a critical technology for reducing launch costs. Processes are summarized in Table 1:
+
 | Process | General Description | Challenges |
 | :--- | :--- | :--- |
-| Filament-based material extrusion | Extrudes filament through a nozzle under pressure | Limited to direct polymer processing |
-| Powder Bed Fusion | Fuses powder layers using a high-energy source | Safety hazards from metallic powders |
-| Directed Energy Deposition | Deposits and fuses materials using thermal energy | Limited control over material during deposition |
+| Filament-based material extrusion | Extrudes filament through nozzle under pressure | Limited to direct polymer processing |
+| Powder Bed Fusion | Fuses powder layers using high-energy source | Safety hazards (metallic powders) |
+| Directed Energy Deposition | Deposits/fuses materials using thermal energy | Limited control during deposition |
 | Vat Photopolymerization | Cures liquid photopolymers with light | Requires specialized materials |
-| Material Jetting | Deposits charged droplets through a deflection field | Processing challenges |
-| Binder Jetting | Deposits liquid binder onto powdered material | Unproven in microgravity |
+| Material Jetting | Deposits charged droplets through deflection | Limited variety and processing issues |
+| Binder Jetting | Deposits liquid binder onto powder | Unproven in microgravity |
 | Sheet Lamination | Bonds layers via adhesive, welding, or heat | Unproven in microgravity |
 
-### 2.2 Advanced Materials and Their Processing in Space
-Materials like titanium alloys, polyimides, and metal matrix composites are being adapted for space. Table 2 outlines their functionalities:
+### 2.2. Advanced Materials
+Key materials for ISM include:
+- **Titanium Alloys:** High strength-to-weight ratio; used in structural components.
+- **Polyimides:** Radiation and temperature resistance; used for insulation.
+- **Metal Matrix Composites:** Enhanced toughness; used for high-performance components.
 
-**Table 2. Types of materials for ISM and their functionalities.**
-| Material | Functionality | Used in |
-| :--- | :--- | :--- |
-| Titanium Alloy | High strength-to-weight ratio, corrosion resistance | Structural components |
-| Polyimides | Thermal stability, radiation resistance | Insulation and coatings |
-| Metal Matrix Composites | Improved toughness, reduced friction | Structural applications |
-
-### 2.3 Autonomous and Robotic Manufacturing Systems
-Robotic systems like NASA’s Autonomous Reconfigurable Mission Adaptive Digital Assembly Systems (ARMADAS) can assemble large structures like antennas, habitat modules, and spaceports without human intervention.
-
-### 2.4 Biomanufacturing and Pharmaceutical Production in Space
-Biomanufacturing enables the production of food and pharmaceuticals using ISRU. This reduces launch costs, as food for a Mars mission is estimated at 10,000–11,000 kg.
+### 2.3. Autonomous and Robotic Systems
+NASA’s Autonomous Reconfigurable Mission Adaptive Digital Assembly Systems (ARMADAS) exemplify robotic manufacturing, allowing for the assembly of large structures like antennas and habitat modules without extensive human intervention.
 
 ## 3. Challenges in ISM
-Technical challenges include microgravity (unpredictable fluid behavior), vacuum (lack of convective heat transfer, material instabilities), and radiation (structural degradation). Logistics and supply chain management for raw materials remain complex.
+1.  **Technical:** Microgravity (unpredictable fluid behavior), Vacuum (instability of plastics), and Radiation (material degradation).
+2.  **Resources:** Dependency on Earth-sourced raw materials until ISRU (In-situ Resource Utilization) matures.
+3.  **Quality Control:** Stringent requirements for precision and reliability in extreme environments.
+4.  **Energy:** High power demands of laser-based AM versus limited solar availability.
 
-## 4. Benefits of ISM
-Key benefits include reduction in launch mass/cost, added flexibility through on-demand manufacturing, and sustainability via recycling (e.g., the ISS Refabricator) and ISRU (utilizing lunar regolith or Martian soil).
+## 4. Case Studies and Success Stories
+- **ISS 3D Printer (2014):** Phase 1 showed microgravity parts were stronger/stiffer but had lower compressive strength. Phase 2 settings corrected these issues.
+- **Refabricator (2018):** Demonstrates a closed-loop system recycling 3D-printed parts into feedstock.
+- **Archinaut Project:** Demonstrated large-scale AM in simulated space for building telescopes and satellite antennas.
+- **Redwire Regolith Print (RRP):** Explores using lunar and Martian regolith as feedstock for 3D printing habitats.
 
-## 5. Notable Missions and Case Studies
-Success stories include the first ISS 3D printer (2014), ZBLAN fiber optic production in microgravity, and emerging projects like Archinaut One (robotic assembly in orbit) and Redwire Regolith Print (RRP) for constructing structures with lunar/Martian regolith.
-
-## 6. Future Directions
-Future prospects include large-scale production for deep-space exploration, economic viability through reusable rockets, and the development of space-based production for high-precision electronics and pharmaceuticals. Policy, legal, and ethical considerations (e.g., the Outer Space Treaty of 1967) must be addressed as ISM matures.
-
-## 7. Conclusions
-ISM represents a monumental step for humanity, enabling the construction of structures directly in space and on planetary surfaces, thus reducing dependency on Earth-based supplies and paving the way for sustainable interplanetary settlement.
+## 5. Future Horizons
+Large-scale production in space is moving from concept to reality. Potential areas include the manufacturing of pharmaceuticals, high-precision electronics, and large-scale structures like space habitats and satellites directly in orbit or on planetary surfaces.
