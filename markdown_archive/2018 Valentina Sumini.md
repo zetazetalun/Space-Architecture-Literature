@@ -4,17 +4,20 @@
 **Publication:** Earth and Space 2018, ASCE
 
 ## Abstract
-Future space habitat requirements are defined by the ability to protect occupants in extreme environments. Due to high transportation costs, research focuses on Earth-independent structural designs using local regolith-based materials. This study explores architectures using spherical regolith-based concrete shells with carbon fiber polymer (CFRP) reinforcement. A multi-objective optimization approach (Pareto optimization) is used to minimize transportation and construction costs while maximizing protection against radiation and micrometeorite events. Results indicate that ISRU-based reinforced concrete is a viable investment for lunar and Martian settlements.
+Future space habitat structures must protect occupants in extreme environments. Due to high transportation costs from Earth, recent efforts focus on Earth-independent designs using local regolith-based materials. This research investigates spherical regolith-based concrete shells with carbon fiber polymer reinforcement. A multi-objective optimization approach (Pareto optimization) is used to minimize transportation and construction costs and minimize the probability of loss due to radiation and micrometeorites. Results indicate that ISRU-based reinforced concrete is a valuable future investment for lunar and Martian surface habitats.
 
 ## Introduction
-Habitat design is driven by resource availability and transportation capacity. For extraterrestrial sustainability, local materials are essential. This research builds on prior studies of pressurized aluminum domes and inflatable structures by applying multi-objective evaluation to regolith-based concrete habitats.
+Habitat design is driven by resource availability and transportation capacity. On the Moon, habitats must shelter occupants from severe temperature cycles, high vacuum, micrometeorites, and high radiation (solar wind, solar flares, and Galactic Cosmic Rays). A regolith shelter is considered a meaningful solution to these challenges.
 
-## Materials and Concepts
+## Concepts and Materials
 ### Lunar Concrete
-Lunar concrete is proposed to shelter astronauts from harsh temperature cycles, high vacuum, and radiation. The research considers a spherical dome structure made of regolith with an inner bladder layer for airtightness and CFRP reinforcement to resist tension from internal pressure.
+ISRU exploits lunar resources to reduce fuel requirements for take-off. Structural design must account for brittle fracture, out-gassing, and thermal fatigue. Literature examples include Foster + Partners' inflatable/regolith combination and D-Shape 3D printing technology.
 
-### Material Properties
+### Structural Options
+- **Aluminum Shell:** Represents the typical system used for the International Space Station (ISS) modules.
+- **Reinforced Concrete Shell:** A spherical dome structure using regolith with an inner bladder layer for airtightness and carbon fiber reinforced polymers (CFRP) to resist tension and impact.
 
+### Material Properties (Table 1)
 | Property | Units | Value |
 | :--- | :--- | :--- |
 | Concrete density | Kg/m³ | 2200 |
@@ -23,28 +26,27 @@ Lunar concrete is proposed to shelter astronauts from harsh temperature cycles, 
 | Aluminum tensile allowable stress | Pa | 280 * 10⁶ |
 
 ## Methodology
-The evaluation uses five primary objectives:
-1. **Pressurized Volume:** Maximize usable internal space.
-2. **Terrestrial Material Mass:** Minimize mass launched from Earth (CFRP reinforcement, additives).
-3. **Lunar Material Mass:** Minimize processed lunar material (proxy for construction cost/complexity).
-4. **Impact Protection:** Maximize resistance to micrometeoroids (Probability of No Penetration over 5 years).
-5. **Radiation Protection:** Minimize annual dose equivalent from Galactic Cosmic Rays (GCR).
+The optimization defines three variables: interior radius ($X_1$), tensile layer thickness ($X_2$), and concrete layer thickness ($X_3$). Feasible geometries are evaluated against five objectives:
+1. **Pressurized Volume ($J_1$):** Maximizing usable space.
+2. **Terrestrial Material Mass ($J_2$):** Minimizing mass transported from Earth (CFRP, additives).
+3. **Lunar Material Mass ($J_3$):** Proxy for in-situ construction complexity.
+4. **Impact Protection ($J_4$):** Maximizing resistance to micrometeoroids (Fish-Summers and Petry formulas).
+5. **Radiation Protection ($J_5$):** Minimizing annual dose equivalent from GCR.
 
-## Results
-Pareto optimal solutions show that while concrete habitats require more lunar mass, they drastically reduce the mass required from Earth for a given volume and provide superior protection. 
+## Results and Discussion
+Results for a 180-day mission show that CFRP-reinforced concrete reduces payload from Earth while greatly increasing protection. While the aluminum habitat is limited by tensile thickness, the concrete case reduces GCR doses more effectively (down to 5.8 cSv compared to 7.5 cSv for aluminum).
 
-### Comparison of Habitat Configurations
-
+### Possible Habitat Configurations (Table 2)
 | Variable/Objective | Aluminum | Concrete | Units |
 | :--- | :--- | :--- | :--- |
 | Radius | 4.22 | 4.67 | m |
 | Tensile Thickness | 0.009 | 0.012 | m |
 | Regolith Thickness | 0 | 0.059 | m |
 | Volume | 316 | 426 | m³ |
-| Payload (from Earth) | 5435 | 3059 | kg |
-| Concrete (Lunar) | 0 | 36283 | kg |
-| Meteoroid Resistance | 2.94e-6 | 1.04e-5 | kg |
-| Radiation Dose | 15.3 | 9.7 | cSv |
+| Payload | 5435 | 3059 | kg |
+| Concrete | 0 | 36283 | kg |
+| Meteoroid | 2.94e-6 | 1.04e-5 | kg |
+| Dose | 15.3 | 9.7 | cSv |
 
-## Discussion and Conclusion
-Reinforced concrete habitats can satisfy mission performance goals (e.g., volume for 4 crew, 180 days) within the payload limits of launch vehicles like the SLS. While aluminum shells struggle to meet all protection and volume goals simultaneously in the analyzed scenario, the concrete designer has multiple options that satisfy all constraints. Future work will refine the quantification of costs and include alternative geometries.
+## Conclusion
+Pareto optimization allows designers to understand trade-offs without arbitrary weighting. Reinforced concrete is a viable material for investigation, providing superior protection and reduced Earth-reliance.
