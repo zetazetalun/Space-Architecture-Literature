@@ -1,46 +1,39 @@
 # Design and Analysis of 3D-Printable Thin-Shell Dome Structures for Extraterrestrial Habitation
 
-**Authors:** Matthew Troemner, Elham Ramyar, Benton Johnson, and Gianluca Cusatis
-**Affiliations:** Northwestern Univ., Skidmore, Owings & Merrill LLP
-**Year:** 2021
+**Authors:** Matthew Troemner, Elham Ramyar, Benton Johnson, and Gianluca Cusatis  
+**Publication:** Earth and Space 2021, ASCE
 
-## Abstract
-Extreme environmental conditions and novel construction techniques will dictate Martian habitat forms. This paper presents the design of a dome-shaped Martian habitat created for NASA’s 3D-Printed Habitat Challenge. The structure utilizes a composite hemispheric-parabolic dome optimized for 3D-printing on an inflatable pressure vessel using 'Marscrete' (Martian regolith and sulfur). Structural performance is assessed under Martian gravity, wind, regolith storms, and meteorite impacts.
+## ABSTRACT
+Extreme environmental conditions, unusual loadings, and the availability of novel construction techniques will likely dictate the form of any extraterrestrial habitat built on Mars. This paper presents an overview of the design and analysis of a dome-shaped Martian habitat designed as part of NASA’s 3D-Printed Habitat Challenge. The structure has a novel composite hemispheric-parabolic dome optimized to sustain self-weight and environmental loads, and to be 3D-printed on an inflatable pressure vessel with Marscrete, a Martian concrete manufactured primarily with local Martian regolith and sulfur.
 
-## Introduction
-Future Mars missions require semi-permanent structures using in situ resource utilization (ISRU) and automated fabrication due to the difficulty of transporting materials from Earth. NASA’s 3D-Printed Habitat Challenge (2015) set requirements for a 1-year mission for 4 astronauts, providing 93 sq meters of space.
+## INTRODUCTION
+Future missions to Mars will require semi-permanent structures utilizing in situ resource utilization (ISRU) and automated fabrication. NASA's 3D-Printed Habitat Challenge (launched 2015) required designs to sustain four astronauts for one Earth-year, providing 93 square meters of living space including kitchen, sanitation, bedrooms, workspaces, and laboratories.
 
-## Design Basis
-- **Form:** Internal hemispherical dome with an outer parabolic dome.
-- **Material:** Marscrete (quasi-brittle behavior), optimized to keep stresses compressive.
-- **Optimization:** Shell thicknesses range from 21 to 108 cm.
+## DESIGN BASIS
+- **Constructability:** Minimized overhanging regions and maximized continuity to reduce 'cold joints'.
+- **Form:** Internal hemispherical dome with an outer parabolic dome structure. 
+- **Material:** Northwestern’s 'Marscrete' (regolith and sulfur).
+- **Optimization:** Thicknesses ranging from 20 to 150 cm (refined to 21-108 cm) with internal cross beams.
 
-## Construction Method
-1. Site preparation by autonomous rovers.
-2. 3D-printing of the foundation.
-3. Deployment and inflation of a collapsible pressure vessel.
-4. Printing over the vessel using an articulated arm and a 'crawler' robot to avoid the need for printed supports.
-5. Deflation of the vessel to allow for independent thermal expansion.
+## CONSTRUCTION METHOD
+1. Autonomous rovers clear the site and prepare a foundation.
+2. Foundation is 3D-printed using an articulated arm-type printer.
+3. A collapsible dome pressure vessel is deployed and inflated.
+4. A small 'crawler' robot circumnavigates the pressure vessel to 3D-print the shell from bottom to top using the inflatable as support.
+5. The pressure vessel is slightly deflated after printing to allow for independent thermal deformation.
 
-## Environment and Loading
-- **Gravity:** 3.71 m/s² (38% of Earth's).
-- **Wind Load:** Calculated at 9.79 Pa (conservative estimate at 70 mph), increased to 60.0 Pa for analysis.
-- **Sand/Regolith Load:** 2,780 Pa static pressure load on one half of the structure (representing dunes).
-- **Impact:** Assessment of meteorite impact risks.
+## ENVIRONMENT AND LOADING
+- **Gravity:** 3.71 m/s² (38% of Earth).
+- **Wind Load:** Calculated at 9.79 Pa (conservative estimate 60.0 Pa for analysis).
+- **Sand Buildup:** Static pressure load of 2,780 Pa (0.5 m sand depth) applied to one half of the structure.
+- **Meteorite Impact:** Risk assessed using atmospheric loss and deceleration data.
 
-## Load Analysis
-Finite element analysis showed the structure remained in the elastic region under all loads with deformation less than 1.0 mm.
+## LOAD ANALYSIS
+Finite element static analysis showed that under all loads (self-weight, wind, sand buildup), the structural response remained in the elastic region with deformations less than 1.0 mm.
 
-## Meteorite Impact Performance
-- **Method:** Lattice Discrete Particle Model (LDPM) simulation.
-- **Critical Impact:** A surface-normal impact of a 7,390g meteorite at 6.29 km/sec is the failure threshold.
-- **Risk:** Probability of a hazardous impact during a one-year mission is approximately 6.9 x 10⁻⁹.
+## METEORITE IMPACT PERFORMANCE
+- **Critical Load:** A surface-normal impact of a 7,390g meteorite at 6.29 km/sec.
+- **Probability:** The probability of a hazardous meteorite impacting the habitat during a one-year mission is approximately 6.9 × 10⁻⁹.
 
-## Proposed Layout
-- **Inspiration:** 'Tiny house' and NASA HI-SEAS designs.
-- **Center:** Round common area for recreation with a transparent oculus.
-- **Zones:** Semicircular public (kitchen/lab) and private (bedrooms/lavatory) regions.
-- **Entries:** One personnel airlock and one docking port for the MMSEV.
-
-## Conclusions
-The design surpasses Martian habitat requirements, offering structural integrity under typical loads and meteorite resistance up to 7 kg. The construction scheme eliminates the need for temporary printed supports.
+## CONCLUSIONS
+The habitat design surpasses benchmarks for structural performance and constructability. The unique construction scheme eliminates the need for printed supports by using an inflatable pressure vessel. The shell performs well under typical Martian loads and meteorite impacts up to 7 kg.
