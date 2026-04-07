@@ -1,1 +1,44 @@
-# A Framework for Extraterrestrial Environmental Assessment\n\n**William R. Kramer**\n*Outer Space Consulting, Frederick, MD, 21701, USA*\n\n**Article Info**\n- **Received:** 24 April 2020\n- **Accepted:** 2 August 2020\n- **Available online:** 13 September 2020\n\n**Keywords:** Extraterrestrial, Environmental assessment, Space mining, Environmental ethics, Outer space development, Sustainability, National Environmental Policy Act (NEPA), Outer Space Treaty, Moon Agreement\n\n## Abstract\nMany of the proposed and foreseeable activities on the Moon, Mars, and elsewhere in our solar system will require construction and similar actions. Most will, by intent, alter those natural environments in a variety of ways. Some impacts may foreclose future options for use of the area, hinder sustained access to resources, impede long-term human occupation, or cause other detriments. This article proposes a simple framework as a starting point for discussion. It suggests that space industries and other space actors themselves should consider developing and using an appropriately structured assessment process.\n\n## 1. A rapidly evolving problem in space development\nNearly all reasonably foreseeable physical activities on the Moon, Mars, and elsewhere, such as construction, mining, energy production, and human habitation, may adversely affect those extraterrestrial environments [1]. Alterations to alien landscapes could have longer-lasting implications than anthropogenic changes on Earth. In fact, they might tend to be permanent compared with those on Earth, where tectonic movements and biological activity act to make landscapes resilient [6]. Examples of construction actions include roads and launch facilities.\n\n## 2. The neglected need for extraterrestrial environmental assessment\nMining activities create potential hazards: rocks ejected by blasting could damage nearby infrastructure, vibrations could invalidate data collected by distant seismic studies, and dust could coat solar panels or interfere with telescopes. Lubricants or compounds could leak from machinery and seep into subsurface water ice resources, decreasing their value.\n\n## 4. Framework for EEA\nAn environmental assessment assists in identifying the direct, indirect, and cumulative impacts of an action affecting the environment. The proposed framework includes:\n\n- **1.0 Introduction**\n- **2.0 Purpose and Need:** Why is the action being undertaken?\n- **3.0 Proposed Action:** Detailed narrative of what is to be built, equipment used, and outcomes.\n  - **3.1 Timing:** Launch dates, construction dates.\n  - **3.2 Location:** Coordinates, road construction, storage areas, terrain alteration.\n- **4.0 Affected Environment:**\n  - **4.1 Physical Resources:** Geology, Regolith, Seismicity, Atmospheric Composition, Climate, Solar Radiation, and Water Resources.\n  - **4.2 Cultural Resources:** Historical or cultural significance of the area.\n  - **4.3 Hazardous Material and Pollutants:** Materials taken to or generated on site.\n- **5.0 Human Health and Safety**\n- **6.0 Cumulative Impacts**\n- **7.0 Summary:** Mitigation plans and potential actions to reduce impacts.
+# A Framework for Extraterrestrial Environmental Assessment
+
+**Author:** William R. Kramer
+**Affiliation:** Outer Space Consulting, Frederick, MD, 21701, USA
+**Published in:** Space Policy 53 (2020) 101385
+
+## Abstract
+Many of the proposed and foreseeable activities on the Moon, Mars, and elsewhere in our solar system will require construction and similar actions. Most will, by intent, alter those natural environments in a variety of ways. Some impacts may foreclose future options for use of the area, hinder sustained access to resources, impede long-term human occupation, interfere with scientific or other purposes, harm cultural assets, create unsafe conditions, or cause other detriments. This article proposes a simple framework for an Extraterrestrial Environmental Assessment (EEA) as a starting point for discussion, drawing upon but distinct from the US National Environmental Policy Act (NEPA).
+
+## 1. A rapidly evolving problem in space development
+Nearly all reasonably foreseeable physical activities on the Moon, Mars, and elsewhere—such as construction, mining, energy production, and human habitation—may adversely affect those extraterrestrial environments. Unlike Earth, alterations to alien landscapes could be permanent because these environments lack the resilient mechanisms (tectonics, water flow, vegetation) present on Earth.
+
+## 2. The neglected need for extraterrestrial environmental assessment
+Regardless of space industries or government agencies, there is a critical need for environmental assessments (EEAs). Economic incentives often lead to "first in time" ventures targeting the "lowest hanging fruit" without regard for long-term sustainability. 
+
+### Potential Impacts Identified:
+* **Mining/Blasting:** Rocks ejected could damage nearby infrastructure.
+* **Vibrations:** Could invalidate seismic study data.
+* **Dust:** Could coat solar panels, interfere with telescopes, or erode gaskets.
+* **Chemicals:** Lubricants leaking into subsurface water ice or other resources.
+* **Topography:** Undocumented prospecting could confound future researchers or destroy geologic features of scientific value (Exogeoconservation).
+
+## 3. National Environmental Policy Act (NEPA) and potential sources of reticence
+Applying NEPA directly to space is not recommended. It is a US-centric tool that can be cumbersome, costly, and lacks international authority. Furthermore, its current administration (as of 2020) makes its application to extraterrestrial actions unlikely and potentially counterproductive to industry growth.
+
+## 4. Framework for EEA
+The proposed EEA framework aims to be a practical, efficient tool for identifying direct, indirect, and cumulative impacts. 
+
+### Proposed EEA Outline:
+1. **Introduction**
+2. **Purpose and Need:** Why is the action needed?
+3. **Proposed Action:** Details on construction, equipment, and timing.
+   * *3.1 Timing:* Launch, duration, completion.
+   * *3.2 Location:* Coordinates, terrain alteration, road construction.
+4. **Affected Environment:**
+   * *4.1 Physical Resources:* Geology (regolith, vibrations), Atmosphere (dust generation), Climate, Solar Radiation, Water Resources (location, chemistry, use).
+   * *4.2 Cultural Resources:* Indicators of human actions with historical significance.
+   * *4.3 Hazardous Materials:* Wastes, chemicals, and their fate.
+5. **Human Health and Safety:** Exposure to radiation, extreme temperatures.
+6. **Cumulative Impacts:** Impact of incremental actions over time.
+7. **Summary:** Mitigation actions and residual effects.
+
+## 5. Final thoughts and Next actions
+Assessments should be digitally filed and made available for public reference to build a database of planetary data. Cooperation between commercial, governmental, and scientific entities is required to develop industry standards that prevent environmental degradation while remaining practical for development.
