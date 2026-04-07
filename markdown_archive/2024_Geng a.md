@@ -1,19 +1,22 @@
 # Mechanical Properties and Additive Manufacturing of Alkali-Activated Lunar Regolith in Artificial Lunar Environments
 
-**Authors:** Zifan Geng, Lizhi Zhang, Zhiwen Wu, Yi Wei Daniel Tay, Sean Gip Lim, Ming Jen Tan
+**Authors:** Zifan Geng, Lizhi Zhang, Zhiwen Wu, Yi Wei Daniel Tay, Sean Gip Lim, and Ming Jen Tan  
+**Publication:** 3DcP 2023, STAM, pp. 50–56, 2024.  
+**DOI:** https://doi.org/10.1007/978-3-031-64269-2_7
 
-**Abstract:** Lunar base construction has become a cutting-edge and multi-disciplinary research issue worldwide. The development of sustainable lunar infrastructure is essential for future exploration and a major challenge for constructing on the Moon is the availability of suitable building materials. In this regard, the research on alkali-activated lunar regolith simulants (AALRS) is a significant breakthrough. In this paper, the mechanical properties and additive manufacturing of AALRS are investigated with reference to the lunar environments. The study has shown that the type of alkali, curing temperature and vacuum exposure have a prominent effect on the solidification behaviour of AALRS. Furthermore, the acceptable long-term properties of silicate-based AALRS were also revealed after undergoing several lunar diel temperature cycles. The scanning electron microscopy (SEM) and energy dispersive X-ray spectroscopy (EDS) analysis have indicated the presence of two solidification mechanisms, geopolymerization and dehydration, within AALRS, which have contributed to its microstructure stability. The development of an innovative 3D printer for AALRS is a crucial step towards the future construction of a lunar base. Several conceptualized printers that can extrude, compress, and deposit treated lunar regolith will be presented. Additive manufacturing of lunar regolith has the potential to reduce the cost and increase the efficiency of building on the Moon.
+## Abstract
+Lunar base construction is a critical research area. This paper investigates alkali-activated lunar regolith simulants (AALRS) regarding mechanical properties and additive manufacturing in artificial lunar environments. Findings show that alkali type, curing temperature, and vacuum exposure significantly affect solidification. Silicate-based AALRS demonstrated acceptable long-term properties after lunar diel temperature cycles. Mechanisms include geopolymerization and dehydration. A conceptual 3D printer for AALRS is presented to enhance lunar construction efficiency.
 
 ## 1 Introduction
-The lunar base has been proposed as a strategic research issue. Sustainable construction techniques using in-situ resources are vital due to launch costs and extreme lunar environments (temperature cycles, vacuum, radiation, low gravity). Alkali-activated materials (lunar geopolymer) show promise due to strength, durability, and moderate processing conditions.
+Sustainable construction using in-situ resources is vital for lunar exploration due to launch costs and extreme environments. Lunar geopolymer (alkali-activated material) is promising for strength and durability. This work clarifies hardening mechanisms under artificial lunar conditions and proposes a 3D printing method.
 
 ## 2 Materials and Experiments
-*   **Raw Material:** Lunar Regolith Simulant (LRS) from volcanic ash (Jilin Province), mean particle diameter ~40 μm.
-*   **Activators:** Sodium hydroxide (SH) and sodium silicate (SSx, where x is SiO2/Na2O molar ratio).
-*   **Preparation:** 13 wt% alkaline solution (30 wt% concentration) mixed with 87 wt% LRS. Compressed into blocks at 9.5 MPa.
-*   **Conditions:** Artificial lunar environment (vacuum ~10 Pa, temperature variation up to 85 °C and down to -196 °C).
+*   **Raw Material:** Lunar regolith simulant (LRS) from volcanic ash (Huinan Town, China).
+*   **Activators:** Sodium hydroxide (SH) and sodium silicate (SSx).
+*   **Testing:** Samples compressed under 9.5 MPa, exposed to vacuum (~10 Pa) and lunar diel temperature variations (-196 °C to 85 °C).
 
 ### Table 1: Chemical composition of LRS and real lunar soils (wt%)
+
 | Type | SiO2 | Al2O3 | FeO | CaO | MgO | TiO2 | Na2O | K2O |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | LRS | 43.4 | 17.4 | 16.4 | 9.1 | 5.2 | 2.4 | 2.8 | 1.9 |
@@ -21,18 +24,18 @@ The lunar base has been proposed as a strategic research issue. Sustainable cons
 | Apollo-71501 | 43.2 | 17.1 | 12.2 | 11.8 | 10.4 | 4.2 | 0.4 | 0.1 |
 
 ## 3 Solidification Properties
-*   **Temperature Effect:** SH- and SS-based AALRS hardly solidify at 34 °C within 24h. At 82 °C, SH-based AALRS achieves 3.36 MPa (bending) and 13.7 MPa (compression).
-*   **Vacuum Effect:** SS-based AALRS (specifically SS2.0) exhibits superior solidification in vacuum. SS2.0 reaches 4.61 MPa (bending) and 15.5 MPa (compression) within 5 hours in vacuum at 34 °C.
-*   **Mechanism:** Geopolymerization (N-A-S-H formation) requires heat/sealing; Dehydration (Si-rich film) is effective in vacuum.
+Sodium silicate (SS) with modulus ≥ 2 is preferred. SH-based AALRS requires high curing temperatures and performs poorly in vacuum. SS2.0-based AALRS achieved 4.61 MPa bending strength and 15.5 MPa compressive strength within 5 hours in vacuum.
 
 ## 4 Long-Term Properties
-SS-based AALRS maintains durability under lunar diel temperature cycles. After 4 cycles, samples sustain strength with less than 5% decrease. SS2.5-based AALRS showed the best overall long-term performance.
+SS-based AALRS showed good durability. After four lunar diel temperature cycles, compressive and bending strengths remained stable with less than 5% decrease, despite an initial 20% drop in bending strength after the first cycle due to increased brittleness.
+
+## 5 Microstructure Characterization
+Solidification involves two mechanisms:
+1.  **Geopolymerization:** Forms sodium aluminosilicate hydrates (N-A-S-H).
+2.  **Dehydration:** Forms a smooth membranate silicate film that connects particles, especially effective in vacuum for SS-based materials.
 
 ## 6 Future Prospects on Additive Manufacturing of AALRS
-AALRS for 3D printing may be used as a "damp powdery ink". A conceptualized 3D printer involves a robotic arm with a pipe system and a printhead featuring roller systems to extrude and compress regolith onto surfaces (ground, wall, or roof).
+A conceptual 3D printer is proposed involving a robotic arm and a water-impermeable pipe system. The printer extrudes and compresses "damp powdery ink" (treated lunar regolith) using rollers to reduce water evaporation and facilitate rapid hardening through dehydration.
 
 ## 7 Conclusions
-1.  Two hardening patterns identified: geopolymerization and dehydration.
-2.  Sodium silicate (modulus ≥ 2) is the preferred activator for vacuum environments.
-3.  AALRS shows good durability under lunar temperature cycles.
-4.  Proposed an innovative 3D printer design for extruding and compressing treated lunar regolith.
+SS-based AALRS is a viable lunar construction material. It exhibits stable microstructure and durability under vacuum and extreme temperature cycles. An innovative extrusion-based 3D printing concept is proposed to pave the way for sustainable lunar construction.
