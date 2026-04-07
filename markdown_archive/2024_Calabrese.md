@@ -1,1 +1,43 @@
-# Computer Vision for Terrain Mapping and 3D Printing In-situ of Extra/-terrestrial Habitats  ## Abstract  This paper addresses the complexities inherent in constructing sustainable extraterrestrial habitats within lava tubes that are envisioned as promising locations for human habitation and scientific inquiry. These environments are characterized by various challenges, which are addressed in this case by integrating computer vision (CV) techniques and 3D printing in-situ. The CV component generates a detailed depth map from synthetic imagery to combine this depth map with an adaptive 3D printing process, which is proposed to ensure level surfaces at various depths, facilitating precise foundation and habitat placement within the demanding context of lava tubes. Significantly, synthetic imagery is employed due to the absence of real lava tube photos at this early stage of the current exploration. The focal point lies in utilizing advanced deep learning (DL) algorithms and convolutional neural networks (CNN) to generate depth maps for extra/-terrestrial environments. This research represents a platform for further knowledge development in the fields of CV and its application to 3D printing in-situ, hence opening new avenues for sustainable extraterrestrial habitats.  ## 1 Introduction  The exploration and colonization of celestial bodies have long been envisioned by humankind. One of the significant challenges faced in this endeavor is the construction of habitable spaces in extraterrestrial environments, particularly within the irregular and treacherous confines of lava tubes. These natural underground spaces, prevalent on the Moon, Mars, and Earth, offer a unique opportunity for safe habitation and scientific research due to their protective nature against radiation and extreme temperatures.  ## 2 Related Work  In the realm of 3D printing for extraterrestrial habitats, Bier et al. (2021) introduced significant advancements in the design, production, and operation of subterranean off-Earth infrastructure. Von Ehrenfried (2022) delved into the concept of living in caves on Earth, Moon, and Mars. Sauro et al. (2020) offered a comprehensive review of lava tubes on Earth, Moon, and Mars.  ## 3 Problem Statement  The prospect of utilizing lava tubes as potential habitation sites on celestial bodies like Mars and the Moon has sparked ambitious efforts in space colonization. However, the uneven and rugged terrains within lava tubes pose significant challenges for construction. Integrating CV techniques with advanced 3D printing technology offers a transformative approach to address the challenges posed by complex landscapes.  ## 6 Methodology  In this research, an incremental solution approach is adopted. The explored CV-supported methodology employs a Grasshopper script to extract details from a 3D surface model. Due to limited lava tube imagery, Perlin noise algorithms are leveraged to create synthetic depth maps. A U-Net i.e., DL framework specifically developed for image segmentation, is employed to associate depth maps with terrain imagery.  ## 7 Conclusion  In conclusion, this research represents a fusion of technological innovation and adaptability. Through the integration of CV techniques and 3D printing technology, the complex challenges posed by lava tube irregularities are addressed. The result is a comprehensive system capable of autonomously analyzing real-time surface data which dynamically adapts the 3D printing construction process.
+# Computer Vision for Terrain Mapping and 3D Printing In-situ of Extra/-terrestrial Habitats
+
+**Authors:** Giuseppe Calabrese, Arwin Hidding, Henriette Bier, Casper van Engelenburg, Seyran Khademi, and Atousa Aslaminezhad  
+**Affiliations:** International Research School of Planetary Sciences (Italy), Delft University of Technology (Netherlands), University of Sydney (Australia), University of Antwerp (Belgium), Heriot-Watt University (Dubai)  
+**Publication:** IntelliSys 2024, LNNS 1067, pp. 349–360, 2024.  
+**DOI:** https://doi.org/10.1007/978-3-031-66431-1_23
+
+---
+
+## Abstract
+This paper addresses the complexities inherent in constructing sustainable extraterrestrial habitats within lava tubes. These environments are addressed by integrating computer vision (CV) techniques and 3D printing in-situ. The CV component generates a detailed depth map from synthetic imagery to combine with an adaptive 3D printing process, ensuring level surfaces for foundations. Utilizing advanced deep learning (DL) algorithms and convolutional neural networks (CNN), the research develops a platform for sustainable extraterrestrial habitats.
+
+## 1 Introduction
+Exploration of celestial bodies faces the challenge of constructing habitable spaces in irregular environments like lava tubes. Prevalent on the Moon and Mars, these tubes offer protection against radiation and extreme temperatures. This research synergizes CV and 3D printing to transform lava tubes into viable habitats.
+
+## 2 Related Work
+- **Bier et al. (2021):** Advancements in design and operation of subterranean off-Earth infrastructure.
+- **Von Ehrenfried (2022):** Concepts of living in caves on Moon and Mars.
+- **Sauro et al. (2020):** Review of lava tube morphologies through comparative planetology.
+- **Sauro et al. (2020):** Geological features of lava tubes on Earth, Moon, and Mars.
+
+## 3 Problem Statement
+Lava tubes offer natural shielding but present uneven, rugged terrains that pose challenges for construction. Traditional methods are inadequate, necessitating autonomous systems capable of real-time mapping and adaptive filling to ensure stable surfaces.
+
+## 4 CV vs. LiDAR Scanning
+The paper identifies several advantages of CV over LiDAR in certain scenarios:
+- **Real-time Analysis:** CV allows for immediate decisions based on visual data.
+- **Cost Efficiency:** Uses off-the-shelf cameras compared to expensive LiDAR units.
+- **Redundancy:** CV serves as a backup when LiDAR fails due to technical or environmental constraints (e.g., dust).
+- **Low Power Consumption:** Cameras consume less power than LiDAR systems.
+
+## 5 Methodology
+An incremental solution approach was adopted:
+1. **Synthetic Depth Map Generation:** Grasshopper and Perlin noise algorithms were used to create synthetic data due to the lack of real lava tube imagery.
+2. **U-Net Framework:** A deep learning framework was employed for image segmentation, associating depth maps with terrain features.
+3. **Training:** The model was trained using 20 epochs, a 0.001 learning rate, and the Adam optimizer.
+
+## 6 Results
+- **Training Accuracy:** 0.8 (80%). The model effectively captured patterns within the training set.
+- **Validation Accuracy:** 0.5 (50%). The lower score suggests a potential risk of overfitting and the need for more diverse datasets to enhance generalization.
+
+## 7 Conclusion
+The research demonstrates a system capable of autonomously analyzing surface data to adapt 3D printing processes for terrain leveling. Future work includes a physical experimental setup in a Sicilian lava tube to capture real imagery for model refinement.
