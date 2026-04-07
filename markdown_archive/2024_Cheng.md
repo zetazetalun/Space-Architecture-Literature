@@ -1,53 +1,48 @@
 # Advances in in-situ resources utilization for extraterrestrial construction
 
-**Authors:** Shanshan Cheng, Yuyue Gao, Yusheng Shi, Long Xiao, Lieyun Ding, Cheng Zhou, Yan Zhou
-**Journal:** Advances in Space Research 74 (2024) 3297–3325
+**Authors:** Shanshan Cheng, Yuyue Gao, Yusheng Shi, Long Xiao, Lieyun Ding, Cheng Zhou, Yan Zhou  
+**Journal:** Advances in Space Research 74 (2024) 3297–3325  
 **DOI:** https://doi.org/10.1016/j.asr.2024.06.029
 
 ## Abstract
-To establish foundational support for forthcoming deep space exploration and settlement endeavors, the significance of extraterrestrial construction has become paramount. Recent developments underscore a growing acknowledgment of the imperative role played by in situ resource utilization, attributed to its potential for cost efficiency and facilitation of sustainable progress. This paper compiles and categorizes the advancements in this domain, focusing on three distinctive categories of in situ resources: regolith, water–ice, and energy resources. A review of their distribution, acquisition, and utilization procedures is presented. 
+To establish foundational support for forthcoming deep space exploration and settlement endeavors, the significance of extraterrestrial construction has become paramount. Recent developments underscore a growing acknowledgment of the imperative role played by in situ resource utilization, attributed to its potential for cost efficiency and facilitation of sustainable progress. This paper compiles and categorizes the advancements in this domain, focusing on three distinctive categories of in situ resources: regolith, water–ice, and energy resources. 
 
 ## 1. Introduction
-Space exploration has evolved from scientific understanding to facilitating further exploration through ISRU. Programs like NASA’s Artemis and the International Research Station prioritize ISRU for sustainability and cost-effectiveness. The paper categorizes resources into regolith, water-ice, and energy, and reviews technologies including 3D printing, prefabrication, and inflatable structures.
+Space exploration has evolved to facilitate further scientific exploration through ISRU. Programs like Artemis and the International Research Station prioritize ISRU for cost-effectiveness and sustainability. Resources are categorized into regolith, water-ice, and energy resources.
 
 ## 2. Regolith resources for construction
-Regolith results from impact, thermal gardening, and cosmic radiation. It exists as unconsolidated rocks and fines (smaller than 1 mm). 
-- **Moon:** Depth 3-20m (up to 60m in highlands).
-- **Mars:** Projected depth 90-113m.
+Regolith is the layer of unconsolidated rocks and fines over bedrock. 
+- **Lunar regolith:** Depth 3–20m (highlands up to 60m). Primarily anorthositic (highlands) and basaltic (maria). Elements include Ca, Al, Si, Mg, Fe, Ti, and REEs.
+- **Martian regolith:** Dominantly basaltic, containing olivine, pyroxene, clay minerals, and chlorides.
 
-### 2.2 Mining of regolith resources
-Processing involves: Excavation → Pre-sorting → Beneficiation → Reduction/Sintering → Product.
-- **Excavation types:** Discrete (backhoe, scraper) and Continuous (pneumatic, bucket wheel).
-- **Beneficiation:** Electrostatic and magnetic separation.
+### 2.2 Mining and Processing
+1. **Excavation:** Discrete (backhoe, scraper) or Continuous (pneumatic, bucket wheel).
+2. **Presorting:** Particle size classification (e.g., electrostatic traveling waves).
+3. **Beneficiation:** Electrostatic or magnetic separation.
+4. **Reduction:** Pyrolysis, electrolysis (MRE/MSE), and chemical/biological reduction.
 
 ### 2.3 Utilization
-- **Direct:** Radiation shielding (5 cm depth reduces radiation by 60%) and thermal insulation.
-- **Metals:** Extracted via pyrolysis, electrolysis (MRE/MSE), and chemical reduction (including biomining).
-- **Concrete:** Sulfur concrete (anhydrous), polymer concrete, and geopolymer concrete.
-- **Sintered Bricks:** Techniques include SLM, SSLS (solar), SMWS (microwave), and DLP.
+- **Direct Utilization:** Radiation shielding (5cm regolith can reduce SEP exposure by 60%).
+- **Anhydrous Concrete:** Sulfur concrete (regolith + sulfur) and Polymer concrete (regolith + organic polymers).
+- **Sintered Bricks:** SLM/SLS, Solar Sintering (SSLS), Microwave Sintering (SMWS), and Spark Plasma Sintering (SPS).
 
-## 3. Water-ice resources for construction
-- **Distribution:** Confirmed in Lunar PSRs (up to 750 ppm in North) and Martian mid-latitudes (shallow subsurface ice).
-- **Extraction:** Off-site excavation, in-situ excavation (drilling), and in-situ non-excavation (thermal extraction/sublimation).
-- **Utilization:** Radiation shielding (2 cm water layer reduces Solar Proton Event dose by >50%) and concrete production (magnesian, calcareous, geopolymer, biopolymer).
+## 3. Water-ice resources
+Confirmed in polar regions of the Moon and subsurface of Mars. 
+- **Extraction:** Off-site excavation, in-situ excavation (drilling), and non-excavation (thermal heating).
+- **Construction Use:** Direct shielding (2cm water layer reduces SPE dose >50%) and concrete production (Magnesian, Calcareous, Geopolymer, and Biopolymer concrete like 'StarCrete').
 
-## 4. Energy resources for construction
-- **Atmosphere:** Mars atmosphere (96% CO2) can be captured via freezing, temperature swing, or compression adsorption to produce fuels (CH4, O2).
-- **Solar:** lunar south pole offers favorable lighting. Systems require collection (parabolic dishes), transport (heat pipes), and storage (regolith/fuel cells).
+## 4. Energy resources
+- **Atmosphere:** CO2 capture on Mars (Freezing, TSA, Compression).
+- **Solar Energy:** Collection via parabolic dishes, central receivers, and Fresnel reflectors.
 
-## 5. Applications of ISRU for construction
-| Technology | Description | Examples |
-| :--- | :--- | :--- |
-| **3D Printing** | Concrete-based or water-based material extrusion. | Rocket Pad (ICON), Mars Ice House |
-| **Prefabrication** | Directly interlocking blocks or folding structures. | Xuanwu lunar habitation, LUNARK |
-| **Inflatable/Deployable**| High volume-to-launch weight ratio. | NASA Bowling habitat, Regishell |
-| **Regolith Bags** | Automated filling and stacking. | Lunar soil bag filling system (NASA) |
-| **Hybrid** | Combining multiple technologies. | Clover scheme, China Star |
+## 5. Construction Technologies
+- **3D Printing:** Concrete-based (extrusion, contour crafting, binder jetting) and water-based (Mars Ice House).
+- **Prefabrication and Assembly:** Interlocking blocks (e.g., 'Xuanwu') and folding/origami structures ('LUNARK').
+- **Inflatable/Deployable:** Lightweight, low launch volume.
+- **Regolith Bags:** Automated filling and stacking.
+- **Hybrid:** Combinations of the above (e.g., 'Clover' and 'China Star' concepts).
 
 ## 6. Challenges and Future Directions
-1. **Comprehensive utilization:** Integrating multiple resource types (regolith + water + energy).
-2. **Deep processing:** Utilizing by-products like slag for construction materials.
-3. **Sustainable utilization:** Developing a complete set of infrastructure beyond foundational shelters.
-
-## 7. Conclusion
-Extraterrestrial construction requires a holistic approach to ISRU, transitioning from compartmentalized studies to an integrated framework to maximize resource allocation efficiency.
+- Integration of diverse resources.
+- Deep processing and utilization of byproducts (like metallurgical slag).
+- Transition from individual structures to integrated civil infrastructure.
