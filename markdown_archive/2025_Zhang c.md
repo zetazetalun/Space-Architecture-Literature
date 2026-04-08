@@ -1,27 +1,31 @@
 # Wettability characteristics of lunar soil particles from the Chang’E-5 mission: A single-particle surface analysis
 
 ## Abstract
-Lunar base construction has emerged as a strategic focus for global space agencies, with extrusion-based in situ resource utilization technologies recognized as a promising approach for utilizing lunar soil. However, a critical aspect of this technology lies in understanding the wettability characteristics between lunar soil and binding agents, such as water or resin. Here, the wetting dynamics were quantitatively analyzed through a custom-developed experimental apparatus combining ultra-deep field microscopy with a precision liquid evaporator. Our results demonstrate that the contact angle between a particle and water averages 108.73° with a standard deviation of 3.60°, thus indicating hydrophobicity. This phenomenon is primarily attributed to the distinctive surface morphology of the particle, characterized by adherent structures, porous architecture, and heterogeneous mineral fragments. Numerical simulations of droplet wetting behavior confirm that the Cassie-Baxter model accurately describes the observed phenomena. This study provides crucial empirical support for extrusion-based extraterrestrial construction.
+Lunar base construction has emerged as a strategic focus for global space agencies, with extrusion-based in situ resource utilization technologies recognized as a promising approach for utilizing lunar soil. However, a critical aspect of this technology lies in understanding the wettability characteristics between lunar soil and binding agents, such as water or resin. Here, the wetting dynamics were quantitatively analyzed through a custom-developed experimental apparatus combining ultra-deep field microscopy with a precision liquid evaporator. Our results demonstrate that the contact angle between a particle and water averages 108.73° with a standard deviation of 3.60°, thus indicating hydrophobicity. This phenomenon is primarily attributed to the distinctive surface morphology of the particle, characterized by adherent structures, porous architecture, and heterogeneous mineral fragments. Numerical simulations of droplet wetting behavior confirm that the Cassie-Baxter model accurately describes the observed phenomena. Through integrated experimental and computational analysis, we determined a surface tension of 8.46 mN/m between particles and water. For resin-particle interactions, the calculated Young contact angle of 96.18° exceeds the directly computed 91.90° from Young equation. This study establishes a novel framework for characterizing contact angles on micron-scale rough particles and provides crucial empirical support for extrusion-based extraterrestrial construction.
 
 ## 1. Introduction
-The establishment of lunar bases represents one of the most critical missions in lunar exploration. In-situ resource utilization (ISRU) of lunar soil, combined with additive manufacturing, has emerged as a promising and viable solution. Extrusion molding (ED), in particular, offers advantages such as rapid forming and the ability to produce large-scale structures. A key factor in successful extruded lunar soil forming is determining the surface characteristic parameter between lunar soil and resin, such as contact angle and surface tension.
+The establishment of lunar bases is a critical mission in lunar exploration. In-situ resource utilization (ISRU) of lunar soil, combined with additive manufacturing, has emerged as a promising and viable solution. This study focuses on the surface characteristics of single lunar soil particles retrieved by China's Chang'E-5 mission to support extrusion molding (ED) technologies, which require minimal organic additives like resins.
 
 ## 2. Experimental
 ### 2.1. Lunar soil pretreatment
-The lunar soil (sample code CE5C0400) was collected during the Chang'E-5 mission from the northeastern Oceanus Procellarum. Particles on the order of hundreds of micrometers were selected.
+Sample code CE5C0400 (YJFM00901, 500 mg) was collected from the northeastern Oceanus Procellarum. Particles on the order of hundreds of micrometers were selected.
+
 ### 2.2. Characterization
-Field emission scanning electron microscopy (FESEM) and energy dispersive spectroscopy (EDS) were used for morphology and composition analysis.
+Field emission scanning electron microscopy (FESEM) and energy dispersive spectroscopy (EDS) were used for surface morphology and composition analysis.
+
 ### 2.3. Construction of contact angle measurement
-A custom measurement system consisting of a liquid evaporator (LE) and an ultra-deep field microscope (UDFM) was used to measure contact angles on micron-sized particles.
+A custom system using a liquid evaporator (LE) and an ultra-deep field microscope (UDFM) was designed to measure contact angles on micro-sized particles without enveloping them.
 
 ## 3. Results and discussion
 ### 3.1. Surface morphology and composition
-Particles exhibit angular shapes with uneven surface undulations, porous structures, and mineral fragments (primarily pyroxene). Surface roughness is significantly increased by space weathering.
-### 3.2. Contact angle measurements
-Measurements on eight droplets showed hydrophobic characteristics (avg. 108.73°), contrasting with hydrophilic behavior typically seen in similar terrestrial minerals.
+FESEM images show angular shapes with uneven undulations, porous adherents (glassy condensates), and mineral fragments (pyroxene, olivine, plagioclase, ilmenite). These features contribute to high surface roughness.
 
+### 3.2. Measurement of contact angle between the single particle and water
+Eight droplets were analyzed. The results indicate hydrophobic behavior, differing from terrestrial mineral counterparts, attributed to the unique surface structure from space weathering.
+
+**Table 1: Wetting parameters of the particle.**
 | Droplets | Apparent contact angle (degree) | Droplet radius (μm) | Contact length (μm) |
-|---|---|---|---|
+| :--- | :--- | :--- | :--- |
 | Droplet 1 | 123.1° | 11.93 | 17.50 |
 | Droplet 2 | 122.3° | 8.79 | 17.14 |
 | Droplet 3 | 120.3° | 13.95 | 21.50 |
@@ -32,15 +36,10 @@ Measurements on eight droplets showed hydrophobic characteristics (avg. 108.73°
 | Droplet 8 | 106.6° | 11.84 | 20.86 |
 
 ### 3.4. Numerical simulation results
-Simulations indicate that the wetting behavior follows the Cassie-Baxter model. The surface tension of the lunar soil was estimated to be 8.46 mN/m.
+Simulations using COMSOL and the Cassie-Baxter model show that the air trapped in the micropillars of the rough surface causes the observed hydrophobicity. The surface tension of the lunar soil particle was estimated at 8.46 mN/m.
 
 ### 3.5. Simulation with epoxy resin
-For epoxy resin, the theoretical Young contact angle was calculated as 91.90°, with a simulated apparent contact angle of 102.4°.
-
-| Parameter | Droplet 1 | Droplet 2 | Droplet 3 | Droplet 4 | Droplet 5 | Droplet 6 | Droplet 7 | Droplet 8 |
-|---|---|---|---|---|---|---|---|---|
-| f | 0.6986 | 0.7104 | 0.8425 | 0.763 | 0.7834 | 0.7661 | 0.8896 | 0.8994 |
-| θE | 110.50° | 110.15° | 114.32° | 109.32° | 108.36° | 106.33° | 109.02° | 101.87° |
+Using the validated model, the contact angle between lunar soil and epoxy resin (binding agent) was calculated. The apparent contact angle was simulated at 102.40°, with a theoretical Young contact angle of 96.18°.
 
 ## 4. Conclusions
-The wettability between lunar soil particles and binding agents like water or resin follows the Cassie-Baxter model due to significant surface roughness. This study provides model-based support for the compositional compatibility necessary for extruded lunar soil additive manufacturing.
+The study confirms that the wettability of lunar soil particles follows the Cassie-Baxter model. The hydrophobic nature (108.73° with water) and the specific interaction parameters with resin provide a model-based support for advancing extruded lunar soil technologies in additive manufacturing for lunar habitat construction.
