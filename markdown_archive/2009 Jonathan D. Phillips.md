@@ -1,43 +1,37 @@
 # Soils as extended composite phenotypes
 
-**Jonathan D. Phillips**
-*Tobacco Road Research Team, Department of Geography, University of Kentucky, Lexington, KY 40506-0027, United States*
+**Author:** Jonathan D. Phillips  
+**Journal:** Geoderma 149 (2009) 143–151  
+**DOI:** 10.1016/j.geoderma.2008.11.028
 
 ## Abstract
-Several recent theories and conceptual frameworks in pedology, ecology, geomorphology, and evolutionary biology suggest that Earth's soils represent selective pressures and are expressions of the effects of genes through organisms (extended phenotypes). The cumulative effects represent an **extended composite phenotype (ECP)**. Major changes in biological evolution are reflected in major changes in soil types. Paleopedology supports the coevolution of soils and biota. This is demonstrated via research in the Ouachita Mountains, Arkansas, where tree-soil interactions linked to fire frequency influence soil morphology. The notion of genetic signatures in soil morphology has implications for the search for extraterrestrial life.
+Several recent theories and conceptual frameworks in pedology, ecology, geomorphology, and evolutionary biology suggest that Earth's soils are not just strongly influenced by biota, but represent selective pressures. These ideas point in the direction of many aspects of soils as expressions of the effects of genes through the effects of organisms (i.e., extended phenotypes). The cumulative, interacting, overlapping effects of these extended phenotypes as manifested in the soil represent an extended composite phenotype. This notion suggests that significant biological changes should be reflected in significant qualitative pedological changes (i.e., fundamental changes in soil morphology beyond quantitative changes in specific short-lived soil properties). The concept has repercussions for the search for extraterrestrial life and understanding Earth as a set of tightly-coupled systems.
 
 ## 1. Introduction
-Earth's soils are an expression of the cumulative impacts of the biosphere on surface processes. Soils may be the single best indication of the nature, state, and condition of earth surface systems. If soils are expressions of biological evolution, implications are profound for understanding earth system evolution. This paper views soils as: 
-- **Biomantles:** Surficial layers mixed by floral and faunal turbation.
-- **Extended Phenotypes:** Effects of genes on the environment.
-- **Ecosystem Engineering artifacts:** Organisms modifying the environment to influence natural selection.
+This paper argues that Earth's soils are an expression of the cumulative impacts of the biosphere on surface processes. Soils may represent the single best indication of the nature, state, and condition of earth surface systems. If soils are indeed a phenotype of biota, then coevolution of soils and biota occurs in the specific sense of biological evolution by means of natural selection.
 
-## 2. Conceptual Framework
-### 2.1. Soils as biotic constructs
-van Breemen (1993) argued soils are influenced by biota to increase net primary productivity. Biological processes include weathering, increasing nutrient supply, and increasing water holding capacity.
+## 4. Tree–soil interactions (Case Study)
+### 4.1. Study area
+The Ouachita Mountains, Arkansas, characterized by Hapludults. The forests offer an opportunity to test the hypothesis that biological changes (vegetation composition) are reflected in qualitative soil morphology changes.
 
-### 2.2. Biomantles
-Soils are increasingly viewed as continuously-mixed biomantles. Biomechanical effects (bioturbation) are of comparable importance to biochemical effects in creating soil horizons and texture contrasts.
+### 4.4. Pines vs. hardwoods
+Major contrasts between pines (especially *P. echinata*) and hardwoods with respect to soil morphology in the study area include:
+1. Pines are the first trees to colonize exposed rock surfaces and initiate weathering.
+2. Pines are more likely than hardwoods to uproot in the Ouachitas, leading to quarrying of rock fragments and vertical distribution of clasts.
+3. Soil is mounded beneath shortleaf pines, influencing rock fragment displacement and the mode of infilling stump holes.
+4. Shortleaf pine has a shorter lifespan and faster growth, resulting in a more rapid rate of biomechanical mixing of soils.
 
-### 2.3. Extended phenotypes and niche construction
-Ecosystem engineers have a disproportionate influence on the environment. Niche construction is the process by which organisms alter the environment to influence selective pressures.
-
-### 2.4. Biogeomorphology
-Recognizes feedback relationships, tight coupling, and coevolution between surface processes/landforms and biota.
-
-## 3. Paleosols and coevolution
-If soils are extended composite phenotypes, biological evolution should be reflected in changes in soil asociados. Paleopedological evidence shows that grassland soils coevolved with grasses and herbivores over the past 40 Ma. The term **pedotype** refers to paleosols as trace fossils of local ecosystems.
-
-## 4. Tree–soil interactions
-In the Ouachita Mountains, USA, fire frequency manipulates vegetation composition (hardwood to pine). Biotic changes are associated with changes in soil type and morphology. 
-- **Pines vs. hardwoods:** Pines are early colonizers of rock surfaces and initiate pedogenesis through biomechanical mixing and uprooting.
-- **Soil Morphology:** Tree uprooting results in stony surface layers and influences vertical clast distribution.
-
-| Species | Growth Rate | Lifespan | Max hgt (20 yrs) | hgt/hgt at maturity |
+### Table 1: Growth and Lifespan Categories
+| Species | Growth rate | Lifespan | Max hgt (20 yrs) | hgt 20 yrs / hgt maturity |
 | :--- | :--- | :--- | :--- | :--- |
-| Pinus echinata | Rapid | Moderate | 60 ft | 0.60 |
-| Quercus alba | Slow | Long | 25 ft | 0.25 |
-| Carya tomentosa | Slow | Long | 18 ft | 0.18 |
+| Pinus echinata | Rapid | Moderate | 60 | 0.60 |
+| P. taeda | Rapid | Moderate | 50 | 0.50 |
+| Quercus alba | Slow | Long | 25 | 0.25 |
+| Q. falcata | Slow | Long | 35 | 0.35 |
+| Q. rubra | Moderate | Long | 36 | 0.36 |
+| Q. stellata | Slow | Long | 25 | 0.31 |
+| Carya tomentosa | Slow | Long | 18 | 0.18 |
+| Liquidambar styraciflua | Rapid | Long | 45 | 0.45 |
 
 ## 5. Discussion and conclusions
-Soils as extended composite phenotypes imply a relationship between the bio- and pedospheres. The ECP framework suggests possibilities for searching for life on other planets. An extinct biosphere on Mars might leave long-lasting impacts on soil morphology even if atmospheric chemistry signals have faded.
+Soils as extended composite phenotypes imply a close relationship between the bio- and pedospheres. This framework suggests possibilities for searches for life on other planets. An extinct biosphere (such as may have existed on Mars) would be unlikely to leave fingerprints in atmospheric composition, but impacts on soil morphology would be more long-lasting. Explicit views of soils as extended phenotypes may yield useful clues about potential extraterrestrial pedologic signatures of life.
