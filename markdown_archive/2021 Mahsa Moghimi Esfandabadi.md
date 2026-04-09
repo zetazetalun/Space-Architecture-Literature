@@ -1,43 +1,48 @@
 # Pressurized Greenhouse: A Responsive Environment to Partial Gravity Conditions
 
 **Authors:** Mahsa Moghimi Esfandabadi and Olga Bannova, Ph.D.
-**Publication:** Earth and Space 2021, ASCE, pp. 832-840.
+**Affiliation:** Sasakawa International Center for Space Architecture, Cullen College of Engineering, Houston, TX
 
 ## Abstract
-The greenhouse is a vital module for long-duration missions to support fresh nutrition. This paper discusses two concepts: a habitable greenhouse focusing on crew psychology and an industrial greenhouse for maximum nutrition with low mass. A new hybrid concept is proposed: a "pre-breathe greenhouse" that accommodates a spectrum of pressure, oxygen, and CO2 levels. This allows the greenhouse to function as a transitional zone for EVA preparation, improving crew psychological health compared to traditional airlocks and optimizing resource consumption.
+The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses. The first considers a habitable greenhouse with physical features of a habitat module, focusing on human factors and psychological health. The second is an industrial greenhouse designed for maximum nutrition with lowest cargo mass, operating at low pressure (4.0 psi / 27.6 kPa). The paper presents a third, hybrid concept: a 'pre-breathing greenhouse' that accommodates a spectrum of pressure, oxygen, and CO2 levels to facilitate EVA transitions while benefiting crew psychology.
 
 ## Introduction
-Long-duration missions on Mars require greenhouse modules for food production. Current designs fall into two categories:
-1.  **Industrial-scale:** Prioritizes efficiency and low-pressure environments.
-2.  **Habitable:** Supports psychological wellness with earth-like pressures.
+For long-duration Mars missions, greenhouse modules are essential for food supply. Current designs fall into two categories: industrial-scale (efficiency/low-pressure) and habitable (psychological wellness/full pressure). This paper proposes a hybrid approach allowing fluctuating pressures to accommodate both plants and crew needs.
 
 ## Habitable Greenhouses
-Projects like NASA's Big Idea Challenge (2018) assume greenhouses connect directly to habitats under equal pressure (101.3 kPa). This simplifies ECLSS but increases structural mass and resource consumption. Psychologically, these act as "backyards."
+Previous projects (NASA Big Idea 2018, MINA) assume greenhouses connect to habitats via inflatable tunnels. These modules typically operate at 101.3 kPa (Earth-like pressure), simplifying ECLSS unification but increasing structural mass.
 
 ## Industrial Greenhouse Approach
-These maintain low-pressure environments (e.g., 30-60 kPa) to minimize launch mass. 
-- **Insulation:** Pressure under 60 kPa allows use of SiO2 aerogel or vacuum insulation panels.
-- **Mass Reduction:** A low-pressure greenhouse shell using natural/hybrid lighting is only 50.1% the mass of a high-pressure greenhouse using artificial lighting.
-- **Atmosphere:** Plants tolerate hypobaria down to 10 kPa, but require specific O2/CO2 ratios and ventilation.
+These prioritize crop yield and calorie intake. By maintaining low pressure (under 60 kPa), they can utilize SiO2 aerogel-based thermal insulation and translucent external envelopes for natural lighting. 
 
-## The Middle Path: Pre-Breathe Greenhouse
-The proposed concept allows internal pressure to fluctuate between 34.48 and 56.5 kPa. 
-- **EVA Protocol:** Astronauts currently spend 2-4 hours pre-breathing in tight airlocks to prevent decompression sickness. 
-- **Alternative:** Spending this time in a greenhouse allows for exercise and gardening, which is beneficial for both the crew and the plants (CO2 exchange).
+### Key Comparisons (Figure 4):
+- Changing from artificial to natural/hybrid lighting reduces inflatable mass by 32.5% compared to a high-pressure (59.2 kPa) greenhouse.
+- A low-pressure greenhouse shell using hybrid lighting is only 50.1% of the mass of a high-pressure greenhouse using artificial lighting.
 
-## Comparison of Greenhouse Designs (Figure of Merit)
+## The Pre-Breathe Greenhouse (The Middle Path)
+This concept allows internal pressure to fluctuate between 34.48 and 56.5 kPa. 
+- **Function:** Serves as a pre-breathing chamber for astronauts to prevent decompression sickness (DCS) before EVAs.
+- **Benefit:** Astronauts can spend the required 2-4 hours of pre-breathing time gardening or exercising in a pleasant environment rather than a cramped airlock.
+- **Atmospheric Composition:** Maintains a minimum of 2% O2 and maximum 0.2% CO2.
 
+## Selection of Validation Criteria
+Criteria for evaluating greenhouse designs (Figures of Merit - FOM):
+- Mission type and duration
+- Resource requirements and availability of in-situ resources
+- Number of crew
+- Readiness level of technologies
+- Impact on habitat systems and structures
+
+### Table 3: Figure of Merit Comparison
 | FOM | Private Garden | Industrial Greenhouse | Pre-Breathe Greenhouse |
 | :--- | :--- | :--- | :--- |
-| # Crew | 4 | 4 Or More | 4 Or More |
+| # Crew | 4 | 4 or More | 4 or More |
 | Nutrition Support | Low/Medium | High | High |
 | Mission Duration | Short | Long/Settlement | Long |
 | Resources | High | High | Medium |
-| Autonomous Ops | Low | High | Low/High |
 | Functionality | Single Function | Single Function | Multi-Functional |
 | Impact on Habitat | High | Low | Medium/Low |
-| Psychological Benefits | High | Low/Medium | High/Medium |
 | Area/Volume Utilization | Not Efficient | Max Efficient | Efficient |
 
 ## Conclusions
-A pre-breathe greenhouse offers maximum benefits with fewer resources than traditional habitable designs. It serves as a multifunctional architecture with low impact on habitat systems while providing 24/7 availability for the crew.
+A pre-breathe greenhouse approach offers a compromise between high-pressure habitable designs and low-pressure industrial designs. It provides multifunctional capabilities, lower launch mass requirements, and improves the operational readiness and psychological well-being of the crew.
