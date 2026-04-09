@@ -1,40 +1,45 @@
 # Fabrication of Flexible Thermoelectric Energy Harvesting System
 
-**Authors:** Guangxi Wu, Ferin Neff, and Xiong (Bill) Yu  
-**Publication:** Earth and Space 2018, ASCE  
+**Guangxi Wu¹; Ferin Neff²; and Xiong (Bill) Yu³**
+¹Graduate Assistant, Dept. of Electrical Engineering and Computer Science, Case Western Reserve Univ. E-mail: gxw94@case.edu
+²Undergraduate Assistant, Dept. of Civil Engineering, Case Western Reserve Univ. E-mail: fyn2@case.edu
+³Professor, Dept. of Civil Engineering, Dept. of Electrical Engineering and Computer Science (Courtesy Appointment), Dept. of Mechanical and Aerospace Engineering (Courtesy Appointment), Case Western Reserve Univ. E-mail: xxy21@case.edu
 
-## Abstract
-Thermoelectric energy harvesting is promising for providing a sustainable energy source in extraterrestrial environments. This paper describes procedures for the fabrication of thermoelectric energy harvesters on flexible substrates. An electrically parallel structure is proposed, which features higher energy efficiency than the counterpart electrically series structure based on theoretical analyses. As a proof of concept, flexible thermoelectric harvesters in electrically parallel and series structures are prepared with thick film printing procedures. Both analytical and experimental comparisons imply a promising improvement of energy conversion efficiency by using the electrically parallel structure.
+## ABSTRACT
+Thermoelectric energy harvesting is promising to provide sustainable energy source in the extraterrestrial environment. This paper describes procedures incurred in the fabrication of thermoelectric energy harvester on flexible substrates. An electrically parallel structure is proposed, which features higher energy efficiency than the counterpart electrically series structure based on theoretical analyses. As proof of concept, flexible thermoelectric harvesters in electrically parallel and series structures are prepared with thick film printing procedures. The performance of elements and device with different architectures are characterized. Both analytical and experimental comparison imply a promising improvement of energy conversion efficiency by using the electrically parallel structure.
 
-## Introduction
-Thermoelectric generators (TEGs) provide continuous energy for extraterrestrial exploration where sunlight is insufficient (e.g., Mars at 45% solar brightness, Jupiter at 4%). Radioisotope thermoelectric generators (RTGs) have been reliable for 50 years but suffer from low efficiency. This research explores leveraging the naturally existing temperature gradients on spacecraft or planetary vehicle bodies (e.g., Mars surface temperatures ranging from 20°C to -73°C) by covering surfaces with flexible TEGs.
+## INTRODUCTION
+Thermoelectric modules (TEMs) when used as generators (TEGs) are capable of providing continuous energy for extraterrestrial explorations, where sun light is not always available or intense enough for solar cells to work. For example, the solar brightness on Mars and Jupiter is as weak as 45% and 4%, respectively. TEGs driven by the decay of radioactive materials (RTGs) have received interest due to reliability. However, the naturally existing temperature gradients on spacecraft or extraterrestrial vehicles (e.g., Mars day/night 20°C to -73°C; Moon 123°C to -153°C) have not been effectively leveraged. If surfaces can be covered by TEGs, energy provision will be significantly boosted.
 
-## Electrically Parallel vs. Series Structure
-### Electrically Series TEM Efficiency
-Conventionally, TEMs use alternating p-legs and n-legs connected in series. Mismatches in material properties (resistivity, thermal conductivity, Seebeck coefficient) between p-type and n-type materials lead to an attenuation factor ($A < 1$) in the module's figure-of-merit ($ZT_{module}$).
+## ELECTRICALLY SERIES vs PARALLEL EFFICIENCY
+Conventionally, TEMs are connected in series both electrically and thermally. The maximum energy efficiency is defined by the module's dimensionless figure-of-merit ($ZT_{module}$):
 
-### Electrically Parallel TEM Efficiency
-The paper proposes an alternative where legs are connected in parallel. This allows the use of the same type of material (all p-type or all n-type) for both legs of a unit, ensuring the module figure-of-merit reaches the maximum intrinsic value of the superior material. Analytical results suggest a potential efficiency increase of 32% compared to mismatched series modules.
+$$\eta_{max} = \frac{T_H - T_C}{T_H} \cdot \frac{\sqrt{1 + \overline{ZT}_{module}} - 1}{\sqrt{1 + \overline{ZT}_{module}} + \frac{T_C}{T_H}}$$
 
-## Fabrication Process
+Where material mismatch between p-type and n-type legs reduces efficiency. The paper proposes an alternative TEM structure where legs are connected in parallel both thermally and electrically, made from the same type of TE material to keep polarity. This allows the module's figure-of-merit to match the material with the higher performance, preventing efficiency waste due to material mismatch (up to 32% improvement theorized).
+
+## TEM FABRICATION PROCESS USING FILM PRINTING TECHNOLOGY
+
 ### Material Preparation
-- **Material:** Bismuth Telluride ($Bi_2Te_3$) for both p-type and n-type.
-- **Process:** Nanocomposite bulk processing emulated via ball milling (2200 to 6000 rpm) to increase $ZT$ by grain boundary scattering.
-- **Ink:** TE powder mixed with epoxy resin (EPON Resin 863) at a 4.5:1 ratio.
+- **Material:** Bismuth Telluride ($Bi_2Te_3$) for both n-type and p-type.
+- **Process:** Ball milling with a tube driver (mass ratio 10:1 between stainless steel balls and TE powder) in Isopropanol (IPA).
+- **Sieving:** 200 mesh copper sieve (max grain size 76 microns).
 
-### Printing Technology
-- **Printer:** MPM TF-100 Thick Film Printer.
-- **Substrate:** Flexible Polyimide.
-- **Electrodes:** Commercial gold ink (Ercon E4464).
-- **Curing:** Electrodes at 110°C for 10 min; TE inks at 110°C for 24 hours.
+### TE Ink Preparation
+- **Binder:** Epoxy matrix (EPON Resin 863, MHHPA hardener, AC-8 catalyst).
+- **Ratio:** TE powder-to-epoxy ratio of 4.5:1.
 
-## Performance Characterization
-Testing was conducted using a printed platinum resistor heat source and an aluminum/iced water heat sink (0°C). A trans-impedance amplifier was used for accurate I-V and W-V curve measurement at a 50°C temperature gradient.
+### Printing Process
+- **Equipment:** MPM TF-100 Thick Film Printer.
+- **Substrate:** Polyimide (Kapton).
+- **Curing:** Electrodes (Gold ink) cured at 110°C for 10 min; TE inks cured at 110°C for 24 hours.
 
-| Material | Resistivity $\rho$ (mΩ·cm) | Seebeck Coefficient $\alpha$ (μV/K) | Thermal Conductivity $\kappa$ W/(cm·K) | $ZT_{material}$ at 300K |
+## TABLE 1: Material properties of a pair of thermoelectric materials (Bi2Te3)
+
+| Material | Electrical Resistivity $\rho$ ($m\Omega\cdot cm$) | Seebeck Coefficient $\alpha$ ($\mu V/K$) | Thermal Conductivity $\kappa$ ($W/(cm\cdot K)$) | Material figure-of-merit $ZT_{material}$ at 300K |
 | :--- | :--- | :--- | :--- | :--- |
-| $Bi_2Te_3$ (p) | 0.83 | 156.57 | $2.09 \times 10^{-2}$ | 0.42 |
-| $Bi_2Te_3$ (n) | 0.73 | -193.00 | $2.04 \times 10^{-2}$ | 0.74 |
+| $Bi_2Te_3$ (p) | 0.83 | 156.57 | 2.09 x 10⁻² | 0.42 |
+| $Bi_2Te_3$ (n) | 0.73 | -193.00 | 2.04 x 10⁻² | 0.74 |
 
-## Conclusion
-The electrically parallel structure is a prospective solution to improve energy conversion efficiency and simplify the fabrication of large-area flexible TEGs. Future implementations may utilize a sandwiched multilayered structure to further simplify production.
+## CONCLUSION
+This study proposes an electrically parallel TEM structure to improve output power. Flexible TEMs were fabricated using thick-film printing and characterized. Results comply with analytical models showing the parallel structure is promising for large-area implementation on extraterrestrial vehicles and structures.
