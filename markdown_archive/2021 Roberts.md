@@ -1,33 +1,23 @@
 # Blood, sweat, and tears: extraterrestrial regolith biocomposites with in vivo binders
 
-## Authors
-A.D. Roberts, D.R. Whittall, R. Breitling, E. Takano, J.J. Blaker, S. Hay, N.S. Scrutton
-
 ## Abstract
-The high cost and significant time delay associated with delivering payloads to the Martian surface means that exploitation of resources in situ — including inorganic rock and dust (regolith), water deposits, and atmospheric gases — will be an important part of any crewed mission. In this work, we explore the use of human serum albumin (HSA) — a common protein obtained from blood plasma — as a binder for simulated Lunar and Martian regolith to produce so-called 'extraterrestrial regolith biocomposites (ERBs).' HSA-based ERBs displayed compressive strengths as high as 25.0 MPa. The incorporation of urea — which could be extracted from the urine, sweat, or tears of astronauts — could further increase the compressive strength by over 300%, with the best-performing formulation having an average compressive strength of 39.7 MPa. Furthermore, we demonstrate that HSA-ERBs have the potential to be 3D-printed.
+Exploitation of resources in situ (ISRU) is critical for Mars missions. This work explores human serum albumin (HSA) as a binder for simulated Lunar and Martian regolith to produce 'extraterrestrial regolith biocomposites' (ERBs). HSA-based ERBs displayed compressive strengths as high as 25.0 MPa. Incorporating urea (from urine, sweat, or tears) increased strength to 39.7 MPa. The materials were demonstrated as viable for 3D-printing.
 
 ## 1. Introduction
-Exposure to radiation and micro-meteor strikes poses a significant survival risk. Early extraterrestrial colonies will likely exploit loose regolith as a bulk material for radiation and meteor shielding. Strongly bonded extraterrestrial regolith, combined with a pressurized internal liner, could serve as a cost-effective construction material for habitat expansion. We explore the use of human resources (in vivo binders) to avoid heavy equipment or spare parts needing to be transported from Earth.
+Regolith exploitation is necessary for radiation and meteor shielding. Mechanical stabilization is required to prevent erosion and support habitat expansion. This study explores biopolymer binders that can be produced in vivo by the crew.
 
-## 3. Results
+## 2. Results
+### 2.1 Compressive Strength
+- HSA-ERBs (Lunar): 25.0 MPa
+- HSA-ERBs (Martian): 9.3 MPa
+- HSA + 3M Urea-ERBs (Lunar): 39.7 MPa
+- HSA + 3M Urea-ERBs (Martian): 11.9 MPa
 
-### 3.2 Relationship between HSA-regolith mass ratio and ERB compressive strength
-Table 2: HSA-ERBs prepared with different HSA protein concentrations.
-| Regolith type | HSA conc. (wt. %) | Binder-to regolith mass ratio (%) | UCS (MPa) | Elastic modulus (MPa) |
-| :--- | :--- | :--- | :--- | :--- |
-| MGS-1 | 35 | 8.1 +/- 0.3 | 9.3 +/- 1.2 (6) | 968 +/- 390 |
-| LHS-1 | 35 | 8.6 +/- 0.3 | 25.0 +/- 3.1 (5) | 1618 +/- 479 |
+### 2.2 3D Printing
+A proof-of-concept 3D-printed HSA-ERB (MGS-1 simulant) sustained an ultimate compressive force of 600 N (~1.9 MPa stress for the specific geometry).
 
-### 3.4 Incorporating urea into the formulation
-Table 3: Summary of HSA-ERBs prepared with various urea concentrations.
-| Regolith type | HSA conc. (wt. %) | Urea conc. (M) | UCS (MPa) | Elastic modulus (MPa) |
-| :--- | :--- | :--- | :--- | :--- |
-| MGS-1 | 30 | 3 | 11.9 +/- 1.3 (4) | 939 +/- 508 |
-| LHS-1 | 30 | 3 | 39.7 +/- 3.9 (4) | 1746 +/- 354 |
-| LHS-1 | 35 | 2 | 37.4 +/- 2.2 (4) | 1823 +/- 627 |
+### 2.3 Adhesive Performance
+HSA on borosilicate glass achieved an ultimate shear stress of 5.2 MPa, suggesting its utility as a mortar for bonding sintered/melted regolith bricks.
 
-### 3.6 Demonstrating the potential of HSA-ERBs for 3D-printing
-We manually extruded a mixture of MGS-1 and HSA 15 wt% (3:1 mass ratio) onto an aluminum plate maintained at 65°C. The construction sustained an ultimate compressive force of 600 N, equivalent to a mass of 61 kg under Earth's gravity or 162 kg on Mars. The ultimate compressive strength of the 3D-printed construction was approximately 1.9 MPa.
-
-## 5. Conclusions
-In this study, we propose that blood may have an important secondary application as a binder for extraterrestrial regolith to produce concrete-like biocomposites (ERBs). With compressive strengths as high as 25.0 MPa — or up to 39.7 MPa with urea — the produced ERBs can exceed the compressive strength of standard terrestrial concrete. Unlike other ISRU technologies, this method circumvents the need for heavy and malfunction-prone binder production equipment.
+## 3. Conclusions
+Human biological waste (blood and urine) can serve as high-performance ISRU binders for habitat construction. Calculations suggest a crew of six could produce enough material to expand a habitat by one additional member over a 72-week mission.
