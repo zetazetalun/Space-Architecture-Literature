@@ -1,47 +1,45 @@
 # Additive manufacturing evolution in construction: From individual terrestrial to collective, aerial, and extraterrestrial applications
 
-**Journal:** Journal of Building Engineering 96 (2024) 110389
-**Authors:** Kamran Aghaee, Linfei Li, Alireza Roshan, Parsa Namakiaraghi
-**Keywords:** 3D printing; Additive manufacturing; Automation in construction; Aerial; Bio-inspired; Collective robotic construction; Lunar; Testing methods; Topology optimization.
+**Journal:** Journal of Building Engineering 96 (2024) 110389  
+**Authors:** Kamran Aghaee, Linfei Li, Alireza Roshan, Parsa Namakiaraghi  
+**Available online:** 10 August 2024
 
 ## Abstract
-This study reviews the advancement of Additive Manufacturing (AM) in construction, tracing its evolution from terrestrial to collective, aerial, and extraterrestrial applications. It elaborates on bio-inspired technology, topology optimization, and preferred materials for extreme environments, including lunar and Martian surfaces. The paper elucidates challenges associated with on-site lunar construction and the future potential of autonomous swarm robotics.
+The third industrial revolution is marked by the fast-growing evolution of Additive Manufacturing (AM) in construction. This transformative shift is driving the automation of construction processes to bestow economic, sustainable, and functional habitats on earth and space. AM trajectory is advancing from off-site toward on-site construction by upscaling, collective robotic work, remote, aerial, and lunar construction. This study reviews the advancement of AM in the construction industry, tracing its evolution from individual terrestrial to collective, aerial and extraterrestrial construction.
 
 ## 1. Introduction
-The construction industry is adopting AM to expedite construction, enhance safety, and contribute to economic efficiency and sustainability. The trajectory is moving from off-site prefabrication to on-site, aerial, and extraterrestrial construction.
+Adopting innovative construction technologies such as additive manufacturing (AM) can expedite construction, enhance safety, and contribute to economic efficiency. AM can contribute to environmental sustainability by reducing waste generation and eliminating unnecessary molding processes.
 
-## 3. Fundamental AM Techniques
-- **Contour Crafting (CC):** Extrusion-based method developed by Khoshnevis (2004) for large-scale buildings. Suitable for supportless curved structures like domes.
-- **Binder Jetting (D-Shape/Monolite):** Powder-bed printing using granular materials and binder. Advantages include coarse aggregate (CA) use and shrinkage reduction.
-- **Concrete Printing (CP):** Arm-based systems depositing mortar composites.
+## 3. Fundamental AM techniques (terrestrial construction)
+### 3.1. Contour crafting (CC)
+Developed by Khoshnevis in 2004, CC uses an XYZ gantry system to fabricate large-scale buildings. It allows for the construction of steel-reinforced concrete and supportless curved structures like domes and vaults.
+### 3.2. Binder jetting (D-shape)
+D-Shape method prints layers of granular powder materials (magnesium-based and sand) and binder. Advantages include the use of coarse aggregate and shrinkage reduction.
+### 3.3. Concrete printing (CP)
+Developed at Loughborough University, CP predominantly deposits mortar composites via an arm-based printing equipment.
 
-## 4. Advanced AM Techniques
-### 4.1 Collective Robotic Construction (CRC)
-Involves coordinated autonomous robots working simultaneously. Inspired by nature (ants/termites). Offers redundancy and scalability but faces coordination and alignment challenges.
-### 4.2 Aerial AM (ARC)
-Utilizes drones for construction in remote or elevated areas. Drones require high-strength, low-density materials due to limited payload capacity.
-### 4.3 Lunar and Martian AM
-- **Marscrete:** A Martian concrete primarily composed of sulfur and locally sourced regolith.
-- **Lunar Habitation:** NASA's 'Advanced 3D Printing Construction Systems' aim to establish habitats by 2040. Projects include 'Marsha' (AI SpaceFactory) and ICON's $57.2M contract for lunar roads and homes.
-- **Challenges:** Extreme temperature fluctuations (-171°C to 127°C on the Moon), low gravity, vacuum/low pressure, and radiation.
+## 4. Advanced AM techniques (terrestrial and non-terrestrial)
+### 4.1. Collective robotic construction (CRC)
+CRC involves a coordinated group of autonomous robots operating simultaneously to enhance and expedite construction at a larger scale and lower cost.
+### 4.3. Lunar AM
+In 2019, NASA and ESA introduced the concept of "Advanced 3D Printing Construction Systems for the Moon and Mars" aiming for habitats before 2040. In 2022, NASA awarded ICON a $57.2 million contract to develop technology for AM roads, launchpads, and homes on the Moon. 
 
-## 5. Construction Considerations
-### Table 1: Environmental conditions on the Moon & Mars
-| Planet | Temperature (°C) | Oxygen (%) | Relative Humidity (%) | Gravity (m/s²) |
+#### Material Considerations
+*   **Marscrete:** Primarily composed of sulfur and regolith, can be layered and deposited by 3D printers with minimum human supervision.
+*   **Simulated Regolith:** Used as a precursor for geopolymerization to create concrete with mechanical performance comparable to conventional concrete.
+*   **Mars Ice House:** Concept using H2O as a resource for AM, creating ice structures due to low surface temperatures on Mars.
+
+| Planet | Temperature (°C) | Oxygen (%) | Relative humidity (%) | Gravity (m/s²) |
 | :--- | :--- | :--- | :--- | :--- |
-| Moon | -171 to 127 | 45 | ~0 | 1.625 |
-| Mars | -143 to 17 | 0.13 | 80-100 (night) | 3.721 |
-| Earth | -89.3 to 56.7 | 21 | 0-100 | 9.807 |
+| Moon | − 171–127 | 45 | ~0 | 1.625 |
+| Mars | − 143–17 | 0.13 | 80-100 (night); ~0 (day) | 3.721 |
+| Earth | − 89.3–56.7 | 21 | 0–100 | 9.807 |
 
-### Table 4: Successful large-scale AM constructions (Selection)
-| Ref | Year | Project | Location | Method |
-| :--- | :--- | :--- | :--- | :--- |
-| [106] | 2018 | Marsha (Mars Habitat) | NASA Challenge | Extrusion based |
-| [103] | 2022 | Lunar Road/Homes | Moon (Future) | Robotic Extrusion (ICON) |
+## 5. AM construction considerations and characteristics
+### 5.1. AM concrete materials
+Proper AM concrete materials need adequate pumpability, extrudability, and high buildability. Binders include Portland cement, sulfoaluminate cement, and geopolymers combined with Supplementary Cementitious Materials (SCM).
+### 5.3. Rheology
+Dynamic yield stress and plastic viscosity govern pumpability, while static yield stress and thixotropy affect buildability.
 
-## 6. Novel Approaches
-- **Bio-inspired AM:** Utilizing architectures like Bouligand, honeycomb, and nacre to enhance fracture resistance and toughness.
-- **Magnetorheological Cementitious Binders (MCBM):** Smart materials where fresh properties (rheology) are controlled via external magnetic fields.
-
-## 9. Summary and Outlook
-AM is one of the most promising approaches for extraterrestrial construction due to automation, efficiency, and ISRU capabilities. Future success depends on standardizing testing procedures and optimizing material formulations for extreme temperatures and gravity conditions.
+## 9. Summary and outlook
+AM has made significant progress in expanding the construction of large-scale structures and achieving widespread acceptance. However, extraterrestrial AM (Lunar and Martian) is still in its infancy and faces challenges like extreme temperature fluctuations, partial gravity, and the need for high-fidelity simulant materials. CRC and drone-based AM offer potential for inaccessible environments.
