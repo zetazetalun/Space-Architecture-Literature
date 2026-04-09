@@ -1,52 +1,58 @@
 # Materials and design concepts for space-resilient structures
 
-**Authors:** Mohannad Z. Naser, Alaa I. Chehab  
-**Journal:** Progress in Aerospace Sciences 98 (2018) 74–90  
+**Authors:** Mohannad Z. Naser, Alaa I. Chehab
+**Journal:** Progress in Aerospace Sciences 98 (2018) 74–90
 **DOI:** 10.1016/j.paerosci.2018.03.004
 
 ## Abstract
-This paper presents a state-of-the-art literature review on recent developments of “space-native” construction materials and highlights evolutionary design concepts for “space-resilient” structures (colonies and habitats). It details the effects of harsh space environments on materials, infrastructure, and structural systems. The feasibility of ISRU, harvesting elements, and emerging technologies like lab-grown materials and additive printing are discussed.
+This paper presents a state-of-the-art literature review on recent developments of “space-native” construction materials, and highlights evolutionary design concepts for “space-resilient” structures (i.e., colonies and habitats). It details the effects of harsh space environments, ISRU feasibility, and enabling technologies like additive manufacturing and cultured materials.
 
-## 1. Introduction
-Space habitats must withstand extreme conditions and should preferably be fabricated using in-situ resources. Transportation costs ($20,000/kg to the Moon) necessitate ISRU. Composite materials like concrete are identified as highly suitable due to their well-documented performance and potential for local production.
+## 1. Space Environment
+Key challenges include lack of atmosphere, extreme radiation (solar flares, galactic cosmic radiation), and gravity differences. Temperature fluctuations on the Moon range from -173°C to 127°C, while Mars averages -57°C.
 
-## 2. Space Environment and Loading
-Key differences between Earth, Moon, and Mars include:
-- **Atmosphere:** Lack of atmosphere leads to high radiation, meteoroid impacts, and extreme temperature fluctuations (-173 to 127°C on the Moon).
-- **Gravity:** Lower gravity allows for larger structural spans but affects soil bearing capacity and foundation design.
-- **Vacuum:** Causes outgassing and affects material curing (e.g., accelerated water loss in concrete).
+### Table 1: Key differences between Earth, Moon, Mars, and other exoplanets
+| Parameter | Earth | Moon | Mars | Kepler-452b | Proxima-Centauri b |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Total Mass vs Earth (%) | - | 1.2 | 10.7 | 190 | 80–110 |
+| Avg Surface Temp (°C) | 13 | -30 | -57 | -8 | -39 |
+| Atmos. Pressure (kPa) | 101.3 | negligible | 0.7 | unknown | unknown |
 
-## 3. Space Resources
-### 3.1. In-Situ Resource Utilization (ISRU)
-Lunar and Martian regolith contain SiO2 (37-45%), Al2O3, and FeO/Fe2O3. Lunar regolith grain sizes typically range from 0.04 to 0.27 mm.
+## 2. Space Resources and ISRU
+ISRU is defined as operations harnessing raw resources to produce products/services for exploration. Lunar soil contains alumina, calcium oxide, and silicate, suitable for cementitious materials. 
 
-### 3.2. Harvesting
-Mining asteroids for minerals and using biological materials like spider silk (tensile strength ~1 GPa) are proposed as long-term strategies.
+### Table 2: Chemical content of lunar and Martian samples (% weight)
+| Constituent | Lunar Basalt (A12) | Lunar Basalt (A17) | Martian Sample | Martian Lava | Cement |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SiO2 | 45.03 | 37.79 | 44.7 | 44.48 | 20.13 |
+| Al2O3 | 7.27 | 8.85 | 5.7 | 11.25 | 5.98 |
+| FeO/Fe2O3 | 21.09 | 19.66 | 18.2 | 14.38 | 2.35 |
+| CaO | 8.01 | 10.74 | 5.6 | 9.54 | 64.01 |
 
-## 4. Properties of Space Construction Materials
-### 4.1. Concrete Derivatives
-- **Sulfur Concrete:** Created by heating sulfur (120–150°C) and mixing with regolith. Compressive strengths: 39–75.7 MPa (Lunar) and 20–63 MPa (Martian).
-- **Polymer Concrete:** Uses resins/epoxies as binders. 10% polymer mix reached 12.75 MPa.
-- **Geopolymers:** Produced via reaction between aluminosilicate precursors and alkaline solutions; strengths range from 16.6 to 33.1 MPa.
+## 3. Construction Materials
 
-### 4.2. Metals and Alloys
-Aluminum, Magnesium, Iron, and Titanium are available. Aluminum-lithium and Magnesium (ZCM711) alloys are explored for structural framing.
+### 3.1. Concrete Derivatives
+- **Sulfur Concrete:** Non-hydraulic (waterless). Mixes melted sulfur (120–150°C) with regolith. Lunar sulfur concrete achieves 39–75.7 MPa compressive strength.
+- **Geopolymers:** Produced by aluminosilicate precursors and alkaline solutions. Melting regolith (~1600°C) can also reinforce concrete elements.
+- **Polymeric Concrete:** Uses resins/epoxies as binders. Compressive strengths reach ~12.75 MPa within 5 hours.
 
-### 4.3. Advanced Materials
-Includes Carbon/Carbon composites, Graphite/Epoxy, and Shape Memory Alloys (SMAs) for self-deployable mechanisms.
+### 3.2. Metals and Alloys
+Aluminum, magnesium, iron, and titanium are available for mining. Aluminum can be used to form waterless-aluminum concrete.
 
-## 5. Processing Methods
-- **Solar/Laser Sintering:** Bricks (200x100x30 mm) fabricated in 5h at 1000°C.
-- **Microwave Sintering:** Penetrates 13.4 mm in lunar simulant; produces uniform bricks at 1000–1250°C.
-- **Additive Printing:** D-Shape printing technology and 'closed foam' 3D printed walls are noted for improving structural health and radiation shielding.
+### 3.3. Advanced Materials
+- **Composites:** Carbon fiber reinforced carbon (C/C), metal matrix, and organic matrix composites.
+- **Shape Memory Materials:** Shape memory alloys (SMA) and polymers (SMP) for self-deployable mechanisms.
+- **Biotechnology:** Spider silk proteins (harvested from in-space farms) for reinforcing structural components.
 
-## 6. Structural Concepts
-Habitats are categorized into three generations:
-1. **Class I:** Pre-fabricated, imported from Earth (short duration).
-2. **Class II:** Hybrid/Deployable (Inflatables), combining Earth components with ISRU.
-3. **Class III:** Fully ISRU-based, independent, and self-sufficient colonies.
+## 4. Processing Technologies
+- **Solar/Laser Sintering:** Focused energy melts regolith particles layer-by-layer.
+- **Microwave Sintering:** Volumetric heating (2.45 GHz). Can penetrate up to 13.4 mm in lunar simulants.
+- **Additive Manufacturing:** 3D printing (e.g., D-Shape) used to cast protective walls against radiation and micrometeoroids.
 
-Specific designs discussed include:
-- **Rigid Bases:** Concrete cylinders (64m diameter) or three-story structures.
-- **Inflatable Bases:** Using high-strength fabrics (Kevlar) protected by regolith layers.
-- **Underground Bases:** Utilizing lava tubes for natural radiation and meteoroid protection.
+## 5. Structural Concepts
+- **Class I (Pre-fabricated):** Rapid deployment, small crews, short missions.
+- **Class II (Deployable/Inflatable):** Hybrid systems, higher packing efficiency, often requiring regolith shielding (e.g., 3m thickness).
+- **Class III (ISRU-based):** Large-scale colonies, self-sufficient, using processed local materials.
+- **Underground Bases:** Leveraging lava tubes (30m diameter) for natural radiation shielding and thermal stability.
+
+## 6. Conclusion
+Realization of space colonies requires multidisciplinary collaboration to overcome logistics, material development, and automated construction challenges. Concrete remains a primary candidate due to its inherent resiliency.
