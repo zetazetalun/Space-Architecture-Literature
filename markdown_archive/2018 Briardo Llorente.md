@@ -1,38 +1,47 @@
 # The Multiplanetary Future of Plant Synthetic Biology
 
-**Authors:** Briardo Llorente, Thomas C. Williams, Hugh D. Goold
-**Journal:** Genes
+**Perspective**
+**Authors:** Briardo Llorente, Thomas C. Williams, and Hugh D. Goold
 **Published:** 10 July 2018
-**DOI:** 10.3390/genes9070348
 
 ## Abstract
-Human space journeys to Mars require sustainable long-duration human operations. Plants are critical for supplying oxygen, fixing carbon, and recycling waste/water. They also provide biomass feedstock for microbial manufacturing of materials and chemicals. This perspective discusses using synthetic biology to adapt plants and microbes to the Martian environment, specifically within the context of a Martian greenhouse.
+Plants could play a critical role in producing food and biomass feedstock for the microbial manufacture of materials, chemicals, and medicines in long-term interplanetary outposts. However, plants evolved under terrestrial conditions and will not perform optimally in different planetary habitats. This article discusses bioengineering endeavors to enable plants to thrive in Martian greenhouses and proposes a roadmap for research on adapting life to Mars.
 
 ## 1. Taking Full Advantage of Plants on Extraterrestrial Human Outposts
-Developing robust technologies to enable sustainable long-duration human operations is paramount. Plants contribute to bioregenerative life support systems (BLSS) and provide precursors for manufacturing medicines and materials on the Moon or Mars. Self-sufficiency minimizes risks and reduces the logistical costs of resupply from Earth.
+A major factor limiting space exploration is the logistical cost of resupplying resources from Earth. Developing technologies for sustainable long-duration operations is paramount. Plants can supply O2, fix CO2, and recycle waste/water, contributing to bioregenerative life support systems. On-site production of food, medicines, and materials would increase self-sufficiency.
 
 ## 2. Refactoring Plants for Enhanced Performance on Mars
-Martian challenges include low sunlight (~43% of Earth), UV radiation, and low temperatures. Engineering goals include:
-- **Photosynthesis:** Expanding spectral coverage toward UV and infrared regions.
-- **Abiotic Stress:** Improving drought and cold tolerance via stomatal manipulation and cryoprotective responses.
-- **Yield:** Redesigning plant architecture for high density and productivity in limited greenhouse spaces.
-- **Nutrients:** Engineering plants to directly assimilate atmospheric nitrogen (N2).
+Achieving self-sufficiency requires deploying facilities designed for plants to survive the Martian environment. Engineering plants for enhanced performance will bring benefits in energy, water, and habitat-space use.
+
+### 2.1. Enhancing Photosynthesis and Photoprotection
+Sunlight intensity on Mars is ~43% of that on Earth. Engineering targets include:
+- Expanding the light spectrum harvesting towards UV and infrared regions.
+- Improving Rubisco catalytic activity for more effective carbon fixation.
+- Engineering synthetic UV-dependent responses and photoprotection mechanisms.
+
+### 2.2. Improving Drought and Cold Tolerance
+- **Drought:** Manipulating stomatal pores and engineering crassulacean acid metabolism (CAM) or anhydrobiosis mechanisms.
+- **Cold:** Engineering plants with ice-binding proteins and synthetic circadian regulation to anticipate Martian night temperature drops.
+
+### 2.3. Engineering High Yield and Functional Food
+- High biomass productivity in limited greenhouse space.
+- Biofortified crops with improved nutritional properties and enhanced quality traits.
 
 ## 3. Tailoring Microorganisms to Complement and Facilitate Plant Life on Mars
-Microbes can be engineered to:
-- **Condition Martian Soil:** Detoxify perchlorates, which are toxic to humans, and increase soil moisture through extracellular polysaccharides.
-- **Biomanufacturing:** Convert plant biomass into proteins, materials, chemicals, and medicines using heterotrophic catabolism.
+### 3.1. Conditioning Martian Soil for Plant Growth Using Microbes
+Martian soil (regolith) contains toxic perchlorates. Biological solutions include:
+- Engineering CO2-utilizing bacteria to express perchlorate reduction enzymes.
+- Releasing water from hydrated perchlorate salts to increase soil moisture.
+- Producing extracellular polysaccharides or adhesive proteins to bind soil particles and mitigate desiccation.
 
 ## 4. A Roadmap for Research on Adapting Life to Mars
-The authors propose a 'Mars Biofoundry'—an automated platform to expedite the engineering and high-throughput phenotyping of biological systems adapted to Martian conditions. This includes a design-build-test cycle involving microorganisms as plant-proxies for rapid screening.
+The authors propose a **'Mars Biofoundry'**: an automated and versatile platform for expediting the engineering and high-throughput phenotyping of biological systems adapted to Martian conditions.
 
-## 5. Summary Table: Martian Environmental Challenges vs. Bioengineering Solutions
-
-| Challenge | Constraint | Potential Bioengineering Solution |
-| :--- | :--- | :--- |
-| Sunlight | ~43% of Earth intensity | Expanding light-harvesting spectrum |
-| Atmosphere | ~95% CO2, ~2.7% N2 | Direct N2 fixation; Rubisco optimization |
-| Soil (Regolith) | Toxic perchlorates; low nutrients | Microbial bioremediation; engineered root systems |
-| Temperature | High diurnal variation; low average | Synthetic circadian regulation of cryoprotectants |
-| Gravity | 0.38 g | (Not expected to be a major limiting factor) |
-| Water | Limited to ice; extraction energy cost | Engineering drought resilience; metabolic rewiring |
+| Stage | Description |
+| :--- | :--- |
+| **A** | Design of synthetic biology approaches |
+| **B** | Automated platform for implementing bioengineering designs |
+| **C** | Facility for high-throughput phenotyping under simulated Martian conditions |
+| **D** | Periodic transport of engineered organisms to Mars |
+| **E** | Miniature growth facilities for experiments on Martian surface |
+| **F** | Remote monitoring of performance to adjust work on Earth |
