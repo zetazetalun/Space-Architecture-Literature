@@ -1,39 +1,34 @@
-# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on Mars
-
-## Metadata
-- **Journal:** MethodsX
-- **Date:** 2023
-- **Authors:** Kasra Amini, Mojgan Moradi, Bahareh Vossoughi, Ehsan Dehghani Janabadi
-- **DOI:** 10.1016/j.mex.2023.102270
+# Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on mars
 
 ## Abstract
-Centered on long-duration habitat design for research crews on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units for up to 9 crew members each. The design shifts from survival-only shelters to fulfilling environments. Key focuses include initial design concerns, redundancy layers, and geometric modularity to reduce costs.
+Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members. This approach moves from mere survival shelters to fulfilling environments. Key concerns include redundancy, modularity to reduce costs, and geometric solutions for construction.
 
-## Method: Iterative Design
-The process follows an iterative methodology including design criteria, mission specifications, spatial layout, and construction planning. The design uses a module of 4 x 4 x 4 m³ growing in steps for a max of 9 residents per unit.
+## Method Details
+- **Method name**: Iterative Design
+- **Keywords**: Martian Habitat Units (MHUs), Modular design, Hierarchical modulation, Closed-loop systems, Exterior flow field control.
 
-## Key Features of MHUs
-- **Anti-Dust Settlement Membrane (ADSM):** An inflatable elastic membrane on top of units to prevent dust settlement on solar panels.
-- **Double-Layered Pressure Vessel:** Maintains internal pressure at 80% of Earth atmosphere in two steps.
-- **In-situ 3D Printing:** AI-assisted additive manufacturing using granulated Martian regolith.
-- **Power Systems:** Primary: Nuclear (Kilopower); Secondary: Solar; Tertiary: Wind.
+### Design Requirements and Concerns
+Categorized concerns include:
+- **Environmental Hazards**: Low gravity, radiation, extreme temperatures, dust storms, and micrometeorites.
+- **Habitat Comfort**: Pressurized habitats, fresh air, thermal comfort, and noise control.
+- **Habitat Spatial Requirements**: Zonal separation, personal hygiene, and gardening areas.
+- **Subsystems**: Life Support Systems (LSS), power generation, robotics, and AI hardware.
 
-## Technical Data
+### Martian Habitat Units (MHUs) Design
+- **Modular Pattern**: Hierarchical and interconnected hexagonal modules with a growth rate of √3 between layers.
+- **Spatial Layout**: Rhombus-patterned interior (4x4) with surrounding gardens and two-decked habitats (communal/work on bottom, private suites on top).
+- **Anti-Dust Settlement Membrane (ADSM)**: An adjustable, inflatable elastic membrane on top of the units to deviate wind and prevent dust settlement on solar panels.
 
-### Table 4: Primary Power (Nuclear Kilopower)
-| Items | Specifications |
-|---|---|
-| Fuel | Solid U235 |
-| Reactor Thermal Power | 43.3 kWt |
-| Power Conversion Output | 10 kWe |
-| Consumable Daily Energy/MHU | 2959.2 – 4438.8 kWh/day |
+### Construction and Manufacturing
+- **Additive Manufacturing**: AI-based 3D printing using in-situ materials (Martian regolith).
+- **Robotics**: Robotic arms process granulated material for 3D printers to construct the main structures prior to crew arrival.
 
-### Table 7: Energy Consumption
-| Items | Values |
-|---|---|
-| MHU total energy consumption (9-crew) | 1087.61 kWh/day |
-| Safety Factor | 3 |
-| Total daily energy demand per MHU | 3262.8 kWh/day |
+### Power Systems
+| Source | Specification |
+| :--- | :--- |
+| **Primary** | Nuclear fission (Kilopower), 18-27 reactors per MHU, 10 kWe each |
+| **Secondary** | Multi-junction photovoltaic cells, 3400 m² per MHU, 33% efficiency |
+| **Tertiary** | Horizontal axis wind turbines (HAWT), 5 towers, 40m diameter |
 
 ## Conclusion
-The MHUs are designed for the pre-terraforming phase, utilizing 3D printing and in-situ materials to minimize payload. The modular design allows units to operate independently with high redundancy for safety.
+MHUs are designed for long-duration scientific presence. The modularity allows for independent operation of units. Using in-situ materials via 3D printing significantly reduces the required launch payload. The design incorporates extreme redundancies and an ADSM to mitigate the harsh Martian environment.
