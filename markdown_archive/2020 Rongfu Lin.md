@@ -2,58 +2,42 @@
 
 **Journal:** Mechanism and Machine Theory 149 (2020) 103787  
 **Authors:** Rongfu Lin, Weizhong Guo, Changjie Zhao, Youyuan Tang, Chenyao Zhao, Ziyue Li  
-**Affiliation:** Shanghai Jiao Tong University, China
+**Published:** 19 February 2020  
 
 ## Abstract
-To meet the needs of the 'Returning' and 'Base construction' missions of extraterrestrial exploration, it is necessary to enable legged stationary landers (LSL) to walk, creating legged mobile landers (LMLs). This paper proposes a novel synthesis method based on Truss-Mechanism Transformation (TMT) for LMLs. The method allows the structure to act as a truss during landing (to bear high impact) and a multi-DOF mechanism during walking. Using the Chang’e lander structure as a base, several LML leg structures are synthesized and evaluated.
+To meet the needs of the “Returning” and “Base construction” missions of the extraterrestrial body’s exploration task, it is necessary to enable the legged stationary lander (LSL) to walk, i.e., it is important and imperative to design novel legged mobile landers (LMLs). This paper aims to address a novel synthesis method based on Truss-Mechanism Transformation (called as TMT method) for LMLs with the capabilities of trusses and mechanisms during different phases. The overall topological design concept and procedure of TMT method are proposed. By means of this method, numerous structures of LMLs based on the structure of Chang’e lander are synthesized. 
 
 ## 1. Introduction
-Deep space exploration involves 'Circling', 'Landing', and 'Returning', with 'Base construction' as a future goal. Existing landers (LSLs) are stationary, which limits exploration range and pose adjustment for ascent or construction. LMLs overcome these limits by combining the stability of landers with the mobility of rovers.
+Deep space exploration mainly includes three missions: “Circling,” “Landing,” and “Returning”, while “Base construction” is a mission for the future. Stationary landers (LSLs) have limitations in exploration range. Legged Mobile Landers (LMLs) are proposed to satisfy requirements for large area exploration and base construction by providing better conditions for ascent and payload transport.
 
-## 2. Truss-Mechanism Transformation (TMT) Method
-### 2.1 Task Requirements
-LMLs must perform five functions: 
-1. Being deployable 
-2. Landing buffer 
-3. Walking 
-4. Orientation adjustment 
+## 2. Overall topological design concept and procedure
+LMLs must accomplish five functions:
+1. Being deployable
+2. Landing buffer
+3. Walking
+4. Orientation adjustment
 5. Terrain adaptability
 
-### 2.2 Design Concept
-The TMT method addresses the Degree of Freedom (DoF) contradiction: a lander needs 0 DoF (truss) during landing but multiple DoFs (mechanism) for walking. 
+### The TMT Method
+During the landing phase, the LML acts as a **truss** (rigid structure, no DOF) to bear high impact. During the walking phase, it transforms into a **multi-DOF mechanism**. 
 
-### 2.3 Procedure
-- **Stage 1:** Extract motion requirements from tasks.
-- **Stage 2:** Design space trusses based on polyhedrons (Euler’s formula: V - E + F = 2).
-- **Stage 3:** Allocate motions into the truss using intersection operations and Lie group theory.
-- **Stage 4:** Type evaluation (overconstraints and actuator placement).
+## 3. Motion Design and Type Evaluation
+### Number Condition
+The DoF of the mechanism is established by the modified G-K criterion:
+$$M_{DoF} = d(n - g - 1) + \sum f_i + v - \xi$$
 
-## 3. Technical Tables
+### Evaluation Criteria
+- **Criterion 1:** Number of overconstraints (lower is preferred for simplicity and manufacturing precision).
+- **Criterion 2:** Number of actuated joints located on the base (increases kinematic/dynamic performance by reducing leg inertia).
 
-### Table 1: Symbols definition and explanation
-| Symbol | Subgroup | Motion |
-| :--- | :--- | :--- |
-| - | {E} | Rigid connection without relative motion |
-| Line/Dot | {R(N, u)} | 1-D rotation about axis parallel to u through N |
-| Circle/Axis | {R(u)} | 1-D rotation around any axis parallel to u |
-| Sphere | {S(N)} | 3-D rotation about point N |
-| Arrow | {T(u)} | 1-D translation parallel to u |
-| Plate | {T(Pvw)} | 2-D translations within plane Pvw |
-| Box | 3T | 3-D translations in space |
-| Cylinder | {C(N, u)} | Cylindrical motion about axis (N, u) |
-| Sphere/Cross | {D} | 6 rigid body motion |
+## 4. Innovative design of legs for LMLs
+Based on the Chang'e lander structure (one main backbone, two auxiliary backbones), new leg topologies were synthesized using polyhedral designs ($V=6, E=9, F=5$).
 
-### Table 4: Typical configurations of legs
 | Main backbones | Auxiliary backbones | Transmission limbs |
 | :--- | :--- | :--- |
-| **UR** | 2-RUS, 2-PUS, 2-PU*S | **RRR**, PRR |
-| **UP** | 2-RUS, 2-PUS, 2-PU*S | **RSS**, PSS |
-| **RU** | 2-RUS, 2-PUS, 2-PU*S | - |
-
-## 4. Key Results
-- **Type I (UP&2-RUS)-S:** Uses RRR transmission limbs. In landing position, auxiliary backbone links are collinear to reach the Dead Point (TPM-DPB), protecting actuators from impact forces.
-- **Type III (RU&2-RUS)-S:** Uses electronic bolts to fix joints during landing (TPM-FJB). 
-- **Mobility:** Both types achieve 6-D motions in walking mode, allowing flexible surface traversal and orientation adjustment for base construction modules.
+| UR | 2-RUS, 2-URS | RRR, PRR |
+| UP | 2-RUS, 2-UPS | RSS, PSS |
+| RU | 2-RUS, 2-URS | - |
 
 ## 5. Conclusion
-The TMT method provides a universal framework for designing robots that transform between truss and mechanism. The resulting LMLs support larger exploration ranges and provide technical support for future extraterrestrial base construction.
+The TMT method provides a new approach for designing space robots that can transform kinematics. Four typical novel LMLs were obtained, extending the exploration range and providing technical support for future base construction and deep space exploration.
