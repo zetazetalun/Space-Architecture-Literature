@@ -1,45 +1,36 @@
 # Deep learning technology for construction machinery and robotics
 
-**Authors:** Ke You, Cheng Zhou, Lieyun Ding  
-**Journal:** Automation in Construction  
-**Volume:** 150 (2023) 104852  
-**DOI:** 10.1016/j.autcon.2023.104852
+**Authors:** Ke You, Cheng Zhou, Lieyun Ding
+**Journal:** Automation in Construction
+**Volume/Year:** 150 (2023) 104852
+**DOI:** https://doi.org/10.1016/j.autcon.2023.104852
 
 ## Abstract
-Construction machinery and robots are essential equipment for major infrastructure. This paper conducts a systematic review of deep learning-based technology for construction machinery and robotics applied in autonomous construction, focusing on perception, navigation and planning, control, and human-robot interaction. It identifies extraterrestrial construction as a critical future frontier for these technologies.
+Construction machinery and robots are essential equipment for major infrastructure. Deep learning technology can improve construction quality and alleviate labor shortages. This paper conducts a systematic review from four perspectives: (1) perception; (2) navigation and planning; (3) control; and (4) human-robot interaction. It identifies challenges like dataset limitations and insufficient autonomous intelligence, while highlighting extraterrestrial construction as a key future outlook.
 
 ## 1. Introduction
-Autonomous control of unmanned construction machinery has broad application prospects for upcoming lunar and Mars construction due to the difficulties of long-distance real-time communication. Deep learning (DL) is considered robust and adaptable for these complex environments compared to traditional rule-based control.
+Robots have the potential to reduce manual labor and improve safety. Autonomous control of unmanned construction machinery does not require real-time monitoring, which has broad application prospects for the upcoming lunar and Mars construction.
 
-## 2. Status of Literature Publication
-Research in this field has seen a significant increase from 2012 to 2022. 
+## 2. Status of literature publication
+- **Research Hotspots:** Machine types focused on include excavators, loaders, shield machines, and 3D printer extruders.
+- **Geographic distribution:** USA (33.6%) and China (19.1%) lead the research output.
 
-### Table 1: Five high-frequency countries/regions
-| No. | Count | Percentage (%) | Countries/Regions |
-|-----|-------|----------------|-------------------|
-| 1   | 46    | 33.6           | USA               |
-| 2   | 41    | 19.1           | China             |
-| 3   | 12    | 13.6           | England           |
-| 4   | 9     | 11.8           | Australia         |
-| 5   | 8     | 7.3            | Switzerland       |
+| No. | Count | Percentage (%) | Categories |
+|---|---|---|---|
+| 1 | 82 | 63.2 | Engineering |
+| 2 | 47 | 36.3 | Computer Science |
+| 3 | 34 | 26.5 | Construction Building Technology |
+| 4 | 22 | 16.8 | Robotics |
+| 5 | 9 | 7.2 | Automation Control Systems |
 
-### Table 3: Five high-frequency categories
-| No. | Count | Percentage (%) | Categories                        |
-|-----|-------|----------------|-----------------------------------|
-| 1   | 82    | 63.2           | Engineering                       |
-| 2   | 47    | 36.3           | Computer Science                  |
-| 3   | 34    | 26.5           | Construction Building Technology |
-| 4   | 22    | 16.8           | Robotics                          |
-| 5   | 9     | 7.2            | Automation Control Systems        |
+## 7. Discussion
+### 7.1. Challenges
+1. **Dataset Limitation:** Lack of high-quality multidimensional heterogeneous data.
+2. **Lack of Interpretability:** Deep learning models often act as 'black boxes'.
+3. **Insufficient Intelligence:** Current algorithms struggle with highly unstructured and changeable environments.
 
-## 3. Key Technological Dimensions
-- **Perception:** Use of Vision-based (CNN) and LiDAR-based sensors for object detection and semantic mapping. Mentions detection of craters and boulders on the lunar surface.
-- **Navigation and Planning:** SLAM (Simultaneous Localization and Mapping) and trajectory planning for unstructured environments.
-- **Control:** Data-driven methods using RNNs, LSTM, and Deep Reinforcement Learning (DRL) for optimal operation without human intervention.
-- **Human-Robot Interaction (HRI):** Teleoperation, Brain-Computer Interfaces (BCI), and Imitation Learning (IL).
+### 7.2.4. Extraterrestrial construction
+Planetary exploration requires in situ construction under different gravity conditions, radiation, and atmospheric compositions. Deep learning will play a major role in reconstructing machinery dynamics and control methods for lunar and Martian environments.
 
-## 7.2.4. Extraterrestrial Construction
-Planetary exploration requires in situ construction under the influence of different gravity conditions, atmospheric compositions, and radiation. Deep learning will play a major role in reconstructing machinery dynamics and redesigning control methods for these environments. Fig. 17 illustrates Lunar robot obstacle avoidance, robotic mapping, and the Xuanwu lunar habitation concept.
-
-## 8. Conclusions
-Autonomous construction based on deep learning is robust for unstructured, complex, and changeable environments. Key future directions include datasets with expert knowledge, trustworthy AI, and specifically, extraterrestrial construction applications.
+## 8. Conclusion
+Autonomous construction based on deep learning is robust and adaptable for unstructured environments. Performance can be improved via expert knowledge fusion and perception accuracy. Future outlooks include generative deep learning and extraterrestrial construction.
