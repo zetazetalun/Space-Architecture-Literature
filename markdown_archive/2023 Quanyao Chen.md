@@ -1,47 +1,40 @@
 # Genetic Algorithm–Based Multiobjective Optimization for 3D Printable Design of a Double-Shell Lunar Habitat Structure
 
 **Authors:** Quanyao Chen, Yuyue Gao, Lieyun Ding, Cheng Zhou, Wenbin Han, Yan Zhou, and Yusheng Shi
+
 **Journal:** Journal of Aerospace Engineering (ASCE)
-**Volume/Issue:** 36(6): 04023069
-**Year:** 2023
 **DOI:** 10.1061/JAEEEZ.ASENG-4755
+**Year:** 2023
 
 ## Abstract
-The establishment of lunar habitats is significant for humans to explore the Moon. Constructing lunar habitats through additive manufacturing using lunar in situ resource is a promising solution. This study proposed a parametric design and multiobjective optimization approach based on genetic algorithms for the structure of lunar habitats. Structural shape was translated into design parameters, which were optimized during the design phase. The optimization objectives were material mass consumption, space efficiency, and resistance ability for extreme extraterrestrial environment. Three kinds of genetic algorithm–based multiobjective optimization methods (NSGA-II, SPEA2, PESA-II) were compared. Finally, partially scaled-down physical models were produced through additive manufacturing to demonstrate the optimized double-shell habitat structure.
+The establishment of lunar habitats is significant for humans to explore the Moon and carry out scientific work. Constructing lunar habitats through additive manufacturing using lunar in situ resource is a promising solution. This study proposed a parametric design and multiobjective optimization approach based on genetic algorithms for the structure of lunar habitats. Structural shape was translated into design parameters, which were optimized during the design phase. The optimization objectives were determined considering the material mass consumption, space efficiency, and resistance ability for extreme extraterrestrial environment of the structure.
 
 ## Introduction
-Robotic construction based on in situ resource utilization (ISRU) appears to be the most feasible way for lunar habitation. Sintered lunar soil brick assembly and additive manufacturing are two ISRU construction methods. This paper proposes a three-dimensional (3D) printable double-shell lunar habitat named "Lunar Ampullae."
+Robotic construction based on in situ resource utilization (ISRU) appears to be the most feasible way for lunar exploration. Additive manufacturing (AM) using regolith composites offers advantages like fast construction speed and high forming accuracy. This study proposes 'Lunar Ampullae,' a 3D-printable double-shell habitat structure optimized for performance in the lunar environment.
 
 ## Methodology
+The research framework consists of three parts:
+1.  **Parametric Model Creation:** Using Rhino and Grasshopper (GH) with the plug-in 'Karamba 3D.' The structure is defined by nine parameters (Table 1).
+2.  **Optimization Methods:** Three GA-based multiobjective optimization (MOPT) methods—NSGA-II, SPEA2, and PESA-II—were compared.
+3.  **FEA and 3D Printing:** Finite-element analysis (FEA) was used to select the optimal solution from the Pareto set, which was then validated through a scaled-down 3D-printed concrete model.
 
-### Model Parameters
-The structure is determined by nine design parameters including surface major/minor axes, cross-section axes, shell thicknesses, and distances between shells.
-
-### Table 1: Structural optimization parameters and constraint ranges
-| Parameters | Symbol | Description | Range (m) |
-|---|---|---|---|
-| Surface major axis | A | Major axis of the surface elliptic curve | [12, 14] |
-| Surface minor axis | B | Minor axis of the surface elliptic curve | [4, 6] |
-| Cross section major axis | a | Major axis of cross-sectional elliptic curve | [1, 3] |
-| Cross section minor axis | b | Minor axis of cross-sectional elliptic curve | [1, 3] |
-| Distance | d | Distance between inner and outer shell | [0.4, 0.6] |
-| Height of bottom endpoint | Hb | Cut end height of lower shell surface | [0.2A, 0.4A] |
-| Height of top endpoint | Ht | Cut end height of upper shell surface | [0.8A, 0.95A] |
-| Inner shell thickness | ti | Thickness of the inner shell | [0.2, 0.3] |
-| Outer shell thickness | to | Thickness of the outer shell | [0.2, 0.3] |
-
-### Optimization Objectives
-1. **Maximize Available Volume (V)**: Integrating cross-sectional areas between Hb and Ht.
-2. **Minimize Mass (W)**: Based on lunar regolith density and shell surface area.
-3. **Maximize Thermal Insulation (T)**: Represented by heat transfer thermal resistance.
+### Model Parameters (Table 1)
+| Parameters | Symbol | Range (m) |
+| :--- | :--- | :--- |
+| Surface major axis | A | [12, 14] |
+| Surface minor axis | B | [4, 6] |
+| Cross section major axis | a | [1, 3] |
+| Cross section minor axis | b | [1, 3] |
+| Distance (inner/outer shell) | d | [0.4, 0.6] |
+| Height of bottom endpoint | Hb | [0.2A, 0.4A] |
+| Height of top endpoint | Ht | [0.8A, 0.95A] |
+| Inner shell thickness | ti | [0.2, 0.3] |
+| Outer shell thickness | to | [0.2, 0.3] |
 
 ## Results and Discussion
-
-### Algorithm Comparison
-Three algorithms were compared: NSGA-II, PESA-II, and SPEA2. NSGA-II generally performed better in terms of diversity and convergence. Under the parameter combination of PC = 0.9 and PM = 0.06, the average value of Hypervolume (HV) was the largest (0.8022).
-
-### Finite-Model Analysis (FEA)
-FEA was performed using the Karamba 3D plugin for Grasshopper. The structure was subjected to 0.1 MPa internal pressure and 1/6th Earth gravity. The 25th structure model from the Pareto solution set was selected as optimal, exhibiting the smallest maximum stress (3.33 MPa) and displacement (2.72 × 10⁻² cm).
+- **Algorithm Comparison:** NSGA-II showed the best Pareto solution set diversity and convergence performance compared to SPEA2 and PESA-II. The optimal parameter combination for NSGA-II was found with a Crossover Probability (PC) of 0.9 and Mutation Probability (PM) of 0.06.
+- **Structural Performance:** The optimal solution (Solution 25) exhibited a maximum tensile stress of 3.33 MPa and a maximum displacement of 0.0272 cm under internal pressure and 1/6 gravity loads.
+- **Additive Manufacturing:** A partially scaled-down physical model was successfully produced using additive manufacturing to demonstrate the potential of the optimized double-shell design.
 
 ## Conclusion
-The study successfully combined parametric design with GA-based optimization for lunar habitats. The optimized double-shell structure provides better performance in mass, volume, and thermal insulation. Additive manufacturing of scaled models verified the feasibility of the structural design for robotic construction on the Moon.
+The study successfully combined parametric design with GA-based optimization for space architecture. The double-shell 'Lunar Ampullae' design provides thermal insulation, radiation shielding, and structural stability. Future work will include more environmental factors like cosmic radiation and high-frequency moonquakes into the optimization goals.
