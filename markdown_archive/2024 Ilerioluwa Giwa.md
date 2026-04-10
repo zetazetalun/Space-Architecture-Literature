@@ -1,45 +1,40 @@
 # 3D printed sulfur-regolith concrete performance evaluation for waterless extraterrestrial robotic construction
 
 **Journal:** Automation in Construction 165 (2024) 105571  
-**Authors:** Ilerioluwa Giwa, Mary Dempsey, Michael Fiske, Ali Kazemian
+**Authors:** Ilerioluwa Giwa, Mary Dempsey, Michael Fiske, Ali Kazemian  
+**Available online:** 18 June 2024
 
 ## Abstract
-Sulfur concrete is a waterless construction material that offers great potential to replace Portland cement concrete (PCC) in extraterrestrial construction. This study evaluates the printability, shape stability, and mechanical performance of 3D printed Martian sulfur-regolith concrete (SRC). Results show that while lower substrate temperatures improve shape stability, they can reduce flexural strength by up to 53% due to poor interlayer bonding. SRC specimens gained 85% of their ultimate strength after 12 hours. Modification with Dicyclopentadiene (DCPD) increased strength by up to 44% and minimized sublimation in vacuum conditions.
+By leveraging the capabilities of construction 3D printing, building structures in harsh extraterrestrial environments is conceivable. Sulfur concrete is a waterless construction material that offers great potential to replace Portland cement concrete (PCC) in extraterrestrial construction. The shape stability of 3D printed Martian sulfur regolith concrete (SRC) was found to benefit from a lower substrate layer temperature. However, this comes at the cost of flexural strength, resulting in up to 53% strength loss. The printed SRC specimens demonstrated a significantly faster strength development rate (gaining about 85% of the ultimate strength after only 12 h) compared to the printed PCC. The printed SRC specimens also outperformed the PCC specimens in vacuum conditions at higher temperatures. Furthermore, modifying the SRC materials with Dicyclopentadiene resulted in up to 44% strength increase and minimized the sublimation rate of the printed specimens in vacuum, especially at an elevated temperature.
 
 ## 1. Introduction
-NASA's Artemis program and future Mars missions require supporting infrastructure like landing pads and habitats. Conventional construction methods are unsuitable due to limited human workforce and extreme environments. Extrusion-based Construction 3D Printing (C3DP) is a promising robotic technology for off-world construction using in-situ resource utilization (ISRU) to avoid the high cost of shipping materials from Earth.
+To promote successful exploration efforts and enable a long-term presence on the Moon and Mars, supporting infrastructure such as landing and launch pads, habitats, hangers, research labs, and protective shields are needed. Given these inhospitable conditions and the limited available human workforce, conventional construction methods that rely on manual efforts cannot be adopted for extraterrestrial construction. Extrusion-based Construction 3D Printing (C3DP) holds significant potential for construction in such harsh and perilous conditions, owing to its robotic and autonomous capabilities.
 
-## 2. Methodology
-### 3.1. Materials
-- **Binder:** Elemental sulfur powder (99.9% purity).
-- **Aggregate:** Mars Global Simulant (MGS-1).
-- **Modifier:** 10% Dicyclopentadiene (DCPD) by sulfur weight (for MSRC mixtures).
-- **Comparison:** Portland cement concrete (PCC) using Type I/II cement and silica sand.
+## 3. Methodology
+### 3.1. Materials and mixture proportions
+In this study, the SRC materials were prepared using a commercially available elemental sulfur powder (99.9% purity) as the binder, and Mars Global Simulant (MGS-1) as the fine aggregate. Based on preliminary trials, a sulfur content of 33% (by weight) was selected.
 
-### 3.2. Printing Systems
-Two custom extrusion-based systems were used: a gantry-type system for high-temperature SRC and a separate system for cementitious materials (PCC).
-
-### Table 1: Chemical composition of the MGS-1 regolith simulant
 | Oxides | SiO2 | TiO2 | Al2O3 | FeO | MnO | MgO | CaO | Na2O | K2O | P2O5 | LOI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Wt. (%) | 42.9 | 0.6 | 12.8 | 11.2 | 0.1 | 14.6 | 7.4 | 1.5 | 0.6 | 0.1 | 5.5 |
+*Table 1: Chemical composition of the MGS-1 regolith simulant.*
 
-### Table 2: Mixture Proportions
-| Mixture ID | Sulfur (kg/m³) | Regolith (kg/m³) | DCPD (kg/m³) | Cement (kg/m³) | Sand (kg/m³) | Water (kg/m³) | HRWRA (%) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| SRC | 872 | 1744 | - | - | - | - | - |
-| MSRC | 799 | 1596 | 80 | - | - | - | - |
-| PCC | - | - | - | 510 | 1464 | 234 | 0.36 |
+| Mixture ID | Sulfur (kg/m³) | Regolith (kg/m³) | DCPD (kg/m³) | Cement (kg/m³) | Sand (kg/m³) | Limestone Powder (kg/m³) | Water (kg/m³) | HRWRA (%) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| SRC | 872 | 1744 | — | — | — | — | — | — |
+| MSRC | 799 | 1596 | 80 | — | — | — | — | — |
+| PCC | — | — | — | 510 | 1464 | 76 | 234 | 0.36 |
+*Table 2: Mixture Proportions for the SRC, MSRC, and PCC printing materials.*
 
-## 3. Results and Discussion
-- **Shape Stability:** Layer deformations occurred only at the shortest interlayer time gap (45 s) at both 130°C and 150°C. Longer gaps (120 s, 180 s) showed 0% deformation due to rapid solidification.
-- **Mechanical Strength:** SRC reached 85% of its strength within 12h, whereas PCC reached only 19%. 7-day flexural strength of printed SRC was 9.4 MPa compared to 5.6 MPa for PCC.
-- **Vacuum Performance:** At 55°C in vacuum, SRC showed visible sublimation of sulfur. Modification with DCPD (MSRC) reduced weight loss by 85% and maintained higher structural integrity.
-- **Recyclability:** Printed SRC specimens were successfully remelted and reprinted without significant changes in flexural strength, supporting a sustainable construction approach.
+## 4. Results and Discussion
+- **Fresh-state properties:** The average wet density of SRC was 2.310 g/cm³ compared to 2.096 g/cm³ for PCC. Flowability and slump of SRC increased with material temperature.
+- **Shape Stability:** Layer deformations solely occurred at the shortest interlayer time gap (45 s). At 130 °C and 150 °C, deformations were 10% and 23%, respectively. Longer gaps (120 s, 180 s) showed 0% deformation.
+- **Mechanical Performance:** Printed SRC specimens gained ~85% of ultimate strength after only 12 h. In contrast, PCC specimens only achieved 19% of their 28-day strength in the same period.
+- **Vacuum Conditions:** SRC specimens showed negligible weight loss at 25 °C in vacuum. At 55 °C, weight loss increased to 0.92% due to sublimation. MSRC (modified with 10% DCPD) showed an 85% decrease in weight loss compared to unmodified SRC at 55 °C.
 
-## 4. Conclusions
-1. Robotic C3DP using SRC is feasible for off-world construction.
-2. SRC exhibits rapid strength development, far exceeding PCC in the short term.
-3. Interlayer bonding is critical; higher printing temperatures (150°C) help mitigate cold joints.
-4. DCPD modification significantly enhances durability against vacuum sublimation.
-5. SRC is highly recyclable, allowing for cradle-to-cradle material use in space.
+## 5. Conclusions
+- Martian SRC was successfully 3D printed, proving the feasibility of waterless off-world additive construction.
+- Geometrical accuracy and flexural strength are influenced by extrusion temperature and substrate layer temperature.
+- SRC specimens exhibited higher compressive and flexural strength than PCC counterparts in both mold-cast and printed formats.
+- SRC is highly recyclable; specimens were remelted and reprinted without losing strength.
+- Modification with 10% DCPD enhanced compressive strength by up to 44% and significantly reduced the sulfur sublimation rate.
