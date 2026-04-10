@@ -1,34 +1,31 @@
 # Space-technological and architectural methodology and process towards design of long-term habitats for scientific human missions on mars
 
 ## Abstract
-Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members. This approach moves from mere survival shelters to fulfilling environments. Key concerns include redundancy, modularity to reduce costs, and geometric solutions for construction.
+Centered on the core idea of long duration habitat design for research crew on Mars, the Martian Habitat Units (MHUs) are designed as a cluster of 10 units each with the maximum capacity of 9 crew members to live and carry on with the local challenges of scientific and exploratory life, while enjoying their lives as intellectual, social individuals in the harsh environment of Mars for durations in the order of magnitude of several years. This approach to the concept of a living environment in sharp contradiction to that of a shelter with the minimal capabilities to meet the requirements of terrestrial life to the point of survival, has led the outcoming design to be a fulfilling environment for the inhabitants of the units to evolve and thrive culturally, while being on a years-long mission.
 
 ## Method Details
-- **Method name**: Iterative Design
-- **Keywords**: Martian Habitat Units (MHUs), Modular design, Hierarchical modulation, Closed-loop systems, Exterior flow field control.
+### Iterative Design
+The design process follows an iterative methodology where mission specific requirements, physiological/psychological well-being, and site specifications define the required spaces. The process integrates architectural frameworks with engineering constraints like radiation shielding, power generation, and atmospheric pressure maintenance.
 
-### Design Requirements and Concerns
-Categorized concerns include:
-- **Environmental Hazards**: Low gravity, radiation, extreme temperatures, dust storms, and micrometeorites.
-- **Habitat Comfort**: Pressurized habitats, fresh air, thermal comfort, and noise control.
-- **Habitat Spatial Requirements**: Zonal separation, personal hygiene, and gardening areas.
-- **Subsystems**: Life Support Systems (LSS), power generation, robotics, and AI hardware.
+### Design Requirements
+Requirements are based on NASA-STD-3001 and COSPAR policies. Key concerns include:
+- **Environmental Hazards:** Low gravity, radiation, dust storms, and micrometeorites.
+- **Habitat Comfort:** Pressurized habitat, air/water supply, and thermal control.
+- **Psychological Aspects:** Addressing claustrophobia, solitude, and group dynamics through interactive spaces and interior gardens.
 
-### Martian Habitat Units (MHUs) Design
-- **Modular Pattern**: Hierarchical and interconnected hexagonal modules with a growth rate of √3 between layers.
-- **Spatial Layout**: Rhombus-patterned interior (4x4) with surrounding gardens and two-decked habitats (communal/work on bottom, private suites on top).
-- **Anti-Dust Settlement Membrane (ADSM)**: An adjustable, inflatable elastic membrane on top of the units to deviate wind and prevent dust settlement on solar panels.
+## Martian Habitat Units (MHUs)
+The building blocks are hierarchical and interconnected hexagonal modules. A four-layered hierarchy of hexagonal construct with a growth rate of √3 among layers is the main geometrical modularity. 
+- **Module Size:** Based on a 4 x 4 x 4 m³ module.
+- **Unit Capacity:** 4 to 9 residents.
+- **Structure:** A rhombus-inscribed boundary with interior gardens and an exterior shell wrapped in a hierarchical modular pattern.
+- **ADSM:** An Anti-Dust Settlement Membrane (adjustable dome) prevents dust accumulation on solar panels.
 
-### Construction and Manufacturing
-- **Additive Manufacturing**: AI-based 3D printing using in-situ materials (Martian regolith).
-- **Robotics**: Robotic arms process granulated material for 3D printers to construct the main structures prior to crew arrival.
+## Power Generation
+- **Primary:** Nuclear fission (NASA Kilopower reactors, 10 kWe class).
+- **Secondary:** Multi-junction photovoltaic cells (Solar farm).
+- **Tertiary:** Horizontal axis wind turbines (HAWT) for use during dust storms.
 
-### Power Systems
-| Source | Specification |
-| :--- | :--- |
-| **Primary** | Nuclear fission (Kilopower), 18-27 reactors per MHU, 10 kWe each |
-| **Secondary** | Multi-junction photovoltaic cells, 3400 m² per MHU, 33% efficiency |
-| **Tertiary** | Horizontal axis wind turbines (HAWT), 5 towers, 40m diameter |
-
-## Conclusion
-MHUs are designed for long-duration scientific presence. The modularity allows for independent operation of units. Using in-situ materials via 3D printing significantly reduces the required launch payload. The design incorporates extreme redundancies and an ADSM to mitigate the harsh Martian environment.
+## Manufacturing and Construction
+- **Method:** AI-based 3D printing using in-situ materials (Martian regolith).
+- **Process:** Robotic arms provide granulated Martian regolith as raw material. Construction is completed by robotic agents prior to crew arrival.
+- **Modularity:** 4-layered hexagonal pattern allows for adaptable capacities and easier robotic assembly.
