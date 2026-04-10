@@ -1,46 +1,60 @@
 # Investigation into Measuring Low Levels of Cohesion of Regolith Simulants
 
-**Authors:** Robert L. Worley II, Laura Obregon, Lane Feldeisen, Brandon Nimberger, Colin Palmer, and Mandar M. Dewoolkar
-
-**Affiliation:** College of Engineering and Mathematical Sciences, Dept. of Civil and Environmental Engineering, Univ. of Vermont
-
+**Authors:** Robert L. Worley II, Laura Obregon, Lane Feldeisen, Brandon Nimberger, Colin Palmer, and Mandar M. Dewoolkar  
 **Publication:** Earth and Space 2021, ASCE
 
 ## Abstract
-Lunar and Martian regoliths are similar to terrestrial soils in that they appear granular but are expected to contain a small amount of cohesion. As such, cohesion in extraterrestrial regoliths pose challenges for future space operations such as in situ resource utilization (ISRU). This study evaluates two methods—vertical cut and simple direct shear testing—and assess their efficacy in reliably measuring small amounts of cohesion in lunar simulants: JSC-1A and GRC-3. Findings indicate that vertical cut testing cohesion estimates for JSC-1A at relative densities 0%–80% ranged between 0.115 and 0.971 kPa and for GRC-3 ranged between 0.190 and 1.872 kPa.
+Lunar and Martian regoliths are similar to terrestrial soils in that they appear granular but are expected to contain a small amount of cohesion. Cohesion in extraterrestrial regoliths poses challenges for future space operations such as in situ resource utilization (ISRU). This study evaluates two methods—vertical cut and simple direct shear testing—to reliably measure small amounts of cohesion in lunar simulants: JSC-1A and GRC-3. Results indicate that vertical cut testing provides monotonically increasing cohesion estimates with increased relative density, whereas simple direct shear testing did not establish a clear trend.
+
+## Introduction
+Understanding surface regolith properties is critical for landing, walking, and utilizing lunar resources for habitat development. Soil shear strength is expressed by the Mohr-Coulomb failure criterion:
+
+$$\tau_f = \sigma \tan \phi + c$$
+
+Where $\tau_f$ is shear stress at failure, $\sigma$ is normal stress, $\phi$ is the internal friction angle, and $c$ is cohesion. Lunar regolith cohesion is estimated at 0.1–1.0 kPa based on Apollo data.
 
 ## Experimental Methods
 
 ### Materials
-- **JSC-1A:** Similar in chemical composition and mineralogy to Apollo 14 mare basalt; made from glass-rich basaltic ash.
-- **GRC-3:** Developed as a cheaper alternative to JSC-1A; initially created for vehicle terramechanics testing.
+The study used two simulants:
+- **JSC-1A:** Similar to Apollo 14 mare basalt (glass-rich basaltic ash).
+- **GRC-3:** Developed for vehicle terramechanics; cheaper but less compositionally accurate than JSC-1A.
 
-| Lunar Simulant | D10 (mm) | D30 (mm) | D60 (mm) | USCS Classification | Internal Friction Angle φ (degrees) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| JSC-1A | 0.017 | 0.042 | 0.110 | SP-SM | 34.9-59.6 |
-| GRC-3 | 0.021 | 0.075 | 0.210 | SM | 30.4-57.2 |
+**Table 1. General Material Properties of JSC-1A and GRC-3**
+| Lunar Simulant | $D_{10}$ (mm) | $D_{30}$ (mm) | $D_{60}$ (mm) | $D_r$ (max) | $D_r$ (min) | USCS Classification | Internal Friction Angle $\phi$ (degrees) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| JSC-1A | 0.017 | 0.042 | 0.110 | 2.040 | 1.560 | SP-SM | 34.9-59.6 |
+| GRC-3 | 0.021 | 0.075 | 0.210 | 1.939 | 1.520 | SM | 30.4-57.2 |
 
-### Testing Methods
-1.  **Vertical Cut Test:** Measures cohesion based on the "critical height" (Hc) at which an unsupported vertical slope fails. Cohesion (c) is estimated as: `c = 0.5 * γ * Hc`.
-2.  **Simple Direct Shear Test:** A modified direct shear test allowing for testing at small normal loads (0, 1, 2, 5, and 10 kPa) to determine cohesion via the y-intercept of the Mohr-Coulomb failure envelope.
+### Testing Procedures
+1. **Vertical Cut Test:** Measures cohesion based on the "critical height" ($H_c$) at which an unsupported vertical slope fails. Estimated cohesion $c = 0.5 \gamma H_c$.
+2. **Simple Direct Shear Test:** A modified direct shear test allowing for small normal loads (0–10 kPa).
+
+**Table 2. Dry Densities of Lunar Simulants JSC-1A and GRC-3**
+| Relative Density (%) | JSC-1A ($g/cm^3$) | GRC-3 ($g/cm^3$) |
+| :--- | :--- | :--- |
+| 0 | 1.560 | 1.520 |
+| 20 | 1.637 | 1.589 |
+| 40 | 1.722 | 1.664 |
+| 60 | 1.816 | 1.746 |
+| 80 | 1.922 | 1.838 |
+| 100 | 2.040 | 1.939 |
 
 ## Results and Discussion
 
-### Vertical Cut Testing Results
-Table 3 summarized the critical heights measured for each simulant at various relative densities (Dr):
-
-| Lunar Simulant | Average Critical Height (cm) at Dr % | 0% | 20% | 40% | 60% | 80% |
+**Table 3. Vertical cut testing critical heights of JSC-1A and GRC-3**
+| Lunar Simulant | Trial | 0% $D_r$ | 20% $D_r$ | 40% $D_r$ | 60% $D_r$ | 80% $D_r$ |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| JSC-1A | | 1.47 | 2.17 | 3.37 | 4.90 | 10.10 |
-| GRC-3 | | 2.50 | 2.80 | 3.80 | 8.63 | 20.37 |
+| **JSC-1A** (cm) | Average | 1.47 | 2.17 | 3.37 | 4.90 | 10.10 |
+| **GRC-3** (cm) | Average | 2.50 | 2.80 | 3.80 | 8.63 | 20.37 |
 
-### Comparison of Cohesion Estimates
-| Lunar Simulant | Test Type | 0% (kPa) | 20% (kPa) | 40% (kPa) | 60% (kPa) | 80% (kPa) |
+**Table 4. Cohesion estimates from vertical cut and simple direct shear testing**
+| Simulant | Test Type | 0% $D_r$ | 20% $D_r$ | 40% $D_r$ | 60% $D_r$ | 80% $D_r$ |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JSC-1A** | Vertical Cut | 0.115 | 0.178 | 0.290 | 0.445 | 0.971 |
-| | Simple Direct Shear | 0.396 | 0.722 | 0.413 | 0.546 | 0.582 |
-| **GRC-3** | Vertical Cut | 0.190 | 0.222 | 0.316 | 0.753 | 1.872 |
-| | Simple Direct Shear | 0.214 | 0.282 | 0.169 | 0.174 | 0.463 |
+| **JSC-1A** | Vertical Cut (kPa) | 0.115 | 0.178 | 0.290 | 0.445 | 0.971 |
+| | Simple Direct (kPa) | 0.396 | 0.722 | 0.413 | 0.546 | 0.582 |
+| **GRC-3** | Vertical Cut (kPa) | 0.190 | 0.222 | 0.316 | 0.753 | 1.872 |
+| | Simple Direct (kPa) | 0.214 | 0.282 | 0.169 | 0.174 | 0.463 |
 
 ## Conclusions
-Vertical cut testing provided monotonically increasing cohesion estimates with increased relative density, aligning with the hypothesis that apparent cohesion in lunar regolith stems from mechanical interlocking. Simple direct shear testing, while useful for determining friction angles, lacked the resolution/fidelity to reliably estimate the low levels of cohesion expected in dry granular soil simulants at varying densities.
+Vertical cut testing proved to be more effective for measuring the low levels of cohesion expected in dry granular regolith. The cohesion of both simulants increased with relative density, supporting the hypothesis that apparent cohesion in lunar regolith stems from mechanical interlocking of irregular, angular particles.
