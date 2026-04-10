@@ -1,44 +1,49 @@
 # Regolith sintering and 3D printing for lunar construction: An extensive review on recent progress
 
+**Authors:** Muhammad Shazwan Suhaizan, Phuong Tran, Ash Exner, Brian G. Falzon
+**Journal:** Progress in Additive Manufacturing
+**Date:** 2024 (Published online 25 November 2023)
+**DOI:** https://doi.org/10.1007/s40964-023-00537-1
+
 ## Abstract
-In-Situ Resource Utilisation (ISRU) is increasingly being seen as a viable and essential approach to constructing infrastructure for human habitation on the moon. Transporting materials and resources, from Earth to the Moon, is prohibitively expensive and not sustainable for long-term, large-scale development. Various fabrication technologies have been investigated in recent years, designed for extra-terrestrial exploration and settlement. This review presents a comprehensive study on the development of several sintering techniques of lunar regolith simulant to demonstrate its feasibility for ISRU on the moon. Various critical processing parameters are evaluated in pursuit of creating a structural material that can withstand the extreme lunar environment. Key outcomes are summarised and assessed to provide insight into their viability. Finally, current challenges are addressed and potential improvements, and avenues for further research, suggested.
+In-Situ Resource Utilisation (ISRU) is increasingly being seen as a viable and essential approach to constructing infrastructure for human habitation on the moon. This review presents a comprehensive study on the development of several sintering techniques of lunar regolith simulant to demonstrate its feasibility for ISRU. Various critical processing parameters are evaluated in pursuit of creating a structural material that can withstand the extreme lunar environment.
 
-## 1 Background of lunar construction
-A lunar base must shield humans from extreme temperature fluctuations (-248 °C to 77 °C), solar and cosmic radiation, micrometeoroid impacts, and lunar dust. Current transport costs (Falcon 9) are approximately $3k/kg, making Earth-supplied construction unsustainable. Development of a sustainable long-term lunar base can only be realised through ISRU, utilizing local regolith for habitable bases and landing pads.
+## 1. Background of Lunar Construction
+Constructing a lunar base requires shielding from extreme temperature fluctuations (-248 °C to 77 °C), radiation, micrometeoroids, and lunar dust. Transporting materials from Earth is prohibitively expensive ($3k-$62k per kg). ISRU using lunar regolith is essential for sustainable development.
 
-## 2 Regolith simulants and soils
-Lunar regolith is a loose, clastic material with unique properties: low heat conductivity (0.001 W/mK) and bulk density of 1.5–1.66 g/cm³. Major constituents include silicon (>40%), titanium, aluminium, and iron. Simulants like JSC-1A, NU-LHT, LHS-1, and LMS-1 are used to replicate these soils for sintering validation.
+## 2. Regolith Simulants and Soils
+Lunar regolith is a loose, clastic material. Key properties include:
+- **Thermal conductivity:** 0.001 W/mK (excellent insulator in vacuum).
+- **Bulk density:** 1.5–1.66 g/cm³.
+- **Composition:** >40% silicon, with Al, Fe, Ti, and Ca. Highlands are Al-rich (feldspathic), while Mare regions are Fe-rich (mafic).
+- **Simulants:** Materials like JSC-1, NU-LHT, FJS-1, and LHS-1/LMS-1 are used to replicate lunar soil for testing.
 
-## 3 Bulk sintering
-### 3.2 Radiant heat sintering
-- Uses heating elements to irradiate sample volumes.
-- Sintering occurs via liquid-phase mechanisms (1100–1380 °C).
-- **Results:** Compressive strengths of 30–200 MPa; porosity below 1%.
+## 3. Sintering Techniques
 
-### 3.3 Microwave sintering
-- Utilises dielectric absorption (typically 2.45 GHz).
-- Susceptors are often needed to prevent 'thermal runaway' and ensure uniform heating.
-- **Results:** Compressive strengths of 10–50 MPa.
+### 3.1 Bulk Sintering
+- **Radiant Sintering:** Uses heating elements. Achieved compressive strengths of 30–200 MPa. Sintering temperature typically 1100–1200 °C for mare simulants.
+- **Microwave Sintering:** Uses electromagnetic radiation (300 MHz-300 GHz). Lunar soil couples well with microwave radiation. Achieved strengths of 10–70 MPa.
+- **Spark Plasma Sintering (SPS):** Combines pulsed electric current and pressure. Produces high-density samples (up to 2.9 g/cm³) at lower temperatures than radiant sintering.
 
-### 3.4 Spark plasma sintering (SPS)
-- Combines pulsed electric current and external pressure in a vacuum.
-- Enables rapid heating/cooling (1000 °C/min) and shorter sintering periods.
-- **Results:** Densities up to 2.9 g/cm³ at 1050 °C.
+### 3.2 Focused Sintering / Additive Manufacturing
+- **Laser Sintering (SLS/SLM):** High-power laser fuses powder. Achieved up to 30 MPa strength but often suffers from high porosity (35-65%) due to particle size distribution.
+- **Solar Sintering:** Uses concentrated sunlight. Project 'RegoLight' demonstrated building interlocking blocks. Achieved 2.31 MPa strength in early trials.
+- **Direct Ink Writing (DIW):** Uses a paste (regolith + binder). Capable of complex geometries (micro-trusses) with strengths of 1–19 MPa.
 
-## 4 Focused sintering
-### 4.1 Laser sintering
-- Selective laser sintering (SLS) involves rapid heating of small volumes.
-- Lunar soil is an excellent absorber of 1000 nm laser energy.
-- **Results:** High geometric accuracy; strengths up to 30 MPa at 35% porosity.
+## 4. Summary Table of Mechanical Properties
 
-### 4.2 Solar sintering
-- Uses concentrated sunlight (heliostats/lenses) to avoid external power requirements.
-- **Results:** Element strengths of ~2.31 MPa (DLR RegoLight project).
+| Method | Simulant | Strength (MPa) | Porosity (%) | Density (g/cm³) |
+| :--- | :--- | :--- | :--- | :--- |
+| Radiant | JSC-1A | 232 | 0.41 | - |
+| Radiant | HUST | 37-67 | 10-21 | - |
+| Microwave | KLS-1 | 12-37 | 27-35 | - |
+| SPS | FJS-1 | - | - | 2.19-2.9 |
+| Laser | NU-LHT-2M | 16-31 | - | - |
+| Solar | JSC-2A | 2.31 | - | - |
+| DIW | JSC-1A | 1-19 | - | - |
 
-## 5 Additive manufacturing applications
-- **3D Laser Sintering:** Suitable for precision mechanical parts.
-- **3D Solar Sintering:** Efficient for bulk shielding components.
-- **Direct Ink Writing (DIW):** Uses regolith pastes/inks with organic binders to print complex structures like micro-trusses (strengths 1–19 MPa).
-
-## 6 Conclusion
-ISRU is the most pragmatic approach to lunar construction. While bulk sintering methods (like SPS) offer high structural performance, focused sintering and DIW offer the precision required for complex architectural features. Future research must address high-temperature behavior of regolith and the impact of microgravity/vacuum environments on sintering mechanics.
+## 5. Conclusion and Future Directions
+- **ISRU** is crucial due to launch costs.
+- **Bulk Sintering** is efficient for large-scale infrastructure like landing pads.
+- **3D Printing (Laser/Solar)** is better for precise components.
+- **Future Work:** Needs verification of high-temperature behavior in real lunar conditions, non-destructive testing development, and study of dynamic properties (impact resistance).
