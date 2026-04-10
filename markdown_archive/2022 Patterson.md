@@ -1,56 +1,70 @@
 # System Architecture and Design Parameters for Extrusion-Based Autonomous Construction Systems
 
 **Proceedings of the ASME 2022 International Additive Manufacturing Conference (IAM2022)**  
-**October 19-20, 2022, Lisbon, Portugal**
+October 19-20, 2022, Lisbon, Portugal
 
-**Authors:** Albert E. Patterson, Bhaskar Vajipeyajula, William R. Norris
+**Authors:** Albert E. Patterson, Bhaskar Vajipeyajula, and William R. Norris
 
-## Abstract
-Autonomous construction systems (ACSs) have become a topic of great interest in areas including space exploration and materials science. This article extracts information about major components, subsystems, and interfaces from published literature to propose a quasi-general system architecture for extrusion-based autonomous construction systems (EBACSs). These models drive research on large-scale 3D printing for buildings and extraterrestrial habitats.
+## ABSTRACT
+Autonomous construction systems (ACSs) have become a topic of great interest in recent years in a variety of areas, including design, materials science, architecture, space exploration, natural disaster recovery, military operations, and others. Several different approaches have been proposed, the most promising (and so far most widely-applied) one being a large-scale system based on additive manufacturing (or 3-D printing) principles, where a concrete- or foam-based material is extruded in layers to produce a structure. This article extracts information about the major components, subsystems, and interfaces in these systems from a broad sampling of published literature and uses this information to propose a quasi-general system architecture and identify design opportunities.
 
-## 1. Introduction
-Several approaches to ACS have been proposed, with the most promising being large-scale systems based on additive manufacturing (AM) principles. Typical materials include concrete, asphalt, ceramic, and polymer foams. These systems are used to build basic shells for buildings or extraterrestrial habitats. Examples include contour crafting, cable-driven systems, and the Digital Construction Platform (DCP).
+## 1 INTRODUCTION
+Autonomous construction systems have become a topic of great interest... including space exploration [6]. The typical materials used include concrete, asphalt, and ceramic and polymer foams. The resulting structure can be a basic shell around which a useful building, shelter, bridge, extraterrestrial habitat, or other infrastructure can be built.
 
-## 2. Methodology
-The study objectives were to identify functions, components, and interfaces common to identified EBACSs and map them into a quasi-general system architecture. A final set of 23 sources was used to collect data.
+## 2 METHODOLOGY
+This study had five major objectives:
+1. Identify and collect a representative sample of published papers describing the system architecture of EBACSs.
+2. Extract the important features, design parameters, and interfaces.
+3. Map common features into a quasi-general system architecture.
+4. Examine and discuss gaps and needed research areas.
+5. Identify opportunities for improvements.
 
-## 3. Collected Data
-### Table 2: Papers and references used to extract EBACS design and architecture data (Summary)
+### TABLE 1: Study assumptions and their potential risk and impact
+| Assumption | Impact | Risk |
+|---|---|---|
+| Collected materials represent state-of-the-art | Missed information | Low |
+| No major EBACS types were missed | Missed information | Low |
+| Descriptions in papers were accurate | Inaccurate understanding | Low |
+| Sampling was enough to understand operation | Missing info on variants | Low |
+
+## 3 COLLECTED DATA
+
+### TABLE 2: Papers and references used to extract EBACS design and architecture data (Selected Items)
 | Ref | Authors | EBACS Type | Build Type | Material Type |
-|-----|---------|------------|------------|---------------|
-| [15] | B. Khoshnevis | Gantry-based contour crafting | Small/Medium ceramic shells | Ceramic paste |
-| [27] | Zhang & Khoshnevis | Gantry-based contour crafting | Large walls | Concrete |
-| [2] | Alhumayani et al. | Robotic arm | Large walls | Fiber-reinforced concrete |
-| [30] | WASP | Delta printer | Small to large scale | Ceramic, clay, concrete |
-| [34] | APIS-COR | Adjustable boom | Large walls | Concrete |
-| [18] | S. Keating et al. | DCP (boom-mounted robotic arm) | Forms for poured concrete | PU foam |
+|---|---|---|---|---|
+| [15] | B. Khoshnevis | Gantry-based contour crafting | Small/medium ceramic shells | Ceramic paste |
+| [27] | J. Zhang, B. Khoshnevis | Gantry-based contour crafting | Medium to large walls | Concrete |
+| [16] | P. Bosscher, et al. | Cable-driven contour crafting | Medium to large walls | Concrete |
+| [2] | H. Alhumayani, et al. | Robotic arm | Medium to large walls | Fiber-reinforced concrete |
+| [30] | WASP | Delta printer | Small to large scale | Ceramic paste, clay, concrete |
+| [18] | S. Keating, et al. | Digital Construction Platform (DCP) | Forms for concrete/insulation | PU foam |
+| [17] | X. Zhang, et al. | Minibuilders: Team of robots | Small to medium structures | Fiber-reinforced concrete |
 
 ### 3.3 Fundamental System Tasks
-1. Collect and mix raw materials.
-2. Transport materials to nozzle.
-3. Selectively place material.
-4. Adjust placement via guide/trowel.
+1. Collect raw materials and mix appropriately.
+2. Transport materials to a nozzle.
+3. Selectively place the raw material.
+4. Adjust/tune placement via a guide or trowel.
 5. Monitor and control the process.
 
 ### 3.4 Subsystems
-1. **Subsystem 1:** Frame or support (gantry, robotic arm, etc.).
-2. **Subsystem 2:** Preparation software (modeling/slicing).
-3. **Subsystem 3:** Material mixing and transport.
-4. **Subsystem 4:** Extruder.
-5. **Subsystem 5:** Orientation system for extruder.
-6. **Subsystem 6:** Forming or troweling tool.
-7. **Subsystem 7:** Control software/firmware.
-8. **Subsystem 8:** Control hardware (sensors/cameras).
+1. Subsystem 1: Frame or support (gantry, robotic arm, mobile robot).
+2. Subsystem 2: Preparation software (modeling, slicing).
+3. Subsystem 3: Material mixing and transport system.
+4. Subsystem 4: The extruder.
+5. Subsystem 5: Orientation system (vital for efficient printing).
+6. Subsystem 6: Forming or troweling tool.
+7. Subsystem 7: Control software and firmware.
+8. Subsystem 8: Control hardware (sensors, cameras).
 
-## 4. EBACS System Architecture
-A quasi-general architecture was generated identifying mechanical, data/information, and control interfaces. The system includes feedback loops for real-time control and correction.
-
-## 5. Analysis and Discussion
-Key design parameters identified include:
+## 5 ANALYSIS AND DISCUSSION
+The study identified major design parameters including:
 - Degree of integration (modular vs. fully integrated).
-- Extruder design and forming/trowel design.
+- Elimination of interfaces (to increase reliability).
+- Extruder design.
+- Control hardware and software (need for ROS-based open systems).
 - Improved autonomy and human-system interfaces.
-- Safety and security in large-scale AM.
+- Safety and security.
 
-## 6. Conclusions
-This work provides a top-down modeling tool to guide the assembly and integration of autonomous construction machines. Future work will focus on filling gaps in the architecture related to control hardware and material pumping.
+## 6 CONCLUSIONS
+This work provides a top-down modeling and analysis tool to guide the assembly and application of EBACS in the real world. Future work will focus on filling identified gaps to refine the general architecture.
