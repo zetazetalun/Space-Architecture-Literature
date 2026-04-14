@@ -1,1 +1,70 @@
-# SYSTEM ARCHITECTURE AND DESIGN PARAMETERS FOR EXTRUSION-BASED AUTONOMOUS CONSTRUCTION SYSTEMS\n\n**Albert E. Patterson**, **Bhaskar Vajipeyajula**, and **William R. Norris**\n*Proceedings of the ASME 2022 International Additive Manufacturing Conference (IAM2022)*\n*October 19-20, 2022, Lisbon, Portugal*\n\n## ABSTRACT\nAutonomous construction systems (ACSs) have become a topic of great interest in recent years in a variety of areas, including design, materials science, architecture, space exploration, natural disaster recover, military operations, and others. This article extracts information about the major components, subsystems, and interfaces in these systems from a broad sampling of published literature and uses this information to propose a quasi-general system architecture and identify design opportunities. These models can be used to drive further research efforts, assist with more agile implementation, and improve the design of large-scale 3-D printing-based systems.\n\n## 1 INTRODUCTION\nAutonomous construction systems based on extrusion (EBACSs) are among the most promising large-scale additive manufacturing technologies. Materials used include concrete, asphalt, and ceramic or polymer foams. The resulting structures can serve as basic shells for bridges, shelters, or extraterrestrial habitats. A systems engineering approach is needed to develop a high-level general system architecture applicable to specific construction problems.\n\n## 2 METHODOLOGY\nThe study analyzed 23 selected sources to identify major system functions, components, interfaces, and design parameters. \n\n**TABLE 1: Study assumptions and their potential risk**\n- Collected materials represent state-of-the-art: Risk Low.\n- No major EBACS types were missed: Risk Low.\n- System architecture/interfaces accurately described: Risk Low.\n- Sampling of papers was sufficient for understanding: Risk Low.\n\n## 3 COLLECTED DATA\n\n### 3.3 Fundamental System Tasks\n1. Collect and mix raw materials (concrete, foam mixtures).\n2. Transport materials to a nozzle/applicator.\n3. Selectively place material for walls/geometry.\n4. Adjust placement via guide or trowel.\n5. Monitor and control the process.\n\n### 3.4 Subsystems\n1. **Frame/Support:** Gantry, robotic arm, or mobile robots.\n2. **Prep Software:** Modeling and slicing.\n3. **Material Prep/Transport:** Mixing and pumping system.\n4. **Extruder:** Nozzle and delivery assembly.\n5. **Orientation System:** Degrees of freedom for nozzle positioning.\n6. **Forming/Trowel Tool:** For surface finish and placement control.\n7. **Control Software/Firmware:** For real-time execution.\n8. **Control Hardware:** Sensors, cameras, and controllers.\n\n### 3.5 System Interfaces\n1. **Mechanical:** Physical hardware connections.\n2. **Data/Information:** Communication between subsystems.\n3. **Control:** Direct hardware-software loops for positioning and extrusion.\n\n## 4 EBACS SYSTEM ARCHITECTURE\nThe paper proposes a 'quasi-general' architecture (Figure 4) that maps the flow from product concept through prep software and material preparation to the final extruded product, monitored by a centralized control hardware/software suite.\n\n## 5 ANALYSIS AND DISCUSSION\nMajor design parameters for EBACS exploration include:\n- Degree of integration (modular vs. fully integrated).\n- Elimination of interfaces for reliability.\n- Extruder design for diverse materials.\n- Control hardware and human-system interfaces.\n- Improved autonomy and dynamic system optimization.\n- Safety and security in large-scale operations.\n\n## 6 CONCLUSIONS AND FUTURE WORK\nThe resulting data showed major areas needing further consideration, proving an incomplete but functional architecture independent of system type. Future work will focus on filling identified gaps and refining the architecture for complex construction jobs.
+# System Architecture and Design Parameters for Extrusion-Based Autonomous Construction Systems
+
+**Proceedings of the ASME 2022 International Additive Manufacturing Conference (IAM2022)**  
+October 19-20, 2022, Lisbon, Portugal
+
+**Authors:** Albert E. Patterson, Bhaskar Vajipeyajula, and William R. Norris
+
+## ABSTRACT
+Autonomous construction systems (ACSs) have become a topic of great interest in recent years in a variety of areas, including design, materials science, architecture, space exploration, natural disaster recovery, military operations, and others. Several different approaches have been proposed, the most promising (and so far most widely-applied) one being a large-scale system based on additive manufacturing (or 3-D printing) principles, where a concrete- or foam-based material is extruded in layers to produce a structure. This article extracts information about the major components, subsystems, and interfaces in these systems from a broad sampling of published literature and uses this information to propose a quasi-general system architecture and identify design opportunities.
+
+## 1 INTRODUCTION
+Autonomous construction systems have become a topic of great interest... including space exploration [6]. The typical materials used include concrete, asphalt, and ceramic and polymer foams. The resulting structure can be a basic shell around which a useful building, shelter, bridge, extraterrestrial habitat, or other infrastructure can be built.
+
+## 2 METHODOLOGY
+This study had five major objectives:
+1. Identify and collect a representative sample of published papers describing the system architecture of EBACSs.
+2. Extract the important features, design parameters, and interfaces.
+3. Map common features into a quasi-general system architecture.
+4. Examine and discuss gaps and needed research areas.
+5. Identify opportunities for improvements.
+
+### TABLE 1: Study assumptions and their potential risk and impact
+| Assumption | Impact | Risk |
+|---|---|---|
+| Collected materials represent state-of-the-art | Missed information | Low |
+| No major EBACS types were missed | Missed information | Low |
+| Descriptions in papers were accurate | Inaccurate understanding | Low |
+| Sampling was enough to understand operation | Missing info on variants | Low |
+
+## 3 COLLECTED DATA
+
+### TABLE 2: Papers and references used to extract EBACS design and architecture data (Selected Items)
+| Ref | Authors | EBACS Type | Build Type | Material Type |
+|---|---|---|---|---|
+| [15] | B. Khoshnevis | Gantry-based contour crafting | Small/medium ceramic shells | Ceramic paste |
+| [27] | J. Zhang, B. Khoshnevis | Gantry-based contour crafting | Medium to large walls | Concrete |
+| [16] | P. Bosscher, et al. | Cable-driven contour crafting | Medium to large walls | Concrete |
+| [2] | H. Alhumayani, et al. | Robotic arm | Medium to large walls | Fiber-reinforced concrete |
+| [30] | WASP | Delta printer | Small to large scale | Ceramic paste, clay, concrete |
+| [18] | S. Keating, et al. | Digital Construction Platform (DCP) | Forms for concrete/insulation | PU foam |
+| [17] | X. Zhang, et al. | Minibuilders: Team of robots | Small to medium structures | Fiber-reinforced concrete |
+
+### 3.3 Fundamental System Tasks
+1. Collect raw materials and mix appropriately.
+2. Transport materials to a nozzle.
+3. Selectively place the raw material.
+4. Adjust/tune placement via a guide or trowel.
+5. Monitor and control the process.
+
+### 3.4 Subsystems
+1. Subsystem 1: Frame or support (gantry, robotic arm, mobile robot).
+2. Subsystem 2: Preparation software (modeling, slicing).
+3. Subsystem 3: Material mixing and transport system.
+4. Subsystem 4: The extruder.
+5. Subsystem 5: Orientation system (vital for efficient printing).
+6. Subsystem 6: Forming or troweling tool.
+7. Subsystem 7: Control software and firmware.
+8. Subsystem 8: Control hardware (sensors, cameras).
+
+## 5 ANALYSIS AND DISCUSSION
+The study identified major design parameters including:
+- Degree of integration (modular vs. fully integrated).
+- Elimination of interfaces (to increase reliability).
+- Extruder design.
+- Control hardware and software (need for ROS-based open systems).
+- Improved autonomy and human-system interfaces.
+- Safety and security.
+
+## 6 CONCLUSIONS
+This work provides a top-down modeling and analysis tool to guide the assembly and application of EBACS in the real world. Future work will focus on filling identified gaps to refine the general architecture.

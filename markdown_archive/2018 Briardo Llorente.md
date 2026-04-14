@@ -1,37 +1,43 @@
 # The Multiplanetary Future of Plant Synthetic Biology
 
-**Authors:** Briardo Llorente, Thomas C. Williams, and Hugh D. Goold
+**Authors:** Briardo Llorente, Thomas C. Williams, Hugh D. Goold
+**Journal:** Genes
 **Published:** 10 July 2018
-**Journal:** Genes (MDPI)
 **DOI:** 10.3390/genes9070348
 
 ## Abstract
-The interest in human space journeys to distant planets and moons has been re-ignited, with ongoing plans for manned missions to Mars. Beyond basic survival, plants could play a critical role in bioregenerative life support systems, producing food and biomass feedstock for the microbial manufacture of materials, chemicals, and medicines. This article discusses bioengineering endeavors to adapt plant life to Martian conditions and proposes a 'Mars Biofoundry' roadmap for research.
+Plants could play a critical role in producing food and biomass feedstock for the microbial manufacture of materials, chemicals, and medicines in long-term interplanetary outposts. However, plants evolved under terrestrial conditions and will not perform optimally in different planetary habitats. This article discusses bioengineering endeavors to adapt plants to a Martian greenhouse and proposes a roadmap using synthetic biology to address agricultural and industrial challenges on Mars.
 
 ## 1. Taking Full Advantage of Plants on Extraterrestrial Human Outposts
-Sustainable human presence on alien planetary bodies requires reducing logistical costs of resupply from Earth. Plants contribute to sustaining bioregenerative life support systems by:
-- Supplying oxygen ($O_2$)
-- Fixing carbon dioxide ($CO_2$)
-- Recycling waste and water ($H_2O$)
-- Providing food and precursors for manufacturing medicines and materials.
+A major factor limiting human space exploration is the enormous logistical cost of resupplying resources from Earth. Developing robust technologies for sustainable long-duration operations is paramount. Plants contribute to sustaining bioregenerative life support systems by supplying O2, fixing CO2, and recycling waste and water. Making the most of plants on-site increases self-sufficiency.
 
 ## 2. Refactoring Plants for Enhanced Performance on Mars
-Mars presents challenges including low sunlight intensity (~43% of Earth's), UV radiation, and extreme temperatures. Potential synthetic biology solutions include:
-- **Enhancing Photosynthesis:** Engineering light-harvesting antennas to access broader spectral regions (UV and infrared).
-- **Stress Tolerance:** Manipulating stomatal behavior for drought resilience and expressing ice-binding proteins for cold tolerance.
-- **Optimizing Yield:** Redesigning plant architecture and root systems for high-density cultivation and optimal nutrient acquisition in greenhouses.
+Martian challenges include low sunlight intensity (~43% of Earth's), UV radiation, low temperature, and diurnal thermal variation. 
+
+### 2.1 Enhancing Photosynthesis and Photoprotection
+- **Target:** Expand the spectral range of light harvesting towards UV and infrared regions.
+- **Carbon Fixation:** Improving Rubisco catalytic activity or installing synthetic carbon fixation pathways to exploit high Martian CO2 levels.
+
+### 2.2 Improving Drought and Cold Tolerance
+- Engineering plants with crassulacean acid metabolism for water-use efficiency.
+- Expression of ice-binding proteins to inhibit damaging ice crystal growth.
+- Adjusting plant circadian systems to match the Martian 24.5-hour day.
 
 ## 3. Tailoring Microorganisms to Complement and Facilitate Plant Life on Mars
-Microbes can be engineered for crucial tasks in habitat establishment:
-- **Soil Conditioning:** Engineering bacteria to reduce toxic perchlorate salts ($MgClO_4$ and $CaClO_4$) in Martian regolith.
-- **Moisture Retention:** Engineering microbes to produce extracellular polysaccharides to bind soil particles and mitigate desiccation.
-- **Bio-manufacturing:** Using plant biomass as a feedstock for microbial fermentation to produce medicines, metabolites, and materials on-demand.
+Microbes are necessary for removing toxic compounds from Martian soil and transforming regolith into nutrient-rich soil.
 
-## 4. A Roadmap for Research on Adapting Life to Mars
-The authors propose the **'Mars Biofoundry'**: an automated platform for the rapid design-build-test cycle of biological systems. This platform would enable:
-- High-throughput phenotyping under simulated Martian conditions.
-- Remote monitoring of performance in miniature growth facilities on the Martian surface.
-- Accelerated exploration of the bioengineering design-space for space applications.
+### 3.1 Conditioning Martian Soil
+- **Perchlorates:** Martian soil contains toxic perchlorates. Biological removal using engineered CO2-utilizing bacteria expressing perchlorate reduction enzymes is proposed.
+- **Moisture:** Engineering bacteria to produce extracellular polysaccharides or adhesive proteins to bind soil particles and mitigate desiccation.
 
-## 5. From Earth to Mars and Back to Earth
-Developing technologies for Mars will have direct benefits for Earth, particularly in food security, sustainable industrial manufacturing, and improved understanding of plant biology under extreme stress.
+## 4. A Roadmap for Research: The 'Mars Biofoundry'
+The authors propose an automated platform for expedited engineering and high-throughput phenotyping of biological systems under simulated Martian conditions. This iterative design-build-test cycle would use microorganisms (algae, yeast, bacteria) as proxies to rapidly test circuit and pathway designs before transferring them to multicellular plants.
+
+### Table 1: Martian Environmental Challenges and Synthetic Biology Solutions (Summary)
+| Challenge | Proposed Bioengineering Solution |
+| :--- | :--- |
+| Low Sunlight | Spectral expansion of light harvesting |
+| High UV Radiation | Enhanced UV-protection mechanisms |
+| Low Temperature | Dynamic multilevel cryoprotective responses |
+| Toxic Regolith | Microbial perchlorate reduction/bioremediation |
+| Resource Scarcity | Multi-biofortified crops for functional food/materials |

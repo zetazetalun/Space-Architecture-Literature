@@ -1,43 +1,39 @@
 # Pressurized Greenhouse: A Responsive Environment to Partial Gravity Conditions
 
-**Mahsa Moghimi Esfandabadi** and **Olga Bannova, Ph.D.**  
-Sasakawa International Center for Space Architecture, Houston, TX.  
+**Authors:** Mahsa Moghimi Esfandabadi and Olga Bannova, Ph.D.
+**Affiliation:** Sasakawa International Center for Space Architecture, Cullen College of Engineering, Houston, TX
 
-## ABSTRACT
-The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses: a habitable greenhouse focused on human factors/psychology and an industrial greenhouse focused on maximum nutrition with minimal cargo mass. The paper introduces a third "Middle Path": a greenhouse designed as a pre-breathing chamber. This module accommodates a spectrum of pressure and gas levels to facilitate transition between habitats and EVA suits. The design aims to optimize the environmental control and life support system (ECLSS) and improve crew psychological health by replacing tight airlocks with a garden environment during pre-breathing protocols.
+## Abstract
+The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses: a habitable greenhouse (focusing on human factors and psychology) and an industrial greenhouse (focusing on crop yield and mass efficiency). It introduces a third 'middle path' concept: the **Pre-Breathe Greenhouse**, which supports fluctuating pressures (34.48 to 56.5 kPa) to facilitate EVA pre-breathing while supporting plant growth. This concept is evaluated using figures of merit (FOM) relative to mission success.
 
-## HABITABLE GREENHOUSES
-Habitable greenhouses integrate into the habitat/logistics modules, allowing direct crew access under Earth-like pressures (10.2–14.7 psi). This approach simplifies ECLSS by unifying the habitat and greenhouse atmospheres, providing psychological benefits like a "backyard" feel.
+## Introduction
+For long-duration Mars missions, greenhouses are essential as food cannot be entirely supplied from Earth. Current designs split between industrial-scale (low-pressure/high efficiency) and habitable (full-pressure/human wellness). This paper proposes a hybrid approach where the greenhouse adapts its internal environment to human physiological needs during EVA surface missions.
 
-## INDUSTRIAL GREENHOUSE APPROACH
-Focuses on maximum crop yields. To minimize launch mass and resources, these are designed for low-pressure (hypobaria). A pressure under 60 kPa allows for new thermal insulation like SiO2 aerogels. Using natural/hybrid lighting can reduce shell mass significantly compared to high-pressure artificial lighting systems.
+## Habitable vs. Industrial Greenhouse Approaches
+- **Habitable Greenhouses:** Assume equal pressure to the main habitat (101.3 kPa). Simplifies ECLSS integration but increases structural mass and resource consumption.
+- **Industrial Greenhouses:** Designed for low-pressure environments to minimize equivalent system mass (ESM). A pressure under 60 kPa allows for the use of advanced thermal insulation like SiO2 aerogels. 
+- **Mass Reduction:** Changing artificial lighting to natural/hybrid lighting reduces the inflatable shell mass by 32.5% in high-pressure scenarios and 39.9% in low-pressure (30.0 kPa) scenarios.
 
-### Equivalent System Mass (ESM)
-*   **High Pressure (59.2 kPa) + Artificial Lighting:** ~280 Ton ESM
-*   **Low Pressure (30.0 kPa) + Natural Lighting:** ~135 Ton ESM
-*   Switching to natural/hybrid lighting reduces mass by 32.5% to 39.9%.
+## The Pre-Breathe Greenhouse (The Middle Path)
+This proposed model allows internal pressure to fluctuate to accommodate crew pre-breathing needs (34.48 to 56.5 kPa). This allows astronauts to spend the mandatory 2–4 hours of pre-breathing time in a garden environment rather than a cramped airlock, reducing stress and enhancing productive crew time.
 
-## THE MIDDLE PATH: THE PRE-BREATHE GREENHOUSE
-To avoid decompression sickness (aerospace bends), astronauts must "pre-breathe" pure oxygen. Current protocols require hours in cramped airlocks. A pre-breathe greenhouse allows the environment to adapt to human physiological needs during surface missions. 
+### Table 1: EVA Protocols and Atmospheric Compositions
+| Protocol | Duration (min) | Pressure kPa (psi) | O2 % |
+| :--- | :--- | :--- | :--- |
+| A: Continuous EVA, 80% O2 | 480 | 29.7 (4.3) | 80 |
+| B: Continuous EVA, 95% O2 | 480 | 29.7 (4.3) | 95 |
+| C: 3 x 2h EVAs, 80% O2 | 120 | 29.7 (4.3) | 80 |
+| D: 3 x 2h EVAs, 95% O2 | 120 | 29.7 (4.3) | 95 |
 
-*   **Pressure Range:** 34.48 to 56.5 kPa.
-*   **Functionality:** Serves as a transition zone where crew can perform agricultural tasks or exercise while denitrogenating for EVA.
-
-## SELECTION OF VALIDATION CRITERIA
-Evaluation is based on Figures of Merit (FOM) including nutrition support, resource requirements, and psychological benefits.
-
-### Table 3: Figure of Merit
+### Table 3: Figure of Merit (FOM) Comparison
 | FOM | Private Garden | Industrial Greenhouse | Pre-Breathe Greenhouse |
 | :--- | :--- | :--- | :--- |
-| # Crew | 4 | 4 Or More | 4 Or More |
-| Nutrition Support | Low/Medium | High | High |
+| Crew Capacity | 4 | 4 Or More | 4 Or More |
 | Mission Duration | Short | Long/Settlement | Long |
-| Resources | High | High | Medium |
-| Autonomous Ops | Low | High | Low/High |
+| Resource Demand | High | High | Medium |
 | Functionality | Single Function | Single Function | Multi-Functional |
-| Impact on Habitat | High | Low | Medium/Low |
-| Psychological | High | Low/Medium | High/Medium |
+| Psychological Benefit| High | Low/Medium | High/Medium |
 | Area/Volume Util. | Not Efficient | Max Efficient | Efficient |
 
-## CONCLUSIONS
-A pre-breathe greenhouse offers a compromise between habitability and industrial efficiency. It provides multifunctional capabilities, low impact on habitat systems, and lower launch mass while maintaining 24/7 availability for the crew.
+## Conclusions
+The pre-breathe greenhouse offers maximum benefits with fewer resources compared to separate habitable or industrial modules. It provides a multifunctional architecture that lowers launch mass while maintaining 24/7 crew availability and improved psychological health.

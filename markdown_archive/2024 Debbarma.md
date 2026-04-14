@@ -2,39 +2,45 @@
 
 **Journal:** Acta Astronautica 214 (2024) 593–608  
 **Authors:** Solomon Debbarma, Xijun Shi, Anthony Torres, Mehrab Nodehi  
-**Available online:** 11 November 2023
+**Published:** 11 November 2023 (Elsevier Ltd.)
 
 ## Abstract
-In-situ resource utilization (ISRU) is extremely important to support additive construction on the Moon and minimize transportation weight. This study presents the formulation of fiber-reinforced geopolymers using lunar regolith simulants (LMS-1 and LHS-1). Variables investigated include simulant type, flowability, curing temperature, fiber type (basalt and human hair), and mechanical strengths. High-temperature curing (93 °C) significantly improved strength for LHS-1 geopolymers. Basalt fibers and human hair improved flexural strength by up to 32% and 15%, respectively, though they reduced compressive strength.
+In-situ resource utilization (ISRU) is critical for lunar construction. This study formulates fiber-reinforced geopolymers using two lunar regolith simulants: Lunar Mare Simulant (LMS-1) and Lunar Highlands Simulant (LHS-1). The effects of simulant type, curing temperature, and fiber reinforcement (basalt fiber and human hair) on flowability, compressive strength, and flexural strength were investigated. Results indicate LHS-1 geopolymers exhibit higher strength. Curing at 93 °C and 5% RH for 72 h significantly developed strength in LHS-1. Basalt and human hair fibers improved flexural strength by up to 32% and 15% respectively, acting as nucleation sites and structural bridges.
 
 ## 1. Introduction
-Conventional cement is impractical for lunar construction due to the lack of limestone on the Moon and the high energy requirements for production. Hardening mechanisms like sulfur concrete are limited by low melting points (119 °C) relative to lunar surface temperatures. Geopolymers, synthesized by alkali activation of silica and aluminum-rich materials, offer a viable, durable alternative.
+Conventional cement is impractical for the Moon due to the lack of limestone and high sintering temperatures (1450 °C). Geopolymers, which are alkali-activated materials rich in Si and Al, offer a viable alternative. Lunar regolith is rich in these elements, making it suitable for geopolymerization. This research aims to support NASA's goals for ISRU and extreme environment construction.
 
-## 3. Materials and Methods
-### 3.1 Lunar Regolith Simulants
-- **LMS-1 (Lunar Mare Simulant):** Sourced from Exolith Labs, resembling Apollo 16 samples. Low Calcium content.
-- **LHS-1 (Lunar Highlands Simulant):** Dominated by anorthosite. Higher Calcium content (12.8% CaO).
+## 2. Materials and Methods
+- **Simulants:** LMS-1 (mare) and LHS-1 (highlands) from Exolith Labs.
+- **Fibers:** Basalt fibers (BF) (12 mm length) and Human hair fibers (HHF) (up to 15 mm).
+- **Activator:** Reagent sodium silicate (40% Na4O4Si, 60% H2O).
+- **Curing Regimes:** Ambient (20 °C, 50% RH), High-temperature (93 °C/99.6 °C, 5% RH), and low-temperature conditioning (−30 °C).
 
-### 3.2 Fibers
-- **Basalt Fiber (BF):** 12 mm length, 16 μm diameter. Produced from lunar basalt.
-- **Human Hair Fiber (HHF):** Length up to 15 mm. Collected from astronauts as an in-situ resource.
+## 3. Results and Discussion
 
-### 3.4 Table 4: Mix Proportioning of Lunar Geopolymers
+### 3.1. Flowability
+LHS-1 (Mix B) showed higher flow (85 mm) than LMS-1 (Mix A, 74 mm). A 50:50 mix (Mix D) achieved the highest flow (94 mm). Fiber addition reduced flowability by 9–26%.
 
-| Mix | LMS-1 (wt. %) | LHS-1 (wt. %) | BF (vol. %) | HHF (vol. %) | Curing Temp (°C) | Curing Duration (h) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| A | 100 | - | - | - | 20, 93 | 72, 168 |
-| B | - | 100 | - | - | 20, 93 | 72, 168 |
-| C | 30 | 70 | - | - | 99.6 | 72 |
-| D | 50 | 50 | - | - | 99.6 | 72 |
-| E | 50 | 50 | 0.4 | - | 99.6 | 72 |
-| F | 50 | 50 | 0.8 | - | 99.6 | 72 |
-| G | 50 | 50 | 1.2 | - | 99.6 | 72 |
-| H | 50 | 50 | 1.5 | - | 99.6 | 72 |
-| I | 50 | 50 | - | 1.5 | 99.6 | 72 |
+### 3.2. Compressive Strength
+LHS-1 geopolymer achieved ~31.26 MPa under heat-curing (93 °C), while LMS-1 only reached ~8.24 MPa. The higher calcium content and lower Si/Al ratio in LHS-1 contributed to better strength development. Low-temperature exposure (−30 °C) slightly reduced strength but the material remained stable.
 
-## 6. Conclusions
-- LHS-1 geopolymers exhibit higher compressive strength than LMS-1 due to higher calcium content and lower Si/Al ratios.
-- Curing temperature is critical; LHS-1 requires thermal activation (93 °C) for significant strength gain.
-- Basalt and Human Hair fibers act as nucleation sites, significantly improving flexural strength through bridging effects.
-- Compressive strength decreases with fiber addition due to increased porosity and reduced flowability.
+### 3.3. Flexural Strength and Fibers
+Adding BF (0.4–1.2% vol) improved flexural strength by up to 32% (3.07 MPa for Mix G). HHF (1.5% vol) improved it by 15% (2.67 MPa). Excess fiber (1.5% BF) caused clumping and reduced strength.
+
+### 3.4. Microstructure (SEM/EDS)
+SEM analysis confirmed that fibers act as nucleation sites for geopolymerization products and bridge cracks, enhancing ductility. EDS confirmed the formation of N–A–S–H and (C–N)-A–S–H gels.
+
+## 4. Conclusions
+- LHS-1 geopolymers are superior to LMS-1 for structural applications.
+- High-temperature curing (lunar day simulation) is essential for geopolymer hardening.
+- Basalt and human hair fibers are effective reinforcements that can be sourced in situ.
+- The materials meet the theoretical minimum strength requirements for lunar gravity (1/6 of Earth's).
+
+## Table 4: Mix Proportions (Selected Data)
+| Mix | LMS-1 % | LHS-1 % | Fiber Type | Dosage (vol %) | Curing (°C) |
+|-----|---------|---------|------------|----------------|-------------|
+| A   | 100     | -       | -          | -              | 20/93       |
+| B   | -       | 100     | -          | -              | 20/93       |
+| D   | 50      | 50      | -          | -              | 99.6        |
+| G   | 50      | 50      | BF         | 1.2            | 99.6        |
+| I   | 50      | 50      | HHF        | 1.5            | 99.6        |
