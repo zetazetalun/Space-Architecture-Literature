@@ -1,23 +1,32 @@
 # Earthmoving for the extraterrestrial
 
-**Jeffrey S Nesbit**
-*Temple University, USA*
+## Metadata
+- **Title:** Earthmoving for the extraterrestrial
+- **Author:** Jeffrey S Nesbit
+- **Journal:** EPD: Society and Space
+- **Year:** 2023
+- **DOI:** 10.1177/02637758231204701
 
 ## Abstract
-The United States spaceport, and more importantly, its technical landscape, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Throughout the construction of the launch complexes on the Florida coastline, earthmoving became standard practice to elevate rocket pads above sea level and protect against rocket blasts. However, a more extended history of earthmoving at Cape Canaveral is necessary. From Earth’s early geological formations and indigenous burial mounds to the modernization of rockets, Cape Canaveral presents itself as an evolution of terrestrial form. And still, earthmoving continues today. In 2016, an article advised the greatest threats to NASA’s landscape are rising sea levels and hurricanes, causing substantial erosion to the beach, leaving active and historically significant launch facilities at risk. Cape Canaveral beaches are now preparing for additional dredging, importing new soil, and raising beach and dune elevations. This article reveals a critical history of place-based science on Cape Canaveral through an evolution of earthmoving practices, from cultural commemoration, extraterrestrial imagination, and contemporary environmental crises.
+The United States spaceport, and more importantly, its technical landscape, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Throughout the construction of the launch complexes on the Florida coastline, earthmoving became standard practice to elevate rocket pads above sea level and protect against rocket blasts. This article reveals a critical history of place-based science through an evolution of earthmoving practices, from cultural commemoration to extraterrestrial imagination.
 
-**Keywords**
-Infrastructure, NASA landscapes, technical lands
+## Technical Landscape and Construction
 
----
+### Earthmoving for Launch Infrastructure
+- **Peenemunde Model:** Earliest rocket launch sites used earthmoving techniques directed by Albert Speer. The launch pads were bounded by an "embankment" of built-up earthwork and electrically networked systems.
+- **Cape Canaveral Construction (1950-1961):** 70% of all launch complexes were constructed in this period. By 1958, 23 of 36 launch complexes were in place.
+- **Launch Complex Anatomy:** Consists of a semi-buried concrete blockhouse, elevated launch pad, and rocket service tower. Earthmoving was standard practice for protection against rocket blasts and to elevate pads above sea level.
 
-## Earthly Entanglements with Outer Space
-In 1950, the United States Air Force selected the Central Florida eastern coastline to construct its missile operations and rocket launch facilities. Cape Canaveral proved to be a “suitable” decision for military security, proximity to the equator for rocket efficiency entering orbital trajectory, and safety as failed rockets could discharge in the ocean. This essay suggests the changes of landscape over time, and how land is formed, is a condition entangled with the affordance of the US launch complex and Cold War infrastructural landscape.
+### Site Engineering (Pads 39A and 39B)
+- **Dredging and Fill:** Engineers dredged hydraulic fill from the Banana River and pumped it into construction sites.
+- **Sandpiles:** Two large pyramid-like sandpiles were constructed to elevate the launch pads for the Saturn V rocket.
+- **Technology Adaptation:** The steam-shovel crawler used for Kentucky coal mining was adopted to construct the Missile Crawler Transporter Facility. 
+- **Infrastructure Blocking:** Construction of the crawler way required engineering large subterranean water channels (culverts) and created blockages at intersections with natural creeks, altering local hydrology.
 
-## Technical Landscapes and Infrastructure
-Departing Earth requires the moving of it. The earliest of rocket launch sites required the design of earthmoving techniques. The launch pads and facilities at Peenemunde, under Albert Speer, demonstrated early application of underground networks and ground reconfiguration. Bounded by an “embankment” of built-up earthwork, Peenemunde served as a model for Cape Canaveral. 
+## Findings
+- **Techno-Spatial Landscapes:** Spaceport infrastructure is a systematization of land designed to facilitate the transition from a terrestrial surface to extraterrestrial space.
+- **Historical Precedents:** Modern launch infrastructure logic mirrors indigenous burial mounds in its use of sculpted land, though for vastly different political and technical purposes.
+- **Environmental Conflict:** The creation of "technical lands" through earthmoving often leads to landscape deterioration, erosion, and hydrological disruption.
 
-By 1961, 70% of launch complexes at Cape Canaveral were constructed over a brief seven-year span. Earthmoving became standard practice to protect blockhouses against rocket blasts and to elevate pads above sea level using hydraulic fill dredged from the Banana River. Notably, technology for the mobile launch complex, such as the crawler transporter, was adapted from steam-shovel crawlers used in Kentucky coal mining, illustrating the intersection of terrestrial resource extraction technology and space logistics.
-
-## Environmental and Historical Context
-Contemporary earthmoving at NASA sites is driven by climate change. As of 2016, rising sea levels and hurricanes pose the greatest threats to the landscape. Recent efforts include dredging and importing new soil to raise beach and dune elevations to protect launch facilities. The author argues that these technical interventions are part of a long history of terraformation that includes both indigenous burial mounds and modern military infrastructure.
+## Conclusion
+Earthmoving is not merely a background activity but a fundamental tool in the organizational and operational production of spaceports, effectively "departing Earth by moving it."
