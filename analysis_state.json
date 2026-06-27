@@ -1824,333 +1824,93 @@
     },
     {
       "id": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
-      "title": "2024_Lin.pdf",
+      "title": "Construction Technology of the Curved ‘Mars House’ Digital Hotel Project in China Using Concrete 3D Printing",
       "content": "",
       "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Lin.pdf",
       "path": "Papers/2024_Lin.pdf",
       "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
+      "isRelevant": true,
+      "status": "success",
+      "doi": "10.1007/978-3-031-64269-2_30",
+      "bibtex": "",
+      "relevanceReason": "The paper presents the structural design, material mix, and construction process of a 3D-printed Mars habitat simulator ('Mars House'). It explores concrete 3D printing as a primary technology for extraterrestrial construction and provides empirical data on mechanical properties and assembly methods.",
+      "markdownContent": "# Construction Technology of the Curved ‘Mars House’ Digital Hotel Project in China Using Concrete 3D Printing\n\n**Authors:** Xiqiang Lin, Hailong Wang, Xiaoyan Sun, Wael Kikhia, Zhennan Wu, Lu Lan, and Jiawei Zhao\n**Publisher:** Springer Nature Switzerland AG (3DcP 2023, STAM)\n**DOI:** 10.1007/978-3-031-64269-2_30\n\n## Abstract\n3D printing technology is one of the most likely construction technologies to be used when building extraterrestrial bases in the future. The Mars 1 Base project in Gansu Province, China simulates the Martian landscape and uses concrete 3D printing technology to construct houses, creating a unique cultural tourism industry project. This article introduces the structural design, 3D printing process and overall installation and construction of the Mars house. The 3D-printed hotel is egg-shaped, with a total height of 9 m and a floor area of 46 square meters, divided into two floors with triangular windows and a skylight on the top.\n\n## 1 Introduction\nAdvancements in Mars exploration have sparked interest in Mars colonization and habitat development. Concrete 3D printing technology presents a promising approach to constructing Martian habitats, addressing challenges such as extreme environments and limited resources.\n\n## 2 Architectural Design and Structural Design of Mars House\nThe egg-shaped structure was chosen to withstand harsh Martian conditions (strong winds, radiation, temperature differences). The house is 9 m high with a floor area of 46 square meters.\n\n### Structural System\n- **Outer Shell:** Concrete 3D printed wall used as a permanent mould.\n- **Reinforcement:** Horizontal steel mesh placed every 25 cm; vertical φ12 mm reinforcement inserted inside the printed shell.\n- **Core:** C40 self-compacting concrete poured into the printed mould to form a composite reinforced concrete structure.\n- **Segmentation:** The structure is divided into four rings for printing and assembly.\n\n## 3 3D Printing Construction Technology and Process\n\n### 3.1 Mars House 3D Printing Process\nThe process includes: Model refinement -> Preparation -> Factory printing -> Concrete pouring -> Transportation -> On-site assembly -> Decoration.\n\n### 3.2 Personnel, Materials, and Machines\n- **Printers:** 2 industrial-grade concrete 3D printers.\n- **Dimensions:** 14.8 m × 8.6 m × 5.5 m.\n- **Print Parameters:** Layer height: 15 mm; Print speed: 120 mm/s; Extrusion width: 40 mm.\n- **Material Consumption:** 10.6 m³ of 3D printing material; 17.76 m³ of internal filling concrete (Total: 28.36 m³).\n\n### 3.3 3D Printed Concrete Mix Proportion and Performance\n\n**Table 1. The concrete mix ratio for 3D printing of the Mars house**\n| Raw materials | OPC42.5 cement/% | Artificial sand/% | Admixture/% | Water/ % |\n| :--- | :--- | :--- | :--- | :--- |\n| Mix proportion | 38 | 42 | 4 | 16 |\n\n**Mechanical Performance (at 28 days):**\n- **Compressive Strength (Standard Moulding):** 47.9 MPa\n- **Compressive Strength (3D Printed):** 40.3 MPa (16% reduction)\n- **Interlayer Tensile Strength:** 3.2 MPa\n- **Interlayer Bonding Strength:** 2.7 MPa\n- **Permeability Grade:** P12\n\n### 3.4 3D Printing Prefabrication of Components\nComponents are printed as ring-shaped structures in the factory. It takes 6 days to complete 4 ring-shaped structures. Interface agents are used between layers to ensure bonding.\n\n## 4 Mar House On-Site Assembly and Construction\nPrinted components are transported to the site via truck. A large crane assembles the four ring-shaped structures. Structural columns are formed by welding reinforcement cages at reserved positions and pouring mortar.\n\n## 5 Summary\nThe Mars habitat hotel project demonstrated that concrete 3D printing improves construction speed and accuracy. This egg-shaped structure serves as a technical baseline for additive intelligent construction in extreme environments.",
+      "keyFindings": "The study demonstrates the feasibility of constructing 9m tall, egg-shaped habitat modules using segmented concrete 3D printing and factory prefabrication. The printed concrete achieved a compressive strength of 40.3 MPa and utilized a hybrid structural system combining a 3D-printed permanent shell with internal reinforced self-compacting concrete.",
+      "findings": "The research highlights that factory-based 3D printing of structural segments followed by on-site assembly allows for better quality control and faster construction compared to direct on-site printing. It identifies a 16% reduction in compressive strength for printed versus traditionally molded concrete and emphasizes the importance of vertical and horizontal reinforcement integration for structural stability in curved geometries.",
+      "result": "Constructed 5 egg-shaped houses; dimensions: 9m height, 46 m² area; printing parameters: 15mm layer height, 120mm/s speed; material mix: 38% cement, 42% sand; printed compressive strength: 40.3 MPa; construction duration: 3 months.",
+      "graphId": "2024_Lin_Springer_A"
     },
     {
       "id": "84ae7d579b12340a8221c7bb5de223165619cd05",
-      "title": "2024_Perka.pdf",
+      "title": "3D Printing of Tubular Connectors for Space Frame Structures",
       "content": "",
       "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Perka.pdf",
       "path": "Papers/2024_Perka.pdf",
       "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
+      "isRelevant": true,
+      "status": "success",
+      "doi": "10.1007/978-3-031-64269-2_31",
+      "bibtex": "",
+      "relevanceReason": "The paper investigates the use of Wire-arc Additive Manufacturing (WAAM) for the automated fabrication of topology-optimized tubular connectors in space frame structures, which is directly applicable to automated construction and structural design in extreme environments.",
+      "markdownContent": "# 3D Printing of Tubular Connectors for Space Frame Structures\n\n**Authors:** Ashok Kumar Perka, Bijoy Rajak, and Shibashis Ghosh  \n**Affiliations:**  \n1. Materials Welding and Joining Research Group, R&D, Tata Steel, Jamshedpur 831001, India  \n2. Design & Manufacturing, Altair, Pune 411001, India\n\n## Abstract\nIn the construction industry, wire-based steel 3D printing (WBS-3DP) technology for structural parts has yet to be explored. As 3D printing becomes highly productive and cost-effective with the development of qualification standards, it opens a wide range of opportunities for the steel-based additive construction segment too. The major advantage of large-scale 3D printing techniques like wire-arc additive manufacturing (WAAM) is the ability to develop components that are more compatible through topology optimization and with the mechanical requirements of the structural standards. This research aims to discuss the application of WAAM in the fabrication of space frame structures for T-K-Y joints with structural integrity. In this study, a space frame structure was designed and developed with multi-branch tube connectors using WBS-3DP technology. The prototype space frame structure with a multi-branch tube connector is designed to demonstrate how the WAAM process can produce more efficient structures by eliminating challenges involved in tube joining and welding.\n\n## 1 Introduction\nAdditive Manufacturing (AM) involves depositing thin layers of material together based on a 3D computer model. Manufacturing industries such as aerospace and automotive have a strong interest in metal 3D printing, whereas the construction industry has moved at a slower pace due to part size and load capacity requirements.\n\nSteel tubes are frequently used for trusses and space frames. Conventional fabrication of T-K-Y (T, K, and Y) connections requires complex profile cutting, edge preparation, and difficult manual welding that often leads to stress concentrations and high residual stress. 3D printing resolves these challenges by enabling complex shapes with better process control.\n\n## 2 Materials and Methods\n\n### 2.1 Prototype for Tubular Joints Design\nA prototype spaceframe model was designed to accommodate all types of T-K and Y-type tube connections (Fig. 3). A topology optimization tool from Altair Inspire Print3D was used for the nodes/tube connectors to reduce material usage and print time.\n\n### 2.2 Tubular Joining Using Additive Manufacturing\nPrinting was conducted at the Centre for Advanced Welding and Joining (CAWJ), Tata Steel, India. The facility uses a robotic WAAM system consisting of Metal Inert Gas (MIG) welding connected to a 6-axis robotic arm.\n\n### 2.3 Printing Process\nRobot tool paths were generated using Autodesk PowerMill. A carbon steel wire of 0.8 mm diameter was used as feedstock. Shielding gas was 82% Ar / 18% CO2 at 15 l/min. The interpass temperature was kept below 120 °C.\n\n**Table 1. Properties of the filler wires used**\n\n| Wire type | Dia. (mm) | C | Si | Mn | Cr | Mo | Ni | Ys (MPa) | UTS (MPa) | %El |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Low carbon steel | 0.8 | 0.07 | 0.83 | 1.48 | -- | -- | -- | >470 | >565 | >22 |\n\n### 2.4 Metallurgical and Mechanical Characterization\nSamples were etched using 2% nitric acid. SEM-EBSD studies were performed to understand grain crystallography. Tensile properties were evaluated using an Instron universal testing machine at 5 mm/min.\n\n## 3 Results and Discussion\n\n**Table 2. Details of the T-K-Y connections after topology optimisation.**\n\n| Connection | Quantity | Part boundary dimensions (mm) | Weight (kg) |\n| :--- | :--- | :--- | :--- |\n| A | 2 | 240 x 284 x 340 | 42 |\n| B | 4 | 257 x 227 x 338 | 42 |\n| C | 2 | 200 x 344 x 304 | 32 |\n| D | 3 | 327 x 200 x 224 | 26 |\n| E | 6 | 150 x 150 x 201 | 10 |\n| F | 3 | 305 x 120 x 100 | 5.5 |\n\nAll six types of T-K-Y connectors were successfully printed. For connection F, the weights of three identical units were 6.95 kg, 6.97 kg, and 6.93 kg, demonstrating a repeatability of nearly 99%.\n\nTensile test results showed no significant differences based on direction (isotropic nature):\n- Yield strength: 395-405 MPa\n- Tensile strength range: 497-507 MPa\n- Elongation range: 32–40%\n\nMicrostructure showed an equiaxed ferrite matrix with 7–10% pearlite. Directional solidification was avoided using a 90° print layer rotation strategy.\n\n## 4 Conclusions\nThis research successfully demonstrated a digital setup for producing tubular connections using an integrated WAAM system. The 3D-printed connectors achieved the desired tensile strength levels matching conventional tubular steels while allowing for better tolerances and simplified assembly using circular fillet welds instead of complex groove welds.",
+      "keyFindings": "The study validates that Wire-arc Additive Manufacturing (WAAM) can produce topology-optimized connectors for space frame structures with high repeatability (99%) and isotropic mechanical properties. These 3D-printed components achieve yield strengths of ~400 MPa and allow for simplified assembly, effectively replacing complex manual welding in structural joints.",
+      "findings": "WBS-3DP/WAAM allows for the fabrication of complex, topology-optimized structural nodes that reduce material weight and assembly complexity. The process produces isotropic tensile properties similar to conventional steel, and a 90-degree layer rotation strategy successfully prevents directional solidification texture.",
+      "result": "Yield strength of 395-405 MPa, UTS of 497-507 MPa, and 32-40% elongation were achieved in the printed steel components. Repeatability in component mass was measured at 99%.",
+      "graphId": "2024_Perka_Springer_A"
     },
     {
       "id": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
-      "title": "2023 Nesbit.pdf",
+      "title": "Earthmoving for the extraterrestrial",
       "content": "",
       "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2023%20Nesbit.pdf",
       "path": "Papers/2023 Nesbit.pdf",
       "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "7218a8490ba808a62f7f8e14e2a503ce060adfa8",
-      "title": "2024_Almeida.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Almeida.pdf",
-      "path": "Papers/2024_Almeida.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "522e4050c05e8297a49256c31ab4e11e0313952e",
-      "title": "2024_Geng.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Geng.pdf",
-      "path": "Papers/2024_Geng.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "9bee77097e1a2793d589e91be1c2a21445c97b3b",
-      "title": "2024_Giwa_.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Giwa_.pdf",
-      "path": "Papers/2024_Giwa_.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "6eb08cec400102255dce3f1f2b99b0a712535049",
-      "title": "2024_Ishii.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Ishii.pdf",
-      "path": "Papers/2024_Ishii.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "93a1650914a30debb6560556b4f7e42bbf34cdc1",
-      "title": "2024_Kacprzyk.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Kacprzyk.pdf",
-      "path": "Papers/2024_Kacprzyk.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "a39933b69866c7621d5165e7e7255f9a70f5b225",
-      "title": "2024_Li.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Li.pdf",
-      "path": "Papers/2024_Li.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "1f68502171d7a3608e7c32dfd32663ce2f6b0af1",
-      "title": "2024_Liu.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Liu.pdf",
-      "path": "Papers/2024_Liu.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
+      "isRelevant": true,
+      "status": "success",
+      "doi": "10.1177/02637758231204701",
+      "bibtex": "",
+      "relevanceReason": "The article discusses the physical engineering and earthmoving techniques (site preparation, protective berms, and fill-based elevation) used to construct space launch infrastructure, providing a direct terrestrial precedent and technical analog for ISRU-based site works and space architecture.",
+      "markdownContent": "# Earthmoving for the extraterrestrial\n\n## Metadata\n- **Title:** Earthmoving for the extraterrestrial\n- **Author:** Jeffrey S Nesbit\n- **Journal:** EPD: Society and Space\n- **Year:** 2023\n- **DOI:** 10.1177/02637758231204701\n\n## Abstract\nThe United States spaceport, and more importantly, its technical landscape, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Throughout the construction of the launch complexes on the Florida coastline, earthmoving became standard practice to elevate rocket pads above sea level and protect against rocket blasts. This article reveals a critical history of place-based science through an evolution of earthmoving practices, from cultural commemoration to extraterrestrial imagination.\n\n## Technical Landscape and Construction\n\n### Earthmoving for Launch Infrastructure\n- **Peenemunde Model:** Earliest rocket launch sites used earthmoving techniques directed by Albert Speer. The launch pads were bounded by an \"embankment\" of built-up earthwork and electrically networked systems.\n- **Cape Canaveral Construction (1950-1961):** 70% of all launch complexes were constructed in this period. By 1958, 23 of 36 launch complexes were in place.\n- **Launch Complex Anatomy:** Consists of a semi-buried concrete blockhouse, elevated launch pad, and rocket service tower. Earthmoving was standard practice for protection against rocket blasts and to elevate pads above sea level.\n\n### Site Engineering (Pads 39A and 39B)\n- **Dredging and Fill:** Engineers dredged hydraulic fill from the Banana River and pumped it into construction sites.\n- **Sandpiles:** Two large pyramid-like sandpiles were constructed to elevate the launch pads for the Saturn V rocket.\n- **Technology Adaptation:** The steam-shovel crawler used for Kentucky coal mining was adopted to construct the Missile Crawler Transporter Facility. \n- **Infrastructure Blocking:** Construction of the crawler way required engineering large subterranean water channels (culverts) and created blockages at intersections with natural creeks, altering local hydrology.\n\n## Findings\n- **Techno-Spatial Landscapes:** Spaceport infrastructure is a systematization of land designed to facilitate the transition from a terrestrial surface to extraterrestrial space.\n- **Historical Precedents:** Modern launch infrastructure logic mirrors indigenous burial mounds in its use of sculpted land, though for vastly different political and technical purposes.\n- **Environmental Conflict:** The creation of \"technical lands\" through earthmoving often leads to landscape deterioration, erosion, and hydrological disruption.\n\n## Conclusion\nEarthmoving is not merely a background activity but a fundamental tool in the organizational and operational production of spaceports, effectively \"departing Earth by moving it.\"",
+      "keyFindings": "The construction of space launch infrastructure (such as LC-39A/B) relies on massive earthmoving and hydraulic fill to create elevated, protected launch pads and technical landscapes. These practices represent a merger of mining technology and civil engineering adapted for the specific blast and load requirements of space missions.",
+      "findings": "The paper identifies spaceport construction as a process of creating 'techno-spatial landscapes' through intentional earthmoving to manage environmental threats and operational hazards. It highlights that terrestrial spaceport infrastructure is designed as a systematization of military and scientific land use, heavily reliant on soil manipulation and site elevation.",
+      "result": "Approximately 70% of Cape Canaveral's launch infrastructure was constructed in a seven-year span (1950-1961); construction of the Apollo-era launch pads required the creation of massive 'pyramid-like sandpiles' using hydraulic fill dredged from adjacent river systems to provide structural elevation.",
+      "graphId": "2023_Nesbit_Sage_A"
     },
     {
       "id": "c8879d8f236663a94eb8212515fbf4f67950a763",
-      "title": "2024_Saseendran.pdf",
+      "title": "Unlocking the potential: analyzing 3D microstructure of small-scale cement samples from space using deep learning",
       "content": "",
       "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Saseendran.pdf",
       "path": "Papers/2024_Saseendran.pdf",
       "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
+      "isRelevant": true,
+      "status": "success",
+      "doi": "10.1038/s41526-024-00349-9",
+      "bibtex": "",
+      "relevanceReason": "The paper investigates the microstructural properties of tricalcium silicate (C3S) cement hydrated in microgravity (ISS), which is critical for understanding in-situ resource utilization (ISRU) and the performance of cementitious binders for extraterrestrial habitat construction.",
+      "markdownContent": "# Unlocking the potential: analyzing 3D microstructure of small-scale cement samples from space using deep learning\n\n**Authors:** Vishnu Saseendran, Namiko Yamamoto, Peter J. Collins, Aleksandra Radlińska, Sara Mueller and Enrique M. Jackson\n**Journal:** npj Microgravity (2024) 10:11\n**DOI:** 10.1038/s41526-024-00349-9\n\n## Abstract\nDue to the prohibitive cost of transporting raw materials into Space, in-situ materials along with cement-like binders are poised to be employed for extraterrestrial construction. A unique methodology for obtaining microstructural topology of cement samples hydrated in microgravity environment at the International Space Station (ISS) is presented here. Distinctive Scanning Electron Microscopy (SEM) micrographs of hardened tri-calcium silicate (C3S) samples were used as exemplars in a deep learning-based microstructure reconstruction framework. The hydrated space-returned samples exhibited higher porosity content (~70 %) with the portlandite phase assuming an elongated plate-like morphology.\n\n## Introduction\nSustainable human space expeditions require infrastructure on extraterrestrial bodies to protect humans and equipment. In-situ resources such as lunar regolith formed into cement-like binders are envisioned for constructing habitats. Tricalcium silicate (C3S) constitutes ~50–70% of Ordinary Portland Cement (OPC) and governs its hydration. Understanding its microstructural formation in microgravity is essential for predicting mechanical properties.\n\n## Methods\n\n### Process parameters - C3S hydration in microgravity and ground\n- **Mixture:** C3S mixed with lime-water at a water-to-cement (w/c) ratio of 2.0.\n- **Environment:** ISS (microgravity, μg) and Earth (1g).\n- **Conditions:** 20 ± 2 °C, 1 ATM, 35% relative humidity.\n- **Duration:** 42 days of hydration aboard the ISS.\n\n### Deep learning-based microstructure reconstruction\nA CNN-based generative network (solid texture synthesis) was used to generate 3D virtual volumes from 2D SEM images. The framework utilized VGG-19 as a pre-trained descriptor network to ensure statistical equivalency between 2D exemplars and 3D reconstructions.\n\n## Results\n\n### Phase Composition and Porosity\n| Phase | Ground (1g) (%) | Microgravity (μg) (%) |\n| :--- | :--- | :--- |\n| Porosity | 47.0 ± 14.2 | 70.3 ± 1.4 |\n| Porosity - MIP | 48.4 | 69.4 |\n| C-S-H | 41.6 ± 12.0 | 21.2 ± 1.2 |\n| CH (Portlandite) | 11.3 ± 2.8 | 8.5 ± 1.4 |\n\n### Microstructural Findings\n- **Portlandite (CH) Morphology:** In 1g, CH crystals are uniformly distributed. In μg, they assume an elongated plate-like morphology due to the lack of buoyancy-driven convection.\n- **Porosity:** μg samples showed significantly higher porosity (~70%) compared to 1g samples (~47%).\n- **Validation:** The deep learning model successfully captured the unique topology of both 1g and μg samples, validated against micro-CT data and statistical descriptors.\n\n## Conclusion\nThe study demonstrates that AI-assisted reconstruction can effectively characterize the 3D microstructure of extraterrestrial construction materials from limited 2D samples. This is vital for establishing process-microstructure-property linkages for materials used in space architecture.",
+      "keyFindings": "Cement hydrated in microgravity (ISS) exhibits significantly higher porosity (70% vs 47%) and a distinct elongated plate-like portlandite morphology compared to terrestrial samples. A deep learning-based framework (Solid Texture Synthesis) can accurately reconstruct 3D microstructures from 2D SEM images to create Representative Volume Elements (RVEs) for mechanical property prediction.",
+      "findings": "The absence of gravity-driven convection during cement hydration leads to a more porous structure and oriented crystal growth. Deep learning allows for the statistical characterization of space-manufactured materials even when experimental sample sizes are limited.",
+      "result": "Space-returned C3S samples showed a total porosity of 70.3 ± 1.4% and a C-S-H content of 21.2 ± 1.2%, significantly differing from ground-based controls. Microstructure reconstruction achieved convergence after approximately 1500 iterations for 512x512 pixel exemplars.",
+      "graphId": "2024_Saseendran_Nature_A"
     },
     {
       "id": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
-      "title": "2024_Wang.pdf",
+      "title": "To boldly go where no one has gone before: Sulfur concrete, a promising construction material fulfilling the demands for a sustainable future on celestial objects: A review",
       "content": "",
       "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Wang.pdf",
       "path": "Papers/2024_Wang.pdf",
       "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "606139020e2894c00976bdcf3235a2203d85e6c8",
-      "title": "2024_Wu.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Wu.pdf",
-      "path": "Papers/2024_Wu.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "47003cccdb30025e159c4dc3000b87d8b2e96990",
-      "title": "2024_Yang.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Yang.pdf",
-      "path": "Papers/2024_Yang.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "46eeaa62f91ae248cfb73d9a02c04da25086d7b4",
-      "title": "2024_Zhang.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Zhang.pdf",
-      "path": "Papers/2024_Zhang.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "6575a3b404e04e0f1a7aac5ccc09ee15c1bec958",
-      "title": "2024_Zhou.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2024_Zhou.pdf",
-      "path": "Papers/2024_Zhou.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "4f83dc1582411aefca61b0a6cbb0f74f525f0740",
-      "title": "2025 Subin Antony Jose.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025%20Subin%20Antony%20Jose.pdf",
-      "path": "Papers/2025 Subin Antony Jose.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "63cee53e8e6ab8ae431e672422241de596c1c42e",
-      "title": "2025_ Xi.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_%20Xi.pdf",
-      "path": "Papers/2025_ Xi.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "d46171896643d7b2c7f0251bfb8f4998207cc60b",
-      "title": "2025_Bai.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Bai.pdf",
-      "path": "Papers/2025_Bai.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "e29b4c1e4b2612920e967589f49f91dc54ffbc99",
-      "title": "2025_Brzezi´nski.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Brzezi%C2%B4nski.pdf",
-      "path": "Papers/2025_Brzezi´nski.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "16c546109b99879bd99ce51d957cc08ce923e160",
-      "title": "2025_Hoe.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Hoe.pdf",
-      "path": "Papers/2025_Hoe.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "1c9a599e2538a7971b5c7acd3ca8576d9578ae55",
-      "title": "2025_Li.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Li.pdf",
-      "path": "Papers/2025_Li.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "97723797fdb0e54da131d82e75510ac8e77f370a",
-      "title": "2025_Liu.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Liu.pdf",
-      "path": "Papers/2025_Liu.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "0970d8f478b3a8646369618b8e74be97dc9c594e",
-      "title": "2025_Sun a.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Sun%20a.pdf",
-      "path": "Papers/2025_Sun a.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "6884a264d307fffd83f630e5a3fee44d18d7d71b",
-      "title": "2025_Sun.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Sun.pdf",
-      "path": "Papers/2025_Sun.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "92ea679d05cf83517e160f84ff99adbe3b90f98b",
-      "title": "2025_Xia.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Xia.pdf",
-      "path": "Papers/2025_Xia.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "bde0020e8e573732504b7ab661907ca6c277ded9",
-      "title": "2025_Yao b.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Yao%20b.pdf",
-      "path": "Papers/2025_Yao b.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "9465d28f4d29d632678cd22a775edaf092369960",
-      "title": "2025_Yao.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Yao.pdf",
-      "path": "Papers/2025_Yao.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "3c3f07b7f1280e01656ac0beb18a454bd2f64ac8",
-      "title": "2025_Zhang a.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Zhang%20a.pdf",
-      "path": "Papers/2025_Zhang a.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "a10102235fc3cc97089ba1990c8fad5acd362a9b",
-      "title": "2025_Zhang b.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Zhang%20b.pdf",
-      "path": "Papers/2025_Zhang b.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "7589a85971d6919662dd42bd297f5f536acc0806",
-      "title": "2025_Zhang c.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Zhang%20c.pdf",
-      "path": "Papers/2025_Zhang c.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "6dfbaf8e93281180602948e04c97a2f339e5aaaa",
-      "title": "2025_Zhu a.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Zhu%20a.pdf",
-      "path": "Papers/2025_Zhu a.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
-    },
-    {
-      "id": "cf7d3b7183b84b8e3d04dcba3bd0365a65f38e4c",
-      "title": "2025_Zhu b.pdf",
-      "content": "",
-      "url": "https://github.com/zetazetalun/Space-Architecture-Literature/blob/main/Papers/2025_Zhu%20b.pdf",
-      "path": "Papers/2025_Zhu b.pdf",
-      "mimeType": "application/pdf",
-      "isRelevant": false,
-      "status": "failed"
+      "isRelevant": true,
+      "status": "success",
+      "doi": "10.1016/j.mattod.2023.12.005",
+      "bibtex": "",
+      "relevanceReason": "This review paper extensively discusses sulfur concrete as an In-Situ Resource Utilization (ISRU) based material for construction on the Moon and Mars, covering material properties, additive manufacturing (3D printing), and habitat sustainability.",
+      "markdownContent": "# To boldly go where no one has gone before: Sulfur concrete, a promising construction material fulfilling the demands for a sustainable future on celestial objects: A review\n\n**Authors:** Q. Wang, D. Snoeck\n**Journal:** Materials Today, Volume 72, January/February 2024\n**Publisher:** Elsevier\n**DOI:** 10.1016/j.mattod.2023.12.005\n\n## Abstract\nThe need to build a long-term or even permanent base is now a significant concern with the development of the exploration of extraterrestrial celestial bodies. Sulfur concrete was first proposed as a new building material in the 20th century. Recently, sulfur concrete has attracted much interest, as sulfur is considered one of the most accessible resources on the Moon and Mars, thanks to the in-situ resource utilization methodology. This review paper summarizes the history of sulfur concrete development and different modified sulfur concretes. Previous research on extraterrestrial building materials is also reviewed. The unique advantage of sulfur concrete as an extraterrestrial material is justified, as no water is used during mixing. Lunar and Martian soil simulants are also examined as possible aggregate types.\n\n## Comparison of Potential Extraterrestrial Construction Materials\n\n| Concrete categories | Material composition | Applicable area | Compressive strength | Advantage | Disadvantages |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Calcium Aluminate concrete | Calcium Aluminate Cement + Water + Aggregate | Lunar | 25–45 MPa | Applicable under low temperature and vacuum space. | Tremendous water/energy demand. |\n| Magnesia Silica Concrete | MgO + Silica + Water + Aggregate | Mars | 20–64 MPa | Higher strength curing in air; Low energy consumption. | Huge water demand; Transportation of superplasticizer from Earth. |\n| Polymer Concrete | Polymer + Aggregate | Lunar | 12.6–71.3 MPa | High compressive strength, fast curing, waterless. | Transportation of polymers from Earth. |\n| Geopolymer Concrete | Geopolymer + Alkali activator + Water + Aggregate | Lunar | 10–80 MPa | Low water consumption, high tolerance to temp cycles, radiation shielding. | Transportation of alkali-activator from Earth. |\n\n## Comparison between Portland Cement (PC) and Sulfur-based Concrete\n\n| Property | Unit | PC-based concrete | Sulfur-based concrete |\n| :--- | :--- | :--- | :--- |\n| Time of strength gain | Time | 28 days | 3 h – 14 days |\n| Compressive strength | MPa | 15–60 | 13–115 |\n| Tensile strength | MPa | 3.31–4.43 | 5–7 |\n| Flexural strength | MPa | 3.9–9.6 | 10–15 |\n| Freeze-thaw durability | % | 60–82 | 300 |\n| Acid resistance | % (mass loss in HCl) | 11.64 (21 days) | 0.54 (180 days) |\n| Permeability | 10⁻¹¹ m/s | 1.81–2.39 | Negligible |\n| Shrinkage | 10⁻⁶ | 700 (1947 days) | Negligible |\n| Thermal conductivity | W/m·K | 0.6–3.3 | 0.128 |\n\n## Key Advantages of Sulfur Concrete in Space\n1. **Waterless:** Mixing does not require water, a scarce resource.\n2. **ISRU Potential:** Sulfur is abundant on the Moon (as troilite) and Mars (sulfates/sulfur-rich soil).\n3. **Recyclability:** The material is thermoplastic and can be remelted and reused.\n4. **Rapid Strength Gain:** Reaches full strength in hours upon cooling.\n5. **Low Thermal Conductivity:** Provides good insulation (0.128 W/m·K).\n\n## Challenges and Solutions\n- **Sublimation:** In a vacuum, sulfur can sublimate at high temperatures (e.g., 120°C on the lunar surface). Protection with regolith layers is proposed.\n- **Thermal Expansion:** Mismatch between sulfur and aggregate expansion coefficients can cause internal stress. Modification with polymers (e.g., DCPD) is suggested.\n- **Brittleness:** Internal stresses from phase transformation during cooling can be mitigated via fiber reinforcement and polymer modification.\n\n## Additive Manufacturing Techniques Mentioned\n- **Contour Crafting:** Extrusion of sulfur-regolith mixtures.\n- **Microwave Sintering:** Using microwaves to melt sulfur/aggregate mixtures.\n- **Selective Laser Melting:** Precision sintering of powder beds.",
+      "keyFindings": "Sulfur concrete is a highly viable ISRU material for Moon and Mars construction due to its waterless mixing process, recyclability, and rapid strength gain. The paper highlights that while sublimation in high vacuum and thermal expansion mismatches are significant challenges, they can be mitigated through polymer modification, regolith shielding, and additive manufacturing techniques like contour crafting.",
+      "findings": "The review identifies sulfur concrete as one of the most promising building materials for extraterrestrial exploration because sulfur is an accessible resource via In-Situ Resource Utilization (ISRU) on the Moon and Mars. It compares sulfur concrete favorably against Portland cement in mechanical properties, acid resistance, and permeability, noting its 'waterless' nature as a primary advantage. The document also evaluates the performance of modified sulfur concrete, such as those using dicyclopentadiene (DCP), which addresses durability issues like shrinkage and cracking during phase transformation.",
+      "result": "Sulfur-based concretes exhibit compressive strengths ranging from 13 to 115 MPa and flexural strengths of 10–15 MPa, significantly higher than standard Portland cement mixtures in extreme environments. It demonstrates superior durability with a 300% freeze-thaw durability rating and negligible mass loss (0.54%) in acid resistance tests. However, thermal constraints are noted: sulfur concrete can sublimate a 1 cm thick layer in just 2 hours at 120°C under lunar vacuum conditions.",
+      "graphId": "2024_Wang_Elsevier_A"
     }
   ],
   "mappings": [
@@ -9993,14 +9753,422 @@
       "confidence": 1,
       "paperId": "9e3a77dc37855bcbb4e55cc79ed48f1ecc9c49a0",
       "verified": true
+    },
+    {
+      "parameterId": "year",
+      "value": "2024",
+      "evidence": "M. J. Tan et al. (Eds.): 3DcP 2023, STAM, pp. 241–250, 2024.",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "authors",
+      "value": "Xiqiang Lin, Hailong Wang, Xiaoyan Sun, Wael Kikhia, Zhennan Wu, Lu Lan, Jiawei Zhao",
+      "evidence": "Xiqiang Lin1,2, Hailong Wang1, Xiaoyan Sun1, Wael Kikhia2, Zhennan Wu1, Lu Lan2, and Jiawei Zhao1",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "publisher",
+      "value": "Springer Nature",
+      "evidence": "under exclusive license to Springer Nature Switzerland AG 2024",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "researchType",
+      "value": "Primary Literature",
+      "evidence": "This article introduces the structural design, 3D printing process and overall installation and construction of the Mars house.",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "publicationType",
+      "value": "Conference Paper/Proceedings",
+      "evidence": "M. J. Tan et al. (Eds.): 3DcP 2023, STAM, pp. 241–250, 2024.",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "foci",
+      "value": "Additive & Automated Construction, Structural Design, Materials Science",
+      "evidence": "concrete 3D printing technology; structural design; concrete mix proportion and performance",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "scenario",
+      "value": "Surface",
+      "evidence": "simulate the Martian landscape and uses concrete 3D printing technology to construct houses",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "location",
+      "value": "Mars",
+      "evidence": "Construction Technology of the Curved ‘Mars House’",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "habitatClass",
+      "value": "Class I, Class III",
+      "evidence": "After the concrete components are 3D printed in the factory, they are transported to the project site for assembly and construction; 3D printing technology is one of the most likely construction technologies to be used when building extraterrestrial bases in the future.",
+      "confidence": 0.9,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "technologyClass3",
+      "value": "Extrusion Based",
+      "evidence": "concrete 3D printing technology to construct houses layer by layer; extrusion width of 40 mm",
+      "confidence": 1,
+      "paperId": "0ae258c34034ed7fbd8aa3fba3bf08f9f585acf9",
+      "verified": true
+    },
+    {
+      "parameterId": "year",
+      "value": "2024",
+      "evidence": "© The Author(s), under exclusive license to Springer Nature Switzerland AG 2024",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "authors",
+      "value": "Ashok Kumar Perka, Bijoy Rajak, Shibashis Ghosh",
+      "evidence": "Ashok Kumar Perka1, Bijoy Rajak1, and Shibashis Ghosh2",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "publisher",
+      "value": "Springer Nature",
+      "evidence": "Springer Nature Switzerland AG 2024",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "researchType",
+      "value": "Primary Literature",
+      "evidence": "In this study, a space frame structure was designed and developed with multi-branch tube connectors using WBS-3DP technology.",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "publicationType",
+      "value": "Conference Paper/Proceedings",
+      "evidence": "M. J. Tan et al. (Eds.): 3DcP 2023, STAM, pp. 251–262, 2024.",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "foci",
+      "value": "Additive & Automated Construction, Structural Design, Materials Science",
+      "evidence": "application of WAAM in the fabrication of space frame structures; topology optimization; mechanical characterization was carried out on the printed samples.",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "scenario",
+      "value": "Surface",
+      "evidence": "In the construction industry... high-rise building applications.",
+      "confidence": 0.8,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "location",
+      "value": "Space",
+      "evidence": "3D Printing of Tubular Connectors for Space Frame Structures",
+      "confidence": 0.9,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "habitatClass",
+      "value": "Class I",
+      "evidence": "3D-printed connectors are fixed at the designated multi-branch connection location using an interface plate... pre-fabricated components for space frame structures.",
+      "confidence": 0.7,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "technologyClass3",
+      "value": "Wire-Arc Additive Manufacturing (WAAM)",
+      "evidence": "robotic wire arc additive manufacturing (WAAM)",
+      "confidence": 1,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "bibtex",
+      "value": "@inproceedings{perka2024waam, title={3D Printing of Tubular Connectors for Space Frame Structures}, author={Perka, Ashok Kumar and Rajak, Bijoy and Ghosh, Shibashis}, booktitle={3D Printing in Chemical and Process Industries (3DcP 2023)}, pages={251--262}, year={2024}, publisher={Springer Nature Switzerland}, doi={10.1007/978-3-031-64269-2_31}}",
+      "evidence": "Extracted from title, authors, publisher, and DOI provided in the document.",
+      "confidence": 0.9,
+      "paperId": "84ae7d579b12340a8221c7bb5de223165619cd05",
+      "verified": true
+    },
+    {
+      "parameterId": "year",
+      "value": "2024",
+      "evidence": "npj Microgravity (2024)10:11",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "authors",
+      "value": "Vishnu Saseendran, Namiko Yamamoto, Peter J. Collins, Aleksandra Radlińska, Sara Mueller, Enrique M. Jackson",
+      "evidence": "Vishnu Saseendran 1, Namiko Yamamoto 1, Peter J. Collins2 , Aleksandra Radlińska 2 , Sara Mueller3 and Enrique M. Jackson4",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "publisher",
+      "value": "Nature Portfolio",
+      "evidence": "www.nature.com/npjmgrav",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "researchType",
+      "value": "Primary Literature",
+      "evidence": "Micrographs of hardened tri-calcium silicate (C3S) samples were used as exemplars in a deep learning-based microstructure reconstruction framework.",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "publicationType",
+      "value": "Research/Original Article",
+      "evidence": "ARTICLE OPEN",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "foci",
+      "value": "ISRU, Materials Science, Structural Design",
+      "evidence": "in-situ resources such as lunar regolith formed into cement-like binders can be employed for constructing habitats on extraterrestrial bodies... analyze 3D microstructure... directly employed as Representative Volume Element (RVE)",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "scenario",
+      "value": "Orbital",
+      "evidence": "hydrated in microgravity environment at the International Space Station (ISS)",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "location",
+      "value": "Space",
+      "evidence": "cement samples hydrated in microgravity environment at the International Space Station (ISS)",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "habitatClass",
+      "value": "Class III",
+      "evidence": "in-situ resources such as lunar regolith formed into cement-like binders can be employed for constructing habitats",
+      "confidence": 1,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "technologyClass3",
+      "value": "Cementitious Binders",
+      "evidence": "in-situ materials along with cement-like binders are poised to be employed for extraterrestrial construction",
+      "confidence": 0.9,
+      "paperId": "c8879d8f236663a94eb8212515fbf4f67950a763",
+      "verified": true
+    },
+    {
+      "parameterId": "year",
+      "value": "2024",
+      "evidence": "Materials Today d Volume 72 d January/February 2024",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "authors",
+      "value": "Q. Wang, D. Snoeck",
+      "evidence": "Q. Wang, D. Snoeck*",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "publisher",
+      "value": "Elsevier",
+      "evidence": "1369-7021/© 2023 Elsevier Ltd.",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "researchType",
+      "value": "Secondary Literature",
+      "evidence": "This review paper summarizes the history of sulfur concrete development",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "publicationType",
+      "value": "Review Article",
+      "evidence": "RESEARCH: Review",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "foci",
+      "value": "ISRU, Materials Science, Additive & Automated Construction, Sustainability",
+      "evidence": "Keywords: Sulfur concrete; Sustainability; Extraterrestrial construction materials; Circularity; Recyclability; ISRU; 3D printing technology is also proposed",
+      "confidence": 0.95,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "scenario",
+      "value": "Surface",
+      "evidence": "it is necessary to build reliable, sustainable, and permanent buildings on the Moon to execute in-situ exploration on the lunar surface",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "location",
+      "value": "Moon, Mars",
+      "evidence": "sulfur is considered one of the most accessible resources on the Moon and Mars",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "habitatClass",
+      "value": "Class III",
+      "evidence": "to use resources exploited directly from them... sulfur concrete",
+      "confidence": 1,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "technologyClass3",
+      "value": "Extrusion Based, Microwave Sintering, Solar and Selective Laser Sintering",
+      "evidence": "Contour Crafting... casting process using microwaves... selective laser melting process",
+      "confidence": 0.9,
+      "paperId": "8513a27e7d66c2e0e5af82283282a720e377e8d4",
+      "verified": true
+    },
+    {
+      "parameterId": "year",
+      "value": "2025",
+      "evidence": "EPD: Society and Space 2025, Vol. 43(2) 245–261",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "authors",
+      "value": "Jeffrey S Nesbit",
+      "evidence": "Jeffrey S Nesbit, Temple University, USA",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "publisher",
+      "value": "Sage",
+      "evidence": "journals.sagepub.com/home/epd",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "researchType",
+      "value": "Primary Literature",
+      "evidence": "Research article in EPD: Society and Space providing original historical and architectural analysis.",
+      "confidence": 0.9,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "publicationType",
+      "value": "Research/Original Article",
+      "evidence": "Article type identified at top of page 1.",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "foci",
+      "value": "Geotechnical Engineering, Construction Management & Planning, Media, Politics & Discourse",
+      "evidence": "Discusses earthmoving, pad elevation via dredging, and the political/social discourse surrounding spaceport landscapes.",
+      "confidence": 0.85,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "scenario",
+      "value": "Surface",
+      "evidence": "Focuses on the terrestrial surface construction of launch pads.",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "location",
+      "value": "Space",
+      "evidence": "The application context is the US spaceport for extraterrestrial pursuit.",
+      "confidence": 0.9,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "habitatClass",
+      "value": "null",
+      "evidence": "The study focuses on launch infrastructure rather than human habitats.",
+      "confidence": 1,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
+    },
+    {
+      "parameterId": "technologyClass3",
+      "value": "Earthmoving and Site Preparation, Hydraulic Fill Construction",
+      "evidence": "By dredging hydraulic fill from the Banana River and pumping it into the construction site, engineers elevated the rocket launch pads to sit above the shallow sea level... Two large pyramid-like sandpiles were constructed to elevate the launch pads.",
+      "confidence": 0.9,
+      "paperId": "a1ddfb50395a1131bca34b6d92afa1186f4542e5",
+      "verified": true
     }
   ],
   "summary": {
-    "overview": "This systematic literature review synthesizes findings from EXACTLY 100 relevant research papers (out of 102 successfully analyzed papers, from a total of 135 documents). The research overwhelmingly focuses on extraterrestrial construction, primarily targeting the Moon and Mars. The core paradigm driving this field is In-Situ Resource Utilization (ISRU), which aims to minimize the prohibitive costs and payload limits of transporting Earth-based materials. The literature reveals a definitive transition from Earth-dependent pre-fabricated modules to fully autonomous, regolith-integrated habitats. Key disciplines intersecting to enable this shift include materials science, geotechnical engineering, additive manufacturing, and emerging biotechnologies.",
-    "keyFindings": "1. Lunar and Martian regolith act as the fundamental building blocks for extraterrestrial infrastructure, requiring advanced processing techniques like thermal sintering, geopolymerization, or sulfur-binding to achieve structural integrity. 2. Low-energy biological and biopolymer approaches, such as microbially induced carbonate precipitation (MICP), mycelium composites, and starch-based binders (e.g., StarCrete), are emerging as highly viable, sustainable alternatives to energy-intensive melting. 3. Additive manufacturing, specifically extrusion-based 3D printing, represents the most scalable automated construction method for habitats. 4. Optimal structural designs heavily favor hybrid systems consisting of inflatable pressurized cores protected by rigid, 3D-printed regolith shields to mitigate radiation, thermal extremes, and micrometeorites. 5. Subsurface environments, particularly lunar and Martian lava tubes, are increasingly recognized as ideal natural shelters that drastically reduce the energy required for environmental control.",
-    "methodologyTrends": "The literature is heavily dominated by Primary Literature, characterized by experimental validation, finite element modeling, and scaled physical prototyping. Researchers frequently utilize synthetic regolith (e.g., JSC-1A, LHS-1, MGS-1) tested within vacuum and low-gravity chambers to accurately replicate extreme extraterrestrial mechanics. There is a prominent trend toward applying multi-objective optimization, such as genetic algorithms, and AI-driven generative design to balance habitat mass, volume, and thermal resistance. Additionally, the integration of advanced perception systems, including computer vision and Building Information Modeling (BIM), is becoming standard practice to enable real-time robotic terrain mapping and adaptive autonomous construction.",
-    "technologyClass3": "Class III habitats, which rely almost entirely on ISRU, are the primary focus of modern space architecture. Based on the mapping data, Extrusion-Based 3D printing is the dominant technology, utilizing alkali-activated geopolymers, sulfur-based concretes (Marscrete), and biopolymer-bound soils that can self-harden under vacuum conditions. Sintering techniques (Solar, Selective Laser, Microwave, and Spark Plasma) are also highly researched; they provide exceptional structural strength without imported binders but require immense energy inputs. Binder Jetting is noted for high-precision component fabrication but faces challenges with liquid management in vacuums. Biological approaches, utilizing plant starches, human serum albumin, and fungal mycelium, represent a breakthrough in low-energy regolith consolidation. Furthermore, specialized site preparation tools, such as ultrasonic combined-action drills and bio-inspired clam drills, are essential precursors for deploying these Class III construction technologies.",
-    "chartAnalysis": "The 'Year of Publication' bar chart illustrates exponential growth in extraterrestrial construction research, peaking heavily between 2021 and 2024, which aligns with renewed global lunar exploration initiatives like the Artemis program. The 'Research Type' pie chart and 'Publication Type' bar chart confirm a field rooted in hands-on primary experimental research and conference proceedings rather than purely theoretical reviews. The 'Research Foci' treemap shows ISRU, Materials Science, and Additive Construction as the foundational pillars of the discipline, emphasizing that raw material processing is currently the primary engineering hurdle. The 'Application Scenario' bar chart and 'Application Location' radar chart highlight an overwhelming preference for Moon and Mars surface applications, with strategic but minor interest in underground lava tubes and orbital systems. Finally, the 'Habitat Class' pie chart and 'Technology for Class III Habitat' bar chart demonstrate a near-complete paradigm shift towards Class III ISRU-based habitats, driven by extrusion 3D printing and diverse sintering techniques.",
+    "overview": "This systematic literature review synthesizes findings from exactly 105 relevant research papers focused on extraterrestrial construction, habitation, and the utilization of in-situ resources. The synthesized literature represents a profound shift in space architecture, transitioning from Earth-dependent, prefabricated modules toward fully autonomous, earth-independent infrastructures designed for the Moon, Mars, and other celestial bodies. The studies comprehensively cover the disciplines of geotechnical engineering, materials science, structural design, and automated additive manufacturing. They investigate the feasibility, mechanical properties, and environmental resilience of construction materials derived from planetary regolith, seeking to overcome extreme environmental hazards such as low gravity, high vacuum, severe radiation, and drastic thermal fluctuations. By integrating robotic construction techniques with advanced materials science and biology, the research aims to ensure the sustainability of long-term human outposts in deep space.",
+    "keyFindings": "The transition to Class III (ISRU-based) habitats is universally identified as essential to offset the extreme costs and logistical bottlenecks of transporting materials from Earth. Planetary regolith (Lunar and Martian) is the primary targeted construction material. Given the lack of accessible water for traditional concrete, researchers have successfully developed and tested waterless alternatives, including sulfur-based concretes, geopolymers, and biopolymer-bound composites (such as StarCrete utilizing potato starch and blood-plasma proteins). These composites frequently achieve compressive strengths comparable to or exceeding terrestrial concrete (up to 91.7 MPa for StarCrete and over 150 MPa for certain regolith-epoxy composites). To mitigate the risks of radiation, micrometeorites, and extreme thermal cycling, hybrid structural designs are highly favored. These designs typically integrate an internal Class II deployable or inflatable pressurized membrane protected by a thick, 3D-printed or regolith-bagged outer shell. Additionally, natural subsurface features like lunar lava tubes and karst caves are heavily researched as optimal locations for deploying habitats, as they naturally shield against surface hazards while reducing the energy demands for thermal management. Biological integration is also emerging as a viable construction strategy, demonstrated by the first successful plant germination on the Moon (Chang'e 4) and the development of high-strength mycelium biocomposites and microbially induced carbonate precipitation (MICP) bio-bricks.",
+    "methodologyTrends": "The reviewed literature is predominantly composed of Primary Literature, heavily skewed toward experimental laboratory testing and advanced computational modeling. Researchers frequently utilize standardized regolith simulants (e.g., JSC-1A, LHS-1, MGS-1) to evaluate the mechanical, rheological, and thermal properties of proposed construction materials. Because testing in true extraterrestrial environments is highly restricted, studies rely on sophisticated terrestrial analogs and simulation frameworks. Methodologies often involve vacuum chamber testing to observe material sublimation and soil disturbance, as well as density-scaled particle testing and Discrete Element Method (DEM) simulations to accurately model soil bearing capacities and excavation forces under reduced gravity. There is a strong trend toward integrating Building Information Modeling (BIM), 4D construction sequencing, and Generative Design powered by genetic algorithms (such as NSGA-II) for the multi-objective optimization of habitat structures. Furthermore, deep learning and computer vision are increasingly utilized to facilitate the high levels of automation required for extraterrestrial robotic construction, enabling real-time terrain mapping and adaptive robotic 3D printing in unpredictable environments.",
+    "technologyClass3": "Technologies for fabricating Class III (ISRU-based) habitats are dominated by two main paradigms: Additive Manufacturing (Extrusion-Based) and Sintering. Extrusion-based 3D concrete printing (3DCP) is the most scalable and frequently researched technology, utilizing robotic arms or gantry systems to deposit layers of sulfur-concrete, geopolymers, or biopolymer mixtures. Formulations are highly optimized with micro-fillers, dicyclopentadiene, and specific particle size distributions to ensure shape stability and rapid hardening in vacuum environments. Conversely, sintering technologies consolidate raw regolith into high-strength ceramics or structural blocks without the need for imported binders. Sintering methods are heavily evaluated, including Solar Sintering (using Fresnel lenses to focus solar radiation), Microwave Sintering (exploiting the nanophase iron in lunar regolith for efficient dielectric heating), Selective Laser Sintering (SLS), and Spark Plasma Sintering (SPS). While sintering yields the highest structural density and strength, it is highly energy-intensive compared to biological or polymer binding methods. Binder Jetting (e.g., D-Shape technology) and Bio-cementation (MICP) are also prominent, offering high-precision fabrication and low-energy alternatives, respectively. These primary fabrication methods are supported by advanced site-preparation technologies, including ultrasonic drilling, clam-inspired bio-drills, and automated earthmoving systems designed to level terrain and extract subsurface ice.",
+    "chartAnalysis": "An analysis of the generated charts reveals a rapidly accelerating interest in extraterrestrial construction, with a massive spike in publications between 2021 and 2024. This trend aligns with the renewed global focus on lunar exploration, specifically the Artemis program and various Mars mission roadmaps. The 'Research Type' and 'Publication Type' distributions show that the field is deeply engaged in empirical, applied science; Primary Literature (Original Articles and Conference Proceedings) makes up the vast majority of the data, indicating a shift from theoretical concepts to physical prototyping and testing. The 'Research Foci' treemap demonstrates that ISRU, Materials Science, Additive Construction, and Structural Design are intricately linked core pillars of current research, emphasizing that solving material constraints is a prerequisite for structural design. The 'Application Scenario' and 'Application Location' charts highlight that Lunar surface construction is the immediate priority, serving as a technological testbed for subsequent Martian surface missions. Orbital and underground scenarios remain specialized sub-fields. Finally, the 'Habitat Class' and 'Technology for Class III Habitat' distributions confirm that Earth-independent, ISRU-based habitats are the ultimate goal, with Extrusion-Based 3D printing and various Sintering methods established as the competing yet complementary vanguard technologies for off-world manufacturing.",
     "chartData": {
       "distributions": [
         {
@@ -10033,7 +10201,7 @@
             },
             {
               "name": "2018",
-              "value": 9
+              "value": 7
             },
             {
               "name": "2019",
@@ -10045,7 +10213,7 @@
             },
             {
               "name": "2021",
-              "value": 21
+              "value": 22
             },
             {
               "name": "2022",
@@ -10053,11 +10221,15 @@
             },
             {
               "name": "2023",
-              "value": 14
+              "value": 17
             },
             {
               "name": "2024",
-              "value": 15
+              "value": 21
+            },
+            {
+              "name": "2025",
+              "value": 1
             }
           ]
         },
@@ -10071,7 +10243,7 @@
             },
             {
               "name": "Secondary Literature",
-              "value": 17
+              "value": 16
             }
           ]
         },
@@ -10081,26 +10253,22 @@
           "data": [
             {
               "name": "Research/Original Article",
-              "value": 45
+              "value": 41
             },
             {
               "name": "Conference Paper/Proceedings",
-              "value": 19
+              "value": 24
             },
             {
               "name": "Review Article",
-              "value": 16
-            },
-            {
-              "name": "Short/Brief Communication",
-              "value": 1
+              "value": 15
             },
             {
               "name": "Preprint",
               "value": 1
             },
             {
-              "name": "Research Letter",
+              "name": "Commentary/Letter to Editor",
               "value": 1
             }
           ]
@@ -10111,39 +10279,55 @@
           "data": [
             {
               "name": "ISRU",
-              "value": 56
+              "value": 62
             },
             {
               "name": "Materials Science",
-              "value": 50
-            },
-            {
-              "name": "Additive & Automated Construction",
-              "value": 38
+              "value": 56
             },
             {
               "name": "Structural Design",
-              "value": 35
+              "value": 44
+            },
+            {
+              "name": "Additive & Automated Construction",
+              "value": 42
             },
             {
               "name": "Geotechnical Engineering",
-              "value": 22
+              "value": 32
             },
             {
               "name": "Systems Engineering and Design",
-              "value": 10
+              "value": 15
             },
             {
               "name": "Biotechnology & Bio-Inspired Materials",
-              "value": 9
+              "value": 10
             },
             {
               "name": "Life Support & Human Factors",
-              "value": 6
+              "value": 8
             },
             {
               "name": "Construction Management & Planning",
-              "value": 4
+              "value": 6
+            },
+            {
+              "name": "Sustainability",
+              "value": 6
+            },
+            {
+              "name": "Specialized Construction Techniques",
+              "value": 2
+            },
+            {
+              "name": "Media, Politics & Discourse",
+              "value": 2
+            },
+            {
+              "name": "Transportation/Logistics",
+              "value": 1
             }
           ]
         },
@@ -10153,15 +10337,15 @@
           "data": [
             {
               "name": "Surface",
-              "value": 78
+              "value": 85
             },
             {
               "name": "Underground",
-              "value": 8
+              "value": 14
             },
             {
               "name": "Orbital",
-              "value": 3
+              "value": 4
             }
           ]
         },
@@ -10171,23 +10355,19 @@
           "data": [
             {
               "name": "Moon",
-              "value": 64
+              "value": 75
             },
             {
               "name": "Mars",
-              "value": 41
-            },
-            {
-              "name": "Space",
-              "value": 6
+              "value": 55
             },
             {
               "name": "Asteroids",
-              "value": 6
+              "value": 8
             },
             {
-              "name": "Earth/Other",
-              "value": 1
+              "name": "Space",
+              "value": 8
             }
           ]
         },
@@ -10197,15 +10377,15 @@
           "data": [
             {
               "name": "Class III",
-              "value": 70
-            },
-            {
-              "name": "Class II",
-              "value": 11
+              "value": 75
             },
             {
               "name": "Class I",
-              "value": 7
+              "value": 12
+            },
+            {
+              "name": "Class II",
+              "value": 10
             }
           ]
         },
@@ -10215,137 +10395,92 @@
           "data": [
             {
               "name": "Extrusion Based",
-              "value": 26
+              "value": 32
             },
             {
-              "name": "Sintering (Solar, Laser, Microwave, Spark)",
-              "value": 25
+              "name": "Solar and Selective Laser Sintering",
+              "value": 20
             },
             {
-              "name": "Biotechnology & Biopolymers",
-              "value": 7
+              "name": "Microwave Sintering",
+              "value": 12
             },
             {
               "name": "Binder Jetting",
+              "value": 10
+            },
+            {
+              "name": "Biopolymer and MICP",
               "value": 6
             },
             {
-              "name": "Excavation & Drilling",
+              "name": "Spark Plasma Sintering",
               "value": 4
-            },
-            {
-              "name": "Vacuum Dehydration & Casting",
-              "value": 3
             }
           ]
         }
       ],
       "heatmaps": [
         {
-          "parameterName": "Research Foci by Application Location",
+          "parameterName": "Application Location vs Application Scenario",
           "data": [
             {
               "x": "Moon",
-              "y": "ISRU",
-              "value": 38
-            },
-            {
-              "x": "Moon",
-              "y": "Materials Science",
-              "value": 34
-            },
-            {
-              "x": "Moon",
-              "y": "Additive & Automated Construction",
-              "value": 25
-            },
-            {
-              "x": "Mars",
-              "y": "ISRU",
-              "value": 28
-            },
-            {
-              "x": "Mars",
-              "y": "Materials Science",
-              "value": 22
-            },
-            {
-              "x": "Mars",
-              "y": "Additive & Automated Construction",
-              "value": 18
-            },
-            {
-              "x": "Asteroids",
-              "y": "ISRU",
-              "value": 5
-            },
-            {
-              "x": "Space",
-              "y": "Materials Science",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "parameterName": "Habitat Class by Application Scenario",
-          "data": [
-            {
-              "x": "Surface",
-              "y": "Class III",
+              "y": "Surface",
               "value": 65
             },
             {
-              "x": "Surface",
-              "y": "Class II",
+              "x": "Moon",
+              "y": "Underground",
               "value": 10
             },
             {
-              "x": "Surface",
-              "y": "Class I",
-              "value": 6
+              "x": "Mars",
+              "y": "Surface",
+              "value": 45
             },
             {
-              "x": "Underground",
-              "y": "Class III",
-              "value": 6
+              "x": "Mars",
+              "y": "Underground",
+              "value": 10
             },
             {
-              "x": "Underground",
-              "y": "Class II",
-              "value": 2
+              "x": "Space",
+              "y": "Orbital",
+              "value": 4
             },
             {
-              "x": "Orbital",
-              "y": "Class I",
-              "value": 2
+              "x": "Asteroids",
+              "y": "Surface",
+              "value": 8
             }
           ]
         }
       ],
       "relevance": {
-        "relevant": 100,
+        "relevant": 105,
         "irrelevant": 2,
-        "failed": 33
+        "failed": 0
       }
     },
     "performance": {
-      "totalTimeMs": 2034897,
-      "mappingTimeMs": 1921278,
-      "synthesisTimeMs": 113610,
-      "paperCount": 135,
+      "totalTimeMs": 317737,
+      "mappingTimeMs": 173910,
+      "synthesisTimeMs": 57001,
+      "paperCount": 107,
       "tokenUsage": {
-        "promptTokens": 98645,
-        "candidatesTokens": 1726,
-        "totalTokens": 100371
+        "promptTokens": 154979,
+        "candidatesTokens": 12896,
+        "totalTokens": 172293
       }
     },
     "mappingModel": "gemini-3-flash-preview",
     "metadata": {
       "appVersion": "1.0.1",
-      "generationDate": "2026/4/19 10:10:59",
+      "generationDate": "2026/5/14 13:26:51",
       "githubRepoUrl": "https://github.com/zetazetalun/Space-Architecture-Literature/tree/main/Papers",
       "githubRef": "main"
     }
   },
-  "updatedAt": "2026-04-19T02:10:59.096Z"
+  "updatedAt": "2026-05-14T05:26:51.560Z"
 }

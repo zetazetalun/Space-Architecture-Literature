@@ -1,0 +1,59 @@
+# 3D Printing of Tubular Connectors for Space Frame Structures
+
+**Authors:** Ashok Kumar Perka, Bijoy Rajak, and Shibashis Ghosh  
+**Affiliations:**  
+1. Materials Welding and Joining Research Group, R&D, Tata Steel, Jamshedpur 831001, India  
+2. Design & Manufacturing, Altair, Pune 411001, India
+
+## Abstract
+In the construction industry, wire-based steel 3D printing (WBS-3DP) technology for structural parts has yet to be explored. As 3D printing becomes highly productive and cost-effective with the development of qualification standards, it opens a wide range of opportunities for the steel-based additive construction segment too. The major advantage of large-scale 3D printing techniques like wire-arc additive manufacturing (WAAM) is the ability to develop components that are more compatible through topology optimization and with the mechanical requirements of the structural standards. This research aims to discuss the application of WAAM in the fabrication of space frame structures for T-K-Y joints with structural integrity. In this study, a space frame structure was designed and developed with multi-branch tube connectors using WBS-3DP technology. The prototype space frame structure with a multi-branch tube connector is designed to demonstrate how the WAAM process can produce more efficient structures by eliminating challenges involved in tube joining and welding.
+
+## 1 Introduction
+Additive Manufacturing (AM) involves depositing thin layers of material together based on a 3D computer model. Manufacturing industries such as aerospace and automotive have a strong interest in metal 3D printing, whereas the construction industry has moved at a slower pace due to part size and load capacity requirements.
+
+Steel tubes are frequently used for trusses and space frames. Conventional fabrication of T-K-Y (T, K, and Y) connections requires complex profile cutting, edge preparation, and difficult manual welding that often leads to stress concentrations and high residual stress. 3D printing resolves these challenges by enabling complex shapes with better process control.
+
+## 2 Materials and Methods
+
+### 2.1 Prototype for Tubular Joints Design
+A prototype spaceframe model was designed to accommodate all types of T-K and Y-type tube connections (Fig. 3). A topology optimization tool from Altair Inspire Print3D was used for the nodes/tube connectors to reduce material usage and print time.
+
+### 2.2 Tubular Joining Using Additive Manufacturing
+Printing was conducted at the Centre for Advanced Welding and Joining (CAWJ), Tata Steel, India. The facility uses a robotic WAAM system consisting of Metal Inert Gas (MIG) welding connected to a 6-axis robotic arm.
+
+### 2.3 Printing Process
+Robot tool paths were generated using Autodesk PowerMill. A carbon steel wire of 0.8 mm diameter was used as feedstock. Shielding gas was 82% Ar / 18% CO2 at 15 l/min. The interpass temperature was kept below 120 °C.
+
+**Table 1. Properties of the filler wires used**
+
+| Wire type | Dia. (mm) | C | Si | Mn | Cr | Mo | Ni | Ys (MPa) | UTS (MPa) | %El |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Low carbon steel | 0.8 | 0.07 | 0.83 | 1.48 | -- | -- | -- | >470 | >565 | >22 |
+
+### 2.4 Metallurgical and Mechanical Characterization
+Samples were etched using 2% nitric acid. SEM-EBSD studies were performed to understand grain crystallography. Tensile properties were evaluated using an Instron universal testing machine at 5 mm/min.
+
+## 3 Results and Discussion
+
+**Table 2. Details of the T-K-Y connections after topology optimisation.**
+
+| Connection | Quantity | Part boundary dimensions (mm) | Weight (kg) |
+| :--- | :--- | :--- | :--- |
+| A | 2 | 240 x 284 x 340 | 42 |
+| B | 4 | 257 x 227 x 338 | 42 |
+| C | 2 | 200 x 344 x 304 | 32 |
+| D | 3 | 327 x 200 x 224 | 26 |
+| E | 6 | 150 x 150 x 201 | 10 |
+| F | 3 | 305 x 120 x 100 | 5.5 |
+
+All six types of T-K-Y connectors were successfully printed. For connection F, the weights of three identical units were 6.95 kg, 6.97 kg, and 6.93 kg, demonstrating a repeatability of nearly 99%.
+
+Tensile test results showed no significant differences based on direction (isotropic nature):
+- Yield strength: 395-405 MPa
+- Tensile strength range: 497-507 MPa
+- Elongation range: 32–40%
+
+Microstructure showed an equiaxed ferrite matrix with 7–10% pearlite. Directional solidification was avoided using a 90° print layer rotation strategy.
+
+## 4 Conclusions
+This research successfully demonstrated a digital setup for producing tubular connections using an integrated WAAM system. The 3D-printed connectors achieved the desired tensile strength levels matching conventional tubular steels while allowing for better tolerances and simplified assembly using circular fillet welds instead of complex groove welds.
