@@ -1,4 +1,4 @@
-# Construction Technology of the Curved ‘Mars House’ Digital Hotel Project in China Using Concrete 3D Printing
+# Construction Technology of the Curved ‘Mars House’
 
 **Authors:** Xiqiang Lin, Hailong Wang, Xiaoyan Sun, Wael Kikhia, Zhennan Wu, Lu Lan, and Jiawei Zhao
 **Publisher:** Springer Nature Switzerland AG (3DcP 2023, STAM)
