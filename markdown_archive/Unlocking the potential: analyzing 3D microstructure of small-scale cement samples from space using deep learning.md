@@ -1,4 +1,4 @@
-# Unlocking the potential: analyzing 3D microstructure of small-scale cement samples from space using deep learning
+# Unlocking the potential
 
 **Authors:** Vishnu Saseendran, Namiko Yamamoto, Peter J. Collins, Aleksandra Radlińska, Sara Mueller and Enrique M. Jackson
 **Journal:** npj Microgravity (2024) 10:11
