@@ -1,4 +1,4 @@
-# To boldly go where no one has gone before: Sulfur concrete, a promising construction material fulfilling the demands for a sustainable future on celestial objects: A review
+# To boldly go where no one has gone before
 
 **Authors:** Q. Wang, D. Snoeck
 **Journal:** Materials Today, Volume 72, January/February 2024
