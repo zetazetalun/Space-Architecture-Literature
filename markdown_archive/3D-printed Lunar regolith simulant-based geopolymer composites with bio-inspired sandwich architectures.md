@@ -1,4 +1,4 @@
-# 3D-printed Lunar regolith simulant-based geopolymer composites with bio-inspired sandwich architectures
+# 2023 3D-printed Lunar regolith simulant-based
 
 **Journal:** Journal of Advanced Ceramics  
 **Year:** 2023, 12(3): 510–525  
