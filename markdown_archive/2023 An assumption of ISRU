@@ -1,0 +1,43 @@
+# An assumption of in situ resource utilization for “bio-bricks” in space exploration
+
+**Authors:** Hongyan Zuo, Shuisong Ni, Meiying Xu  
+**Journal:** Frontiers in Materials  
+**Published:** 06 April 2023  
+**DOI:** 10.3389/fmats.2023.1155643
+
+## Abstract
+Microbially induced carbonate precipitation (MICP) mimics natural cementation using bacterial metabolic pathways as cementing agents. This bio-technique can manufacture “bio-bricks” that rival regular bricks in strength and durability. It shows great potential as an energy-saving and cost-effective means of in situ resource utilization (ISRU) for extraterrestrial human settlements, such as lunar exploration. This review covers natural cementation, anaerobic/aerobic metabolic activities, lunar regolith properties, bio-brick production, and future research needs.
+
+## 1 Introduction
+Space exploration efforts for extraterrestrial human settlements are limited by high transport costs (approx. $10,000 USD per pound to Earth orbit). ISRU is an economic imperative. While traditional methods (melting/sintering, combustion) are energy-intensive, bio-cementation is a green alternative using microorganisms to precipitate carbonate minerals.
+
+## 2 Microbial Carbonate Precipitation by Different Metabolic Activities
+MICP processes are classified into aerobic and anaerobic pathways:
+- **Aerobic:** Photosynthesis, Ureolysis (most studied), and Ammonification.
+- **Anaerobic:** Sulfate reduction, Denitrification, and Methane oxidation.
+
+### Table 1: Mechanism of Precipitation Induced by Bacillus Species
+| Mechanism | Microorganism | Nutrient | Reference |
+| :--- | :--- | :--- | :--- |
+| Ureolysis | *B. sphaericus* | Urea, calcium nitrate, yeast extract | Wang et al. (2014) |
+| Ureolysis | *B. cereus* | Urea, glucose, NaCl, etc. | Oualha et al. (2020) |
+| Denitrification | *B. sphaericus* | Urea, calcium formate, etc. | Ersan et al. (2016) |
+
+## 3 Properties of Sand-Sized Material on the Moon
+Lunar regolith is fragmental and unconsolidated. Particle size (D50 = 72 μm) is significantly smaller than the sands typically used for Earth-based bio-bricks (0.36–0.73 mm). Mineralogy includes plagioclase, pyroxene, ilmenite, and olivine. Lunar soil is produced in a reducing environment and lacks oxygen, favoring anaerobic MICP pathways.
+
+## 4 Characteristics of Artificial Bio-Bricks
+Unconfined compressive strength (UCS) is a key metric. Current research shows strengths ranging from 1 MPa to 23 MPa.
+
+### Table 2: Comparison of Bio-Bricks and Unconfined Compressive Strength
+| Material | D50 (mm) | Mineralogy | Microbe/System | UCS (MPa) | Reference |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Masonry sand | 0.42 | Quartz | *S. pasteurii* | 1.0–2.2 | Bernardi et al. (2014) |
+| Graded silica sand | 0.42 | - | *S. pasteurii* | ~9 | Cheng et al. (2020) |
+| Silica sand | - | - | *S. pasteurii*, 3D printing | 5–23 | Nething et al. (2020) |
+
+## 5 Research Needs and Future Directions
+- **Micro-gravity effects:** Survival and nucleation site formation in space conditions.
+- **Water resources:** Availability of lunar ice to support microbial activity.
+- **Nutrients:** Use of human waste (urine) as a source of urea.
+- **Cell-free systems:** Using enzymes rather than live cultures to avoid survival challenges.

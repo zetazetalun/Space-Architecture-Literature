@@ -1,0 +1,41 @@
+# StarCrete: A starch-based biocomposite for off-world construction
+
+**Authors:** Aled D. Roberts and Nigel S. Scrutton
+**Journal:** Open Engineering 2023; 13: 20220390
+**DOI:** https://doi.org/10.1515/eng-2022-0390
+
+## Abstract
+Robust and affordable technology capabilities are needed before a sustained human presence on the lunar and Martian surfaces can be established. This study demonstrates the use of ordinary starch as a binder for simulated extraterrestrial regolith to produce a high-strength biocomposite material, termed StarCrete. Lunar and Martian StarCrete achieved compressive strengths of 91.7 and 72.0 MPa, respectively, surpassing high-strength concrete (>42 MPa).
+
+## 1 Introduction
+A sustained human presence on the lunar and Martian surfaces will require habitats with thick walls for protection against radiation and meteorites. Due to launch costs, construction materials must be produced via In Situ Resource Utilisation (ISRU). Most existing proposals (sintering, etc.) are energy-intensive. Naturally occurring biopolymers are proposed as low-energy binders.
+
+## 2 Results and Discussion
+Starch gelatinisation acts as a complex binding mechanism. Potato starch was identified as the most effective binder among screened sources, likely due to its large granule size, low protein/lipid content, and high phosphate content. 
+
+### Table 1: Properties of native starch and resulting ERB UCS
+| Starch source | Granule diameter (µm) | Gel. temp (°C) | UCS (MPa) |
+|---|---|---|---|
+| Maize | 3–26 | 75–80 | 2.28 ± 0.80 |
+| Waxy maize | 3–26 | 65–70 | 3.69 ± 0.33 |
+| Tapioca | 4–35 | 65–70 | 1.43 ± 0.07 |
+| Potato | 5–100 | 60–65 | 17.7 ± 2.1 |
+| Wheat | 1–40 | 80–85 | 11.5 ± 1.6 |
+| Rice | 3–8 | 70–80 | 1.36 ± 0.13 |
+
+Additives such as urea and MgCl2 (Martian salt) were found to significantly influence strength. After process optimization (DoE), values reached >70 MPa.
+
+### Table 3: Summary of mechanical property data after optimisation
+| Regolith | UCS (MPa) | Compressive modulus (GPa) | Flexural strength (MPa) |
+|---|---|---|---|
+| MGS-1 (Martian) | 71.95 ± 1.45 | 4.12 ± 0.27 | 8.41 ± 0.60 |
+| LHS-1 (Lunar) | 91.68 ± 2.69 | 5.66 ± 0.09 | 2.14 ± 0.22 |
+
+## 3 Conclusions and Outlook
+StarCrete offers several advantages: 
+1) Risk reduction (edible binder for emergency use),
+2) Practicality (simple solution, high TRL),
+3) System integration (integrated with food production),
+4) Resourcefulness (low energy, recoverable water),
+5) Resource locality (produced on-site),
+6) Architectural flexibility.

@@ -1,46 +1,59 @@
 # Fiber-reinforced lunar geopolymers synthesized using lunar regolith simulants
 
-**Journal:** Acta Astronautica 214 (2024) 593–608  
-**Authors:** Solomon Debbarma, Xijun Shi, Anthony Torres, Mehrab Nodehi  
-**Published:** 11 November 2023 (Elsevier Ltd.)
+**Journal:** Acta Astronautica 214 (2024) 593–608
+**Authors:** Solomon Debbarma, Xijun Shi, Anthony Torres, Mehrab Nodehi
 
 ## Abstract
-In-situ resource utilization (ISRU) is critical for lunar construction. This study formulates fiber-reinforced geopolymers using two lunar regolith simulants: Lunar Mare Simulant (LMS-1) and Lunar Highlands Simulant (LHS-1). The effects of simulant type, curing temperature, and fiber reinforcement (basalt fiber and human hair) on flowability, compressive strength, and flexural strength were investigated. Results indicate LHS-1 geopolymers exhibit higher strength. Curing at 93 °C and 5% RH for 72 h significantly developed strength in LHS-1. Basalt and human hair fibers improved flexural strength by up to 32% and 15% respectively, acting as nucleation sites and structural bridges.
+In-situ resource utilization is extremely important to not only support additive construction on the Moon but also to minimize the weight of transportation. The work outlined in this study presents a possible solution to supporting lunar additive construction by the formulation of fiber-reinforced geopolymers using lunar regolith simulants. Two types of regolith simulants were utilized: Lunar Mare Simulant (LMS-1) and Lunar Highlands Simulant (LHS-1). Key properties investigated included flowability, curing temperature effects on compressive strength, fiber type, and flexural strength.
 
 ## 1. Introduction
-Conventional cement is impractical for the Moon due to the lack of limestone and high sintering temperatures (1450 °C). Geopolymers, which are alkali-activated materials rich in Si and Al, offer a viable alternative. Lunar regolith is rich in these elements, making it suitable for geopolymerization. This research aims to support NASA's goals for ISRU and extreme environment construction.
+A successful construction of a lunar or Martian base requires viable construction technologies and materials. In-situ utilization of local materials, such as lunar regolith, is likely one of the solutions for lunar construction. Geopolymers, synthesized by alkali activation of materials rich in silica (Si) and aluminum (Al), offer several advantages over conventional portland cement, including high strength and resistance to extreme environments.
 
-## 2. Materials and Methods
-- **Simulants:** LMS-1 (mare) and LHS-1 (highlands) from Exolith Labs.
-- **Fibers:** Basalt fibers (BF) (12 mm length) and Human hair fibers (HHF) (up to 15 mm).
-- **Activator:** Reagent sodium silicate (40% Na4O4Si, 60% H2O).
-- **Curing Regimes:** Ambient (20 °C, 50% RH), High-temperature (93 °C/99.6 °C, 5% RH), and low-temperature conditioning (−30 °C).
+## 3. Materials and Methods
+### 3.1 Lunar regolith simulants
+LMS-1 and LHS-1 from Exolith Labs were used. LHS-1 is dominated by anorthosite, while LMS-1 captures the mineralogy of Apollo mare regolith.
 
-## 3. Results and Discussion
+### 3.2 Fibers
+Basalt fiber (BF) and human hair fiber (HHF) were investigated as micro-reinforcement.
 
-### 3.1. Flowability
-LHS-1 (Mix B) showed higher flow (85 mm) than LMS-1 (Mix A, 74 mm). A 50:50 mix (Mix D) achieved the highest flow (94 mm). Fiber addition reduced flowability by 9–26%.
+### 3.4 Formulation
+Geopolymers used a liquid-to-binder (l/b) ratio of 0.45. Sodium silicate was used as the activator.
 
-### 3.2. Compressive Strength
-LHS-1 geopolymer achieved ~31.26 MPa under heat-curing (93 °C), while LMS-1 only reached ~8.24 MPa. The higher calcium content and lower Si/Al ratio in LHS-1 contributed to better strength development. Low-temperature exposure (−30 °C) slightly reduced strength but the material remained stable.
+## 4. Results and Discussion
+### 4.1 Flow
+Mix B (100% LHS-1) had a flow of 85 mm. Mix D (50/50 mix) showed the best flow at 94 mm.
 
-### 3.3. Flexural Strength and Fibers
-Adding BF (0.4–1.2% vol) improved flexural strength by up to 32% (3.07 MPa for Mix G). HHF (1.5% vol) improved it by 15% (2.67 MPa). Excess fiber (1.5% BF) caused clumping and reduced strength.
+### 4.2 Compressive Strength
+High-temperature curing (93 °C) significantly improved strength. Mix B (LHS-1) reached 31.26 MPa. LMS-1 (Mix A) only reached ~8.24 MPa. A 50/50 mix (Mix D) achieved 29.75 MPa.
 
-### 3.4. Microstructure (SEM/EDS)
-SEM analysis confirmed that fibers act as nucleation sites for geopolymerization products and bridge cracks, enhancing ductility. EDS confirmed the formation of N–A–S–H and (C–N)-A–S–H gels.
+### 4.3 Flexural Strength
+Adding 1.2% BF improved flexural strength by 32% (from 2.32 MPa to 3.07 MPa). HHF at 1.5% improved it by 15%.
 
-## 4. Conclusions
-- LHS-1 geopolymers are superior to LMS-1 for structural applications.
-- High-temperature curing (lunar day simulation) is essential for geopolymer hardening.
-- Basalt and human hair fibers are effective reinforcements that can be sourced in situ.
-- The materials meet the theoretical minimum strength requirements for lunar gravity (1/6 of Earth's).
+### 4.4 Tables
 
-## Table 4: Mix Proportions (Selected Data)
-| Mix | LMS-1 % | LHS-1 % | Fiber Type | Dosage (vol %) | Curing (°C) |
-|-----|---------|---------|------------|----------------|-------------|
-| A   | 100     | -       | -          | -              | 20/93       |
-| B   | -       | 100     | -          | -              | 20/93       |
-| D   | 50      | 50      | -          | -              | 99.6        |
-| G   | 50      | 50      | BF         | 1.2            | 99.6        |
-| I   | 50      | 50      | HHF        | 1.5            | 99.6        |
+**Table 1: Mineralogy of lunar regolith simulants**
+| Simulant/Component (wt. %) | Pyroxene | Glass rich basalt | Anorthosite | Olivine | Ilmenite |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| LMS-1 | 32.8 | 32.0 | 19.8 | 11.1 | 4.3 |
+| LHS-1 | 0.3 | 24.9 | 74.4 | 0.2 | 0.4 |
+
+**Table 2: Physical properties**
+| Property | LMS-1 | LHS-1 |
+| :--- | :--- | :--- |
+| Mean Particle Size | 7 um | 60 um |
+| Uncompressed Bulk Density | 0.70 g/cm3 | 1.30 g/cm3 |
+
+**Table 5: Flow value of lunar geopolymers**
+| Mix | Flow (mm) |
+| :--- | :--- |
+| A (LMS-1) | 74 |
+| B (LHS-1) | 85 |
+| D (50/50) | 94 |
+| G (Mix D + 1.2% BF) | 80 |
+| I (Mix D + 1.5% HHF) | 73 |
+
+## 6. Conclusions
+1. LHS-1 geopolymers exhibit higher compressive strength than LMS-1 versions.
+2. High-temperature curing (93 °C) is critical for strength development in highland simulants.
+3. Combining mare and highland simulants (50/50) optimizes flowability for additive construction.
+4. Basalt and human hair fibers act as nucleation sites, significantly enhancing flexural strength despite minor reductions in compressive strength.

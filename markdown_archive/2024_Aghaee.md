@@ -1,38 +1,25 @@
 # Additive manufacturing evolution in construction: From individual terrestrial to collective, aerial, and extraterrestrial applications
 
 **Journal:** Journal of Building Engineering 96 (2024) 110389  
-**Authors:** Kamran Aghaee, Linfei Li, Alireza Roshan, Parsa Namakiaraghi  
-**Published:** 10 August 2024
+**Authors:** Kamran Aghaee, Linfei Li, Alireza Roshan, Parsa Namakiaraghi
 
 ## Abstract
-This study reviews the advancement of Additive Manufacturing (AM) in the construction industry, tracing its evolution from individual terrestrial to collective, aerial, and extraterrestrial construction. It elaborates on bio-inspired technology, topology optimization, preferred materials for extraterrestrial construction, and the challenges associated with AM on lunar surfaces.
+The third industrial revolution is marked by the fast-growing evolution of Additive Manufacturing (AM) in construction. This transformative shift is driving the automation of construction processes to bestow economic, sustainable, and functional habitats on earth and space. This study reviews the advancement of AM in the construction industry, tracing its evolution from individual terrestrial to collective, aerial, and extraterrestrial construction. Preferred materials and their characteristics for lunar surfaces with insights for the future of AM are elucidated.
 
-## 1. Introduction
-Automation in construction via AM can expedite timelines, enhance safety, and contribute to economic efficiency. Recent trajectories involve moving from off-site to on-site construction, upscaling, and autonomous remote operations.
+## 4.3. Lunar AM
+Recently, the exploration and potential colonization of celestial bodies, such as Mars and the Moon, have garnered significant interest. In 2019, NASA and ESA introduced the concept of "Advanced 3D Printing Construction Systems for the Moon and Mars". The goal is to establish habitats before 2040. In 2022, NASA awarded a $57.2 million contract to ICON to develop technology for AM roads, launchpads, and homes on the Moon’s surface. ICON partnered with NASA to build AM habitats made of local materials on Mars using a printer that can print a 2000 sq ft house in 24 h. Simultaneously, AI SpaceFactory designed a cylindrical shape 3D-printed habitat on Mars called Marsha with a double-layered shell for insulation and radiation protection.
 
-## 4. Advanced AM techniques (terrestrial and non-terrestrial)
-### 4.1. Collective robotic construction (CRC)
-Involves a coordinated group of autonomous robots operating simultaneously to enhance and expedite the construction of structures at a larger scale and lower cost.
+One of the key advantages of employing extraterrestrial AM is its capability to facilitate rapid and on-site fabrication. The application of AM for construction on the Moon and Mars hinges on leveraging local resources, such as lunar soil and Martian dust, as raw materials. These materials exhibit superior compressive, tensile, and flexural strength compared to conventional Portland cement. Regolith can be used to prepare Martian concrete, namely "Marscrete," primarily composed of sulfur and regolith. Furthermore, the use of phase change materials (PCMs) in printing habitats on Mars has been introduced, known as "Mars Ice House."
 
-### 4.2. Aerial AM
-UAV-based AM (drones) allows access to elevated and challenging environments without scaffolding. Challenges include limited payload, drone stability, and battery life.
-
-### 4.3. Lunar AM
-- **Objective:** Establish habitats on the Moon or Mars before 2040.
-- **Key Players:** NASA, ESA, ICON, AI SpaceFactory (Marsha habitat).
-- **ISRU:** Use of local materials like lunar soil and Martian dust (regolith).
-- **Martian Concrete:** 'Marscrete' is primarily composed of sulfur and regolith.
-- **Ice Construction:** 'Mars Ice House' utilizes H2O as a resource.
-
-## 5. AM construction considerations and characteristics
-### 5.1. a.m. concrete materials
- Extraterrestrial cementitious materials exhibit superior compressive and flexural strength compared to conventional Portland cement when utilizing locally sourced regolith.
-
-| Planet | Temperature (°C) | Oxygen (%) | Relative humidity (%) | Gravity (m/s²) |
-| :--- | :--- | :--- | :--- | :--- |
+### Table 1: Environmental conditions on the Moon & Mars
+| Planet | Temperature (◦C) | Oxygen (%) | Relative humidity (%) | Gravity (m/s2) |
+|---|---|---|---|---|
 | Moon | −171–127 | 45 | ~0 | 1.625 |
 | Mars | −143–17 | 0.13 | 80-100 (night); ~0 (day) | 3.721 |
 | Earth | −89.3–56.7 | 21 | 0–100 | 9.807 |
 
-## 9. Summary and Outlook
-Extraterrestrial AM is promising due to its automation, efficiency, and resource utilization. Benefiting from laser technology (melting regolith) and autonomous robotics (CRC) can expedite construction timelines essential for establishing infrastructure with limited resources.
+## 9. Summary and outlook
+- The CC method enables the printing of various concrete materials and can be employed for creating habitats on other planets directly in situ.
+- AM has made significant progress expansion toward lunar and Martian construction.
+- Numerous AM geometrical architectures inspired from nature present lightweighting and enhanced mechanical properties suitable for extreme environments.
+- In extraterrestrial AM, benefiting from laser technology for melting lunar and Mars soil (sintering) can be promising.
