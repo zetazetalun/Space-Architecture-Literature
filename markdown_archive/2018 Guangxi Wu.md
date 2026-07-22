@@ -1,36 +1,47 @@
 # Fabrication of Flexible Thermoelectric Energy Harvesting System
 
-**Authors:** Guangxi Wu, Ferin Neff, and Xiong (Bill) Yu
-**Published in:** ASCE Library / Earth and Space 2016
+**Authors:** Guangxi Wu, Ferin Neff, and Xiong (Bill) Yu  
+**Publication:** Earth and Space 2018, ASCE  
 
-## ABSTRACT
-Thermoelectric energy harvesting is promising to provide sustainable energy source in the extraterrestrial environment. This paper describes procedures incurred in the fabrication of thermoelectric energy harvester on flexible substrates. An electrically parallel structure is proposed, which features higher energy efficiency than the counterpart electrically series structure based on theoretical analyses. As proof of concept, flexible thermoelectric harvesters in electrically parallel and series structures are prepared with thick film printing procedures. The performance of elements and device with different architectures are characterized. Both analytical and experimental comparison imply a promising improvement of energy conversion efficiency by using the electrically parallel structure.
+## Abstract
+Thermoelectric energy harvesting is promising to provide sustainable energy source in the extraterrestrial environment. This paper describes procedures incurred in the fabrication of thermoelectric energy harvester on flexible substrates. An electrically parallel structure is proposed, which features higher energy efficiency than the counterpart electrically series structure based on theoretical analyses. As proof of concept, flexible thermoelectric harvesters in electrically parallel and series structures are prepared with thick film printing procedures. Both analytical and experimental comparison imply a promising improvement of energy conversion efficiency by using the electrically parallel structure.
 
-## INTRODUCTION
-Thermoelectric modules (TEMs) when used as generators (TEGs) are capable of providing continuous energy for extraterrestrial explorations, where sun light is not always available or intense enough for solar cells to work. For example, the solar brightness on Mars and Jupiter is as weak as 45% and 4%, respectively. This paper proposes an electrically parallel TEM structure, which is promising to not only improve the energy conversion efficiency, but also simplify the fabrication process of large area flexible TEGs.
+## Introduction
+Thermoelectric modules (TEMs) used as generators (TEGs) provide continuous energy for extraterrestrial explorations where sunlight is insufficient (e.g., Mars at 45% solar brightness, Jupiter at 4%). While radioisotope thermoelectric generators (RTGs) are reliable, they suffer from low conversion efficiency. This research proposes leveraging the naturally existing temperature gradients on spacecraft or extraterrestrial vehicle bodies (e.g., Mars surface temperature shifts from 20°C to -73°C) by covering surfaces with flexible TEGs.
 
-## Table 1. Material properties of a pair of thermoelectric materials (Bi2Te3).
+## Technical Analysis: Series vs. Parallel Structures
 
-| Material | Electrical Resistivity ρ (mΩ∙cm) | Seebeck Coefficient α (μV/K) | Thermal Conductivity κ W/(cm∙K) | Material figure-of-merit ZT at 300K |
-| :--- | :--- | :--- | :--- | :--- |
-| Bi2Te3 (p) | 0.83 | 156.57 | 2.09×10⁻² | 0.42 |
-| Bi2Te3 (n) | 0.73 | -193.00 | 2.04×10⁻² | 0.74 |
+### Electrically Series TEM Efficiency
+Conventionally, TEMs connect p-legs and n-legs in series. The maximum efficiency $\eta_{max}$ is defined by the figure-of-merit ($ZT_{module}$):
 
-## ELECTRICALLY PARALLEL TEM EFFICIENCY
-The paper derives that in a parallel structure, the module's figure-of-merit can reach the material figure-of-merit of the higher-performing material (Leg A), whereas in a series structure, mismatch between p-type and n-type materials leads to an attenuation factor. Specifically, for Bi2Te3 at room temperature, mismatch can waste 24% of the potential efficiency in series modules.
+$$\eta_{max} = \frac{T_H - T_C}{T_H} \cdot \frac{\sqrt{1 + ZT_{module}} - 1}{\sqrt{1 + ZT_{module}} + \frac{T_C}{T_H}}$$
 
-## TEM FABRICATION PROCESS
-1. **Material Preparation:** Bismuth Telluride (Bi2Te3) was ball-milled to create nanocomposite powders to increase ZT via grain boundary scattering.
-2. **TE Ink Preparation:** Ground powders were mixed with an epoxy matrix (EPON Resin 863) at a ratio of 4.5:1.
-3. **Screen and Stencil Design:** Mesh screens for gold electrodes and stainless steel stencils for TE legs were designed.
-4. **Printing:** Performed on a flexible polyimide substrate using an MPM TF-100 Thick Film Printer. 
-5. **Curing:** Gold electrodes cured at 110°C for 10 min; TE inks cured at 110°C for 24 hours.
+Where property mismatch between p-type and n-type materials reduces the effective $ZT_{module}$. For Bismuth Telluride ($Bi_2Te_3$), mismatch can waste up to 24% of the material's potential.
 
-## CHARACTERIZATION AND RESULTS
-A trans-impedance amplifier circuit was designed to collect I-V curves. Results showed:
-- The n-type material had a higher Seebeck coefficient and ZT than the p-type counterpart.
-- The maximum output power of the n-type electrically parallel structure was higher than the electrically series structure.
-- The experimental data complied with the analytical model suggesting efficiency improvements using parallel architectures.
+### Electrically Parallel TEM Efficiency
+The proposed parallel structure allows legs to be made of the same material type (p-type or n-type) to maintain polarity. Analytical results suggest that the parallel structure allows the module's figure-of-merit to reach the maximum value of the superior material, potentially increasing efficiency by 32% compared to mismatched series modules.
 
-## CONCLUSION
-The study demonstrates that electrically parallel TEMs improve output power by avoiding material mismatch losses and simplify fabrication for large-area implementation on flexible substrates, making them suitable for covering spacecraft or habitat surfaces.
+## Fabrication Process
+
+### 1. Material Preparation
+- **Material:** $Bi_2Te_3$ (n-type and p-type).
+- **Process:** Ball milling to create nanocomposites to increase $ZT$ by limiting phonon transport via grain boundary scattering.
+- **Grinding:** Isopropanol (IPA) agent, rotation speeds up to 6000 rpm.
+
+### 2. TE Ink Preparation
+- **Binder:** Epoxy matrix (EPON Resin 863, MHHPA hardener, AC-8 catalyst).
+- **Ratio:** 4.5:1 powder-to-epoxy ratio for optimal viscosity.
+
+### 3. Printing Process
+- **Substrate:** Polyimide (thermally stable).
+- **Equipment:** MPM TF-100 Thick Film Printer in a class 10,000 clean room.
+- **Method:** Stencil printing of gold electrodes (Ercon E4464) followed by TE legs. Curing at 110°C.
+
+## Results and Characterization
+Experimental testing using a platinum resistor heat source and iced-water heat sink ($50^{\circ}C$ gradient) showed:
+- **n-type Parallel TEM:** Highest maximum power output.
+- **p-type Parallel TEM:** Lower output than n-type due to material property differences.
+- **Series TEM:** Suffered from high inner resistance, leading to underestimated voltage and lower output power than n-type parallel counterparts.
+
+## Conclusion
+The electrically parallel TEM structure improves output power by mitigating material mismatch. Flexible TEMs were successfully fabricated using thick-film printing. While the current "roll-up" method is for testing, a sandwiched multilayered structure is proposed for large-area production to simplify implementation on extraterrestrial structures.
