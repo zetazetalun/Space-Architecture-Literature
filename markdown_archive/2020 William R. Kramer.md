@@ -1,43 +1,57 @@
 # A Framework for Extraterrestrial Environmental Assessment
 
-**Author:** William R. Kramer  
-**Affiliation:** Outer Space Consulting, Frederick, MD, 21701, USA  
-**Journal:** Space Policy 53 (2020) 101385  
-**DOI:** [10.1016/j.spacepol.2020.101385](https://doi.org/10.1016/j.spacepol.2020.101385)
+**William R. Kramer**
+*Outer Space Consulting, Frederick, MD, 21701, USA*
 
 ## Abstract
-Many of the proposed and foreseeable activities on the Moon, Mars, and elsewhere in our solar system will require construction and similar actions. Most will, by intent, alter those natural environments in a variety of ways. Some impacts may foreclose future options for use of the area, hinder sustained access to resources, impede long-term human occupation, interfere with scientific or other purposes, harm cultural assets, create unsafe conditions, or cause other detriments. This article proposes a simple framework as a starting point for discussion, drawing upon environmental assessment procedures to identify, avoid, minimize, and mitigate harm in extraterrestrial environments.
+Many proposed activities on the Moon, Mars, and elsewhere in our solar system require construction and mining. These actions alter natural environments, potentially foreclosing future options for use, hindering resource access, or harming scientific research. This article proposes a simple framework for **Extraterrestrial Environmental Assessment (EEA)** as a starting point for discussion, drawing on elements of Earth-based assessments but tailored for the unique challenges of space development.
 
-## 1. A Rapidly Evolving Problem in Space Development
-Nearly all reasonably foreseeable physical activities—such as construction, mining, energy production, and human habitation—may adversely affect extraterrestrial environments. Alterations to alien landscapes could have longer-lasting implications than anthropogenic changes on Earth, as they may be permanent due to the lack of tectonic movements, water, or vegetation to restore resilience.
+## 1. A rapidly evolving problem in space development
+Foreseeable physical activities on celestial bodies—such as construction, mining, energy production, and human habitation—may adversely affect extraterrestrial environments. Impacts include:
+- Increased long-range costs and reduced efficiency.
+- Interference with scientific research.
+- Decreased human health and safety.
+- Permanent alterations to alien landscapes (unlike Earth, these environments lack resilient tectonic/vegetative cycles).
 
-## 2. The Neglected Need for Extraterrestrial Environmental Assessment (EEA)
-Space actors must recognize the critical need for assessments. Examples of impacts include:
-- **Mining:** Rocks ejected by blasting could damage infrastructure; vibrations could invalidate seismic data; dust could coat solar panels or interfere with telescopes.
-- **Pollution:** Lubricants and compounds could leak from machinery into subsurface water ice.
-- **Topography:** Disturbing geological features could destroy scientific value or cultural artifacts (exogeoconservation).
+## 2. The neglected need for extraterrestrial environmental assessment
+Space actors have largely ignored environmental impacts. Potential conflicts include:
+- **Resource Squandering:** "First in time" ventures may target the easiest-to-mine resources at the expense of long-term sustainability (e.g., water ice).
+- **Physical Interference:** Blasting vibrations could invalidate seismic studies; dust from mining could coat solar panels or telescopes.
+- **Exogeoconservation:** The need to protect geological features of scientific or cultural value.
 
 ## 3. NEPA and Potential Sources of Reticence
-While the US National Environmental Policy Act (NEPA) provides a model, it is currently limited to actions with a US federal nexus and is not recommended for direct application to space due to being cumbersome, costly, and lacking international authority.
+The US National Environmental Policy Act (NEPA) is currently limited to actions with a US federal nexus and does not formally apply to extraterrestrial actions. Direct application of NEPA is not recommended as it can be cumbersome and lacks international authority. Instead, space industries should develop their own structured assessment processes.
 
 ## 4. Framework for EEA
-An EEA should identify direct, indirect, and cumulative impacts. The proposed outline for an EEA structure includes:
+An EEA should identify direct, indirect, and cumulative impacts. A proposed simplified framework includes:
 
 ### 1.0 Introduction
 ### 2.0 Purpose and Need
+Why is the action being undertaken?
+
 ### 3.0 Proposed Action
-- **3.1 Timing:** Launch dates, transit, construction duration.
-- **3.2 Location:** Specific coordinates, terrain alteration, road construction areas.
+- **Scope:** Detailed narrative of what is to be built and what equipment will be used.
+- **Timing:** Launch dates, construction duration, and return dates.
+- **Location:** Coordinates, terrain alteration, and road construction.
+
 ### 4.0 Affected Environment
-- **4.1 Physical Resources:** Geology, Regolith, Seismicity, Atmospheric Composition, Climate, Solar Radiation, and Water Resources (Location, Chemistry, Movement, and Use).
-- **4.2 Cultural Resources:** Indicators of human actions with historical significance.
-- **4.3 Hazardous Material and Pollutants:** Use and disposition of materials sent to or generated on Mars.
+- **4.1 Physical Resources:** 
+  - *4.1.1 Geology, Regolith, Seismicity:* Vibration impacts, structural stability of formations.
+  - *4.1.2 Atmospheric Composition:* Dust generation and its persistence.
+  - *4.1.3 Climate:* Changes to local temperature/climate.
+  - *4.1.4 Solar Radiation.*
+  - *4.1.5 Water Resources:* Location, state (ice/liquid), and chemistry.
+- **4.2 Cultural Resources:** Historic/cultural significance.
+- **4.3 Hazardous Materials:** Disposition of wastes and chemicals.
+
 ### 5.0 Human Health and Safety
-- Exposure to radiation, pressure extremes, and industrial accidents.
+Exposure to radiation, extremes, and industrial accidents.
+
 ### 6.0 Cumulative Impacts
-- Long-term mining and subsequent actions.
+Impacts from later-in-time mining or consecutive actions.
+
 ### 7.0 Summary
-- Table of foreseeable impacts and mitigation strategies.
+Mitigation actions to reduce or eliminate adverse impacts.
 
 ## 5. Final Thoughts
-Assessments should be digitally filed in a library managed by space industries for public reference. This would create a permanent record of baseline conditions and a repository of incremental findings to solve unanticipated engineering and environmental problems as they arise.
+EEAs would create a permanent record of baseline conditions and provide a repository of incremental findings. It is critical that commercial interests, governments, and scientific groups collaborate on these standards to avoid repeating Earth's history of environmental degradation.
