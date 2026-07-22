@@ -1,46 +1,45 @@
 # Vacuum 3D printing of highly filled polymeric matrix composites
 
-**Journal:** Acta Astronautica 204 (2023) 25–33  
 **Authors:** Emanuele Alberto Slejko, Nicholas Sesto Gorella, Advenit Makaya, Paolo Gallina, Nicola Scuor, Stefano Seriani
+**Journal:** Acta Astronautica 204 (2023) 25–33
+**Published by:** Elsevier Ltd. on behalf of IAA.
 
 ## Abstract
-This study investigates the effects of low pressure (vacuum) on the additive manufacturing process of polymeric matrix composites for aerospace applications. Commercial filaments were selected to represent materials derived from lunar resources (ISRU). Mechanical and thermal properties of samples printed in a vacuum chamber were characterized. The study serves as a preliminary investigation into 3D printing highly filled polymers for extraterrestrial infrastructure.
+In this contribution, we have investigated how polymeric matrix composites for aerospace applications are affected, when fabricated at low pressure, by the additive manufacturing process. Commercial filaments have been selected based on their representativeness of materials derived from lunar resources. Standard samples of thermoplastic polymers reinforced by organic fibers and inorganic fillers have been printed inside a vacuum chamber, and their mechanical and thermal properties have been characterized and discussed based on the printing conditions. The reported study represents a preliminary investigation of the potential applicability of the 3D printing technology on highly filled polymers for extraterrestrial applications.
 
 ## 1. Introduction
-Vacuum 3D printing forgoes the need for pressurized environments and enables the construction of large-scale structures directly in-orbit or on-planet. The challenge lies in utilizing In Situ Resource Utilization (ISRU) materials, such as regolith-polymeric composites, to reduce transport costs from Earth. While regolith-concrete is energy-intensive, polymeric composites offer ease of processing and complex geometry manufacturing.
+Vacuum 3D printing is a critical technology for future exploration and colonization, allowing for the production of structures in-orbit or on-planet without requiring pressurized environments. The study focuses on using In Situ Resource Utilization (ISRU) by mixing polymeric matrices with high ratios of fillers like regolith powder or organic fibers from agricultural activities.
 
 ## 2. Materials and Methods
-### 2.1 Materials
-- PLA (control)
-- PLA filled with 40% organic fibers (pine wood fibers) as simulants for space-grown plant material.
-- PLA filled with 50% inorganic clays (mostly $CaSiO_3$) as simulants for lunar regolith.
+### 2.1. Materials
+Three commercial filaments were used:
+*   **PLA**: Pure polylactic acid.
+*   **Wood-filled PLA**: 40% organic fibers (pine wood).
+*   **Clay-filled PLA**: 50% inorganic clays (CaSiO3).
 
-### 2.2 Printer Specifications
+### 2.3. Printer Specifications
 | Characteristic | Value |
 | :--- | :--- |
 | Build Volume | 120 × 120 × 120 mm |
 | Resolution | 100–300 μm |
 | Filament Diameter | 1.75 mm |
 | Nozzle Diameter | 0.4 mm |
+| Hot-end Setup | Bowden |
 | Max. Print Speed | 55 mm/s |
 | Max. Extruder Temperature | 250 °C |
 | Max. Build Plate Temperature | 60 °C |
 
-### 2.3 Vacuum Adaptation
-The printer was modified for vacuum operation ($10^{-4}$ bar):
-- Extruder motor relocated.
-- Cooling fan replaced with copper thermal braids for conductive cooling.
-- Control board moved outside the chamber.
-- Polymeric print bed sheet replaced with Kapton®.
+### 2.4. Vacuum Adaptation
+To operate at $10^{-4}$ bar, the Monoprice Select Mini V2 was modified:
+1.  Extruder motor relocated outside the chamber.
+2.  Cooling fan replaced with copper thermal braids for conductive cooling.
+3.  Control board removed and placed externally.
+4.  Prismatic joints stripped of excess lubricating grease to prevent outgassing.
 
 ## 3. Results and Discussion
-### 3.1 Mechanical and Thermal Properties
-Mechanical tests (ultimate strength, modulus, elongation) showed no major differences between atmospheric and low-pressure samples. Crystallinity levels remained stable, suggesting that heat transfer in thin layers is dominated by conduction rather than convection.
-
-### 3.2 Dimensional Accuracy
-Significant dimensional deviations were observed in vacuum. Samples printed at $10^{-4}$ bar were thinner and wider than those printed at 1 bar. This is attributed to increased surface tension of the molten strand in vacuum, which enhances wettability on the substrate.
+*   **Mechanical Properties**: No major differences were observed in ultimate strength, modulus, or elongation between samples printed at 1 bar and $10^{-4}$ bar.
+*   **Thermal Properties**: DSC and TGA analyses showed that chemical composition and crystallinity remained stable regardless of the environment pressure.
+*   **Dimensional Accuracy**: Samples printed in vacuum were thinner but wider than atmospheric samples. This is attributed to increased surface tension in low pressure, leading to higher wettability and wider deposited strands.
 
 ## 4. Conclusions
-- 3D printing in vacuum ($10^{-4}$ bar) is feasible with minor hardware modifications.
-- Material properties are largely preserved, but dimensional accuracy is a critical limitation due to increased strand wettability.
-- Future work should focus on high-performance polymers (PEEK) and more realistic lunar simulants.
+The study demonstrates that FDM 3D printing in vacuum is feasible with minor hardware modifications. While material properties are preserved, dimensional deviations occur due to surface tension effects, which must be accounted for in design to ensure accuracy in extreme environments.
