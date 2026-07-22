@@ -1,61 +1,60 @@
 # Advances in in-situ resources utilization for extraterrestrial construction
 
-**Authors:** Shanshan Cheng, Yuyue Gao, Yusheng Shi, Long Xiao, Lieyun Ding, Cheng Zhou, Yan Zhou
-**Journal:** Advances in Space Research 74 (2024) 3297–3325
-**DOI:** https://doi.org/10.1016/j.asr.2024.06.029
+**Authors:** Shanshan Cheng, Yuyue Gao, Yusheng Shi, Long Xiao, Lieyun Ding, Cheng Zhou, Yan Zhou  
+**Published in:** *Advances in Space Research* 74 (2024) 3297–3325  
+**Publisher:** Elsevier B.V. on behalf of COSPAR
 
 ## Abstract
-To establish foundational support for forthcoming deep space exploration and settlement endeavors, the significance of extraterrestrial construction has become paramount. Recent developments underscore a growing acknowledgment of the imperative role played by in situ resource utilization, attributed to its potential for cost efficiency and facilitation of sustainable progress. This paper compiles and categorizes the advancements in this domain, focusing on three distinctive categories of in situ resources: regolith, water–ice, and energy resources. A review of their distribution, acquisition, and utilization procedures is presented. Subsequently, an intricate examination ensues, elucidating the applicability of each resource within the context of extraterrestrial construction, in conjunction with five prevalent technologies and the latest architectural constructs.
+To establish foundational support for forthcoming deep space exploration and settlement endeavors, the significance of extraterrestrial construction has become paramount. This paper compiles and categorizes advancements in ISRU, focusing on regolith, water–ice, and energy resources. It examines distribution, acquisition, and utilization procedures alongside five prevalent construction technologies: 3D printing, prefabrication/assembly, inflatable/deployable technology, regolith bag stacking, and hybrid construction. The research identifies limitations in deep processing and sustainable utilization, proposing future investigations into water-ice mining, regolith metallurgy, and integrated construction.
 
 ## 1. Introduction
-Space exploration has transitioned from simple orbiting to plans for long-term bases. Programs like NASA's Artemis, ESA's Terrae Novae, and China's ILRS prioritize ISRU to achieve cost-effectiveness and sustainability.
+Space exploration is shifting from scientific understanding toward settlement and resource utilization, exemplified by NASA’s Artemis Plan and China’s Tianwen-1. ISRU is identified as critical for cost-effectiveness and sustainability.
 
-## 2. In-Situ Resources for Construction
-### 2.1 Regolith
-Regolith consists of unconsolidated rocks and 'fines' (under 1mm). 
-- **Moon:** Depth varies from 3-20m (highlands) up to 60m. Primarily anorthositic (highlands) or basaltic (maria).
-- **Mars:** Predominantly basalt-like rock with minerals like olivine, pyroxene, and hydrated silicates.
+## 2. Regolith Resources for Construction
+Regolith is the layer of unconsolidated rock and dust covering primordial bedrock. 
+- **Moon:** Depth varies from 3-20m (highlands up to 60m).
+- **Mars:** Depth projected at 90-113m.
+- **Composition:** Primarily silicate minerals, sulfides, oxides, and trace rare earth elements (REEs).
 
-### 2.2 Water-Ice
-- **Moon:** Concentrated in Permanently Shadowed Regions (PSRs) at the poles.
-- **Mars:** Subsurface ice sheets at mid-to-high latitudes and polar caps.
+### 2.2 Mining and Processing
+- **Excavation:** Discrete (backhoe, scraper, front loader) and continuous (pneumatic, bucket wheel, bucket chain).
+- **Beneficiation:** Electrostatic and magnetic separation to enrich minerals like ilmenite.
+- **Direct Utilization:** Regolith provides radiation shielding (5 cm of Martian regolith curtails exposure by 60%) and thermal insulation.
 
-### 2.3 Energy
-- **Solar:** High potential at Lunar poles (peaks of eternal light).
-- **Atmosphere (Mars):** 96% CO2, used for fuel/propellant via Sabatier processes.
+### 2.3 Construction Materials
+- **Anhydrous Concrete:** Sulfur concrete (requires no water but prone to sublimation in vacuum) and polymer concrete using binders like polyethylene/polypropylene.
+- **Sintered Bricks:** Produced via SLM/SLS, Solar Sintering (SSLS), or Microwave Sintering (SMWS).
 
-## 3. Construction Technologies
-### 3.1 3D Printing (Additive Manufacturing)
-- **Concrete Extrusion:** Using regolith-based binders or water-ice.
-- **Sintering:** Solar (SSLS), Microwave (SMWS), Selective Laser Sintering (SLS/SLM).
-- **Binder Jetting:** Chemical bonding of granular materials.
+## 3. Water-Ice Resources
+- **Moon:** Concentrated in Permanently Shadowed Regions (PSRs) at poles.
+- **Mars:** Extensive subsurface ice sheets and surface ice at poles.
+- **Construction Use:** Direct utilization in inflatable structures (e.g., "Regishell" with a 2cm water layer) or as a reagent for concrete.
 
-### 3.2 Prefabrication and Assembly
-Utilizing interlocking blocks or foldable panels manufactured in-situ then assembled by robots.
+## 4. Energy Resources
+- **Atmosphere:** Capture of CO2 from Martian atmosphere via freezing, temperature swing, or compression adsorption.
+- **Solar:** Essential for thermal storage and electricity generation. Solar irradiance is highest on Mars (relative to Sun distance) among explored bodies besides Earth/Venus.
 
-### 3.3 Inflatable and Deployable
-Lightweight membranes offering large volume for low launch mass. Often paired with a protective regolith layer.
+## 5. Construction Technologies
+- **3D Printing:** Concrete extrusion, contour crafting, and binder jetting.
+- **Prefabrication:** Directly interlocking structures and folding/origami-inspired designs.
+- **Inflatable/Deployable:** Lightweight, low launch volume (e.g., LARC’s bowling habitat).
+- **Regolith Bags:** Automated filling and stacking for structural shielding.
 
-### 3.4 Regolith Bagging
-Automated filling of fabric bags with regolith to create vaulted structures (e.g., SuperAdobe style).
+## 6. Findings Summary Table
+| Technology Class | Specific Methods | Primary Benefit |
+| :--- | :--- | :--- |
+| 3D Printing | Extrusion, SLS, Binder Jetting | Geometric complexity, automated |
+| Prefabricated | Interlocking blocks, folding panels | High strength, modular |
+| Inflatable | Multi-layer membranes, water-filled | Radiation shielding, low launch volume |
+| Regolith Bags | Automated stacking | Minimal processing, low energy |
+| Hybrid | Combined systems (e.g., Inflatable + Sintering) | Balanced performance |
 
-### 3.5 Hybrid Construction
-Combining multiple techniques, such as an inflatable core with a 3D-printed regolith shell for radiation protection.
-
-## 4. Technical Data and Performance
-
-### Table 4: Concrete and Sintering Parameters
-| Material | Preparation Temp | Curing/Process Time | Energy/Specific Consumption |
-| :--- | :--- | :--- | :--- |
-| Sulfur Concrete | ~150 °C | ~28 days | N/A |
-| Polymer Concrete | 200–300 °C | Few hours | N/A |
-| Geopolymer | ~60 °C | 7–28 days | N/A |
-| SLM (Sintering) | Melting point | Sub-millimeter Res. | 50–2000 kWh/m³ |
-| SSLS (Solar) | Focus point | N/A | ~15 kWh/m³ |
-| SMWS (Microwave)| N/A | N/A | 540–684 kWh/m³ |
-| SSS (Sintering) | N/A | N/A | ~800 kWh/m³ |
-
-## 5. Challenges and Future Directions
-- **Comprehensive Utilization:** Moving away from single-resource studies to integrated systems.
-- **Deep Processing:** Extracting metals and creating advanced byproducts from regolith slag.
-- **Sustainability:** Developing closed-loop systems that reuse volatiles and energy.
+## 7. Energy Consumption for Sintering
+| Producing Sintered Bricks | Specific Energy Consumption |
+| :--- | :--- |
+| SLM | 50 – 2000 kWh/m³ |
+| SSLS | ~15 kWh/m³ |
+| SMWS | 540 – 684 kWh/m³ |
+| SSS | ~800 kWh/m³ |
+| DLP | ~820 kWh/m³ |
+| LENS | ~2140 kWh/m³ |
