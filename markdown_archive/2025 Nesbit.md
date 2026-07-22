@@ -1,34 +1,21 @@
 # Earthmoving for the extraterrestrial
 
-**Jeffrey S Nesbit**  
-Temple University, USA
-
 ## Abstract
-The United States spaceport, and more importantly, its technical landscape, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Throughout the construction of the launch complexes on the Florida coastline, earthmoving became standard practice to elevate rocket pads above sea level and protect against rocket blasts. However, a more extended history of earthmoving at Cape Canaveral is necessary. From Earth’s early geological formations and indigenous burial mounds to the modernization of rockets, Cape Canaveral presents itself as an evolution of terrestrial form. And still, earthmoving continues today. In 2016, an article advised the greatest threats to NASA’s landscape are rising sea levels and hurricanes, causing substantial erosion to the beach, leaving active and historically significant launch facilities at risk. Cape Canaveral beaches are now preparing for additional dredging, importing new soil, and raising beach and dune elevations. This article reveals a critical history of place-based science on Cape Canaveral through an evolution of earthmoving practices, from cultural commemoration, extraterrestrial imagination, and contemporary environmental crises.
+The United States spaceport, and more importantly, its technical landscape, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Throughout the construction of the launch complexes on the Florida coastline, earthmoving became standard practice to elevate rocket pads above sea level and protect against rocket blasts. This article reveals a critical history of place-based science on Cape Canaveral through an evolution of earthmoving practices, from cultural commemoration, extraterrestrial imagination, and contemporary environmental crises.
 
-### Keywords
-Infrastructure, NASA landscapes, technical lands
+## Technical Landscape and Infrastructure Formation
+In 1950, the United States Air Force selected the Central Florida eastern coastline to construct missile operations and rocket launch facilities. Cape Canaveral proved to be a suitable decision for military security, proximity to the equator for rocket efficiency, and safety. The design of earthmoving techniques was influenced by German models, specifically the Peenemünde launch complex directed by Albert Speer. Key architectural features included:
+- Semi-buried concrete blockhouses
+- Elevated launch pads sitting above shallow sea level
+- Rocket service towers
+- Subterranean water channels (culverts)
+- Massive wharf construction with barge canals and turning basins
 
-## Introduction
-In 1950, the United States Air Force selected the Central Florida eastern coastline to construct its missile operations and rocket launch facilities. Cape Canaveral proved to be a “suitable” decision for military security, proximity to the equator for rocket efficiency entering orbital trajectory, and safety as failed rockets could discharge in the ocean.
+## Earthmoving and Construction Practices
+By the time NASA was established in 1958, 23 of the total 36 launch complexes were already in place. Engineers elevated rocket launch pads by dredging hydraulic fill from the Banana River and pumping it into the construction sites. Two large pyramid-like sandpiles were constructed to elevate the pads for the Saturn V rocket. The technology used, such as the steam-shovel crawler, was adopted from coal mining operations in Kentucky to support the Missile Crawler Transporter Facility.
 
-### The Technical Landscape
-The spaceport, and more importantly, its technical landscape dominated by earthmoving practices, operate in the background for the technological and political progress in pursuit of the extraterrestrial. Departing Earth requires the moving of it. For architects and engineers, the leveling of land becomes fundamental in how we position ourselves in the environment—an attempt to minimize interruptions on the working surface of the earth.
+## Environmental Context and Vulnerability
+Cape Canaveral's natural landscape features 20-foot high dunes formed by the interaction of air and water, acting as barriers against hurricanes. However, the construction of crawlerways and other infrastructure has disrupted natural hydrological patterns. Currently, rising sea levels and erosion pose significant threats to these active and historically significant launch facilities, requiring preparation for additional dredging, importing new soil, and raising beach elevations.
 
-### Historical Construction Practices
-*   **Peenemunde Model:** The earliest rocket launch sites required the design of earthmoving techniques. The launch pad at Peenemunde, bounded by an “embankment” of built-up earthwork, became the model for Americans at Cape Canaveral.
-*   **Rapid Development:** Between 1950 and 1961, 70% of all launch complexes at Cape Canaveral were constructed. By 1958, 23 of the total 36 launch complexes were already in place.
-*   **Dredging and Fill:** Engineers elevated rocket launch pads by dredging hydraulic fill from the Banana River and pumping it into the construction site. Two large pyramid-like sandpiles were constructed to elevate the launch pads for the Saturn V rocket.
-*   **Equipment Adaptation:** Mining equipment, such as the steam-shovel crawler used for coal mining in Kentucky, was adopted to construct the Missile Crawler Transporter Facility.
-
-### Figures
-*   **Figure 1:** Paleogeographic map of the Florida Platform.
-*   **Figure 2:** Fort Pierce Midden Mound, Brevard County, FL.
-*   **Figure 3:** C.S. Robinson Aerial Surveys (1943).
-*   **Figure 4:** Launch Complex 17 Blockhouse (1956).
-*   **Figure 5:** Steam-shovel Crawler (Kentucky) vs. Apollo Saturn V Rocket on Missile Crawler Transporter (1968).
-*   **Figure 7:** Launch Complex 39A Pad construction (1963).
-*   **Figure 8:** Launch Complex 39 Crawlerway construction (1963).
-
-## Environmental Context
-In 2016, reports indicated that the greatest threats to NASA’s landscape are rising sea levels and hurricanes. Cape Canaveral beaches are currently preparing for additional dredging and the raising of dune elevations to protect launch infrastructure.
+## Conclusion
+The evolution of launch site infrastructure is a way to decipher the evolutions of territory marked by launch site configurations. The militarized infrastructural launch complex leaves a stratification of ground and fragmented history, which is now facing the return of climate change impact through beach erosion and potential inundation by the planetary ocean.
