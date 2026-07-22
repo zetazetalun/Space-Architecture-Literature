@@ -1,38 +1,49 @@
 # Lunar Regolith Improvement by Inducing Interparticle Adhesion with Capillary Forces
 
-## Authors
-Karol Brzeziński, Joanna Julia Sokołowska, and Bartłomiej Przybyszewski
+**Authors:** Karol Brzeziński, Joanna Julia Sokołowska, and Bartłomiej Przybyszewski
+**Journal:** Materials (MDPI)
+**Date:** May 20, 2025
 
 ## Abstract
-This paper concerns the assessment of the lunar regolith ability to consolidate in the presence of liquid water and develop and sustain cohesion after drying. The research was conducted using the lunar regolith simulant (EAC-1A). LRS was subjected to water and elevated temperature to produce specimens of Capillary-Consolidated Regolith (CCR). Simple mechanical grinding enabled the improvement of interparticle adhesion, resulting in improved flexural strength of 0.123 MPa compared to 0.029 MPa for original grain sizes.
+This paper concerns the assessment of the lunar regolith ability to consolidate in the presence of liquid water and develop and sustain cohesion after drying. This type of cohesion originates from interparticle adhesion and can be potentially improved through grading modification. The research was conducted using the lunar regolith simulant (EAC-1A). It was shown that simple mechanical grinding enabled the improvement of interparticle adhesion with capillary forces, resulting in improved flexural strength of the consolidated material (0.123 MPa).
 
 ## 1. Introduction
-Building a lunar habitat requires maximizing the use of resources available locally (ISRU). The authors propose using water as a recoverable technological agent to induce physical bonds (capillary consolidation) rather than chemical binders like Portland cement.
+Large-scale lunar exploration requires a stationary base or 'lunar habitat'. The high cost of transporting materials from Earth (ca. USD 1.5 million per kg) drives the need for solutions that maximize the use of local resources (ISRU). Current research explores 'lunar concrete' using various binders, including hydraulic binders like OPC or geopolymers, and technologies like 3D printing.
 
 ## 2. Materials and Methods
-- **Material:** EAC-1A lunar regolith simulant (basanite material from Siebengebirge Volcanic Field).
-- **Grinding:** Performed in a Fritsch PULVERISETTE 13 disc mill.
-- **Consolidation Process:**
-  - Mixing: 400 g LRS with 100 g distilled water (w/LRS = 0.25).
-  - Drying: Oven-dried at 127 C for 22 h.
-- **Testing:** Modified EN 196-1 procedure with scaled specimens (20 mm &times; 20 mm &times; 80 mm) and three-point flexural tests.
+### 2.1. Material
+EAC-1A lunar regolith simulant was used, which reproduces the particle size distribution (PSD) of real lunar soil. It is a basanite material from the Siebengebirge Volcanic Field.
 
-## 3. Results
-### Table 1. Statistical parameters of PSD for original and ground EAC-1A.
-| Parameter | Original | Ground |
-|---|---|---|
-| Dmin [&micro;m] | 0.67 | 0.58 |
-| D10 [&micro;m] | 5.87 | 1.73 |
-| D50 (median) [&micro;m] | 86.36 | 13.14 |
-| Dmax [&micro;m] | 592.39 | 152.45 |
-| SPA [cm2/cm3] | 4542.7 | 11,929.0 |
+### 2.2. Consolidation Process
+1.  **Mixing:** 400 g dry LRS with 100 g distilled water (ratio 0.25).
+2.  **Molding:** Custom steel molds (20 mm x 20 mm x 80 mm) coated with PTFE.
+3.  **Drying:** Air-drying (2 h) followed by oven-drying at 127°C (22 h).
 
-### Mechanical Strength
-- **Original LRS:** 0.029 MPa (mean flexural strength).
-- **Ground LRS:** 0.123 MPa (mean flexural strength).
+### 2.3. Grinding
+LRS was ground in a disc mill to increase specific surface area and decrease particle size.
+
+| Parameter | Original EAC-1A | Ground EAC-1A |
+| :--- | :--- | :--- |
+| Dmin [µm] | 0.67 | 0.58 |
+| D10 [µm] | 5.87 | 1.73 |
+| D50 (median) [µm] | 86.36 | 13.14 |
+| Dm (mean) [µm] | 123.53 | 21.70 |
+| SPA [cm²/cm³] | 4542.7 | 11,929.0 |
+
+## 3. Results and Discussion
+- **Original LRS:** Developed a mean flexural strength of 0.029 MPa.
+- **Ground LRS:** Developed a mean flexural strength of 0.123 MPa (four-fold increase).
+- **Mechanism:** Capillary forces during drying pull particles into contact, overcoming electrostatic repulsion. Solid bridges form as fine particles are dragged into contact zones of larger ones.
+
+| Improvement Technique | Flexural Strength (MPa) | Reference |
+| :--- | :--- | :--- |
+| Capillary Consolidation (Original) | 0.029 | This study |
+| Grinding + Capillary Consolidation | 0.123 | This study |
+| Sintering | 0.23–0.55 | [34,35] |
+| Portland cement binder | 6.8 | [12] |
 
 ## 4. Conclusions
-- Capillary forces can induce interparticle adhesion in loose regolith to create a solid material.
-- Grinding improves strength by increasing specific surface area and facilitating solid bridges between particles.
-- The process allows for water recovery and creates a dust-free environment.
-- Potential applications include insulation barriers and foundation layers.
+- Capillary forces can induce interparticle adhesion in loose regolith simulant.
+- Grinding the material improves strength significantly.
+- Water used in the process can be recovered and reused.
+- The resulting material, Capillary-Consolidated Regolith (CCR), could be used for insulation barriers or pavement foundations.
