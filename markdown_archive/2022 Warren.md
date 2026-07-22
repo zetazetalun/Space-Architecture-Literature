@@ -1,51 +1,47 @@
 # Effect of Sintering Temperature on Microstructure and Mechanical Properties of Molded Martian and Lunar Regolith
 
-**Authors:** Peter Warren, Nandhini Raju, Hossein Ebrahimi, Milos Krsmanovic, Seetha Raghavan, Jayanta Kapat, Ranajay Ghosh  
-**Affiliation:** University of Central Florida  
-**Date:** May 17, 2022 (arXiv preprint)
+**Authors:** Peter Warren, Nandhini Raju, Hossein Ebrahimi, Milos Krsmanovic, Seetha Raghavan, Jayanta Kapat, Ranajay Ghosh
+**Affiliation:** University of Central Florida, Department of Mechanical and Aerospace Engineering
+**Date:** May 13, 2022 (arXiv Preprint)
 
 ## Abstract
-Cylindrical specimens of Martian and Lunar regolith simulants were molded using a salt water binder and sintered at various temperatures (1000°C, 1100°C, and 1200°C) for comparing microstructure, mechanical properties, and shrinkage. The experimental protocol used Mars global simulant (MGS-1) and Lunar mare simulant (LMS-1). Specimens were fabricated via injection molding to replicate the 'green stage' of Binder Jet Technique (BJT). Results show an optimal sintering temperature between 1100°C and 1200°C. Compressive strengths were determined to be sufficient for construction of extraterrestrial structures, demonstrating the potential for regolith as masonry or parent material for AM processes.
+Cylindrical specimens of Martian (MGS-1) and Lunar (LMS-1) regolith simulants were molded using a salt water binder and sintered at various temperatures (1000°C, 1100°C, and 1200°C). Results show that for both regolith types, the optimal sintering temperature is between 1100°C and 1200°C. Compressive strengths achieved are sufficient for extraterrestrial construction, demonstrating the potential for these materials in Binder Jetting (BJT) additive manufacturing processes.
 
 ## 1. Introduction
-Transporting raw materials from Earth is prohibitively expensive, driving the need for In-Situ Resource Utilization (ISRU). Regolith is the primary choice for construction material due to its abundance. Challenges include the lack of traditional binders on the Moon/Mars. This study investigates a simple salt-water binder (NaCl and H2O) and the subsequent sintering process critical for densification and strength.
+In-situ resource utilization (ISRU) is critical due to the high cost of Earth-to-space transport. Martian and Lunar regolith are primary candidates for construction material. This work investigates the effect of sintering temperature on regolith parts using a potentially sustainable salt-water binder (6.25% NaCl).
 
 ## 2. Materials and Methods
-### 2.1. Regolith Simulant
-- **Martian:** MGS-1 (Mars Global Simulant).
-- **Lunar:** LMS-1 (Lunar Mare Simulant).
+### 2.1. Regolith Simulants
+*   **Martian:** MGS-1 (Mars Global Simulant)
+*   **Lunar:** LMS-1 (Lunar Mare Simulant)
 
 ### 2.2. ISRU Binder
-Pure distilled H2O mixed with NaCl (6.25% concentration) was used. Salt is prevalent on Mars and present in trace amounts on the Moon.
+*   A 6.25% salt (NaCl) solution in distilled water was used. Salt acts as a bonding agent for the green-state (unsintered) parts.
 
 ### 2.3. Manufacturing Method
-Injection molding in 3D-printed PLA molds was used as a proxy for the Binder Jetting Technique (BJT). The regolith-to-binder ratio was 3.5:1.
+*   **Injection Molding:** Replicates the green stage of Binder Jetting (BJT).
+*   **Molding:** 3D-printed PLA molds (cylindrical: 1-inch length, 0.5-inch diameter).
+*   **Ratio:** 3.5 parts regolith to 1 part binder.
 
 ### 2.4. Sintering Protocol
-Samples were pre-sintered at 200°C for 1 hour, then sintered at 1000°C, 1100°C, or 1200°C for 1 hour with a heating ramp of 25°C/min.
+*   Pre-sintering: 200°C for 1 hour.
+*   Sintering temperatures: 1000°C, 1100°C, and 1200°C for 1 hour.
+*   Heating ramp: 25°C per minute.
 
 ## 3. Results and Discussion
-### 3.1. Microstructure
-At 1200°C, samples displayed a glassy encasement of rocky particles, attributed to the melting of glass-rich basalt and pyroxene.
-
-### 3.2. Compression Testing
-Samples sintered at 1000°C and 1100°C were too brittle for accurate testing. Data for 1200°C samples:
-- **Martian (MGS-1):** 25.46 MPa compressive strength.
-- **Lunar (LMS-1):** 21.73 MPa compressive strength.
-
-Failure occurred through vertical crack propagation, indicating brittle material behavior.
-
-### 3.3. Shrinkage Behavior
-Significant shrinkage occurred only at 1200°C. 
-- **Martian:** ~10.5% radial, ~16.0% height.
-- **Lunar:** ~6.2% radial, ~18.1% height.
-
-| Property (at 1200°C) | Martian Sample | Lunar Sample |
-| :--- | :--- | :--- |
-| Radial Shrinkage % | 10.54% | 6.17% |
-| Height Shrinkage % | 16.03% | 18.13% |
-| Compressive Strength (MPa) | 25.46 | 21.73 |
+### 3.1. Mechanical Properties
+| Property | Martian Sample (1200°C) | Lunar Sample (1200°C) |
+| :--- | :---: | :---: |
+| Radial Shrinkage (%) | 10.54% | 6.17% |
+| Height Shrinkage (%) | 16.03% | 18.13% |
 | Compression Modulus (MPa) | 67.80 | 55.73 |
+| Compressive Strength (MPa) | 25.46 | 21.73 |
+
+### 3.2. Key Observations
+*   **Brittleness:** Samples sintered at 1000°C and 1100°C were too brittle for testing.
+*   **Shrinkage:** Significant shrinkage occurs between 1100°C and 1200°C. Lunar samples experienced higher vertical shrinkage (18.13%) than Martian samples (16.03%).
+*   **Mineralogy:** Glass-rich basalt (which has the lowest melting point) is a primary driver of the sintering behavior and deformation.
+*   **Failure Mode:** Brittle failure characterized by rapid propagation of vertical cracks.
 
 ## 4. Conclusion
-Martian and Lunar regolith can be implemented in BJT-like processes using salt-water binders. Optimal sintering occurs between 1100°C-1200°C. Resulting compressive strengths (21-25 MPa) are comparable to standard Earth bricks, making them suitable for load-bearing structures like foundations and walls.
+Both Martian and Lunar regolith can be implemented in BJT additive manufacturing. Sintered components at 1200°C reach strengths comparable to Earth bricks, making them suitable for foundations and load-bearing structures. Future work should optimize temperature and duration to manage shrinkage and maximize mechanical properties.
