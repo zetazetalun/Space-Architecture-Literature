@@ -1,1 +1,41 @@
-# Unity of terrestrial and extraterrestrial soils in granular configuration\n\n**Authors:** Jun Zhang, Yong Li, Yifei Cui, Zi Wu, Yuan Xue, Jianyi Cheng, Hu Jiang, Yao Li, Jian Guo, Jiayan Nie, Guodong Wang, Ao Luo\n**Journal:** Earth and Planetary Science Letters, 654 (2025) 119239\n**DOI:** 10.1016/j.epsl.2025.119239\n\n## Abstract\nGrain size distribution (GSD) is crucial for understanding soil properties and surface processes. We find that both terrestrial soils and lunar soils are subjected to a unified GSD function, $P(D)= g(\mu)D^{-\mu}\exp(-D/D_c)$, reducing the textural fractions and grade modes to a parameter pair $(\mu, D_c)$, which unifies terrestrial and extraterrestrial soils in granular configuration, beyond the environments and mechanisms of soil genesis. Random simulation reproduces the multiple grade modes observed in soils, and spontaneously derives the unified GSD function. Then we numerically generate the $(\mu, D_c)$-fields for soils on earth and moon, which refine the digital data mapping based on site measurements and depict the local fluctuation of soil parameters. The GSD unity also provides a tool of generating ‘numerical simulants’ of lunar soils to fill the gap in material simulants. The study leads to a GSD-paradigm in soil study, which is expected to facilitate the data harmonization on earth and promote the generation of lunar regolith data in favor of the in-situ resource utilization and base construction on moon.\n\n## 1. Introduction\nThe properties and constitutive models of lunar soil (LS) are experimentally or numerically investigated based on its textural composition and grain size distribution (GSD). Achieving high fidelity in both mineral composition and GSD is rare in existing simulants (e.g., JSC-1, BP-1). Since GSD significantly affects the mechanical, thermal, electrical, and volatile retention properties of regolith, it is vital for ISRU and base construction.\n\n## 2. Materials and Methods\n### 2.2. Unity in GSD\nDespite the variability of textures and grade modes, all the soils satisfy the unified GSD function:\n$$P(D) = g(\mu)D^{-\mu}\exp(-D/D_c)$$\nwhere $P(D)$ is the exceedance percentage, $\mu$ and $D_c$ are fitting parameters. The configuration governs major properties: diffusivity, porosity, density, shear strength, compressibility, bearing capacity, and thermal properties.\n\n## 3. Unified Model of Soil Genesis\nSoil formation is modeled as a stochastic process involving:\n1. Comminution/fragmentation (cascading from parent rock).\n2. Agglutination/aggregation.\n3. Mixing (extra-fragments from space weathering, meteorite impacts, or pyroclastic flows).\n\n| Texture | gravel (20 mm) | Sandy (2 mm) | Silty (0.05 mm) | Clay (0.002 mm) |\n| :--- | :--- | :--- | :--- | :--- |\n| Moon (Nor ̑, ̑) | N/A | 5.34, 4.67 | 5.95, 1.54 | 5.97, 6.81 |\n| Mars (Nor ̑, ̑) | 21.97, 30.42 | 92.19, 20.29 | 0.32, 0.47 | N/A |\n\n## 4. Discussions\n### 4.2. GSD-based numerical simulants for LS\nThe GSD-function allows creating ‘numerical simulants’, simulating LS based on granular configuration. Properties can be expressed as functions of $(\mu, D_c)$, extending the utilization of simulants for engineering experiments and machine learning models.\n\n### 4.4. Prospect of GSD in ISRU\nGSD-fields help reveal segregation of fine/coarse grains and distinguish composites like ilmenite or pyroclastic glass. This facilitates feedstock preparation for oxygen production and excavation planning. Upscaling GSD-fields provides a tool for analyzing geotechnical properties for planetary base construction.\n\n## 5. Conclusion\nSoils across Earth, Moon, and Mars are unified in granular configuration with GSD-invariance. This initiates a GSD-paradigm for soil studies, enabling the classification of soils by a $(\mu, D_c)$ pair and the generation of numerical simulants for future extraterrestrial exploration and base construction.
+# Unity of terrestrial and extraterrestrial soils in granular configuration
+
+**Journal:** Earth and Planetary Science Letters  
+**DOI:** [10.1016/j.epsl.2025.119239](https://doi.org/10.1016/j.epsl.2025.119239)  
+**Authors:** Jun Zhang, Yong Li, Yifei Cui, Zi Wu, Yuan Xue, Jianyi Cheng, Hu Jiang, Yao Li, Jian Guo, Jiayan Nie, Guodong Wang, Ao Luo
+
+## Abstract
+Grain size distribution (GSD) is crucial for understanding soil properties and surface processes. We find that both terrestrial soils and lunar soils are subjected to a unified GSD function, $P(D)= g(\mu)D^{-\mu}\exp(-D/D_c)$, reducing the textural fractions and grade modes to a parameter pair $(\mu, D_c)$, which unifies terrestrial and extraterrestrial soils in granular configuration, beyond the environments and mechanisms of soil genesis. Random simulation reproduces multiple grade modes and derives the unified GSD function. The study facilitates lunar regolith data generation in favor of in-situ resource utilization and base construction on the moon.
+
+## 1. Introduction
+Both Earth and Moon are blanketed by soil dominating surface processes. While Terrestrial Soils (TS) and Lunar Soils (LS) differ in mineralogy, the paradigm of TS studies is applied to LS. A unified GSD function might bridge the material gap between TS, LS, and Martian soils (MS), affording unified indices for data harmonization. This is critical for ISRU and base construction.
+
+## 2. Materials and Methods
+### 2.1 Variety in Textures and Grade Modes
+The study uses thousands of samples: TS (Asia, Europe, Africa, Australia, North America), LS (Apollo, Luna, Chang’E missions), and MS (Curiosity rover). TS shows diverse modes (unimodal to multimodal); LS and MS are predominantly bimodal due to specific provenance (e.g., meteoritic impacts vs. fresh ejecta).
+
+### 2.2 Unity in GSD
+All soils satisfy the unified GSD function:
+$$P(D) = g(\mu)D^{-\mu}\exp(-D/D_c)$$
+Where:
+- $P(D)$ is the exceedance percentage.
+- $\mu$ and $D_c$ are fitting parameters.
+- $g(\mu)$ is a coefficient function.
+
+## 3. Unified Model of Soil Genesis
+Soil genesis is conceptualized as a stochastic process involving:
+1. **Cascading Fragmentation:** Fractal fragmentation of parent lithospheric material.
+2. **Random Contribution:** Fragments from space weathering, meteorites, or surface transport.
+
+## 4. Discussions
+### 4.1 Unified Indicators for Soil Classifications
+The pair $(\mu, D_c)$ represents fine and coarse content respectively. $\mu$ acts as an index for LS maturity. Apollo samples show $\mu$ ranges correlating to unimodal (0.028-0.113), bimodal (0.005-0.056), and trimodal (-0.008 to 0.048) distributions.
+
+### 4.2 GSD-based Numerical Simulants
+The unified function allows for "numerical simulants," enabling the derivation of properties as a function of $(\mu, D_c)$. This supports establishing simulant standards and supplements costly material simulants.
+
+### 4.3 GSD-fields and ISRU
+GSD-fields (spatial maps of $\mu$ and $D_c$) refine conventional data maps. They help reveal segregation of grains and identify potential sources for oxygen production from regolith, bridging excavation, beneficiation, and extraction in ISRU.
+
+## Conclusion
+Soils on Earth, Moon, and Mars are unified in granular configuration. The proposed GSD-paradigm facilitates data-driven discovery in planetary geosciences and provides tools for geotechnical analysis essential for extraterrestrial base construction.
