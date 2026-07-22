@@ -1,40 +1,48 @@
 # Blood, sweat, and tears: extraterrestrial regolith biocomposites with in vivo binders
 
-**Authors:** A.D. Roberts, D.R. Whittall, R. Breitling, E. Takano, J.J. Blaker, S. Hay, N.S. Scrutton
-**Journal:** Materials Today Bio 12 (2021) 100136
-**DOI:** https://doi.org/10.1016/j.mtbio.2021.100136
+**Authors:** A.D. Roberts, D.R. Whittall, R. Breitling, E. Takano, J.J. Blaker, S. Hay, N.S. Scrutton  
+**Journal:** Materials Today Bio 12 (2021) 100136  
+**DOI:** 10.1016/j.mtbio.2021.100136
 
 ## Abstract
-Exploitation of resources in situ — including inorganic rock and dust (regolith), water deposits, and atmospheric gases — will be an important part of any crewed mission to the Red Planet. This work explores the use of human serum albumin (HSA) — a common protein obtained from blood plasma — as a binder for simulated Lunar and Martian regolith to produce 'extraterrestrial regolith biocomposites' (ERBs). HSA-based ERBs displayed compressive strengths as high as 25.0 MPa. The incorporation of urea — which could be extracted from urine, sweat, or tears — further increased the compressive strength by over 300%, reaching 39.7 MPa. We demonstrate that HSA-ERBs have the potential to be 3D-printed, opening a potential avenue for extraterrestrial construction using human-derived feedstocks.
+The high cost and significant time delay associated with delivering payloads to the Martian surface means that exploitation of resources in situ—including inorganic rock and dust (regolith), water deposits, and atmospheric gases—will be an important part of any crewed mission to the Red Planet. In this work, we explore the use of human serum albumin (HSA)—a common protein obtained from blood plasma—as a binder for simulated Lunar and Martian regolith to produce so-called ‘extraterrestrial regolith biocomposites (ERBs).’ Employing a simple fabrication strategy, HSA-based ERBs were produced and displayed compressive strengths as high as 25.0 MPa. For comparison, standard concrete typically has a compressive strength ranging between 20 and 32 MPa. The incorporation of urea—which could be extracted from the urine, sweat, or tears of astronauts—could further increase the compressive strength by over 300% in some instances, with the best-performing formulation having an average compressive strength of 39.7 MPa. Furthermore, we demonstrate that HSA-ERBs have the potential to be 3D-printed, opening up an interesting potential avenue for extraterrestrial construction using human-derived feedstocks.
 
 ## 1. Introduction
-Due to the high cost of extra-orbital payload delivery, early extraterrestrial colonies will likely exploit regolith for radiation and meteor shielding. Mechanical stabilization of regolith is necessary to prevent erosion. Biopolymers are explored here as binders to avoid the need for heavy equipment or complex synthesis technology transported from Earth.
+Early extraterrestrial colonies will likely exploit loose unconsolidated rock and dust (regolith) as a bulk material for radiation and meteor shielding. Mechanical stabilization is required to prevent erosion from high-velocity exhaust plumes or dust storms. Strongly bonded regolith could serve as cost-effective construction material for habitat expansion. While several 3D-printing technologies based on in situ regolith are under development, biological binders produced in vivo by astronauts offer a ready source of materials that avoids the mass of synthetic resin production equipment.
 
-## 2. Results and Discussion
+## 2. Materials and Methods
+### 2.1 ERB fabrication procedure
+HSA was dissolved in DI water to produce a 30 wt% solution. Simulants LHS-1 (Lunar) and MGS-1 (Martian) were packed into syringes and infused with the HSA solution. Samples were heated to 65 °C overnight (20 h) to facilitate dehydration and hardening.
 
-### 2.1 Mechanical Properties of Regolith Stabilization Technologies
-| Method | UCS (MPa) | Processing energy (kWh/MT) | Primary disadvantages |
-| :--- | :--- | :--- | :--- |
-| Melted and cast regolith | 550 | 360 (very high) | Extremely high energy/temp (1200–1500 °C) |
-| Sintered regolith | 14.5 | 156 (high) | High energy/temp (1000–1200 °C) |
-| Extraterrestrial concrete | 75.5 | High | High energy/water consumption |
-| ERBs with BSA | 19.5 | Low | Logistics of livestock |
-| ERBs with HSA | 25.0 | Low | Limited production capacity |
-| ERBs with HSA and urea | 39.7 | Low | Limited production capacity |
+### 2.2 Uniaxial compression tests
+Tested using an Instron 5569 following ASTM C39/C39M-20 standards. Samples were cylindrical (12.1 mm diameter, ~24-30 mm length).
 
-### 2.2 HSA-ERB Compressive Strength
-HSA concentration was varied between 15 and 37.5 wt%. 
-- **LHS-1 (Lunar):** Reached a peak of 25.0 ± 3.1 MPa at 35 wt% HSA.
-- **MGS-1 (Martian):** Reached 9.3 ± 1.2 MPa at 35 wt% HSA.
-The difference is attributed to the coarser particle size of LHS-1, which facilitates better stress distribution.
+## 3. Results
+### 3.1 Relationship between HSA-regolith mass ratio and ERB compressive strength
+A positive correlation was found between HSA concentration and ultimate compressive strength (UCS) up to 35 wt%. Beyond 35 wt%, viscosity impeded impregnation.
 
-### 2.3 Incorporation of Urea
-Urea acts as a protein denaturant. Adding urea (3 M) to 30 wt% HSA solutions increased UCS:
-- **LHS-1:** Increased by 324% to 39.7 ± 3.9 MPa.
-- **MGS-1:** Increased by 179% to 11.9 ± 1.3 MPa.
+**Table 2: HSA-ERBs prepared with different HSA concentrations (LHS-1 and MGS-1)**
+| Regolith type | HSA conc. (wt. %) | Binder-to regolith mass ratio (%) | UCS (MPa) | Elastic modulus (MPa) |
+|---|---|---|---|---|
+| MGS-1 | 15 | 3.1 ± 0.1 | 1.9 ± 0.3 | 431 ± 111.8 |
+| MGS-1 | 30 | 8.8 ± 0.3 | 6.6 ± 1.8 | 1257 ± 390 |
+| MGS-1 | 35 | 8.1 ± 0.3 | 9.3 ± 1.2 | 968 ± 390 |
+| LHS-1 | 15 | 3.7 ± 0.2 | 6.1 ± 1.7 | 236 ± 94 |
+| LHS-1 | 30 | 8.0 ± 0.3 | 12.3 ± 2.2 | 1673 ± 890 |
+| LHS-1 | 35 | 8.6 ± 0.3 | 25.0 ± 3.1 | 1618 ± 479 |
 
-### 2.4 3D-Printing Potential
-A mixture of MGS-1 and 15 wt% HSA was manually extruded to form a 25 x 25 mm square structure. The construction sustained an ultimate compressive force of 600 N (equivalent to 162 kg on Mars) with a UCS of ~1.9 MPa.
+### 3.2 Incorporating urea into the formulation
+The addition of urea (up to 3 M) significantly increased the UCS. For LHS-1 with 30 wt% HSA, the UCS increased by 324% when 3 M urea was employed.
 
-## 3. Conclusions
-HSA-ERBs can exceed the compressive strength of standard terrestrial concrete (20–32 MPa). A crew of six astronauts could potentially produce enough HSA over 72 weeks to construct habitat space for one additional crew member. This 'in vivo' binder strategy circumvents the need for heavy binder production equipment.
+**Table 3: Summary of HSA-ERBs with urea**
+| Regolith type | HSA conc. (wt. %) | Urea conc. (M) | UCS (MPa) | Elastic modulus (MPa) |
+|---|---|---|---|---|
+| MGS-1 | 30 | 3 | 11.9 ± 1.3 | 939 ± 508 |
+| LHS-1 | 30 | 3 | 39.7 ± 3.9 | 1746 ± 354 |
+| LHS-1 | 35 | 2 | 37.4 ± 2.2 | 1823 ± 627 |
+
+### 3.3 3D-printing potential
+A simple scoping experiment demonstrated that a mixture of MGS-1 and HSA 15 wt% could be manually extruded to build layered structures. A 3D-printed structure (25x25mm, ~2cm height) sustained a force of 600 N.
+
+## 4. Discussion and Conclusions
+HSA-ERBs achieve compressive strengths comparable to standard concrete (20-32 MPa). Calculations suggest one astronaut could produce enough HSA to construct 2.5 kg of ERB per month, roughly one standard brick. Using urea enhances strength and potentially radiation shielding. HSA-ERBs are fully recyclable via dissolution.
