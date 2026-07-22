@@ -11309,11 +11309,11 @@
     }
   ],
   "summary": {
-    "overview": "This systematic literature review synthesizes findings from EXACTLY 10 relevant research papers focusing on extraterrestrial habitat construction and in-situ resource utilization. The selected corpus highlights the rapid advancement in construction technologies specifically tailored for lunar and Martian environments. The literature spans foundational geotechnical engineering, advanced materials science, and automated robotic construction frameworks required to establish permanent outposts in space.",
-    "keyFindings": "Several critical insights emerge from the 10 papers analyzed. First, classical Earth-based geotechnical models significantly miscalculate bearing capacity in low-gravity environments, necessitating modified models such as a low-gravity Prandtl's model. Second, microwave and selective laser sintering are highly viable for processing lunar regolith, though process efficiency relies heavily on material properties like ilmenite content and nanophase iron. Third, the addition of multi-walled carbon nanotubes (MWCNTs) or hydrogels to regolith composites significantly improves compressive strength, making them suitable for large-scale extraterrestrial buildings. Fourth, autonomous construction is being rapidly advanced through two-stage Deep Reinforcement Learning (DRL) for robotic assembly and Multivariate Adaptive Regression Splines (MARS) for optimizing bio-inspired lunar drilling. Finally, the hydrophobic nature and micro-scale roughness of Chang'E-5 lunar soil particles have been proven to follow the Cassie-Baxter model, providing a fundamental empirical basis for extrusion-based additive manufacturing.",
-    "methodologyTrends": "The methodology across the 10 papers is heavily weighted toward primary research (80%), relying on a combination of advanced numerical simulations and laboratory-scale physical experiments. Multi-scale modeling, particularly using the Discrete Element Method (DEM), is frequently employed to bridge the gap between microscopic granular interactions and macroscopic structural performance. Additionally, there is a strong trend toward integrating artificial intelligence, specifically Deep Reinforcement Learning (DRL) and optimization algorithms, into physical construction processes to overcome communication delays and adapt to unstructured planetary terrains.",
-    "technologyClass3": "Technologies for Class III (ISRU-based) habitats represent the core focus of the analyzed papers, with all 10 documents investigating this class. The dominant mapped approaches include Microwave Sintering, Extrusion Based manufacturing, and Solar and Selective Laser Sintering. However, a significant portion of the literature explores novel 'Other' technologies. These include Vat Polymerization (DLP) using highly concentrated regolith simulant slurries, hydrogel sol-to-gel transitions, acid-base binder reactions with pellet pressing, numerical simulant generation, and bio-inspired drilling systems. These specialized techniques reflect a necessary diversification to handle the unique vacuum, extreme temperature, and low-gravity constraints of extraterrestrial environments.",
-    "chartAnalysis": "The generated charts reveal a highly focused and rapidly evolving research domain. The Year of Publication bar chart shows a massive surge with 90% of the papers published in 2025, indicating a rapidly accelerating interest aligned with upcoming international lunar missions. The Research Type pie chart confirms a strong preference for Primary Literature (80%), demonstrating that the field is actively conducting original experiments. The Research Foci treemap highlights ISRU and Materials Science (8 papers each) as the foundational pillars, closely followed by Geotechnical Engineering (7 papers), underscoring that understanding raw local soils is the prerequisite to automated construction. The Application Scenario bar chart and Application Location radar chart show unanimous focus on Surface operations (10 papers) and Lunar applications (10 papers), with Mars being a secondary consideration (2 papers). Finally, the Habitat Class pie chart confirms that 100% of the studies target Class III ISRU-based habitats, with only a few overlapping with Class I and Class II, cementing in-situ resource utilization as the mandatory path forward for space colonization.",
+    "overview": "This systematic literature review synthesizes findings from EXACTLY 10 relevant research papers. The analyzed corpus predominantly addresses extraterrestrial habitat construction on the Moon and Mars, with an overwhelming focus on in-situ resource utilization. A significant temporal concentration is observed, with 90% of the selected papers published in 2025, indicating a recent surge in experimental and modeling research dedicated to lunar and Martian infrastructure development.",
+    "keyFindings": "The major takeaways from the 10 analyzed papers highlight critical advancements in extraterrestrial mechanics and construction techniques. Notably, classical Earth-based geotechnical theories miscalculate bearing capacity in low-gravity environments, requiring modified models like the adapted Prandtl's model. Research confirms the existence of a universal Grain Size Distribution (GSD) function unifying terrestrial, lunar, and Martian soils, which facilitates the generation of highly accurate numerical simulants. Additive manufacturing shows promise through optimized vat polymerization of lunar simulants at specific layer heights and exposure times, as well as the formulation of hydrogel-based concrete. Furthermore, autonomous deep reinforcement learning frameworks and bio-inspired drilling optimizations demonstrate the growing feasibility of automated construction and excavation in extreme space environments.",
+    "methodologyTrends": "Research in this domain is heavily driven by Primary Literature (80%), featuring a strong reliance on advanced computational modeling and laboratory-scale physical simulations. Methodologies frequently employ the Discrete Element Method (DEM) for soil and concrete modeling, Multivariate Adaptive Regression Splines (MARS) for design optimization, and Deep Reinforcement Learning (DRL) for robotic assembly control. Experimental approaches utilize multi-walled carbon nanotubes (MWCNTs) and authentic lunar soil data to test the mechanical, thermal, and wettability properties of regolith composites.",
+    "technologyClass3": "For Class III (ISRU-based) habitats, the 10 papers highlight a diverse array of technologies transitioning from conceptualization to experimental validation. Extrusion-based technologies, including hydrogel-based concrete extrusion, dominate the applications due to their adaptability to local regolith. Microwave Sintering and Vat Photopolymerization (DLP) are prominently researched for solidifying raw or simulant regolith into high-strength components. Additionally, the field emphasizes foundational preparation and characterization through bio-inspired robotic drilling and advanced numerical simulant generation, which are critical precursors to large-scale ISRU additive manufacturing.",
+    "chartAnalysis": "The generated charts reveal a highly specialized and recently accelerated research landscape. The Year of Publication bar chart shows a dramatic spike in 2025, containing 9 of the 10 papers, reflecting rapid contemporary advancements. The Research Type pie chart and Publication Type bar chart confirm a dominant focus on original research (80%) over reviews (20%). The Research Foci treemap illustrates that ISRU (8 occurrences) and Materials Science (8 occurrences) are the central pillars of current studies, closely supported by Geotechnical Engineering (7). The Application Scenario bar chart demonstrates a unanimous focus on Surface operations (100%), while the Application Location radar chart confirms the Moon as the primary target (10 papers), with Mars acting as a secondary focus (2 papers). Finally, the Habitat Class pie chart emphasizes that all 10 papers contribute to Class III (ISRU-based) infrastructure, utilizing leading technologies such as Extrusion Based manufacturing and Microwave Sintering as shown in the Technology bar chart.",
     "chartData": {
       "distributions": [
         {
@@ -11401,11 +11401,11 @@
               "value": 10
             },
             {
-              "name": "Underground",
+              "name": "Orbital",
               "value": 1
             },
             {
-              "name": "Orbital",
+              "name": "Underground",
               "value": 1
             }
           ]
@@ -11447,19 +11447,27 @@
           "type": "bar",
           "data": [
             {
-              "name": "Other",
-              "value": 6
+              "name": "Extrusion Based",
+              "value": 3
             },
             {
               "name": "Microwave Sintering",
               "value": 2
             },
             {
-              "name": "Extrusion Based",
+              "name": "Drilling & Modeling",
               "value": 2
             },
             {
               "name": "Solar and Selective Laser Sintering",
+              "value": 1
+            },
+            {
+              "name": "Binder Jetting",
+              "value": 1
+            },
+            {
+              "name": "Vat Photopolymerization",
               "value": 1
             }
           ]
@@ -11473,23 +11481,23 @@
       }
     },
     "performance": {
-      "totalTimeMs": 5510445,
+      "totalTimeMs": 5515827,
       "mappingTimeMs": 5179925,
-      "synthesisTimeMs": 58597,
+      "synthesisTimeMs": 63981,
       "paperCount": 10,
       "tokenUsage": {
         "promptTokens": 1456823,
-        "candidatesTokens": 241206,
-        "totalTokens": 1703873
+        "candidatesTokens": 241222,
+        "totalTokens": 1704706
       }
     },
     "mappingModel": "gemini-3-flash-preview",
     "metadata": {
       "appVersion": "1.0.1",
-      "generationDate": "7/22/2026, 12:51:04 PM",
+      "generationDate": "7/22/2026, 12:51:09 PM",
       "githubRepoUrl": "https://github.com/zetazetalun/Space-Architecture-Literature/tree/main/Papers",
       "githubRef": "main"
     }
   },
-  "updatedAt": "2026-07-22T04:51:04.181Z"
+  "updatedAt": "2026-07-22T04:51:09.562Z"
 }
