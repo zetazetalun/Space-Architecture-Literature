@@ -1,52 +1,51 @@
 # In-Space Manufacturing: Technologies, Challenges, and Future Horizons
 
-## Authors
-Subin Antony Jose, Jordan Jackson, Jayden Foster, Terrence Silva, Ethan Markham and Pradeep L. Menezes
-
 ## Abstract
-In-space manufacturing represents a transformative frontier in space exploration. This paper explores multifaceted aspects of ISM, including evolution, technologies (additive manufacturing, advanced materials, autonomous robotics), challenges (microgravity, radiation, thermal management), and future prospects (ISRU, large-scale production). Key findings highlight the reduction of launch costs and optimization of resources for deep-space missions.
+In-space manufacturing (ISM) represents a transformative frontier in space exploration. This paper explores ISM evolution, technologies, challenges, and future prospects, focusing on resource optimization, reduction of launch costs, and autonomous robotic systems. It analyzes unique challenges like microgravity and vacuum conditions while evaluating case studies from the International Space Station (ISS).
 
 ## 1. Introduction
-ISM refers to production beyond planetary surfaces, enabling on-demand fabrication, repair, and recycling. Transitioning from manual astronaut tasks to autonomous robotic systems is crucial for modular assembly of habitats and spacecraft. Primary objectives include waste reduction and in-situ resource utilization (ISRU) to minimize Earth-dependence.
+ISM refers to production beyond planetary surfaces, typically in microgravity or vacuum. Objectives include on-demand fabrication, repair, and recycling to reduce dependence on Earth-based resupply. Advancements in automation reduce risk to human life and enable long-duration missions and off-world settlements (lunar/Martian colonies).
 
 ## 2. Technologies and Methods for ISM
+### 2.1. Additive Manufacturing in Microgravity
+Table 1 summarizes AM processes and challenges:
 
-### 2.1 Additive Manufacturing in Microgravity
-- **Processes:** Filament-based material extrusion (most common), powder bed fusion, directed energy deposition, vat photopolymerization.
-- **Challenges:** Liquid levitation, heat flow variations, and containment of dust/chips in subtractive processes.
-
-| Process | Description | Challenges |
+| Process | General Description | Challenges |
 | :--- | :--- | :--- |
-| Filament Extrusion | Extrusion through nozzle | Limited to polymers |
-| Powder Bed Fusion | Laser/beam fusions | Safety hazards (toxic powders) |
-| DED | Focused thermal energy deposition | Control during deposition |
+| Filament-based material extrusion | Extrudes filament through a nozzle under pressure | Limited to direct polymer processing |
+| Powder Bed Fusion | Fuses powder layers using a high-energy source | Safety hazards from high-energy sources and metallic powders |
+| Directed Energy Deposition | Deposits and fuses materials using thermal energy | Limited control over material during deposition |
+| Vat Photopolymerization | Cures liquid photopolymers with light | Requires specialized photopolymer materials |
+| Material Jetting | Deposits charged droplets through a deflection field | Limited material variety and processing challenges |
+| Binder Jetting | Deposits liquid binder onto powdered material | Unproven in microgravity |
+| Sheet Lamination | Bonds layers via adhesive, welding, or heat | Unproven in microgravity |
 
-### 2.2 Advanced Materials
-- **Titanium Alloys:** Lightweight durability, corrosion resistance.
-- **Polyimides:** Radiation and temperature resistance for electronics and coatings.
-- **Metal Matrix Composites:** High strength for structural applications.
+### 2.2. Advanced Materials and Their Processing in Space
+Table 2: Types of materials for ISM and their functionalities.
 
-### 2.3 Autonomous and Robotic Systems
-- **ARMADAS:** NASA system for robotic assembly of modular structures (antennas, habitats).
-- **OSAM-2 (Archinaut):** Spacecraft designed for orbital manufacturing and assembly.
+| Material | Functionality | Used in |
+| :--- | :--- | :--- |
+| Titanium Alloy | High strength-to-weight ratio, excellent corrosion and temperature resistance | Structural components and aerospace parts |
+| Polyimides | High thermal stability, chemical resistance, low outgassing | Insulation and protective coatings for electronic |
+| Metal Matrix Composites | High strength, lightweight, improved thermal properties | Structural applications and high-performance components |
 
-### 2.4 Biomanufacturing
-Enables molecular pharming and food production (ISRU) to sustain long-duration missions, reducing mass requirements for life support.
+### 2.3. Autonomous and Robotic Manufacturing Systems
+NASA’s Autonomous Reconfigurable Mission Adaptive Digital Assembly Systems (ARMADAS) utilize small robots to assemble large structures like antennas, habitat modules, and spaceports without extensive measuring systems.
 
-## 3. Challenges
-- **Technical:** Microgravity affects fluid dynamics; vacuum causes outgassing; radiation degrades material integrity.
-- **Logistics:** Supply chain management and energy/thermal management constraints (reliance on solar/nuclear).
-- **Quality:** Need for real-time defect detection and automated standardization.
+## 3. Challenges in ISM
+- **Technical:** Microgravity (unpredictable fluid behavior), Vacuum (lack of pressure leading to brittleness), and Radiation (material degradation).
+- **Resource/Supply Chain:** Dependency on Earth-sourced raw materials for 3D printers; need for ISRU.
+- **Quality Control:** Stringent tolerances and need for real-time defect detection.
+- **Energy/Thermal:** Solar power constraints and lack of convective heat transfer.
 
-## 4. Current Developments and Case Studies
-- **ISS Successes:** First 3D printer (2014); Refabricator (2018) for recycling parts.
-- **Redwire Regolith Print (RRP):** Investigating 3D printing using lunar/Martian regolith.
-- **DREPP:** Direct Robotic Extrusion of Photopolymers for 3D spatial extrusion in microgravity.
+## 5. Current Developments and Case Studies
+### 5.2. Success Stories from the ISS
+- **First 3D Printer (2014):** Phase 1 found microgravity parts were stronger/stiffer but had lower compressive strength due to uneven material distribution.
+- **Refabricator (2018):** Combines 3D printing and recycling to turn used parts into feedstock.
 
-## 5. Future Horizons
-- **Large-Scale Production:** Fabrication of solar arrays, telescopes, and habitats directly in orbit.
-- **Space Elevators:** Conceptual builds requiring high tensile materials like carbon nanotubes.
-- **Economic Viability:** Reusable rockets and orbital manufacturing infrastructure reducing launch costs by 10x.
+### 5.3. Emerging Technologies
+- **Archinaut One:** Robotic system for manufacturing/assembling parts in orbit without size constraints.
+- **Redwire Regolith Print (RRP):** Explores 3D printing with lunar and Martian regolith for space structures.
 
-## 6. Conclusions
-ISM is a paradigm shift enabling self-sufficiency in space. Success relies on advancing autonomous robotics, ISRU technologies, and establishing international legal frameworks for resource rights.
+## 7. Conclusions
+ISM significantly reduces costs by eliminating the need to launch heavy materials and enables sustainable missions through repair and recycling. Future success depends on robotic reliability, ISRU, and international policy frameworks.
