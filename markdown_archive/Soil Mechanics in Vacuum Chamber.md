@@ -1,47 +1,54 @@
-## Soil Mechanics in Vacuum Chamber
+# Soil Mechanics in Vacuum Chamber
 
-Downloaded from ascelibrary.org by University of Liverpool on 07/22/25. Copyright ASCE. For personal use only; all rights reserved.
+**Authors:** G. H. Go, J. Lee, H. S. Shin, B. H. Rhu, and H. W. Jin
+**Conference:** Earth and Space 2018, ASCE
 
-G. H. Go<sup>1</sup>; J. Lee<sup>2</sup>; H. S. Shin<sup>3</sup>; B. H. Rhu<sup>4</sup>; and H. W. Jin<sup>5</sup>
+## ABSTRACT
+The dust vacuum chamber is an essential infrastructure for the verification of space exploration equipment, especially extraterrestrial missions for in situ resource utilization (ISRU). This study presents a new approach in soil mechanics that is particularly applicable to the dust vacuum chamber. One of the main issues in operating the dust vacuum chamber is soil disturbance problems during the evacuation. Thus, the appropriate vacuum rate was suggested to minimize the soil disturbance in the dust vacuum chamber using theoretical and numerical approaches. Firstly, the simple analytical solutions were used to provide approximate maximum discharge velocity and evacuation time to finish air flow through a soil specimen at a given vacuum pressure. Then, a two-dimensional finite element model was developed which simulates the hydro-mechanical behavior of the soil specimen in a vacuum chamber with respect to different vacuum rates. From the numerical analysis results, optimum guidelines have been proposed to ensure that soil disturbance is minimized.
 
-# ABSTRACT
+## INTRODUCTION
+Recently, the trend in space exploration has been shifting from remote exploration using orbiters to surface missions using rovers and landers. Verification of equipment used in lunar surface missions requires performance tests in a dirty vacuum chamber (DVC) that simulates lunar surface conditions. A major issue in operating a DVC is soil disturbance caused by depressurization, which complicates maintaining the initial condition of soil bins.
 
-The dust vacuum chamber is an essential infrastructure for the verification of space exploration equipment, especially extraterrestrial missions for in situ resource utilization (ISRU). This study presents a new approach in soil mechanics that is particularly applicable to the dust vacuum chamber. One of the main issues in operating the dust vacuum chamber is soil disturbance problems during the evacuation. Thus, the appropriate vacuum rate was suggested to minimize the soil disturbance in the dust vacuum chamber using theoretical and numerical approaches. Firstly, the simple analytical solutions were used to provide approximate maximum discharge velocity and evacuation time to finish air flow through a soil specimen at a given vacuum pressure. Then, a two dimensional finite element model was developed which simulates the hydro-mechanical behavior of the soil specimen in a vacuum chamber with respect to different vacuum rates. From the numerical analysis results, optimum guidelines have been proposed to ensure that soil disturbance is minimized.
+## POROELASTICITY THEORY
+Biot’s (1941) poroelasticity theory was applied to evaluate the hydro-mechanical behavior of soil specimens under depressurization. The constitutive equation relates stress, strain, and pore air pressure:
 
-# INTRODUCTION
+$$\sigma = C\epsilon - \alpha_B u_a I$$
 
-Recently, the trend in space exploration has been shifting from a remote exploration using orbiters to a surface mission using rover and lander. The analysis results of “LCROSS impact mission” performed by NASA in 2009 showed a key indicator that water ice is present in the floor of the crater (Colaprete et al. 2010). Since then, studies on the technology for lunar surface exploration are gradually being extended. Among them, developing and verifying the exploration equipment that will be mounted on the rover or lander are the most essential parts. For the verification of the equipment used in the lunar surface mission, thorough performance tests in dirty vacuum chamber (DVC) that simulates lunar surface conditions are required.
+Where:
+- $\sigma$ is total stress
+- $\epsilon$ is strain tensor
+- $u_a$ is pore air pressure
+- $\alpha_B$ is Biot-Willis coefficient
 
-# POROELASTICITY THEORY
+The air velocity $q_a$ is calculated by Darcy’s law:
 
-During depletion of air pressure in the soil specimen, the stress is altered due to the change in pore air pressure. In this study, a “poroelasticity theory” proposed by Biot (1941) was applied to evaluate the hydro-mechanical behavior of soil specimen under depressurization conditions. 
+$$q_a = -\frac{K}{\mu} \frac{\partial u_a}{\partial y}$$
 
-# FINITE ELEMENT MODEL
+Soil disturbance occurs when the seepage force exceeds the soil's dead load ($j = W_d$).
 
-For the investigation of the poroelastic effects on the soil specimen during the depressurization, a two dimensional finite element model was set up which couples the behavior of fluid flow and geomechanics. 
+## MATERIAL PROPERTIES
 
 ### Table 1. Material properties used in finite element model.
-
 | Property | Name | Value | Unit | Note |
 | :--- | :--- | :--- | :--- | :--- |
 | Young’s Modulus | E | 10 | MPa | constant |
-| Biot-Willis coefficient | αB | 1 | | constant |
-| Particle density | ρd | 2750 | kg/m3 | constant |
-| Air density | ρa | (ωb ua) / RT | kg/m3 | variable |
-| Porosity | n | 0.418 | | constant |
+| Biot-Willis coefficient | αB | 1 | - | constant |
+| Particle density | ρd | 2750 | kg/m³ | constant |
+| Air density | ρa | (ω u_a) / RT | kg/m³ | variable |
+| Porosity | n | 0.418 | - | constant |
 | Dynamic viscosity of air | μ | 1.814E-05 | Pa·s | constant |
-| Storage | S | n/ua | 1/Pa | variable |
-| Poisson’s ratio | ν | 0.25 | | constant |
-| Intrinsic permeability | K | 2.55E-13 | m2 | constant |
+| Storage | S | n / u_a | 1/Pa | variable |
+| Poisson’s ratio | ν | 0.25 | - | constant |
+| Intrinsic permeability | K | 2.55E-13 | m² | constant |
 
-# RESULTS AND DISCUSSION
+## FINITE ELEMENT MODEL
+A 2D FE model coupled fluid flow and geomechanics. The specimen depth was 0.047m. Initial pressure was set to atmospheric. Depressurization proceeded from the top, with the bottom and sides defined as undrained.
 
-Figure 2 shows the air velocity distribution at the middle point of the soil specimen when the vacuum rate was applied at -0.33 kPa/sec in the chamber. As the absolute pressure approaches the state of vacuum, the air velocity increases rapidly. This phenomenon results from the pressure gradient that goes up exponentially in the state of vacuum, and it induces a high drag force inside the soil specimen.
+## RESULTS AND DISCUSSION
+Air velocity increases rapidly as the chamber approaches vacuum due to exponential pressure gradients. Soil disturbance occurs when effective stress becomes zero. For the given properties, the maximum air velocity ($q_{max}$) was 0.000235 m/s. With a vacuum rate of -0.33 kPa/sec, disturbance occurred at 282.5 seconds (vacuum pressure ≈ -94 kPa).
 
-Meanwhile, the soil disturbance phenomenon occurs when the effective stress becomes zero due to seepage stress. Based on a theoretical approach established in this study, the maximum air velocity (qmax) causing the soil disturbance was calculated. At given properties, the calculated qmax was about 0.000235 m/s. Theoretically, this means that the soil disturbance occurs 282.5 sec after the beginning of depressurization. 
-
-# SUMMARY AND CONCLUSION
-
-1. New theoretical approach provided the insight of the hydro-mechanical behavior of the soil in DVC during depressurization process.
-2. The finite element model used in this study can be used to provide an appropriate vacuum rate during depressurization.
-3. During the depressurization, the vacuum rate should be controlled adequately to maintain the initial condition of soil specimen until the vacuum pressure reaches a maximum allowable value.
+## SUMMARY AND CONCLUSION
+1. New theoretical approaches provide insight into soil behavior in DVCs.
+2. The FE model provides appropriate vacuum rates to prevent disturbance.
+3. Vacuum rates should be reduced before air flow reaches the maximum velocity limit.
+4. Initial conditions should be maintained until vacuum reaches maximum allowable values (e.g., 2.5 Torr).
