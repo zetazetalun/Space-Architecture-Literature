@@ -1,27 +1,36 @@
 # A microbial role in the construction of Mono Lake carbonate chimneys?
 
-**Alexander Brasier et al.** (2018)
+**Authors:** Alexander Brasier, David Wacey, Mike Rogerson, Paul Guagliardo, Martin Saunders, Siri Kellner, Ramon Mercedes-Martin, Tim Prior, Colin Taylor, Anna Matthews, John Reijmer  
+**Journal:** Geobiology, 2018; 16: 540–555.  
+**DOI:** 10.1111/gbi.12292
 
 ## Abstract
-Lacustrine carbonate chimneys are striking, metre-scale constructions. If these were bioinfluenced constructions, they could be priority targets in the search for early and extraterrestrial microbial life. This study uses correlative microscopy to show that microbes were living around Pleistocene Mono Lake carbonate chimneys during their growth. A plausible interpretation is that benthic cyanobacteria and their associated extracellular organic material (EOM) formed tubular biofilms around rising sublacustrine spring vent waters, binding calcium ions and trapping and binding detrital silicate sediment. Decay of these biofilms increased calcium and carbonate ion activity, inducing calcite precipitation. Such carbonate chimneys represent a promising macro-scale target in the exploration for ancient or extraterrestrial life.
+Lacustrine carbonate chimneys are striking, metre-scale constructions. If these were bioinfluenced constructions, they could be priority targets in the search for early and extraterrestrial microbial life. However, there are questions over whether such chimneys are built on a geobiological framework or are solely abiotic geomorphological features produced by mixing of lake and spring waters. Here, we use correlative microscopy to show that microbes were living around Pleistocene Mono Lake carbonate chimneys during their growth. A plausible interpretation is that benthic cyanobacteria and their associated extracellular organic material (EOM) formed tubular biofilms around rising sublacustrine spring vent waters, binding calcium ions and trapping and binding detrital silicate sediment. Decay of these biofilms would locally have increased calcium and carbonate ion activity, inducing calcite precipitation on and around the biofilms. Early manganese carbonate mineralisation was directly associated with cell walls, potentially related to microbial activity. Carbonate chimneys represent a promising macroscale target in the exploration for ancient or extraterrestrial life.
 
-## Methodology
-- **Fieldwork:** Conducted at Mono Lake, California, focusing on Pleistocene chimney structures.
-- **XRD Analysis:** Performed on a PANAlytical Empyrean X-ray diffractometer to determine bulk rock mineralogy.
-- **Biomarker Analysis:** Using GC-MS to identify organic carbon entombed within the rock.
-- **Microscopy:** Correlative approach including FIB-SEM, TEM, and NanoSIMS ion mapping to analyze cell-mineral spatial relationships.
+## 1. Introduction
+Distinguishing biologically influenced sedimentary rock structures from abiotic ones is a key challenge in the search for early and extraterrestrial life. Mono Lake, California, is a globally important site for studying potential biogeochemical processes creating “tufa” limestone chimney constructions around sublacustrine vents.
 
-## Results
+## 2. Methods
+### 2.1 Fieldwork
+Samples of Pleistocene chimney structures close to Mono City were taken in October 2014.
 
-### Petrography and Mineralogy
-- **Bulk Mineralogy:** ~99% of chimney pipe rock is calcite with an average magnesium content of 8.1(1)%. 
-- **Silicates:** Minor constituents (~1%) include quartz, alkali feldspar, and chlorite-group minerals, mostly detrital in origin.
-- **Structure:** Chimneys (3-4 m height) are composed of stacked calcitic cones/pipes (~3 cm width) with a central conduit.
+### 2.2 Analysis Techniques
+*   **XRD analysis:** Performed on a PANAlytical Empyrean X-ray diffractometer to determine bulk mineralogy.
+*   **Biomarker analysis:** Conducted using an Agilent 6890GC with an Agilent 5975MS to identify organic carbon lipids (n-alkanes, phytane, diploptene).
+*   **Microscopy:** Correlative microscopy including NanoSIMS ion mapping, SEM-EDS, and TEM analysis of FIB-milled wafers.
 
-### Microfossil Analysis
-- **Type 1 Filaments:** 0.8 to 8 μm diameter; dominated by empty sheaths with high organic content.
-- **Type 2 Filaments:** 10 to 14.5 μm diameter; well-preserved trichomes with clear interior mineralization and segmentation.
-- **Biomarkers:** Predominance of n-C15 to C18 n-alkanes (max at C17) and hopenes (diploptene), consistent with cyanobacterial signatures.
+## 3. Results
+*   **Chimney Dimensions:** Chimneys range from 3 to 4 m in height and 1.5 to 3 m in width.
+*   **Internal Structure:** Stacks of numerous calcitic cones or pipes (30–60 cm height, ~3 cm width). Each pipe has a central ~1 cm void or conduit.
+*   **Mineralogy:** ~99% calcite with an average magnesium content of 8.1%. ~1% quartz.
+*   **Microfossils:** Ubiquitous filamentous structures (Type 1: 0.8–8 μm diameter; Type 2: 10–14.5 μm diameter) consistent with cyanobacteria.
 
-## Discussion and Conclusion
-The Mono City chimney pipes are interpreted as calcified microbial mats. Cyanobacterial biofilms around rising spring waters influenced the tufa chimney fabric at the nano- and micro-scales. The biofilms (EOM) served as preferential sites for calcite crystal nucleation. The study concludes that while tectonics and water chemistry control chimney location, the morphology is microbially mediated. This has direct applicability to the search for extraterrestrial life, particularly on Mars.
+## 4. Discussion
+### 4.1 Biological Influence
+Benthic cyanobacteria and EOM likely provided the initial site for calcite nucleation. The tubular sheets of EOM from microbes inhabiting the zones around rising vent waters were preferential sites for crystal nucleation. This suggests that while much crystal growth was abiotic, the macroscale form (pipes) was microbially mediated.
+
+### 4.2 Astrobiological Implications
+These carbonate chimneys serve as a macroscale target for the search for ancient or extraterrestrial life (e.g., on Mars), where similar hydrothermal or sublacustrine venting might have occurred.
+
+## 5. Conclusions
+The Mono City chimney pipes are packed with fossil microbial filaments. Microbes influenced the chimney fabric at nano-, micro-, and macro-scales. Fossilization was likely related to the microbial EOM stripping calcium from rising vent waters, favoring calcite nucleation and subsequent organized crystal growth.
