@@ -1,33 +1,20 @@
 # Multiscale Modeling and Testing of Protein-Bound Regolith and Soils
 
-**I. Rosa**; **M. D. Lepech**; and **D. J. Loftus**
+## Abstract
+Extraterrestrial construction requires utilizing limited local resources like regolith. This research focuses on protein-bound soils, created by mixing regolith simulant with a biopolymer binder and water. A multiscale framework spanning from the nanoscale (protein properties) to the macroscale (bulk testing) is proposed to model and predict the mechanical performance of these composites for use on the Moon and Mars.
 
-## ABSTRACT
-Extraterrestrial construction presents many interesting and new challenges. Unlike Earth, there are very limited naturally occurring resources readily available in extraterrestrial environments, such as the Moon or Mars. Transporting large amounts of materials from Earth is cost prohibitive. Thus, this work focuses on a novel class of composites for use in limited resource environments: protein-bound soils. The composite is produced by mixing soil, water, and a biopolymer binder (protein or other biopolymer) to create a versatile composite with compressive strength comparable to that of ordinary Portland cement concrete. This paper proposes a multi-scale framework to model the composite’s fracture properties in order to design a durable material that can resist extreme environments.
+## Introduction
+Radiation exposure and meteorite impacts are significant hurdles for planetary exploration. Using in situ resource utilization (ISRU), regolith can be converted into protective infrastructure. Protein-bound regolith offers a low-energy alternative to energy-intensive sintering methods for constructing landing pads and shielding structures.
 
-## INTRODUCTION
-One of the most challenging aspects of space surface operations is providing protection to both equipment and personnel. NASA's *Journey to Mars Roadmap* (2015) identifies *in situ resource utilization* (ISRU) as key to reducing exploration costs. Regolith has the potential to provide raw materials for radiation shielding. Protein-bound regolith offers a low-energy, in situ construction material for structures, roads, and landing pads.
+## Multiscale Framework Development
+The study defines a hierarchical modeling approach to capture the material's complexity:
+1. **Nanoscale**: Characterization of desiccated protein binders via nanoindentation.
+2. **Microscale**: Creation of Statistically Equivalent Periodic Unit Cells (SEPUC) using MicroCT imaging to model interactions between particles, binder bridges, and voids.
+3. **Mesoscale**: Implementation of the Rigid Body Spring Model (RBSM) to simulate fracture patterns and crack propagation in the homogenized material.
+4. **Macroscale**: Experimental validation through uniaxial and triaxial testing to confirm the yield surface and strength.
 
-### Material Composition and Microstructure
-- **Binder:** Desiccated proteins (e.g., bovine serum albumin) at 5-15% by weight.
-- **Matrix:** Lunar or Martian regolith simulant.
-- **Porosity:** 20-40% (compared to 7-20% for Portland cement).
-- **Mechanism:** Protein coats soil particles and forms film bridges connecting adjacent particles.
+## Results and Discussion
+Protein-bound regolith simulant demonstrated a stiffness of approximately 1.2 GPa and a compressive strength of 12 MPa. While less stiff than traditional Portland cement mortar, the material exhibits larger deformations before failure, which must be accounted for in structural designs. Porosity was found to be a critical factor, ranging from 20% to 40% in the tested composites.
 
-## DEVELOPMENT OF A MULTISCALE FRAMEWORK
-The framework integrates four scales:
-1. **Nanoscale:** Nanoindentation to find the linear elastic properties of dried protein.
-2. **Microscale:** Statistically Equivalent Periodic Unit Cells (SEPUC) based on MicroCT scans to capture soil-protein-void interactions.
-3. **Mesoscale:** Rigid Body Spring Model (RBSM) to simulate crack propagation and fracture in homogenized material.
-4. **Macroscale:** Uniaxial and triaxial testing (aided by Digital Image Correlation) to validate models and understand failure yield surfaces.
-
-## RESULTS AND COMPARISON
-| Property | Portland Cement Mortar | Protein-Bound Regolith |
-| :--- | :--- | :--- |
-| Compressive Strength | ~35 MPa | ~12 MPa |
-| Stiffness (Young's Modulus) | ~22 GPa | ~1.2 GPa |
-| Porosity | 7 - 20% | 20 - 40% |
-| Binder Young's Modulus | 10 - 25 GPa | ~4 MPa (Estimated) |
-
-## CONCLUSIONS & FUTURE WORK
-The multiscale framework allows for the prediction of mechanical properties based on mix design. Future work will include optimizing mix designs for specific environments and extending the model to the system scale for full-scale extraterrestrial structures.
+## Conclusions
+The proposed multiscale framework successfully links the properties of biological binders to the performance of regolith composites. This enables the optimization of material mixes for specific extraterrestrial environments and load requirements.
