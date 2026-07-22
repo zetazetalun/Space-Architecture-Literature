@@ -1,36 +1,43 @@
 # Silicate-lunar regolith composite: A vacuum self-hardened and comprehensively durable extraterrestrial construction material
 
-**Journal:** Construction and Building Materials 449 (2024) 138517  
-**Authors:** Zifan Geng, Lizhi Zhang, Zhiwen Wu, Jiale Huang, Xiangyu Wang, Ming Jen Tan, Wei She, Hao Zhou, Guoqing Geng
+**Authors:** Zifan Geng, Lizhi Zhang, Zhiwen Wu, Jiale Huang, Xiangyu Wang, Ming Jen Tan, Wei She, Hao Zhou, Guoqing Geng  
+**Journal:** Construction and Building Materials  
+**Volume:** 449 (2024) 138517  
+**DOI:** 10.1016/j.conbuildmat.2024.138517
 
 ## Abstract
-Extraterrestrial exploration, represented by Lunar base construction, has been promoted worldwide as a multi-disciplinary, cutting-edge and strategic issue. Herein we proposed a novel extraterrestrial construction material composed of Lunar/Martian regolith simulants and only 4 wt% of silicate adhesive. This silicate-regolith composite can be directly self-hardened in vacuum within 4.5 h without any curing to achieve 29 MPa of hardening strength. Meanwhile, it shows comprehensive durability with stable microstructures and >70% of residual strength against long-term vacuum exposure, huge temperature difference and intense γ-ray and proton radiations. Its in-situ solidification and durability originate from vacuum dehydration, where silica clusters in solution spontaneously cohere into a solid network with strong connections of silica tetrahedra and bound water. A moderate silicate modulus around 2.5 and appropriate modifications can disperse finer silica clusters to increase oligomer silica units in solution and enhance hardening strength. Compared with lunar geopolymer and other existing extraterrestrial construction materials, this vacuum self-hardening composite allows a cryogenic preparation even below −40 °C using diverse regolith with a wide range of compositions and sizes, proposing a facile, durable and versatile solution towards in-situ extraterrestrial constructions.
+Extraterrestrial exploration, represented by Lunar base construction, has been promoted worldwide. This paper proposes a novel extraterrestrial construction material composed of Lunar/Martian regolith simulants and only 4 wt% of silicate adhesive. This silicate-regolith composite (SLRC) can be directly self-hardened in vacuum within 4.5 h without any curing to achieve 29 MPa of hardening strength. It shows comprehensive durability with stable microstructures and >70 % of residual strength against long-term vacuum exposure, extreme temperature differences, and intense γ-ray and proton radiation.
 
 ## 1. Introduction
-Infrastructure on the Moon faces rigorous environments including huge temperature differences (-200 °C to 120 °C), high vacuum (10⁻¹⁰-10⁻⁹ Pa), and intense radiation. Transporting materials is extremely costly, necessitating the use of in-situ lunar resources. Current concepts like sintering require high energy, while lunar geopolymers often require thermal curing (above 60 °C) which is difficult in shaded or cryogenic regions.
+Lunar construction requires materials that can withstand extreme temperature cycles (-200 °C to 120 °C), high vacuum ($10^{-10}$ to $10^{-9}$ Pa), and radiation. Transport costs make in-situ resource utilization (ISRU) essential. Current methods like sintering or geopolymerization often require high energy input or specific thermal curing (e.g., >60 °C for geopolymers).
 
 ## 2. Materials and Methods
-### 2.1 Materials
-- **Lunar Regolith Simulants (LRS):** LRS-1 (Apollo-17 target), LRS-2 (Apollo-14), LRS-3 (Apollo-12), and Martian Regolith Simulant (MRS).
-- **Binder:** Sodium Silicate (SS) solution with a 30 wt% concentration. Moduli (SiO₂/Na₂O ratio) were tested at 2.0, 2.5, and 3.0.
-- **Modifying Agents:** Sodium pyrophosphate, sodium dodecyl sulfate, and hydrothermal treatments.
+### 2.1. Materials
+*   **Regolith Simulants:** LRS-1 (Apollo-17 simulant), LRS-2, LRS-3, and MRS (Martian regolith simulant).
+*   **Binder:** Sodium silicate (SS) solution with varying moduli (2.0, 2.5, 3.0) and modifying agents (sodium pyrophosphate, sodium dodecyl sulfate).
 
-### 2.2 Sample Preparation
-Regolith and silicate solution (mass ratio 1:0.14) were mixed in a hermetic environment at 6000 rpm. The damp mixture was cold-pressed at 9.5 MPa to form 40x10x10 mm³ green bodies, then placed in a vacuum tank (<10 Pa) for dehydration-induced hardening.
+### 2.2. Sample Preparation
+*   Mass ratio of silicate solution to regolith: 0.14:1 (yielding ~4 wt% solid binder).
+*   Mixing: Hermetic environment at 6000 rpm for 20 s.
+*   Molding: Cold-pressing at 9.5 MPa to form 40 x 10 x 10 mm³ green bodies.
+*   Hardening: Immediate exposure to high vacuum (<10 Pa).
 
 ## 3. Results and Discussion
-### 3.1 Self-hardening and Durability
-- **Hardening:** SS2.5 achieved 5.48 MPa flexural and 18.19 MPa compressive strength after 4.5h of vacuum exposure. Modified versions (SS2.5HT) achieved 6.54 MPa flexural and 20.34 MPa compressive strength.
-- **Thermal Cycling:** After exposure to lunar diurnal cycles (78 °C to -196 °C), the SLRC maintained 71%-81% of its flexural strength and 88%-98% of its compressive strength.
-- **Microstructure:** SEM and FIB analysis showed stable silicate bridges between regolith particles. Porosity slightly increased from 34.7 vol% to ~37 vol% due to dehydration but stabilized after one lunar day.
+### 3.1. Self-hardening and Durability
+*   **Hardening Time:** Achieves significant strength within 4.5 h of vacuum exposure via dehydration.
+*   **Strength:** SS2.5 generated 18.19 MPa compressive strength. Modified binders (SS2.5HT) achieved up to 20.34 MPa in 4.5 h.
+*   **Durability:** Maintained 71–81% flexural strength and 88–98% compressive strength after long-term (108 days) vacuum/thermal cycling simulations.
+*   **Radiation Resistance:** No significant deterioration after intense γ-ray and proton radiation exposure.
 
-### 3.4 Comprehensive Evaluation
-| Item | Regolith Selection | Carried Materials | Processing Temp | Supplementary Processing | Compressive Strength | Durability |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Selective Sintering | ≤ 0.5 mm | None | 1000–1100 °C | Powder-bed/Sunlight | 2–5 MPa | Uncertain |
-| Bulk sintering | ≤ 0.2 mm | None | 1000–1100 °C | 10–255 MPa pressing | 2–152 MPa | Uncertain |
-| Lunar geopolymer | ≤ 1 mm | 6–32% alkali | 60–195 °C | 6–72 h sealed curing | 16–50 MPa | Uncertain |
-| **SLRC (This study)** | **≤ 1 mm (flexible)** | **≤ 4 wt% silicate** | **Flexible (≥ -40 °C)** | **< 10 MPa pressing** | **20–29 MPa** | **72–100% residual** |
+### 3.2. Mechanisms
+Vacuum dehydration causes silica clusters to cohere into a solid network of silica tetrahedra. Higher modulus (around 2.5) provides a balance between cluster size and active silica units for optimal adhesion.
 
 ## 4. Conclusion
-This study proposed a silicate-regolith composite that self-hardens via vacuum dehydration without artificial heating. It uses low binder content (4 wt%) and maintains high durability in extreme environments. The material allows for cryogenic preparation, making it suitable for polar regions or sunless lava tubes.
+The SLRC material provides a facile, low-energy solution for lunar/Martian construction. It allows for cryogenic preparation (below -40 °C) and utilizes diverse regolith compositions, making it suitable for polar regions or sunless lava tubes.
+
+| Item | Sintering | Lunar Geopolymer | Silicate-regolith Composite |
+| :--- | :--- | :--- | :--- |
+| **Binder %** | 0% | 6-32% | ~4% |
+| **Temp.** | 1000-1100 °C | 60-195 °C | Flexible (≥ -40 °C) |
+| **Strength** | 2-152 MPa | 16-50 MPa | 20-29 MPa |
+| **Energy** | High | Medium | Low |
