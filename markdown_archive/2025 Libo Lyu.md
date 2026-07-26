@@ -4,31 +4,44 @@
 **Authors:** Libo Lyu, Weihong Li, Yongjie Deng, Qiuchun Yu, Haiyan Ma, Hongfa Yu, Lingyu Li, Haosong Xuan, Honglei Zhang, Mingyang Lu
 
 ## Abstract
-To tackle the extreme environmental challenges and sustainable extraterrestrial construction material supply issues for lunar base development, this study fabricated a magnesium phosphate cement-based lunar soil concrete (L-MPC-LSC) following in-situ resource utilization (ISRU) principles and integrated it with 3D printing construction technology. This paper investigates the effects of lunar soil (LS) content on the microstructure and mechanical properties of L-MPC-LSC under both standard atmospheric and simulated lunar vacuum conditions, while evaluating the engineering feasibility of a 3D-printed lunar dome model for lunar surface construction.
+To tackle the extreme environmental challenges and sustainable extraterrestrial construction material supply issues for lunar base development, this study fabricated a magnesium phosphate cement-based lunar soil concrete (L-MPC-LSC) following in-situ resource utilization (ISRU) principles and integrated it with 3D printing construction technology. This paper investigates the effects of lunar soil (LS) content on the microstructure and mechanical properties of L-MPC-LSC under both standard atmospheric and simulated lunar vacuum conditions, while evaluating the engineering feasibility of 3D-printed lunar dome model for lunar surface construction. 
 
 ## 1. Introduction
-The establishment of sustainable lunar bases requires breakthroughs in architectural structural design and regolith-based materials. 3D printing technology offers automation and remote-control capabilities, significantly reducing reliance on Earth-supplied resources. Magnesium phosphate cement (MPC) is particularly suitable due to its rapid setting, high early strength, and ability to mitigate moisture evaporation in vacuum environments.
+The study highlights that achieving sustainable lunar bases requires breakthroughs in architectural structural design under extreme lunar environmental constraints (vacuum, temperature fluctuations, low gravity) and overcoming bottlenecks in regolith-based materials. Magnesium Phosphate Cement (MPC) is identified as a promising binder due to its rapid setting and high early-age strength, which helps mitigate moisture evaporation in vacuum environments.
 
 ## 2. Experimental Program
-- **Cementitious Material:** Magnesium oxide (MgO), industrial-grade potassium dihydrogen phosphate (KH2PO4), and borax retarder.
-- **Simulant:** NUAA-1A lunar soil simulant (LS).
-- **3D Printing System:** A self-developed integrated mixing-stirring-extrusion 3D printing system using a "dry powder in, wet material out" mode to handle quick-setting materials and minimize water consumption.
-- **Testing Conditions:** Standard ambient air and simulated lunar vacuum (-10⁶ Pa).
+
+### 2.1 Raw Materials
+*   **Cementitious material:** Light-burned magnesium oxide (MgO), industrial-grade potassium dihydrogen phosphate (KH2PO4), and borax retarder.
+*   **Lunar Soil Simulant:** NUAA-1A (simulating Apollo-derived samples).
+
+### 2.2 Mix Proportions
+| LS/M Ratio | MgO (g) | KH2PO4 (g) | LS (g) | B (g) | LS % of system | B/MgO |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| LS/M = 0 | 499.9 | 425.1 | 0 | 75 | 0 % | 15 % |
+| LS/M = 1 | 333.3 | 283.4 | 333.3 | 50 | 33.3 % | 15 % |
+| LS/M = 2 | 250 | 212.6 | 500 | 37.5 | 50 % | 15 % |
+| LS/M = 3 | 200 | 170.1 | 600 | 30 | 60 % | 15 % |
+| LS/M = 4 | 166.6 | 141.7 | 666.4 | 25 | 66.6 % | 15 % |
+
+### 2.4.1 3D Printing Equipment
+A self-developed integrated mixing-stirring-extrusion 3D printing system was used, employing a "dry powder in, wet material out" mode to solve the challenge of printing quick-setting MPC.
 
 ## 3. Results and Discussion
-### 3.1 Mechanical Properties
-- **LS Content:** Compressive and flexural strengths initially increased and then decreased as the LS dosage rose. The optimal LS/M (lunar soil to magnesium oxide) ratio was found to be 3.
-- **Vacuum Effects:** Vacuum curing caused rapid dehydration and a 19–52% strength loss. However, the LS/M = 3 specimen achieved 4.1 MPa after three days, meeting the estimated 4-6 MPa requirement for lunar applications (1/6 Earth gravity).
-- **ISRU Yield:** The L-MPC-LSC material achieved a 60% ISRU rate.
 
-### 3.2 3D Printing Performance
-- **Printability:** The material showed excellent extrudability with a width uniformity coefficient of 2.04% and thickness uniformity of 0.48%.
-- **Structural Validation:** Successful construction of a 3D-printed hollow cylindrical component and a novel arc-curved hexagonal dome model.
-- **Robotic Strategy:** Validation of a multi-robot collaborative printing strategy where a dome is divided into six petal-shaped modular units.
+### 3.1 Setting Time
+Setting times increased as LS dosage rose, ranging from 30 s to 130 s (all under 3 minutes). This is advantageous for adapting to the lunar environment.
+
+### 3.2 Mechanical Properties
+*   **Air Curing:** Compressive and flexural strengths initially increased then decreased as LS dosage rose. At LS/M = 1, strength peaked. LS/M = 3 met the lunar structural requirement (assumed 4–6 MPa range).
+*   **Vacuum Curing:** Specimens exhibited 19–52 % strength loss compared to air curing. However, at 3 days, the LS/M = 3 specimen still achieved 4.1 MPa.
+
+### 3.4 3D Printing Performance
+*   **Extrudability:** Width uniformity reached 2.04 % and thickness uniformity 0.48 % for the LS/M = 3 mix.
+*   **Buildability:** A hollow cylindrical component showed a mean dimensional deviation of 1.14 %.
 
 ## 4. Conclusions
-1. LS addition improves setting time and mechanical properties at appropriate amounts (optimal LS/M < 3).
-2. LS particles act as micro-aggregates, optimizing particle distribution and densifying the structure.
-3. Vacuum conditions suppress hydration due to water evaporation, leading to strength reduction, yet structural integrity is maintained at 60% LS incorporation.
-4. Precise dimensional control was confirmed with a mean overall deviation of 1.14% in structural components.
-5. Integrated 3D printing and robotic collaboration show promising potential for lunar lava tube dome engineering.
+1.  Lunar soil (LS) addition improves setting time and enhances mechanical properties up to a 60% incorporation rate (LS/M = 3).
+2.  Vacuum environments cause strength reduction due to water evaporation but hydration continues.
+3.  L-MPC-LSC material demonstrates superior printability with high precision.
+4.  Collaborative multi-robot synchronous printing is feasible for constructing large-scale complex architectures like lunar domes.
