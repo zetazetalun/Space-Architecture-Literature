@@ -1,45 +1,33 @@
 # Carbon capture through 3D bioprinting and in situ biomineralization: investigation of physical and mechanical properties
 
-**Journal:** Heliyon 12 (2026) e44589  
-**DOI:** https://doi.org/10.1016/j.heliyon.2026.e44589  
-
 ## Abstract
-This study presents a novel approach to capture CO2 through microbial mineralization in 3D-printed bioconstructs using *Sporosarcina pasteurii* bacteria. The approach employs carbonic anhydrase (CA) enzymes to transform CO2 into CaCO3 within a hydrogel basis of carboxymethyl cellulose (CMC) and alginate. The method achieves rapid strength gain (up to 8.6 MPa after 2 days) and offers a urea-free alternative to conventional MICP, advancing construction technology for Earth and extraterrestrial settlements.
+This study presents a novel approach to capture CO2 through microbial mineralization in 3D-printed bioconstructs. Using the carbonic anhydrase enzyme produced by *Sporosarcina pasteurii* bacteria, a 'bactoink' (a blend of carboxymethyl cellulose and alginate) captures CO2 and transforms it into CaCO3. The bioconstructs achieved a compressive strength of up to 17.2 MPa after 1 day. This method avoids urea-based byproducts and offers a sustainable strategy for terrestrial and extraterrestrial settlements.
 
 ## 1. Introduction
-Microorganism-mediated mineralization provides an energy-efficient process to develop biocomposites. This research focuses on integrating biomineralizing bacterial strains with additive manufacturing to produce negative emission materials. Unlike ureolytic MICP, which produces toxic ammonium, the proposed CA-based pathway directly sequester CO2.
+Microorganism-mediated mineralization provides an energy-efficient process to develop biocomposites. Ureolytic MICP often results in ammonium ions, raising environmental concerns. This study proposes a urea-free bactoink that utilizes the CA-enzyme pathway to facilitate CO2 hydration and subsequent CaCO3 precipitation.
 
 ## 2. Materials and Methods
-- **Bacteria:** *Sporosarcina pasteurii* (strain PTCC 1645).
-- **Bactoink:** Optimized blend of 7g potassium alginate, 7g CMC, and 100 mL bacterial suspension (OD = 1).
-- **3D Printing:** In-house bioprinter, 21 G needle, 0.63 mL/min flow rate, 28 mm/s speed.
-- **Mineralization:** Exposure to 1 atm CO2 in a sealed container for up to 2 days.
+- **Bacteria:** *Sporosarcina pasteurii* (PTCC 1645).
+- **Hydrogel Basis:** 7g potassium alginate, 7g carboxymethyl cellulose (CMC), and 100 mL bacterial suspension (OD=1).
+- **3D Printing:** Modified in-house bioprinter; 21 G needle; flow rate 0.63 mL/min; speed 28 mm/s.
+- **Biomineralization:** Exposure to CO2 gas at 1 atm in a 0.5 M CaCl2 solution for up to 2 days.
 
 ## 3. Results and Discussion
-- **Rheology:** Bactoink exhibits strong shear-thinning behavior (flow index n = 0.243), suitable for extrusion.
-- **Mineralization Validation:** SEM, XRD, and Raman spectroscopy confirmed vaterite (CaCO3) precipitation.
-- **Mechanical Properties:** Compressive strength reached 17.2 MPa for Day 1 (D1) samples at 40% strain, while Day 2 (D2) samples reached 8.6 MPa due to microporosity from over-mineralization.
-- **CO2 Sequestration:** Capacity of 5.46 mmol CO2/g for D1 and 7.36 mmol CO2/g for D2.
+### 3.1. Rheological Characterization
+A 7:7 alginate-to-CMC ratio was found optimal for printability. Both bioink and bactoink exhibited shear-thinning behavior.
 
-## 4. Future Outlook for Space Architecture
-Section 5 explicitly notes that the potential use of bactoink in off-Earth construction warrants systematic investigation. Key points include:
-- Use of Martian/Lunar characteristic extreme conditions.
-- ISRU potential: Leveraging Martian atmospheric CO2 and local regolith as carbon and aggregate sources.
-- Co-culturing with radiation-resistant extremophiles (*Deinococcus radiodurans*).
-
-## 5. Conclusion
-The study demonstrates a scalable, affordable solution for sustainable carbon-negative manufacturing. The mineralized constructs achieved compressive strengths suitable for various industrial and potential extraterrestrial structural applications.
-
-### Table 1: Rheological Fitting
-| Sample | K (mPa.sⁿ) | n | R² |
+| Sample | K (mPa.s^n) | n | R² |
 | :--- | :--- | :--- | :--- |
 | Bioink | 476994.52 | 0.319 | 0.9478 |
 | Bactoink | 544699.17 | 0.243 | 0.9697 |
 
-### Table 3: CO2 Sequestration Capacities
-| Material | CO2 Sequestration Capacity (mmol/g) |
-| :--- | :--- |
-| Modified Zeolite | 0.361 |
-| Synechococcus Bacteria | 18 |
-| D1 (This work) | 5.46 |
-| D2 (This work) | 7.36 |
+### 3.4. Characterization of 3D bioprinted constructs
+- **SEM/XRD:** Confirmed the presence of spherical vaterite crystals (2-5 μm). D2 samples showed ~93% vaterite and ~7% calcite.
+- **Compression Test:** D1 samples (1 day) achieved a compressive strength of 17.2 MPa at 40% strain. D2 samples reached 8.6 MPa, indicating that over-mineralization can induce microporosity and reduce strength.
+- **CO2 Sequestration:** Sequestration capacity reached 7.36 mmol CO2/g for the D2 formulation.
+
+## 4. Conclusion
+The study successfully demonstrates 3D bioprinting of CO2-absorbing living materials. These biocomposites serve as a scalable, affordable solution for sustainable carbon-negative manufacturing and extraterrestrial habitat construction.
+
+## 5. Future Outlook
+Specifically mentions potential for off-Earth construction in Martian and lunar environments, leveraging in-situ resource utilization (ISRU) of Martian atmospheric CO2 and local regolith.
