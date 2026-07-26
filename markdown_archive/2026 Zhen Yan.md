@@ -1,31 +1,49 @@
-# Vacuum effects on Lunar/Martian simulant consolidation via enzyme-induced carbonate precipitation
+# Kitchen waste bone-driven enzyme-induced calcium phosphate precipitation under microgravity for space biocementation
 
-**Authors:** Zhen Yan, Satoru Kawasaki
-**Journal:** Advances in Space Research 77 (2026) 12577–12587
-**Available online:** 17 March 2026
+**Authors:** Zhen Yan, Kazunori Nakashima, Chikara Takano, Satoru Kawasaki  
+**Journal:** Biogeotechnics  
+**Volume:** 4 (2026) 100156  
+**DOI:** https://doi.org/10.1016/j.bgtech.2024.100156
 
 ## Abstract
-As space exploration advances, the development of construction materials suitable for extraterrestrial environments has become a critical research focus. Biocement, due to its sustainability and potential applications with in-situ resource utilization (ISRU), has emerged as a promising approach for extraterrestrial construction. However, its feasibility under extreme space conditions, particularly in vacuum environments, remains largely unexplored. This study investigates the effects of vacuum conditions on the consolidation of lunar and Martian regolith simulants via enzyme-induced carbonate precipitation and compares the results with those under atmospheric pressure. Experimental results indicate that while vacuum conditions have little effect on precipitation content, they significantly reduce the unconfined compressive strength of the consolidated samples. This reduction is primarily attributed to the rapid volatilization of water and ammonia under vacuum, leading to increased porosity and a looser microstructure, which weakens the mechanical performance.
+This study validates the feasibility of extracting calcium and phosphorus from kitchen waste bones for crude enzyme-induced calcium phosphate precipitation (EICPP) under both normal and microgravity conditions. The experimental results demonstrate no significant differences in the degree of reaction and characteristics of precipitation between these environments. By leveraging local resources, reducing material transport costs, and addressing waste management challenges, this research underscores the potential for extraterrestrial construction, thereby enhancing sustainability in space environments. These findings offer promising insights for the application of space biocementation, particularly during the expansion phase of human settlements.
 
 ## 1. Introduction
-The development of construction materials suitable for extraterrestrial environments is crucial to meet the future construction needs of lunar or Martian bases and reduce the high costs of transporting building materials from Earth. Various ISRU technologies have been proposed, including sulfur-based concrete, cast/sintered regolith, and regolith geopolymers. Biocement (specifically EICP) offers an advantage over microbially induced carbonate precipitation (MICP) by eliminating risks associated with bacterial contamination and not requiring oxygen.
+As human exploration shifts toward enduring bases on the Moon and Mars, the high cost of transporting materials remains a hurdle. In-Situ Resource Utilization (ISRU) aims to use local resources to reduce Earth-dependency. Biocementation, using microorganisms or enzymes to induce mineral precipitation, is a key ISRU candidate. This study uses soybean crude enzymes and kitchen waste bones to evaluate Enzyme-Induced Calcium Phosphate Precipitation (EICPP) in microgravity.
 
 ## 2. Materials and Methods
-### 2.1. Cementing solution and simulants
-*   **Urease Source:** Crude soybean urease (50 g/L powder concentration).
-*   **Cementing Solution:** Molar concentration of 1 M calcium chloride and urea, resulting in 0.5 M final concentration.
-*   **Simulants:** Lunar highland simulant (LHS-1) and Martian global simulant (MGS-1).
 
-### 2.2. Consolidation of simulants
-Experiments were conducted under vacuum (~ -0.085 MPa gauge) and atmospheric pressure. Samples were pre-cooled to 4°C to delay enzymatic activity during preparation. Cycles of 1, 2, 3, and 4 treatments were applied.
+### 2.1. Waste bone and crude enzyme and extraction
+- **Source:** Kitchen waste pig bones.
+- **Process:** Bones ground to <150 μm, dissolved in 2 mol/L HCl, and adjusted to pH 3.6 ± 0.2 with a calcium concentration of 8500 ± 200 ppm.
+- **Enzyme:** Crude soybean (Glycine max) urease (activity ~11.2 U) extracted from ground soybeans.
+- **Reaction Equation:**
+  - Bone Dissolution: Ca10(PO4)6(OH)2 + 8 HCl → 10 Ca2+ + 6 HPO4 2− + 8 Cl− + 2 H2O
+  - Urea Hydrolysis: CO(NH2)2 + 2 H2O → H2CO3 + 2 NH3
+  - Precipitation: 10 Ca2+ + 6 PO4 3− + 2 OH− → Ca10(PO4)6(OH)2
 
-## 3. Results and discussion
-### 3.1. Microstructure and crystalline phase analysis
-SEM images revealed that samples treated under vacuum exhibit larger pores compared to those cured under atmospheric pressure due to the rapid volatilization of water and ammonia. XRD analysis revealed no significant changes in the crystalline phase composition (primarily aragonite).
+### 2.2. Liquid phase experiment
+- **Gravity Conditions:** Normal gravity (1g) and simulated microgravity (10^-3 g) using a Kitagawa Zeromo CL-1000 microgravity clinostat.
+- **Protocol:** Solutions cooled to 4 °C to delay reaction before mixing. Reaction duration: 24 hours at 25 °C.
 
-### 3.2. Consolidation performance analysis
-*   **Precipitation Content:** There was no significant difference in calcium carbonate content between vacuum and atmospheric conditions (difference < 1%).
-*   **Mechanical Strength:** Unconfined compressive strength (UCS) in vacuum was significantly lower than at atmospheric pressure. For lunar simulant, atmospheric samples reached ~580 kPa after 4 cycles, while vacuum samples only reached ~120 kPa.
+## 3. Results and Discussion
 
-## 4. Conclusions
-The study confirms that EICP remains chemically viable in vacuum, but consolidation effectiveness is limited by structural changes (increased porosity) at the microscale. Future research should focus on optimizing curing protocols to mitigate pore formation in vacuum environments.
+### 3.1. Reaction Monitoring
+- **pH Trends:** pH increased with urea content due to hydrolysis. Even at highest reaction extents, pH remained near-neutral, favoring ammonium recovery.
+- **Calcium Concentration:** Decreased as urea content increased, confirming successful precipitation.
+- **Gravity Comparison:** No significant differences in pH, calcium ion consumption, or ammonia levels between normal and microgravity.
+
+### 3.2. Precipitation Analysis
+- **Morphology:** SEM images showed small precipitate particles in both environments.
+- **Phase Identification:** XRD identified hydroxyapatite (Ca10(PO4)6(OH)2) as the dominant crystalline phase.
+
+### 3.3. Potential Applications
+EICPP can utilize human/animal waste and plant residues (soybean) in closed-loop systems. It can stabilize regolith for radiation shielding and dust control on Moon and Mars without requiring oxygen, unlike microbe-based methods.
+
+## 4. Conclusion
+EICPP using waste-derived components is feasible in microgravity. No significant microstructural or chemical differences were found between 1g and microgravity results. This supports the viability of biocement for sustainable extraterrestrial construction and waste management.
+
+| Case name | Gravity condition | Urea/Ca2+ ratio |
+|-----------|-------------------|-----------------|
+| MA-ME     | Microgravity      | 0 to 1.0        |
+| NA-NE     | Normal gravity    | 0 to 1.0        |
