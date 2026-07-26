@@ -1,47 +1,46 @@
 # From Earth to Mars: a perspective on exploiting biomineralization for Martian construction
 
-**Authors:** Shiva Khoshtinat, Jared Long-Fox, Seyed Mohammad Javad Hosseini  
-**Published:** 02 December 2025  
-**Journal:** Frontiers in Microbiology  
-**DOI:** 10.3389/fmicb.2025.1645014
-
 ## Abstract
-The future of Mars colonization hinges on the ability to construct durable infrastructure using locally available resources. This perspective article explores the potential of biomineralization as a low-energy, sustainable alternative to conventional construction methods. Following an assessment of the chemical composition of Martian regolith, its suitability as a substrate for biomineralization pathways is evaluated. Special emphasis is placed on identifying biological pathways compatible with Martian geochemistry and environmental stresses. The integration of robotics and automation in biocementation-based additive manufacturing is discussed.
+The future of Mars colonization hinges on the ability to construct durable infrastructure using locally available resources. This perspective article explores the potential of biomineralization as a low-energy, sustainable alternative to conventional construction methods. It assesses Martian regolith suitability, biological pathways (ureolysis and photosynthesis), and the integration of robotics for additive manufacturing.
 
 ## 1 Introduction
-Human colonization of other planets relies on constructing safe, sustainable infrastructure off-Earth. Mars is a leading candidate, but extreme conditions (radiation, temperature fluctuations, low pressure) make long-term presence challenging. Sourcing construction materials from Earth is prohibitively expensive, making In Situ Resource Utilization (ISRU) critical.
+Human colonization of Mars requires safe and sustainable infrastructure. Challenges include extreme environmental conditions, high costs of transporting materials from Earth, and power constraints. ISRU is critical for mission sustainability.
 
 ## 2 Martian resources and environmental challenges
 
 ### 2.1 Martian soil composition
-Martian regolith shares similarities with Portland cement but lacks sufficient calcium oxide (CaO).
+Martian regolith is rich in silica (42–47%) and iron oxides but deficient in calcium oxide (5.7–6.9%) compared to Portland cement (60–67%). Supplementation or alternative binders are needed.
 
-**Table 1: Chemical composition of Martian crust and regolith compared to Portland cement.**
-| Compound | SiO₂ (%) | Al₂O₃ (%) | FeO (%) | Fe₂O₃ (%) | MgO (%) | CaO (%) | SO₃ (%) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Portland cement | 17–25 | ≤6 | – | ≤6 | ≤6 | 60–67 | <3 |
-| Martian Crust | 49.3 | 10.5 | 18.2 | – | 9.1 | 6.9 | – |
-| Martian regolith | 42.1–46.7 | 7.3–10.1 | 10.4–26.2 | 4.3–7.3 | 6–9.3 | 5.7–6.7 | 4.9–7.4 |
+| Compound | Portland cement | Martian Crust | Martian regolith |
+| :--- | :--- | :--- | :--- |
+| SiO2 | 17–25 | 49.3 | 42.1–46.7 |
+| Al2O3 | <=6 | 10.5 | 7.3–10.1 |
+| FeO | - | 18.2 | 10.4–26.2 |
+| Fe2O3 | <=6 | - | 4.3–7.3 |
+| MgO | <=6 | 9.1 | 6–9.3 |
+| CaO | 60–67 | 6.9 | 5.7–6.7 |
+| SO3 | <3 | - | 4.9–7.4 |
 
-### 2.2 Martian regolith as a substrate for biomineralization
-Promising pathways include:
-- **MICP (Microbially Induced Calcium carbonate Precipitation):** Most extensively studied, particularly the ureolytic pathway (e.g., *Sporosarcina pasteurii*).
-- **Photosynthesis-induced:** Using cyanobacteria (e.g., *Chroococcidiopsis*) to consume CO₂ and raise pH for precipitation.
-- **Iron/Magnesium pathways:** Potential for magnetite (radiation shielding) or magnesium carbonates.
+### 2.2 Biomineralization pathways
+- **Ureolysis:** *Sporosarcina pasteurii* catalyzes urea hydrolysis to precipitate CaCO3. High yield but requires urea.
+- **Photosynthesis:** Cyanobacteria (*Chroococcidiopsis*) consume CO2 and increase pH to facilitate precipitation. Produces oxygen but is slower.
 
-## 3 Biomineralization for Martian construction
+## 3 Perspective on Adaptation
 
-### 3.1 Promising pathways
-The authors propose a co-culture system featuring *Chroococcidiopsis* (resilient to UV/Martian conditions) and *Sporosarcina pasteurii*. This synergistic system could use astronaut urine as a urea/ion source.
+### 3.1 Promising pathway
+A co-culture of *Chroococcidiopsis* and *S. pasteurii* is proposed. This system can utilize astronaut urine as a nutrient source and regolith as feedstock, operating in a pressurized environment.
 
 ### 3.2 Integration with ISRU
-Biocementation offers a massive energy advantage. 
-- **Biocementation:** ~29.3 MJ/tonne.
-- **Thermal sintering:** ~1,372 MJ/tonne.
-- **Microwave sintering:** ~206 MJ/tonne.
+Biomineralization is highly energy-efficient compared to sintering methods.
 
-### 3.3 Automation and remote operability
-Additive Manufacturing (AM) using regolith as feedstock is proposed. Robotic systems equipped with multi-axis extrusion nozzles can print complex structures like domes and arches. Clogging must be prevented by introducing the bacterial solution just before extrusion.
+| Method | Energy Consumption (MJ/tonne) |
+| :--- | :--- |
+| Biocementation | ~29.3 |
+| Thermal Sintering | ~1,372 |
+| Microwave Sintering | ~206 |
 
-## 4 Concluding remarks
-While promising, gaps remain in understanding microbial behavior under Mars' low gravity and radiation. System-level frameworks and integrated testing in analog environments are needed.
+### 3.3 Automation
+Additive manufacturing (3D printing) using multi-axis robotic arms is proposed to build complex structures like domes and arches using a regolith slurry.
+
+## 4 Conclusion
+Biomineralization represents a multidisciplinary pathway for Mars construction, though knowledge gaps remain in microbial behavior under Martian gravity and radiation.
