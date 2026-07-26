@@ -1,57 +1,47 @@
 # Extraterrestrial infrastructures: Review of in-situ materials, envelope solutions, and energy performance of livable Martian and lunar habitats
 
-**Authors:** Cosimo Razeto, Rina Visvanathan, Ehsan Kamel  
-**Journal:** Acta Astronautica 238 (2026) 146–159  
-**DOI:** https://doi.org/10.1016/j.actaastro.2025.10.013
-
 ## Abstract
-Long-term human exploration of Mars and the Moon depends on developing sustainable, energy-efficient habitats. This review synthesizes current research on challenges and strategies for constructing livable environments, focusing on in-situ resource utilization (ISRU), building envelope design, and overall energy performance. It examines physical and thermal properties of regolith, construction techniques (specifically 3D printing/sintering), and energy management solutions.
+Long-term human exploration of Mars and the Moon, such as envisaged by the Artemis program, depends on developing sustainable, energy-efficient habitats. This review synthesizes current research on the challenges and strategies for constructing livable environments on these celestial bodies, with a focus on in-situ resource utilization (ISRU), building envelope design, and overall energy performance. It examines the physical and thermal properties of lunar and Martian regolith in relation to their potential as local building materials, considering a range of construction techniques for their feasibility and structural reliability. The analysis also covers energy management solutions, highlighting approaches to power generation and thermal regulation essential for long-term habitability.
 
 ## 1. Introduction
-The study focuses on the material qualities, building methods, and energy systems required for viable Martian and lunar habitats under three main themes:
-1. In-situ materials and construction techniques.
-2. Building envelope design (radiation shielding, thermal performance).
-3. Energy management and sustainability.
+The Moon and Mars are now the focus of research on sustainable space architecture, resource use, and energy-efficient habitat design. The ability to build habitable spaces that can tolerate drastic temperature changes, high radiation levels, and the logistical challenges of transferring materials from Earth is essential to the success of such missions. ISRU has become a crucial tactic for building interplanetary infrastructure.
 
-## 2. Environment and ISRU
+## 2. In-situ Resources and Materials
 ### 2.1 Atmospheric and Climatic Conditions
-- **Mars:** Atmosphere (~95.3% CO2), temperature range -153°C to 20°C. Radiation protection of 16–22 g/cm² provided by the atmosphere.
-- **Moon:** Vacuum, temperature range -133°C to 121°C. Requires 2–3 m of regolith (~40 g/cm²) for radiation shielding.
+*   **Mars:** Atmosphere primarily CO2 (~95.3%). Temperatures range from -153°C to 20°C. Surface pressure ~6x10^-3 kPa.
+*   **Moon:** Near vacuum (3x10^-15 bar). Temperatures range from -133°C to 121°C. Radiation shielding requires 2-3m of regolith (~40 g/cm2).
 
-### 2.2 In-situ Resources and Materials
-Martian regolith (basaltic) and lunar regolith (silicates/oxides) are primary candidates for construction. The paper summarizes thermophysical properties ($λ$, $c$, $ρ$) essential for habitat design.
+### 2.2 Regolith Properties
+Regolith thermal conductivity (λ) is highly dependent on density, temperature, and (for Mars) ice content.
 
-#### Table 1: Summary of Earth, Moon, and Mars' atmospheric properties
-| Property | UM | Earth | Moon | Mars |
-| :--- | :--- | :--- | :--- | :--- |
-| Gravity at equator | m/s² | 9.81 | 1.62 | 3.71 |
-| Temperature range | °C | Max: +58, Min: -89 | Max: +121, Min: -133 | Max: +24, Min: -153 |
-| Surface pressure | kPa | 101.325 | 3x10⁻¹³ | 6x10⁻³ |
+| Material | Property | Value Range |
+| :--- | :--- | :--- |
+| Martian Regolith | Thermal Conductivity (λ) | 0.039 - 1.64 W/m·K |
+| Martian Regolith | Density (ρ) | 1000 - 2488 kg/m3 |
+| Lunar Regolith | Thermal Conductivity (λ) | 0.0003 - 1.06 W/m·K |
+| Lunar Regolith | Density (ρ) | 470 - 3035 kg/m3 |
 
 ## 3. Habitat Envelope and Structural Design
-Habitats are categorized into classes:
-- **Class I:** Prefabricated rigid (e.g., ISS, Lunar Gateway).
-- **Class II:** Deployable/Inflatable (e.g., BEAM, TransHab).
-- **Class III:** ISRU-based (e.g., 3D printed regolith structures).
+Habitats are classified into three classes:
+1.  **Class I:** Fully or partially prefabricated on Earth (e.g., ISS, Gateway).
+2.  **Class II:** Deployable or Inflatable (e.g., BEAM, TransHab).
+3.  **Class III:** Built onsite with ISRU (e.g., 3D printed regolith structures).
 
-## 4. Additive Manufacturing (AM) Techniques
-#### Table 4: Summary of applicable AM techniques
-| Reference | Technique | Post Treatment | Energy Consumption |
-| :--- | :--- | :--- | :--- |
-| Cano-Vincent (2021) | Fused Deposition Modeling | – | Low |
-| Wallace (2014) | Stereolithography | Sinterization, cleaning | ~50 kWh |
-| Balla (2012) | Lens Sintering | Cleaning, polishing | ~2.3 MWh/m³ |
-| Kruth (2005) | Laser Sintering | – | Up to few MWh/m³ |
-| Howe (2017) | Selective Microwave Sintering | – | ~600 kWh/m³ |
-| Williams (2015) | Material Jetting | Cleaning, polishing | Low |
-| Perry (2014) | Binding Jetting | Cleaning, polishing | Low |
+### 3.1 Additive Manufacturing (AM) Techniques
+| Technique | Energy Consumption | Post Treatment |
+| :--- | :--- | :--- |
+| Fused Deposition Modeling | Low (only moving) | - |
+| Stereolithography | ~50 kWh | Sinterization, cleaning |
+| Lens Sintering | ~2.3 MWh/m3 | Cleaning, polishing |
+| Selective Laser Sintering | Up to a few MWh/m3 | - |
+| Selective Microwave Sintering | ~600 kWh/m3 | - |
+| Material Jetting | Low (only moving) | Cleaning, polishing |
+| Binding Jetting | Low (only moving) | Cleaning, polishing |
 
-## 5. Energy and Thermal Management
-- **Passive Thermal Control (PTCS):** MLI, radiators, coatings, sunshields.
-- **Active Thermal Control (ATCS):** Fluid loops, heat exchangers, cryocoolers.
-- **Power Generation:** PV systems (impacted by dust and night cycles) and Nuclear Fission (Small Modular Reactors/Kilopower).
+## 4. Energy Performance
+Energy loads include mission objectives (EVAs, ISRU processing), crew biological activity, and Environmental Control and Life Support Systems (ECLSS). Photovoltaic (PV) systems are primary but face limitations during the 14-day lunar night. Nuclear fission (e.g., NASA's Kilopower) is proposed for steady high-power demand.
 
-## 6. Conclusions
-- Regolith possesses high structural and radiation protection potential.
-- Hybrid solutions (prefab + ISRU shielding) are currently the most feasible.
-- Energy management remains a critical bottleneck for sustainability.
+## 5. Conclusions
+- Regolith is excellent for radiation protection and structural use but has variable thermophysical properties.
+- Hybrid envelope solutions (pre-fab + ISRU) optimize payload efficiency.
+- Energy management and thermal control (active/passive) are critical bottlenecks for long-term survival.
