@@ -1,26 +1,38 @@
 # Control Network Construction for LRO NAC Images Based on Refining Tie Points by Matching With Shaded LOLA DEM
 
 ## Abstract
-The upcoming exploration activities in the lunar south pole require high-resolution mapping products to support landing site selection and navigation. The special terrain and illumination conditions in the lunar south pole pose significant challenges to photogrammetric processing. In this study, a new control network construction method is proposed based on refining tie points by image matching between the approximate orthophotos of lunar reconnaissance orbiter narrow-angle camera (NAC) images and shaded digital elevation model (DEM) maps. The experimental results demonstrate that the proposed method can effectively solve the problems of image matching and control network generation for lunar south pole images.
+The upcoming exploration activities in the lunar south pole require high-resolution mapping products to support landing site selection and navigation. In this study, a new control network construction method is proposed based on refining tie points by image matching between the approximate orthophotos of lunar reconnaissance orbiter narrow-angle camera (NAC) images and shaded digital elevation model (DEM) maps. Experimental results demonstrate that the proposed method effectively solves the problems of image matching and control network generation for lunar south pole images.
 
-## I. Introduction
-The lunar south pole (LSP) is the focus of current deep space exploration activities, including NASA's Artemis-3 and China's Chang'e-7 and Chang'e-8 missions. Precise landing is critical, as large landing errors may lead to probes falling into permanently shadowed regions (PSRs). High-precision maps are required to fully characterize landing sites and assist navigation.
+## I. INTRODUCTION
+The lunar south pole (LSP) is the focus of current deep space exploration activities, including NASA's Artemis-3 and China's Chang'e-7 and Chang'e-8 missions. Water ice in permanently shadowed regions (PSRs) serves as a vital resource for sustaining human life and fuel production. Precise landing is critical; however, existing mapping products often lack the geolocation accuracy and resolution required. High-precision maps are necessary to characterize landing sites and assist navigation.
 
-## II. Methodology
-The key to constructing a high-quality control network is finding enough conjugate feature points for overlapping images. The proposed method includes:
-1. **Generation of Shaded DEM Maps**: Using the photograph time of on-orbit LRO NAC images to ensure similar illumination conditions.
-2. **Image Matching**: Using SIFT and pyramid matching between LRO NAC Digital Orthophoto Models (DOMs) and shaded DEM maps.
-3. **Control Measure Refinement**: Establishing a coordinate transformation relationship (homograph matrix) to refine candidate control measures in orthophoto space before converting them to original image space.
+## II. RELATED WORK
+LRO NAC provides images with 0.5–1.5 m/pixel resolution. However, generating large-scale DEMs is difficult due to limited stereo slew opportunities. Existing products like LOLA DEM (laser altimetry) have high vertical accuracy but limited horizontal resolution (approx. 10–60 m/pixel in the LSP). Recent efforts to generate regional high-resolution maps struggle with illumination conditions and low texture in polar regions.
 
-## III. Experiments and Results
-Two datasets were used: Dataset 1 (87.5° S to 90° S) and Dataset 2 (79.5° S to 81.5° S). 
+## III. METHODOLOGY
+The proposed method involves:
+1. Generating shaded DEM maps using LOLA data with illumination conditions matching the acquisition time of NAC images.
+2. Establishing coordinate transformations between NAC orthophotos and shaded DEMs using the SIFT algorithm.
+3. Using the shaded DEM as a transition to refine tie points and candidate control measures in the control network.
+4. Converting refined measures from orthophoto space back to original image space for bundle adjustment.
 
-### Table III: Prediction Accuracy Evaluation Results (M110779506LE)
-| Grid Spacing | Max Sample (pixels) | Max Line (pixels) | Ave Sample (pixels) | Ave Line (pixels) | Std Sample (pixels) | Std Line (pixels) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 10 m/pixel | 2.24 | 1.87 | 0.0001 | 0.0001 | 0.67 | 0.58 |
-| 30 m/pixel | 1.70 | 1.51 | 0.0001 | 0.0001 | 0.53 | 0.48 |
-| 60 m/pixel | 0.48 | 0.67 | 0.0001 | 0.0001 | 0.22 | 0.29 |
+## IV. EXPERIMENTS AND RESULTS
+### Table I: Basic Information of the Test Images
+| Images | GSD (m) | Image Size (lines x samples) | Incidence Angle (deg) | Emission Angle (deg) |
+|---|---|---|---|---|
+| M110779506LE | 0.82 | 52224 x 2532 | 87.75 | 1.70 |
+| M1153379413LE | 0.87 | 52224 x 2532 | 83.57 | 1.71 |
+| M153386201RE | 0.88 | 52224 x 2532 | 83.49 | 1.17 |
 
-## IV. Discussion and Conclusion
-The method achieved sub-pixel accuracy in many cases and maintained a sigma naught (bundle adjustment) of 0.48. The root mean square error of the images in the bundle adjustment was 0.43–0.72 pixels. This demonstrates the feasibility of high-precision mapping even in the challenging illumination of the lunar south pole.
+### Table III: Prediction Accuracy Evaluation (M110779506LE)
+| Grid Spacing | Max Sample Error (pix) | Max Line Error (pix) | Std Sample Error (pix) | Std Line Error (pix) |
+|---|---|---|---|---|
+| 10 m/pixel | 2.24 | 22.4 | 0.67 | 0.58 |
+| 30 m/pixel | 1.70 | 51.0 | 0.53 | 0.48 |
+| 60 m/pixel | 0.48 | 28.6 | 0.22 | 0.29 |
+
+## V. DISCUSSION
+For the 10 m/pixel LOLA DEM, the pixel coordinate difference is less than two pixels. Standard deviations (0.58–0.67 pixels) translate to absolute units of approximately 5 to 20 meters, demonstrating high prediction accuracy for determining candidate control measures. This facilitates better bundle adjustment and high-quality topographic mapping.
+
+## VI. CONCLUSION
+The harsh environments of the LSP make image matching extremely difficult. This study provides a robust matching strategy using shaded DEMs as a bridge. The method enhances the quality of automatically generated control networks, supporting future exploration missions and scientific research.
