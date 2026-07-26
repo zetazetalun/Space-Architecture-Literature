@@ -1,29 +1,48 @@
 # Atlas of Lunar Historical Sites and Proposed Bases and Infrastructure
 
-**Journal:** Aerotecnica Missili & Spazio (2025) 104:355–370  
-**DOI:** https://doi.org/10.1007/s42496-024-00239-z  
-**Authors:** James Q. Mostek, Travis M. Grile, Robert A. Bettinger, Alexander M. Petrocelli, Nathan R. Boone
-
 ## Abstract
-As space operations expand toward cislunar space and the lunar surface, site selection for permanent settlements and infrastructure becomes critical. This paper presents an atlas of human activity on the Moon, mapping historical impactors and soft-landing sites alongside proposed future basing locations. The study aims to provide a holistic view of lunar surface activity to inform future site selection and mission safety.
+This research presents a comprehensive atlas of human activity on the lunar surface, covering historical impact sites and proposed future infrastructure. The goal is to facilitate site selection for future missions by identifying historical patterns and assessing mission safety.
 
-## 1. Introduction
-The early 21st century has seen a renewal in lunar interest, with missions like China's Chang'e series and the U.S. Artemis program aiming for permanent human presence. Site selection is identified as the first critical step for lunar construction. The paper addresses the scattered nature of historical cartographical data by compiling it into a singular atlas.
+## 1 Introduction
+The paper discusses the current surge in lunar exploration, including missions from the U.S., China, and Russia. It emphasizes that site selection is a foundational step for lunar construction, power generation, and long-term settlement, noting that historical data has previously been scattered.
 
-## 2. Historical Lunar Sites and Astroarchaeology
-The atlas categorizes historical sites from the U.S., U.S.S.R., China, E.U., India, Israel, and Japan. 
-- **U.S. Sites:** Includes Ranger, Surveyor, Apollo, and more recent missions like Lunar Prospector and LCROSS.
-- **Russian/Soviet Sites:** Focuses on the Luna program and Lunokhod rovers.
-- **International Sites:** Covers missions like SMART-1 (E.U.), Chandrayaan (India), Hiten/Kaguya (Japan), and Chang'e (China).
+## 2 Historical Lunar Sites and Astroarchaeology
+This section defines 'astroarchaeology' as the study of human space activity and outlines the landing sites of various nations. The authors argue that historical sites provide context for identifying viable future mission locations.
 
-## 3. Proposed Lunar Basing and Infrastructure
-Future projects are categorized into bases (sustaining human life) and infrastructure (supporting functions like mining or communication).
-- **Polar Regions:** The North and South Poles are highly favored due to near-constant solar illumination and potential access to water ice.
-- **Midlands/Equatorial Regions:** Valued for communication line-of-sight with Earth and flat terrain (Maria) facilitating easier landing and construction.
-- **Specific Features:** Mentions lava tubes (e.g., Marius Hills) as natural shielding for bases and craters for observatories.
+### 2.1 U.S. Historical Sites
+Details are provided regarding NASA's early programs, including the Ranger impactors, Surveyor landers, and the crewed Apollo missions. It notes the precision of later missions, such as Apollo 12 landing near Surveyor 3.
 
-## 4. Combined Lunar Map and Risk Considerations
-The study integrates all sites into combined maps and conducts a risk assessment regarding orbital debris. Using Monte Carlo simulations, it identifies high-risk impact zones for proposed infrastructure resulting from spacecraft breakup events in low lunar orbit.
+### 2.1.1 Russian/Soviet Historical Sites
+The text covers the Luna program and the Lunokhod rovers, noting their significant contributions to lunar surface data during the Space Race.
 
-## 5. Conclusion
-The atlas documents 92 sites, concluding that future basing will likely cluster in two areas: the poles for resource/power advantages or the near-side maria for communication and operational simplicity. The debris risk analysis serves as a decision-support tool for future lunar architects and planners.
+### 2.2 General International Historical Sites
+Summary of missions from the E.U., India, Japan, Israel, and China, highlighting Chang'e 4's first soft-landing on the lunar far-side.
+
+### Table 1: Historical lunar sites sorted by country and year (Selection)
+| Mission name | Latitude | Longitude | Country | Purpose | Year |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Chang’e 3 | 44.1° N | 19.5° W | China | Lunar Lander | 2013 |
+| Chandrayaan-3 | 69° S | 32° E | India | Lunar Lander | 2023 |
+| Apollo 11 | 0.7° N | 24.5° E | U.S | Crewed Lunar Landing | 1969 |
+| Lunar Prospector | 88.1° S | 45° E | U.S | Lunar Impactor | 1999 |
+| Luna 9 | 7.1° N | 64.4° W | U.S.S.R | Lunar Lander | 1966 |
+
+## 3 Proposed Lunar Basing and Infrastructure
+The study explores future basing concepts, distinguishing between habitats for human life and supporting infrastructure like observatories or mines. Key site selection criteria include solar illumination at the poles and the presence of water ice for ISRU. The far-side is noted for its potential in radio astronomy due to shielding from terrestrial electromagnetic noise.
+
+### Table 2: Proposed basing and infrastructure specifications (Selection)
+| Region | Relative location | Latitude | Longitude | Country | Purpose |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| North Polar | North Pole | 90° N | 0° E | U.S | Base, Mining, Observatory |
+| Midlands | Oceanus Procellarum | 18.5° N | 63° W | U.S.S.R | Base |
+| Midlands | Marius Hills | 11.9° N | 50.8° W | U.S | Base (Lava Tubes) |
+| South Polar | Shackleton Crater | 89.9° S | 0° E | U.S | Base |
+
+## 4 Combined Lunar Map
+The authors synthesize historical and proposed sites, noting that level terrain in maria facilitates landing and construction. They observe a high concentration of interest in the near-side and the polar regions due to favorable operational conditions.
+
+## 5 Lunar Infrastructure and Space Debris Considerations
+A risk analysis is performed using Monte Carlo simulations to assess hazards from spacecraft breakup events in low lunar orbit. The findings identify high-risk impact zones for infrastructure and suggest that debris mitigation is essential for site longevity.
+
+## 6 Conclusion
+The paper concludes that the U.S. and Russia have the most landing experience, while future plans focus heavily on the South Pole for resource extraction. The atlas serves as a living document to inform site selection for future lunar development.
