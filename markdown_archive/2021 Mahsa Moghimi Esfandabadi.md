@@ -1,39 +1,55 @@
 # Pressurized Greenhouse: A Responsive Environment to Partial Gravity Conditions
 
-**Authors:** Mahsa Moghimi Esfandabadi and Olga Bannova, Ph.D.
-**Affiliation:** Sasakawa International Center for Space Architecture, Cullen College of Engineering, Houston, TX
+**Authors:** Mahsa Moghimi Esfandabadi, Olga Bannova, Ph.D.
+**Affiliation:** Sasakawa International Center for Space Architecture (SICSA), University of Houston
+**Publication:** Earth and Space 2021 (ASCE)
 
 ## Abstract
-The greenhouse is a vital module for a long-duration mission to support fresh nutrition for the crew. This paper discusses two concepts of extraterrestrial greenhouses: a habitable greenhouse (focusing on human factors and psychology) and an industrial greenhouse (focusing on crop yield and mass efficiency). It introduces a third 'middle path' concept: the **Pre-Breathe Greenhouse**, which supports fluctuating pressures (34.48 to 56.5 kPa) to facilitate EVA pre-breathing while supporting plant growth. This concept is evaluated using figures of merit (FOM) relative to mission success.
+The greenhouse is a vital module for long-duration missions to support fresh nutrition. This paper discusses two concepts: a habitable greenhouse focused on human factors/psychology and an industrial greenhouse focused on maximum nutrition with low mass. A third 'hybrid' concept is introduced: the **Pre-Breathe Greenhouse**. This module accommodates a spectrum of pressure and gas levels, serving as an alternative to tight airlocks for EVA pre-breathing, while supporting plant growth. The design is evaluated using Figures of Merit (FOM).
 
 ## Introduction
-For long-duration Mars missions, greenhouses are essential as food cannot be entirely supplied from Earth. Current designs split between industrial-scale (low-pressure/high efficiency) and habitable (full-pressure/human wellness). This paper proposes a hybrid approach where the greenhouse adapts its internal environment to human physiological needs during EVA surface missions.
+Greenhouses are essential for Mars survival due to the inability to carry all food supplies. Current designs include:
+1. **Industrial-scale:** Prioritizes efficiency and low-pressure environments.
+2. **Habitable:** Prioritizes crew wellness with Earth-like pressure.
 
-## Habitable vs. Industrial Greenhouse Approaches
-- **Habitable Greenhouses:** Assume equal pressure to the main habitat (101.3 kPa). Simplifies ECLSS integration but increases structural mass and resource consumption.
-- **Industrial Greenhouses:** Designed for low-pressure environments to minimize equivalent system mass (ESM). A pressure under 60 kPa allows for the use of advanced thermal insulation like SiO2 aerogels. 
-- **Mass Reduction:** Changing artificial lighting to natural/hybrid lighting reduces the inflatable shell mass by 32.5% in high-pressure scenarios and 39.9% in low-pressure (30.0 kPa) scenarios.
+## Greenhouse Approaches
 
-## The Pre-Breathe Greenhouse (The Middle Path)
-This proposed model allows internal pressure to fluctuate to accommodate crew pre-breathing needs (34.48 to 56.5 kPa). This allows astronauts to spend the mandatory 2–4 hours of pre-breathing time in a garden environment rather than a cramped airlock, reducing stress and enhancing productive crew time.
+### Habitable Greenhouses
+- Integrated into logistics/service modules.
+- Operates at equal pressure to the habitat (10.2–14.7 psi / 70.2–101.3 kPa).
+- Simplifies ECLSS by unifying systems.
+- Provides psychological 'backyard' feeling (e.g., MINA project).
 
-### Table 1: EVA Protocols and Atmospheric Compositions
-| Protocol | Duration (min) | Pressure kPa (psi) | O2 % |
-| :--- | :--- | :--- | :--- |
-| A: Continuous EVA, 80% O2 | 480 | 29.7 (4.3) | 80 |
-| B: Continuous EVA, 95% O2 | 480 | 29.7 (4.3) | 95 |
-| C: 3 x 2h EVAs, 80% O2 | 120 | 29.7 (4.3) | 80 |
-| D: 3 x 2h EVAs, 95% O2 | 120 | 29.7 (4.3) | 95 |
+### Industrial Greenhouse Approach
+- Aims for maximum crop yields; neglects cultural/psychological factors.
+- Designed for low-pressure (hypobaria) to minimize resource and launch mass.
+- **Technical Data:** 
+    - Pressure under 60 kPa allows for SiO2 aerogel-based thermal insulation.
+    - Changing from artificial to natural/hybrid lighting reduces inflatable mass by 32.5% (compared to 59.2 kPa systems) and 39.9% (compared to 30.0 kPa systems).
+    - Low-pressure shell mass using hybrid lighting is only 50.1% of a high-pressure artificial lighting shell.
 
-### Table 3: Figure of Merit (FOM) Comparison
+### The Middle Path: The Pre-Breathe Greenhouse
+- Allows internal pressure to fluctuate (34.48 to 56.5 kPa).
+- Acts as a transition zone/pre-breathing chamber for EVAs (purging nitrogen to prevent DCS).
+- Reduces stress by allowing gardening/exercise during the required 2-4 hour pre-breathe period.
+
+## Comparison Data
+
+### Table 2: Total Spent Time in Greenhouse
+| Scenario | Total Duration | Pressure Range (kPa) |
+| :--- | :--- | :--- |
+| 3x2h EVA | 7:20 | 101.3 -> 56.5 -> 29.7 -> 101.3 |
+| 1x8h EVA | 4:40 | 101.3 -> 56.5 -> 29.7 -> 101.3 |
+
+### Table 3: Figure of Merit (FOM)
 | FOM | Private Garden | Industrial Greenhouse | Pre-Breathe Greenhouse |
 | :--- | :--- | :--- | :--- |
-| Crew Capacity | 4 | 4 Or More | 4 Or More |
+| Nutrition Support | Low/Medium | High | High |
 | Mission Duration | Short | Long/Settlement | Long |
-| Resource Demand | High | High | Medium |
+| Resources | High | High | Medium |
 | Functionality | Single Function | Single Function | Multi-Functional |
-| Psychological Benefit| High | Low/Medium | High/Medium |
+| Impact on Habitat | High | Low | Medium/Low |
 | Area/Volume Util. | Not Efficient | Max Efficient | Efficient |
 
 ## Conclusions
-The pre-breathe greenhouse offers maximum benefits with fewer resources compared to separate habitable or industrial modules. It provides a multifunctional architecture that lowers launch mass while maintaining 24/7 crew availability and improved psychological health.
+The pre-breathe greenhouse approach offers maximum benefits by utilizing fewer resources than habitable designs while maintaining lower mission risk and higher psychological benefits than purely industrial designs. It provides 24/7 availability and multifunctional capabilities.

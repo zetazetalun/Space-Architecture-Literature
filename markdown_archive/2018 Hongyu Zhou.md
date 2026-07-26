@@ -1,39 +1,48 @@
 # Thermal and Mechanical Properties of Cementitious Composites for Additive Construction of Energy-Saving Habitats
 
-**Authors:** Hongyu Zhou, Adam L. Brooks, Dominic Hanna, and Babak Salarieh
-**Publisher:** ASCE
+**Authors:** Hongyu Zhou, Adam L. Brooks, Dominic Hanna, Babak Salarieh
+**Affiliation:** University of Alabama in Huntsville
+**Published in:** Earth and Space 2018
 
-## ABSTRACT
-Lightweight cementitious composites (LWCC) are cement based material combined with lightweight fillers. Because of its advantages in reducing both structural weight and thermal conductivity, it has the potential to be used in the construction of terrestrial and extraterrestrial habits. Furthermore, since it has relatively small and spherical shaped aggregates, LWCC is also suitable for extrusion based 3-D printing. In this research, a comprehensive and thorough study was carried out to investigate the effects of different lightweight fillers on both the mechanical and thermal properties of LWCC.
+## Abstract
+Lightweight cementitious composites (LWCC) are cement-based materials combined with lightweight fillers (LWFs). These materials show potential for terrestrial and extraterrestrial habitats due to reduced structural weight and thermal conductivity. Their spherical aggregate shape makes them suitable for extrusion-based 3D printing.
 
-## INTRODUCTION
-### Cementitious Materials for Additive Construction
-Provoked by recent advancements in additive manufacturing, 3D printable concrete has been explored as an alternative method to construct concrete structures. 3-D printing of cementitious materials has the potential to address several major challenges faced by the current concrete industry: (i) it eliminates the use of formwork, (ii) the highly automated construction process can reduce material waste and time, and (iii) it allows parametric material design.
+## Experimental Program
+- **Materials:** ASTM Type I/II Portland cement, silica sand, water, superplasticizer, and LWFs.
+- **Fillers:** Hollow Glass Microspheres (HGM K25, S38HS, S60) and Fly Ash Cenospheres (FAC E106, E200/600).
+- **Volume Fractions ($v_f$):** 7%, 14%, 21%, and 28%.
+- **Testing:** Mechanical (compression), Thermal (Transient Plane Source), and Dynamic (Split Hopkinson Pressure Bar).
 
-### Lightweight Cementitious Composites
-LWCC are produced by incorporating millimeter and micrometer size lightweight functional fillers (LWFs) including hollow glass microspheres (HGM) and fly-ash cenospheres (FAC) into a cementitious binder matrix. It reduces structural weight and lowers thermal conductivity compared to normal weight concrete.
+## Results and Discussion
 
-## EXPERIMENTAL PROGRAM
-### Material Preparation and Mixture Design
-Constituent materials included ASTM Type I-II Portland cement, silica sand, water, superplasticizer, and LWFs. The w/c ratio was 0.43. Different particle properties and volume fractions (7%, 14%, 21%, 28%) of HGMs and FACs were studied.
-
-### Mechanical and Thermal Testing
-Mechanical properties tested using an MTS-810 servo-hydraulic universal testing system. Thermal properties tested via the Transient Plane Source (TPS) method.
-
-## RESULTS AND DISCUSSION
 ### Compressive Strength
-Compressive strength is a function of LWF particle size and shell thickness. When volume fraction is small (<15%), compressive strength increases with higher HGM concentrations due to improved rheological properties. At higher fractions, strength decreases.
+- LWCC compressive strength is a function of LWF particle size and shell thickness.
+- For $v_f < 15\%$, strength can increase with HGM concentration due to improved rheology and reduced air content.
+- Smaller, thicker-shelled particles (e.g., S60) yield significantly higher strength than larger ones (e.g., K25) at the same volume concentration.
 
 ### Thermal Properties
-Thermal conductivity decreases significantly with an increase in LWF volume fraction. Conductivity dropped from ~2.2 W/m K for the control to 0.65-0.8 W/m K at a 28% volume fraction.
+- Thermal conductivity is primarily dictated by the volume fraction of LWF rather than filler type.
+- Conductivity decreases significantly as $v_f$ increases; at $v_f = 28\%$, conductivity drops to 0.65–0.8 W/m·K.
 
-### Microstructures
-SEM imaging showed that smaller FAC and HGM particles distributed well within the cementitious binder and survived the mixing process.
+### Dynamic Behavior
+- LWCC is strain-rate sensitive. At a strain rate of 920 $s^{-1}$, the dynamic strength was 66.7% higher than the static strength.
 
-### Dynamic Testing
-Split Hopkinson Pressure Bar (SHPB) tests indicated that the compressive behavior of LWCC is strain-rate sensitive. Dynamic compressive strength was up to 66.7% higher than static strength under high strain rates.
+## Tables
 
-## CONCLUSIONS
-- Thermal properties of LWCCs are primarily dictated by the volume fraction of LWF.
-- Mechanical properties are greatly affected by the LWF particle properties (size, shell thickness, crushing strength).
-- Due to high strength-to-unit weight ratio and enhanced flowability, these fillers are suitable for extrusion based additive construction.
+### Table 1: Properties of the lightweight particle fillers
+| LWF Type | Material | $D_{50}$ (μm) | Wall Thickness (μm) | Density ($g/cm^3$) | Crush Strength (MPa) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| HGM K25 | Hollow Glass Microsphere | 55 | 0.85 | 0.25 | 0.75 |
+| HGM S38HS | Hollow Glass Microsphere | 44 | 1.20 | 0.28 | 5.5 |
+| HGM S60 | Hollow Glass Microsphere | 29 | 1.49 | 0.60 | 10 |
+| FAC E106 | Fly Ash Cenosphere | 81.3 | 4.8 | 0.91 | 1.6-3.2 |
+| FAC E200/600 | Fly Ash Cenosphere | 349.1 | 16.5 | 0.82 | 1.6-3.2 |
+
+### Table 2: Mechanical and Thermal Properties (Selected)
+| Mix ID | LWF Fraction ($v_f$ %) | Oven Dry Density ($kg/m^3$) | Compressive Strength (MPa) | Thermal Conductivity (W/m·K) |
+| :--- | :--- | :--- | :--- | :--- |
+| K25-0 | 0 | 1974 | 55.1 | 2.30 |
+| K25-4 | 29.3 | 1344 | 21.5 | 0.62 |
+| S60-2 | 14.60 | 1836 | 61.2 | 1.35 |
+| E106-2 | 13.75 | 1787 | 59.7 | 1.44 |
+| E200/600-4 | 24.51 | 1396 | 35.4 | 0.80 |

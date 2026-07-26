@@ -1,44 +1,52 @@
 # Rapid formation of high-performance lunar regolith composite via combined mold pressing and thermocuring processing with low content of resin-based additives
 
-**Journal:** Construction and Building Materials 455 (2024) 139132  
-**Authors:** Rihan Zhang, Tongcai Wang, Tingting Zhao, Gong Wang  
-**DOI:** https://doi.org/10.1016/j.conbuildmat.2024.139132
+**Authors:** Rihan Zhang, Tongcai Wang, Tingting Zhao, Gong Wang
+
+**Journal:** Construction and Building Materials 455 (2024) 139132
+
+**Published:** 14 November 2024 (Available online)
 
 ## Abstract
-Establishing lunar bases is pivotal for furthering lunar research and propelling deep space exploration. Lunar regolith based in-site construction is identified as the most feasible method for lunar structures. This study proposes a novel way for in-site lunar regolith construction by utilizing a small amount of resin-based binding material and a combined processing method of molding and thermosetting. A specific thermosetting resin is developed to achieve full solidification of the mixed material at lunar daytime temperatures of approximately 120 °C, addressing the high energy consumption associated with the sintering process. Mold pressing is used to provide the rapid pre-forming of mixed materials and greatly reduce the proportion of additives. It was found that the formed part with a binder proportion of 2 wt% could achieve a compressive strength exceeding 26 MPa and the low thermal conductivity of about 0.371 W/(m·K).
+Establishing lunar bases is pivotal for lunar research and deep space exploration. Lunar regolith-based in-situ construction is identified as the most feasible method for lunar structures. This study proposes a novel way for in-situ lunar regolith construction by utilizing a small amount of resin-based binding material and a combined processing method of molding and thermosetting. A specific thermosetting resin is developed to achieve full solidification at lunar daytime temperatures (~120 °C), addressing high energy consumption in sintering. Results showed that a binder proportion of 2 wt% could achieve a compressive strength exceeding 26 MPa and low thermal conductivity of ~0.371 W/(m·K). The method offers high in-situ utilization, low energy consumption, and rapid formation.
 
 ## 1. Introduction
-Lunar regolith is an ideal candidate for in-situ manufacturing of various facilities. Traditional direct forming methods like solar or laser sintering are energy-intensive and often yield brittle parts. This paper proposes a hybrid method of pre-pressing followed by low-temperature thermal curing to utilize the intrinsic temperature on the lunar surface (120 °C), effectively addressing energy consumption issues.
+Lunar regolith is an ideal candidate for in-situ manufacturing of payload protection structures, energy devices, and scientific facilities. However, harsh lunar conditions (vacuum, radiation, temperature fluctuations) pose technical challenges. Indirect forming methods involve incorporating additives into regolith to create composites. While some techniques require high additive ratios (up to 30 wt%), this paper proposes a method combining pre-pressing and thermal curing with high-performance thermosetting resins to reduce additive content to less than 5 wt%.
 
-## 2. Experimental setup and method
+## 2. Experimental Setup and Method
 
-### 2.1. Experimental materials
-The study uses CLRS-1 (basaltic lunar regolith simulant), simulated from Apollo 14 samples.
+### 2.1. Materials
+*   **Simulant:** Low-titanium basaltic lunar regolith simulant (CLRS-1), sieved to <0.1 mm.
+*   **Resin Mixture:** Component A (Epoxy resin mix) and Component B (Acrylic Ester mix) blended in a specific ratio.
 
-### 2.2. Resin-assisted/Lunar regolith composite forming method
-1.  **Component A:** Epoxy resins (EP-3,4 and EP-4H) in a 1:1 ratio with 1.5 wt% thermal initiator (BF3-MEA).
-2.  **Component B:** Acrylic Ester with 0.3 wt% thermal initiator (AIBN).
-3.  **Mixing:** Components A and B are blended, mixed with sieved regolith, and molded at 22 MPa for 2 minutes.
-4.  **Curing:** Thermal curing at 120 °C under unpressured conditions.
+### 2.2. Method
+1.  Uniformly mix resin with sieved regolith.
+2.  Mold under 22 MPa pressure for 2 minutes.
+3.  Thermal curing at 120 °C (simulating lunar daytime temperatures) under unpressured conditions.
 
-### 2.3. Experimental procedure
-| Group no. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| A: B | 0:10 | 4:6 | 5:5 | 6:4 | 10:0 | 6:4 | 6:4 | 6:4 | 6:4 | / |
-| Resin mixture (wt%) | 5 | 5 | 5 | 5 | 5 | 4 | 3 | 2 | 1 | 0 |
+## 3. Results and Discussion
 
-## 3. Results and discussion
+### 3.1. Binder Performance
+*   **Thermosetting:** DSC tests showed initial curing at 60-70 °C, with peaks around 95-130 °C. Curing at 120 °C was confirmed as sufficient.
+*   **Wettability:** Optimal binder formulations (A:B ratios of 5:5 and 6:4) provided a balance between resin strength and integration with regolith.
 
-### 3.1. Binder composition and forming process
-Optimal binder formulations reside in groups 3 (5:5) and 4 (6:4). Group 5 (pure epoxy) showed poor wettability with regolith, leading to reduced strength. High epoxy content increases compressive strength in the resin itself but requires the acrylic ester component for better integration with the regolith particles.
-
-### 3.2. Performance testing
-- **Compressive Strength:** Increasing binder content directly correlates with strength. A 1 wt% binder achieved 5 MPa (sufficient for low-gravity lunar needs); 2 wt% binder achieved >26 MPa after 30+ hours of curing.
-- **Density:** Components reached 2.0 g/cm³, a significant increase from natural bulk density.
-- **Thermal Properties:** At 119.5 °C, the 5 wt% binder composite showed a thermal conductivity of 0.371 W/(m·K), demonstrating excellent insulation properties compared to sintered or molten regolith.
+### 3.2. Material Performance
+*   **Density:** Formed components reached ~2.0 g/cm³.
+*   **Compressive Strength:**
+    *   1 wt% binder: ~5 MPa (sufficient for practical applications under low lunar gravity).
+    *   2 wt% binder: >10 MPa at 12: hours, exceeding 26 MPa after longer curing (~30+ hours).
+    *   5 wt% binder: Exceeding 100 MPa.
+*   **Thermal Properties (at 119.5 °C):**
+    *   Thermal diffusivity: 0.2695 mm²/s
+    *   Thermal conductivity: 0.371 W/(m·K)
+    *   Specific heat capacity: 0.688 J/(g·K)
 
 ## 4. Conclusion
-1. Thermosetting resin mixture facilitates curing under 120 °C (lunar daytime).
-2. Formulations with 5 wt% additive achieved compressive strengths exceeding 100 MPa.
-3. Materials with <2 wt% additive achieved >20 MPa, suitable for mass production and batch processing.
-4. Exhibits low thermal diffusivity (0.2695 mm²/s), ideal for protection against extreme temperature variations.
+The study validated a feasible in-situ construction technique using mold pressing and thermal curing. Key findings include the ability to use lunar daytime heat for curing and achieving structural strengths exceeding 26 MPa with minimal earth-transported additives (2 wt%). This method is particularly suitable for mass production of building blocks and large-scale infrastructure on the Moon.
+
+***
+
+### Table 1: Composition of CLRS-1 vs Apollo 14
+| Grade | SiO2 | TiO2 | Al2O3 | FeOT | MgO | CaO | Na2O | K2O |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Apollo 14 | 48.20 | 1.73 | 17.60 | 10.41 | 9.26 | 11.25 | 0.61 | 0.51 |
+| CLRS-1 | 49.24 | 1.91 | 15.80 | 11.47 | 8.72 | 7.25 | 3.08 | 1.03 |

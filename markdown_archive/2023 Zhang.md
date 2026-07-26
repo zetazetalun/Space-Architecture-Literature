@@ -1,1 +1,33 @@
-# Investigation of heat transfer processes in multi-sized solar-sintered regolith for lunar ISRU program\n\n## Abstract\nEffective Thermal Conductivity (ETC) prediction of sintered lunar regolith plays a crucial role in developing extraterrestrial thermal processing and construction techniques for In-situ Resource Utilization (ISRU) projects on the Moon. Herein, we presented a mechanistic model to estimate the ETC of sintered lunar regolith. The Monte-Carlo method was applied to simulate the thermal neck resistance between multi-scaled particles. The model was experimentally validated by the measured ETC and specific surface area of fabricated lunar simulant samples LMS-1. The measured sintered depth was improved by 45% with an optimized particle size distribution (PSD) arrangement.\n\n## 1. Introduction\nAs space exploration becomes continuously attractive, establishing habitats on extraterrestrial planetary bodies is of particular interest. High-temperature ISRU processes driven by concentrated solar energy have been recognized as a potential pathway to provide materials and power for long-term space explorations and construction on the lunar surface.\n\n### Table 1: Chemical compositions (wt.%) of selected lunar samples and simulants.\n| Sample | SiO2 | Al2O3 | CaO | MgO | FeO/Fe2O3 | TiO2 | Na2O | K2O | Others |\n|---|---|---|---|---|---|---|---|---|---|\n| Apollo | 45.3 | 17.2 | 11.9 | 9.0 | 12.1 | 3.1 | 0.5 | 0.6 | 0.7 |\n| Luna | 43.6 | 16.7 | 13.3 | 9.3 | 14.5 | 1.8 | 0.4 | 0.1 | 0.4 |\n| Simulant | 46.4 | 15.0 | 9.2 | 7.9 | 12.4 | 2.5 | 3.1 | 1.5 | 1.4 |\n| LMS-1 | 46.9 | 12.4 | 7.0 | 16.8 | 8.6 | 3.6 | 1.7 | 0.7 | 1.3 |\n\n## 2. Sintered ETC modeling\nThe proposed ETC model is built on an improved multi-sized particle system using Monte-Carlo (MC) based algorithms. The heat transferred follows three parallel pathways: solid (Rs), gas (Rg), and radiation (Rrad). Particle shape factors are used to characterize irregular geometry.\n\n### Table 2: Baseline parameters used for ETC modeling.\n- Radius of small particle: 15 um\n- Radius of medium particle: 47 um\n- Radius of large particle: 94 um\n- Volume fraction (S/M/L): 0.1/0.7/0.2\n- Initial porosity: 0.45\n- Sintering temperature: 900–1150 C\n\n## 5. Conclusions\n1) An analytical model of sintered LMS-1 thermal conductivity was developed considering the sintered neck resistance between multi-sized particles and unregular shapes. 2) The FVM coupled to the ETC model was established for the heat transfer simulation of the solar sintering system. The temperature overestimation on the top surface can be attributed to the assumption of no ray penetration. The model was further applied to optimize the sintered layer of lunar simulant, and the sintered depth was increased by 45% compared to the original PSD.
+# Investigation of heat transfer processes in multi-sized solar-sintered regolith for lunar ISRU program
+
+**Authors:** Yuankun Zhang, Matthew Shaw, Geoffrey Brooks, Muhammad Akbar Rhamdhani, Chunsheng Guo, Zhuosheng Han, Thomas Jackson, Gregory Judkins
+**Journal:** International Journal of Heat and Mass Transfer 214 (2023) 124387
+**DOI:** https://doi.org/10.1016/j.ijheatmasstransfer.2023.124387
+
+## Abstract
+Effective Thermal Conductivity (ETC) prediction of sintered lunar regolith plays a crucial role in developing extraterrestrial thermal processing and construction techniques for In-situ Resource Utilization (ISRU) projects on the Moon. Herein, a mechanistic model was presented to estimate the ETC of sintered lunar regolith using the Monte-Carlo method. The model was experimentally validated using fabricated lunar simulant samples (LMS-1) under air, argon, and low vacuum. The simulated temperature profiles at steady state concur well with measured data (RMSE of 5.5%). The measured sintered depth was improved by 45% with an optimized particle size distribution (PSD) arrangement.
+
+## 1. Introduction
+As space exploration moves toward establishing habitats on the Moon (ILRS, Terrae Novae 2030+, Artemis), high-temperature ISRU processes driven by concentrated solar energy have been recognized as a potential pathway to provide materials for construction. Key advantages include sufficient energy supply and the use of local resources (regolith) as feedstocks.
+
+## 2. Sintered ETC Modeling
+The model considers:
+- **Solid Phase:** Heat flow through junctions (sintering necks) between particles.
+- **Gas/Pores:** Heat transfer through the air/gas in voids.
+- **Radiation:** Internal radiation between particles.
+- **Particle Geometry:** Shape factors to characterize non-spherical regolith particles.
+
+### Table 2: Baseline parameters used for ETC modeling
+| Physical property (unit) | Value |
+| :--- | :--- |
+| Radius of small particle (μm) | 15 |
+| Radius of medium particle (μm) | 47 |
+| Radius of large particle (μm) | 94 |
+| Initial porosity, ϕ | 0.45 |
+| Sintering Temperature (°C) | 900–1150 |
+| Emissivity, ε | 0.925 |
+
+## 5. Conclusions
+1. An analytical model of sintered LMS-1 thermal conductivity was developed considering neck resistance between multi-sized particles and irregular shapes. Validated by measuring specific surface area with a mean error of 20.9%.
+2. The FVM coupled to the ETC model simulates the update of porous material microstructure and temperature simultaneously. Results show simulated profiles concur well with measurements (RMSE=5.5%).
+3. The model demonstrated that multi-scaled particles increase the number of connections. Using an optimized PSD (smaller particles at top/second layers for sintering and larger particles at bottom for insulation) improved sintered depth by 45% compared to the original PSD.
