@@ -1,56 +1,45 @@
 # Cold sintering for in-space materials fabrication: a science, engineering, and future directions
 
-**Authors:** Kaveh Rahimi Mamaghani, Nader Parvin  
+**Authors:** Kaveh Rahimi Mamaghani¹, Nader Parvin¹  
+**Affiliation:** ¹Department of Materials and Metallurgical Engineering, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran  
+**Published:** 12 February 2026 (Received: 13 October 2025; Accepted: 25 January 2026)  
 **Journal:** Multiscale and Multidisciplinary Modeling, Experiments and Design (2026) 9:86  
 **DOI:** https://doi.org/10.1007/s41939-026-01182-1
 
 ## Abstract
-The Cold Sintering Process (CSP) has recently emerged as a transformative approach for densifying ceramics and composites at temperatures below 300 °C using pressure-assisted dissolution–precipitation. This review critically examines the potential of CSP for fabricating structural and functional materials in space, spanning lunar, Martian, orbital, deep-space, and asteroid contexts. Case studies highlight the production of high-strength regolith bricks (> 200 MPa) at low energy cost (~0.86 kWh/kg). CSP is positioned as a cornerstone technology for sustainable space infrastructure.
+The Cold Sintering Process (CSP) has recently emerged as a transformative approach for densifying ceramics and composites at temperatures below 300 °C using pressure-assisted dissolution–precipitation. This low-energy route is particularly compelling for in-situ resource utilization (ISRU) in extraterrestrial environments, where transporting construction materials from Earth is impractical. This review critically examines the potential of CSP for fabricating structural and functional materials in space, spanning lunar, Martian, orbital, deep-space, and asteroid contexts. Case studies highlight the production of high-strength regolith bricks (> 200 MPa) at low energy cost, showing CSP’s feasibility for building load-bearing structures on the Moon and Mars.
 
-## 1. Introduction
-Traditional sintering requires temperatures > 1000 °C, which is energy-intensive. CSP offers a low-temperature alternative (often < 300 °C) using a transient liquid phase (solvent) and high pressure to drive material transport via dissolution-reprecipitation. This allows for high densification at a fraction of the thermal energy budget.
+## 1 Introduction
+Traditional sintering of ceramics and glass requires very high temperatures (often > 1000 °C), which is energy-intensive and challenging in off-world environments. CSP has emerged as a low-temperature alternative combining moderate heat (< 300 °C), high pressure (100–300 MPa), and a transient liquid phase to densify powders. This process enables comparable densification to traditional sintering at a fraction of the thermal energy budget.
 
-## 2. Mechanisms of CSP
-*   **Feedstock:** Fine powders (typically < 100 µm).
-*   **Pressure:** 100–300 MPa.
-*   **Solvent:** Water, acidic, or basic solutions.
-*   **Stages:** Particle rearrangement, dissolution at contact points, migration through liquid phase, and reprecipitation (neck growth).
+## 2 Mechanisms of the Cold Sintering Process
+CSP employs a transient liquid or solvated phase to transport material between particles. The mechanism involves:
+1.  **Dissolution:** Solvent partially dissolves particle surfaces.
+2.  **Material Transport:** Dissolved species migrate to zones of contact under high stress.
+3.  **Neck Growth/Precipitation:** Material reprecipitates at grain contacts, forming bridging "necks."
 
-### Table 1: Comparative framework for space ISRU manufacturing technologies
+## 3 Comparative Framework for Space ISRU
+
 | Technology | Energy Demand | Equipment Complexity | Raw Material Compatibility | Mechanical Performance | Key Limitations |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Cold sintering process (CSP) | Low thermal, moderate mechanical (≤ 300 °C) | Mechanical press with solvent delivery/containment | Oxide/silicate fine-grained materials | Moderate to high for optimized variants | Solvent management under vacuum; pressure control in reduced gravity |
-| Microwave sintering | High electrical energy due to volumetric heating | High (generators, waveguides, shielding) | Dielectric/semi-dielectric materials | High densification/strength | Power-intensive; requires precise tuning |
-| Solar sintering | High optical energy via solar radiation | High (concentrators, optical tracking) | Oxide-rich regolith materials | High (demonstrated for lunar analogs) | Dependent on illumination; dust contamination |
-| Geopolymer molding | Low to moderate (ambient or low-temp) | Chemical processing systems | Aluminosilicate-rich materials; specific chemistry | Moderate (compressive strength ≥ 100 MPa) | Long curing times; activator availability |
+| **Cold Sintering Process (CSP)** | Low thermal, moderate mechanical | Mechanical press with solvent delivery/containment | Oxide/silicate-rich, fine-grained; requires partial solubility | Moderate to high for optimized variants | Solvent management in vacuum; pressure control in low-g |
+| **Microwave Sintering** | High electrical | High (generators, waveguides) | Dielectric or semi-dielectric | High densification | Power-intensive; requires precise tuning |
+| **Solar Sintering** | High optical energy | High (concentrators, tracking) | Oxide-rich regolith | High (demonstrated lunar) | Illumination dependent; dust contamination |
+| **Geopolymer Molding** | Low to moderate | Chemical processing systems | Aluminosilicate-rich materials | Moderate (compressive ≥ 100 MPa) | Long curing times; activator dependency |
 
-## 3. Applications in Extraterrestrial Environments
-### 3.3 Lunar Applications
-Experimental results on lunar simulants (JSC-1A, LMS-1) demonstrate the production of bricks with compressive strengths of 207 MPa using NaOH solutions at 150 °C and 200 MPa. This is a significant improvement over geopolymer or solar sintering methods.
+## 4 Applications in Extrrestrial Environments
 
-### 3.4 Martian Applications
-Martian regolith (MGS-1) mixed with 10 M NaOH and pressed at 250 °C/30 MPa achieved ~45 MPa compressive strength. While lower than lunar counterparts, it remains suitable for building blocks and infrastructure.
+### 4.1 Lunar Applications
+Experimental studies on lunar regolith simulant (LMS-1) demonstrated that bricks with a compressive strength of **207 MPa** can be produced at **150 °C** and **200 MPa** pressure within 90 minutes. This process consumes only **0.86 kWh/kg** of material, which is significantly lower than conventional sintering (5–10 kWh/kg).
 
-### 3.5 Orbital and Asteroid Applications
-In microgravity, CSP requires self-reacting mechanical architectures (e.g., opposed-anvil presses). It offers potential for manufacturing spare parts, radiation shields, and debris recycling.
+### 4.2 Martian Applications
+Martian regolith simulant (MGS-1) mixed with NaOH solution achieved a compressive strength of **~45 MPa** at **250 °C** and **30 MPa** pressure. This matches the strength of some concrete mixtures and is sufficient for structural components.
 
-## 4. Challenges
-1.  **Solvent Sourcing:** Scarcity of liquid water; need for closed-loop recycling.
-2.  **Pressure Hardware:** Requirement for heavy presses (100–300 MPa) necessitated by the need for lightweight, high-specific-strength alloys.
-3.  **Environment:** Solvent evaporation in vacuum and thermal extremes.
+### 4.3 Orbital and Deep-Space Applications
+In microgravity, CSP requires external pressure (e.g., opposed-anvil presses) to compensate for the lack of buoyant flow and natural compaction. It can be used for manufacturing spare parts, radiation shielding, and debris recycling on the ISS or Lunar Gateway.
 
-### Table 3: Comparative results from CSP and conventional regolith processing
-| Environment | Feedstock | Processing Conditions | Density | Compressive Strength | Energy Consumption | Refs |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Lunar | LMS-1 + NaOH | CSP: 200 MPa, 150 °C | 2.44 g/cm³ | 207 MPa | 0.86 kWh | Liu et al. (2024) |
-| Lunar | HIT-L-2 + NaOH | CSP: 200 MPa, 200 °C | 2.54 g/cm³ | 206 MPa | ~70-90% less water | Xue & Qiao (2025a) |
-| Martian | MGS-1 + NaOH | CSP: 250 °C, 30 MPa | 88% density | ~ 45 MPa | N/A | Karacasulu et al. (2023) |
-| Lunar | JSC-1 (solar) | Solar Sintering: 1000–1200 °C | Porous | < 5 MPa | High (> 5 kWh) | Meurisse et al. (2018) |
-
-## 5. Integration with Emerging Technologies
-*   **Additive Manufacturing (AM):** Hybrid AM-CSP strategies involve printing a green body (e.g., via extrusion) followed by post-printing CSP consolidation.
-*   **AI & Digital Twin:** Real-time optimization of pressure-temperature profiles based on regolith variability.
-*   **Robotics:** Autonomous units for excavation, milling, mixing, and pressing of blocks.
-
-## 6. Conclusion
-CSP offers a low-energy pathway to convert local extraterrestrial soils into structural elements. It addresses critical barriers like power limitations and material transport, enabling Class III ISRU-based habitat construction.
+## 5 Challenges and Future Directions
+*   **Solvent Management:** Sourcing and recycling solvents (water, ionic liquids) in vacuum conditions.
+*   **Hardware Design:** Developing lightweight, high-pressure mechanical presses.
+*   **Additive Manufacturing Integration:** Combining CSP with 3D printing (e.g., binder jetting) for complex geometries.
+*   **Scaling:** Moving from centimeter-scale laboratory bricks to meter-scale structural components for habitats.
