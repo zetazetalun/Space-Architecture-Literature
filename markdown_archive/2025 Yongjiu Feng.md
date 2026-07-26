@@ -3,33 +3,43 @@
 **Authors:** Yongjiu Feng, Pengshuo Li, Haoteng Li, Yan Liu, Mengrong Xi, Rong Wang, Shurui Chen, Panli Tang, Yuze Cao, Qian Huang, Qionghua You, Shijie Liu, Zhen Ye, Yusheng Xu, Xiong Xu, Chao Wang, Yanmin Jin, Sicong Liu, Huan Xie, Huaiyu He, Xiaohua Tong
 
 **Journal:** Science Bulletin 70 (2025) 3409–3419
+**DOI:** 10.1016/j.scib.2025.08.035
 
 ## Abstract
-Despite humanity’s many lunar missions to the equatorial and mid-latitude regions, the south pole remains uncharted because of its exceptionally harsh conditions. The quest for water ice and the drive to establish lunar bases have positioned the south pole area above 80° latitude, characterized by permanently shaded regions and conducive to water ice preservation. However, the daunting terrain and intricate illumination in this area present significant challenges to engineering safety. Here, we introduce a Landing Feasibility Probability (LFP) model to evaluate the viability of potential landing sites. We pinpoint 120 prospective landing sites, stratified into 25 high-priority, 64 medium-priority, and 31 low-priority sites. These sites, encompassing a mere 0.6% of the lunar south pole, have been rigorously vetted against 10 critical factors for landing feasibility. These sites show a pronounced clustering around 8 major craters and plateaus, organizing into 7 lunar site networks, with each network comprising 4 sites with a maximum dimension under 25 km, ideal for the development of lunar bases and observational networks.
+The quest for water ice and the drive to establish lunar bases have positioned the south pole area above 80° latitude as a critical exploration target. This study introduces a Landing Feasibility Probability (LFP) model to evaluate prospective landing sites based on 10 critical factors. 120 sites were identified, stratified into 25 high-priority, 64 medium-priority, and 31 low-priority locations. These sites cluster around 8 major craters and plateaus, forming 7 lunar site networks ideal for the development of lunar bases and observational networks.
 
 ## 1. Introduction
-Lunar exploration offers an unparalleled window into the formation and evolution of the solar system. Identifying viable landing sites at the south pole is critical for the confluence of scientific goals and engineering feasibility. Future missions like NASA's Artemis III and China's Chang’e-7 target this region for its unique resources, particularly water ice.
+Identifying viable landing sites at the south pole is a critical step for future lunar bases (e.g., Artemis III and Chang’e-7). Challenges include extreme topography, variable solar illumination, and permanently shadowed regions (PSRs). Site selection must balance scientific value (ISRU potential) and engineering safety (landing hazard mitigation).
 
 ## 2. Materials and Methods
-### 2.1. Selection Criterion
-Criteria include topography (slope), environmental features (illumination), regolith temperature, and proximity to scientific targets (water ice, PSRs, minerals). Engineering safety factors include surface slope, average illumination, regolith temperature, flat area size, and communication potential.
+### 2.1 Selection Criterion
+Criteria include topography, environmental features, stay time, mobility, and sample analysis potential. Key scientific factors: presence of water ice, geological diversity, and mineral resources (PSRs, cold traps). Engineering safety factors: surface slope, average illumination, regolith temperature, and communication potential.
 
-### 2.2. The LFP-based site selection procedure
-The Landing Feasibility Probability (LFP) model employs a Genetic Algorithm (GA) to specify indices for evaluating landing viability. The process involves three phases: (1) training dataset compilation based on expert insights; (2) cross-regional training; and (3) identification of sites satisfying spatial and morphological constraints (e.g., minimum size of 2 km²).
+### 2.2 The LFP-based Site Selection Procedure
+1. **Training Dataset:** Compiled from expert insights and Artemis III candidate areas.
+2. **Heuristic Genetic Algorithm (GA):** Used to optimize the LFP model by assessing the importance of 23 factors.
+3. **Application:** Identifying sites based on spatial constraints (minimum 2 km² size, eccentricity < 0.9).
 
 ## 3. Results
-### 3.1. The valuable landing sites at the lunar south pole
-120 sites were identified:
-- **25 High-priority sites:** Situated in 2 km² flat areas, within 1 km of water ice deposits/PSRs.
-- **64 Medium-priority sites**
-- **31 Low-priority sites**
+### 3.1 Valuable Landing Sites
+- **120 sites total:** 25 high-priority, 64 medium-priority, and 31 low-priority.
+- **Clustering:** Sites are organized into 7 networks. Each network comprises sites within 25 km of each other, facilitating connectivity and shared resources.
+- **Validation:** 9 high-priority sites proximal to proposed Artemis III areas.
 
-### 3.2. Landing feasibility probability map
-Favorable locations are situated in proximity to craters. High-priority sites exhibit an arithmetic mean illumination value exceeding 0.30 and slope gradients generally below 7 degrees.
+### 3.2 Landing Feasibility Probability Map
+High LFP values (0.816 to 0.840) indicate sites situated in proximity to craters and inter-crater connecting areas. High-priority sites exhibit mean illumination > 0.30 and slope < 7°.
 
 ## 4. Discussion
-### 4.3. Cluster distribution of landing sites
-Sites cluster around major landmarks: Shackleton Crater, de Gerlache Crater, Sverdrup West, Faustini Crater, Kuhn Crater, Leibniz Beta Plateau, Amundsen Crater, and Idelson’l Crater. These form 7 distinctive networks, covering 52% of the identified sites. These networks facilitate autonomous observational missions and mutual support, with adjacent sites within 25 km for efficient information and resource sharing.
+### 4.1 Feasibility Validation
+- **Safety:** Slopes within 0° to 6.5° positively influence selection.
+- **Science:** Proximity to water ice deposits and PSRs (within 0–11.5 km) is a major driver.
+- **Clustering:** Sites around Shackleton, de Gerlache, and Sverdrup West form natural laboratories for habitation and resource harvesting.
+
+| Feature | High Priority | Medium Priority | Low Priority |
+| :--- | :--- | :--- | :--- |
+| Number of Sites | 25 | 64 | 31 |
+| LFP Range | > 0.83 | > 0.82 | > 0.81 |
+| Size Coverage | 0.6% of LSP | - | - |
 
 ## 5. Conclusion
-The LFP model streamlines site selection for future missions, transitioning from expert-driven processes to heuristic intelligent optimization. The identified 120 sites and 7 interconnected networks lay the groundwork for international collaboration and the construction of extraterrestrial bases.
+The LFP model offers a robust, expert-informed methodology for large-scale landing site determination. The 7 identified networks provide a foundation for international collaboration and the construction of sustainable extraterrestrial bases.
