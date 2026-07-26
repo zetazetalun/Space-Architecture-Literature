@@ -1,40 +1,39 @@
 # Building beyond earth: a roadmap for human-robot collaboration and workforce development in extraterrestrial construction
 
 **Authors:** Amirhosein Jafari, Carlos E. Gary-Bicas, Yufeng Qian, Andrew M. Webb, Yimin Zhu, Jason Jamerson  
-**Publication:** Frontiers in Space Technologies  
-**Date:** 10 December 2025  
-**Type:** Perspective
+**Published:** 10 December 2025  
+**Journal:** Frontiers in Space Technologies  
+**DOI:** 10.3389/frspt.2025.1701442
 
 ## Abstract
-Creating sustainable habitats on the Moon and Mars requires converging advances in construction technologies, human-robot collaboration (HRC), and workforce development. This paper synthesizes insights from a transdisciplinary workshop that focuses on three main themes: (1) trust-calibrated HRC systems for latency-laden and safety-critical tasks; (2) construction technology for extraterrestrial applications, for example, those challenges of dust mitigation, in-situ resource utilization (ISRU), and planetary protection; and (3) immersive and AI-assisted training that incorporates the necessary knowledge, skills, and abilities for the future-ready workforce. 
+Creating sustainable habitats on the Moon and Mars requires converging advances in construction technologies, human-robot collaboration (HRC), and workforce development. This paper synthesizes insights from a transdisciplinary workshop that focuses on three main themes: (1) trust-calibrated HRC systems for latency-laden and safety-critical tasks; (2) construction technology for extraterrestrial applications (ISRU, dust mitigation); and (3) immersive and AI-assisted training. The study presents a converging roadmap prioritized over 1–15 years.
 
 ## Introduction
-As humanity moves closer to establishing a permanent presence beyond Earth, designing and constructing safe, reliable, and scalable habitats will be among the biggest challenges of the 21st century. Programs like NASA’s Artemis and ESA’s Moon Village envision international multi-purpose settlements. Extraterrestrial construction requires reimagining technologies for extreme temperature variation, microgravity, radiation, and abrasive regolith.
+As humanity moves toward permanent presence beyond Earth, constructing safe, reliable, and scalable habitats is a primary challenge. Programs like NASA’s Artemis and ESA’s Moon Village envision sustainable settlements. Key enablers include in-situ resource utilization (ISRU) to reduce launch costs and additive manufacturing (3D printing) for automated fabrication of shelters and landing pads.
 
 ## Methodology
-This study employed the **Delphi Technique** through a transdisciplinary workshop designed to examine extraterrestrial design and operations. The workshop identified three pillars:
-1. **Human-Robot Collaboration (HRC):** Building trust-calibrated, adaptable frameworks.
-2. **Extraterrestrial Construction Challenges:** Prioritizing hazard mitigation, ISRU workflows, and energy strategies.
-3. **Future Workforce Training:** Designing immersive, AI-driven educational models.
+The study employed the Delphi Technique through a transdisciplinary workshop held at Louisiana State University on 6 June 2025. Experts from robotics, construction management, planetary sciences, and educational technology identified critical gaps and developed prioritized recommendations.
 
 ## Results and Discussions
+
 ### Human-robot interaction: trust, adaptability, and cognitive load
-Extraterrestrial construction will rely on high-stakes HRC rather than complete autonomy. A significant priority is managing cognitive load during teleoperation, especially for Mars missions with 20-minute round-trip delays. The study calls for a layered framework of autonomy that adapts to task complexity.
+Extraterrestrial construction will rely on high-stakes HRC rather than complete autonomy. A layered framework of autonomy is proposed where lower layers manage routine operations and higher layers escalate safety-critical events to humans.
 
 ### Extraterrestrial construction: hazards, ISRU, and planetary protection
-- **Dust Hazards:** Identified as a mission-critical threat (particles < 20 microns) that damages equipment and health.
-- **ISRU:** Regolith-based additive manufacturing (sulfur concrete or geopolymer binders) can reduce Earth-dependent payload mass by up to 90%.
-- **Planetary Protection:** Existing COSPAR guidelines may need to evolve to support large-scale construction while maintaining scientific integrity.
+*   **Dust Hazards:** Regolith particles (<20 microns) are a mission-critical threat to equipment and health.
+*   **ISRU:** Regolith-based additive manufacturing using sulfur concrete or geopolymer binders could reduce payload mass by up to 90%.
+*   **Infrastructure-first:** Priorities include regolith shielding berms for radiation and thermal protection.
 
 ### Workforce training: beyond technical skills
-Future workers must be fluent in robotics, systems thinking, and emotional resilience. Immersive XR (Extended Reality) platforms and AI-driven adaptive learning are proposed as critical training tools.
+Future workers need fluency in robotics, systems thinking, and emotional resilience. Extended-reality (XR) and AI-driven adaptive learning are identified as key training technologies.
 
 ## Converging Roadmap
+
 | Phase | Timeline | Focus |
 | :--- | :--- | :--- |
-| **Phase 1: Immediate Priorities** | 1–3 Years | HRC testbeds, XR training prototypes, hazard mitigation protocols (dust/radiation). |
-| **Phase 2: Mid-term Integration** | 3–7 Years | Operationalizing ISRU, regolith-based 3D printing (geopolymers/sulfur concrete), AI-adaptive training. |
-| **Phase 3: Long-term Sustainability** | 7–15 Years | Institutionalizing academies, hybrid power systems (geothermal/solar), global standards/interoperability. |
+| **Phase 1: Immediate** | 1–3 Years | High-fidelity HRC testbeds, XR training prototypes, hazard mitigation protocols. |
+| **Phase 2: Mid-term** | 3–7 Years | Integrating ISRU into modular workflows, regolith-based 3D printing, AI-driven training. |
+| **Phase 3: Long-term** | 7–15 Years | Institutionalizing transdisciplinary academies, hybrid power systems, global standards for off-Earth construction. |
 
 ## Conclusion
-Sustainable construction beyond Earth is a socio-technical endeavor. The study provides a framework connecting robotic self-management, human factors, and ethical considerations to create viable off-world habitats.
+Sustainable construction beyond Earth is a socio-technical challenge. The roadmap emphasizes the interdependencies between robotic self-management, human factors, and ethical/planetary protection considerations.
