@@ -3752,7 +3752,7 @@
       "path": "Papers/2016 Robert L. Kerr.md",
       "mimeType": "text/plain",
       "isRelevant": false,
-      "relevanceReason": "The document is a social science study regarding political branding and media discourse in the United States. It uses the term 'extraterrestrial' solely as a rhetorical device for a thought experiment about an objective observer and contains no content related to space architecture, ISRU, or space habitat construction.",
+      "relevanceReason": "The document is a political science and media studies analysis focusing on political branding and discourse in American politics. It uses the term 'extraterrestrial' only as a metaphorical thought experiment for an objective observer and does not discuss space architecture, ISRU, materials, or extreme environment construction.",
       "status": "success"
     },
     {
@@ -3763,7 +3763,7 @@
       "path": "Papers/2016 Robert L. Kerr.pdf",
       "mimeType": "application/pdf",
       "isRelevant": false,
-      "relevanceReason": "The document is a study on political branding and media discourse within American politics, specifically analyzing the terms 'conservative' and 'liberal' in the C-SPAN video library. The mention of 'extraterrestrial' in the title is purely a rhetorical thought experiment about an unbiased observer, and the term 'construction' refers to the social construction of meaning rather than physical construction in space.",
+      "relevanceReason": "The paper discusses political communication and branding strategies within American politics, specifically analyzing the terms 'conservative' and 'liberal' using the C-SPAN Video Library. It has no technical or practical relation to space architecture, ISRU, materials, or construction; the mention of an 'extraterrestrial' is purely a metaphorical device for a thought experiment regarding a neutral observer.",
       "status": "success"
     },
     {
@@ -3774,7 +3774,7 @@
       "path": "Papers/2016 Vibha Srivastava.md",
       "mimeType": "text/plain",
       "isRelevant": false,
-      "relevanceReason": "The provided document content contains only a single markdown header symbol ('#') and lacks any text, data, or technical information to analyze for relevance to space architecture.",
+      "relevanceReason": "The provided document content is empty or consists of only a placeholder character (#), providing no information or data related to space habitat construction, ISRU, materials, or automated construction.",
       "status": "success"
     },
     {
@@ -3785,7 +3785,7 @@
       "path": "Papers/2022 Jin.pdf",
       "mimeType": "application/pdf",
       "isRelevant": false,
-      "relevanceReason": "The paper focuses on theoretical mathematical paradigms for constructing fuzzy measures and their application in multicriteria decision making (MCDM). It does not discuss space habitat construction, ISRU, space materials, or automated construction in extreme environments.",
+      "relevanceReason": "The document is a theoretical mathematical paper regarding fuzzy measures, aggregation operators, and multi-criteria decision-making (MCDM). It does not address space habitats, ISRU, space materials, or automated construction in extreme environments.",
       "status": "success"
     }
   ],
@@ -12128,11 +12128,11 @@
     }
   ],
   "summary": {
-    "overview": "This review synthesizes findings from EXACTLY 208 relevant research papers focusing on the design, materials, and technologies required for extraterrestrial construction and habitat development. The literature demonstrates a definitive paradigm shift away from Earth-reliant, prefabricated modules toward autonomous, In-Situ Resource Utilization (ISRU) driven architectures. The research landscape is heavily empirical, focusing on overcoming the extreme environmental constraints of the Moon and Mars through advanced materials science, geotechnical engineering, and robotic additive manufacturing. This synthesis provides a comprehensive overview of current capabilities, emerging methodologies, and the technological roadmap for establishing sustainable human outposts in space.",
-    "keyFindings": "The literature unequivocally establishes that In-Situ Resource Utilization (ISRU) is mandatory for sustainable space exploration due to the prohibitive economic and payload costs of Earth-reliant logistics. Regolith from the Moon and Mars serves as the foundational construction material, with extensive research validating waterless or resource-efficient binders such as sulfur concrete, alkali-activated geopolymers, and vacuum-cured silicates. Extreme environmental factors including deep vacuum, low gravity, high radiation, and severe thermal cycling dictate both the mechanical requirements of materials and the architectural layout of habitats. Lava tubes are frequently identified as highly viable natural subsurface shelters that provide inherent radiation and thermal protection, requiring hybrid Class III structural reinforcement. Furthermore, the necessity for high-autonomy robotic systems, swarm robotics, and cyber-physical testing is critical due to communication latency and hazardous surface conditions.",
-    "methodologyTrends": "Recent research demonstrates a clear shift from pure theoretical and analytical modeling to rigorous empirical validation using physical prototypes in simulated extraterrestrial environments, such as thermal-vacuum chambers, cryogenic cooling, and microgravity simulations. The use of Discrete Element Method (DEM) and Finite Element Analysis (FEA) has become standard for predicting complex geotechnical behaviors, regolith flow, and foundation bearing capacities under reduced gravity. There is an increasing integration of Artificial Intelligence, Deep Reinforcement Learning, and Virtual Reality (VR) to train autonomous robotic swarms and facilitate safe human-in-the-loop teleoperation for complex site preparation tasks. Additionally, multiscale and micromechanical modeling techniques are heavily utilized to predict macroscale structural properties from microscopic planetary rock simulants.",
-    "technologyClass3": "Class III habitats, which rely predominantly on local planetary resources, are primarily driven by Additive Manufacturing (AM) and robotic assembly. Extrusion-based technologies dominate near-term infrastructure proposals, utilizing flowable geopolymers, sulfur concretes, and bio-composites. High-energy, binder-less techniques such as Solar Sintering, Selective Laser Sintering (SLS), Microwave Sintering, and Spark Plasma Sintering (SPS) are widely explored for their ability to produce high-strength regolith ceramics, though they face challenges related to energy consumption and thermal cracking. Emerging low-energy biological methods, such as Microbial Induced Carbonate Precipitation (MICP) and Enzyme-Induced Carbonate Precipitation (EICP), are gaining traction as sustainable alternatives for regolith consolidation. Furthermore, novel processes taking advantage of the space environment, such as direct vacuum dehydration and cold pressing, offer highly energy-efficient pathways for structural hardening without thermal treatment.",
-    "chartAnalysis": "The publication year trend reveals a sharp, exponential growth in research volume leading into 2025 and 2026, underscoring an accelerating academic and institutional focus perfectly aligned with the timelines of global space agency goals like the Artemis program. The dominance of Primary Literature and Original Articles highlights a highly empirical phase focused on physical material testing and robotic prototyping rather than purely conceptual design. Research Foci are heavily concentrated on ISRU, Materials Science, and Additive Construction, emphasizing the practical engineering of off-Earth building. The Moon and Surface scenarios are the most frequently targeted applications, acting as a proving ground for future Mars missions. The overwhelming focus on Class III habitats, powered by Extrusion and various Sintering technologies, confirms that the space construction industry has firmly transitioned to an ISRU-first paradigm.",
+    "overview": "This systematic literature review synthesizes findings from exactly 208 relevant research papers (out of 212 successfully analyzed papers, from a total of 212 documents). The corpus reveals an accelerating research interest in extraterrestrial construction, driven heavily by global space agencies' targets for sustained human presence on the Moon and Mars. A major paradigm shift is evident across the literature: moving away from the transport of prefabricated modules from Earth towards autonomous, In-Situ Resource Utilization (ISRU) methodologies. This transition underscores the absolute necessity of utilizing local planetary materials to achieve economic feasibility, logistical sustainability, and adequate environmental shielding for long-term habitats.",
+    "keyFindings": "ISRU is universally identified as the foundational enabler for sustainable space exploration, significantly mitigating the exorbitant costs of Earth-launched mass. Lunar and Martian regolith are the primary focus materials for extraterrestrial construction. Studies demonstrate that raw regolith exhibits high porosity, varied cohesion, and unique gravitational behaviors that require significant adjustments to classical terrestrial geotechnical models. For radiation and thermal shielding, lava tubes present highly viable natural shelters requiring minimal terrain modification. Furthermore, innovative material binders—including sulfur, biopolymers (e.g., potato starch, guar gum), sodium silicate, and geopolymers—show immense potential for waterless or low-water construction. Biological approaches, such as Microbially Induced Carbonate Precipitation (MICP) and engineered cyanobacteria, are rapidly emerging as highly energy-efficient alternatives to traditional thermal processing.",
+    "methodologyTrends": "The research landscape is dominated by Primary Literature, primarily comprising original laboratory experiments and advanced computational simulations. A prominent methodological trend is the widespread experimental use of lunar and Martian regolith simulants (e.g., LHS-1, MGS-1, JSC-1A) to perform mechanical testing (compression, flexural, thermal cycling) under simulated extreme conditions like high vacuum and cryogenic temperatures. Furthermore, numerical simulation tools, including Discrete Element Method (DEM) and Computational Fluid Dynamics (CFD), are heavily utilized to bridge the 'sim-to-real' gap. These tools are critical for modeling soil-tool interactions, predicting structural responses to thermal fluctuations, and optimizing robotic autonomy in low-gravity environments. Secondary literature provides essential tracking of technology readiness levels (TRL) and synthesizes multi-disciplinary approaches integrating robotics, materials science, and systems engineering.",
+    "technologyClass3": "Class III habitats, defined as structures constructed predominantly using in-situ resources, are the ultimate objective for permanent extraterrestrial bases. The mapping data reveals that Extrusion-Based 3D printing is the most thoroughly investigated technology in this category, utilizing geopolymers, sulfur concrete, and regolith-resin composites to achieve high compressive strengths rapidly. Sintering techniques (Solar, Selective Laser, and Microwave) follow closely, offering binder-free material consolidation that yields exceptional structural integrity, albeit demanding significant localized energy inputs and facing challenges like thermal cracking. Biomineralization (MICP/EICP) and biologically induced binding represent a growing, low-energy niche utilizing living organisms to consolidate regolith. Other mapped methods include binder jetting, vacuum dehydration using minimal sodium silicate activators, and localized casting or molding processes. The overarching operational goal across all these technologies is full robotic automation, capable of deploying infrastructure in harsh, uncrewed environments prior to human arrival.",
+    "chartAnalysis": "The generated visualizations illustrate the evolutionary trajectory and current priorities of extraterrestrial construction research. The 'Year of Publication' bar chart highlights an exponential surge in scholarly output, peaking toward 2025 and 2026, indicative of accelerating focus aligned with missions like Artemis. The 'Research Type' and 'Publication Type' charts confirm a strong foundation of Primary Literature, driving empirical validation via Original Research Articles. The 'Research Foci' treemap reveals that ISRU, Materials Science, and Additive & Automated Construction form the fundamental pillars of the field, reflecting a deeply technical, materials-first approach to space habitation. The 'Application Location' radar chart and 'Application Scenario' bar chart confirm that surface operations on the Moon are the overwhelming priority, functioning as an accessible proving ground for future Martian endeavors. Finally, the 'Habitat Class' pie chart and 'Technology for Class III Habitat' bar chart definitively demonstrate the scientific consensus prioritizing Class III (ISRU-based) architectures, primarily powered by Extrusion-Based additive manufacturing and highly focused Sintering technologies.",
     "chartData": {
       "distributions": [
         {
@@ -12140,32 +12140,56 @@
           "type": "bar",
           "data": [
             {
+              "name": "2005",
+              "value": 1
+            },
+            {
+              "name": "2009",
+              "value": 1
+            },
+            {
+              "name": "2010",
+              "value": 2
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 7
+            },
+            {
+              "name": "2019",
+              "value": 2
+            },
+            {
               "name": "2020",
               "value": 4
             },
             {
               "name": "2021",
-              "value": 15
-            },
-            {
-              "name": "2022",
-              "value": 8
-            },
-            {
-              "name": "2023",
-              "value": 12
-            },
-            {
-              "name": "2024",
               "value": 17
             },
             {
+              "name": "2022",
+              "value": 7
+            },
+            {
+              "name": "2023",
+              "value": 14
+            },
+            {
+              "name": "2024",
+              "value": 30
+            },
+            {
               "name": "2025",
-              "value": 41
+              "value": 50
             },
             {
               "name": "2026",
-              "value": 37
+              "value": 72
             }
           ]
         },
@@ -12175,11 +12199,11 @@
           "data": [
             {
               "name": "Primary Literature",
-              "value": 85
+              "value": 162
             },
             {
               "name": "Secondary Literature",
-              "value": 20
+              "value": 46
             }
           ]
         },
@@ -12189,22 +12213,22 @@
           "data": [
             {
               "name": "Research/Original Article",
-              "value": 80
+              "value": 153
             },
             {
               "name": "Review Article",
-              "value": 20
+              "value": 43
             },
             {
               "name": "Conference Paper/Proceedings",
-              "value": 4
-            },
-            {
-              "name": "Preprint",
-              "value": 1
+              "value": 9
             },
             {
               "name": "Case Study/Report",
+              "value": 2
+            },
+            {
+              "name": "Preprint",
               "value": 1
             }
           ]
@@ -12215,43 +12239,51 @@
           "data": [
             {
               "name": "ISRU",
-              "value": 80
+              "value": 155
             },
             {
               "name": "Materials Science",
-              "value": 65
+              "value": 120
             },
             {
               "name": "Additive & Automated Construction",
-              "value": 45
+              "value": 95
             },
             {
               "name": "Geotechnical Engineering",
-              "value": 40
+              "value": 85
             },
             {
               "name": "Structural Design",
-              "value": 38
+              "value": 75
             },
             {
               "name": "Systems Engineering and Design",
-              "value": 18
-            },
-            {
-              "name": "Biotechnology & Bio-Inspired Materials",
-              "value": 10
+              "value": 35
             },
             {
               "name": "Life Support & Human Factors",
-              "value": 8
+              "value": 25
             },
             {
               "name": "Sustainability",
-              "value": 7
+              "value": 20
+            },
+            {
+              "name": "Biotechnology & Bio-Inspired Materials",
+              "value": 15
             },
             {
               "name": "Construction Management & Planning",
+              "value": 10
+            },
+            {
+              "name": "Transportation/Logistics",
               "value": 5
+            },
+            {
+              "name": "Media, Politics & Discourse",
+              "value": 2
             }
           ]
         },
@@ -12261,15 +12293,15 @@
           "data": [
             {
               "name": "Surface",
-              "value": 90
+              "value": 178
             },
             {
               "name": "Underground",
-              "value": 15
+              "value": 21
             },
             {
               "name": "Orbital",
-              "value": 8
+              "value": 9
             }
           ]
         },
@@ -12279,19 +12311,19 @@
           "data": [
             {
               "name": "Moon",
-              "value": 85
+              "value": 145
             },
             {
               "name": "Mars",
-              "value": 45
+              "value": 85
             },
             {
               "name": "Space",
-              "value": 10
+              "value": 15
             },
             {
               "name": "Asteroids",
-              "value": 3
+              "value": 5
             }
           ]
         },
@@ -12301,15 +12333,15 @@
           "data": [
             {
               "name": "Class III",
-              "value": 95
+              "value": 172
             },
             {
               "name": "Class II",
-              "value": 10
+              "value": 24
             },
             {
               "name": "Class I",
-              "value": 5
+              "value": 12
             }
           ]
         },
@@ -12319,35 +12351,31 @@
           "data": [
             {
               "name": "Extrusion Based",
-              "value": 35
+              "value": 85
             },
             {
               "name": "Solar and Selective Laser Sintering",
-              "value": 20
+              "value": 45
             },
             {
               "name": "Microwave Sintering",
-              "value": 15
-            },
-            {
-              "name": "Biomineralization (MICP/EICP)",
-              "value": 8
+              "value": 25
             },
             {
               "name": "Casting/Molding",
-              "value": 7
+              "value": 20
+            },
+            {
+              "name": "Biomineralization (MICP/EICP)",
+              "value": 15
             },
             {
               "name": "Binder Jetting",
-              "value": 5
+              "value": 10
             },
             {
-              "name": "Cold Pressing & Vacuum Dehydration",
-              "value": 5
-            },
-            {
-              "name": "Spark Plasma Sintering",
-              "value": 4
+              "name": "Vacuum Dehydration/Cold Pressing",
+              "value": 8
             }
           ]
         }
@@ -12360,23 +12388,23 @@
       }
     },
     "performance": {
-      "totalTimeMs": 768607,
-      "mappingTimeMs": 141330,
-      "synthesisTimeMs": 37262,
+      "totalTimeMs": 691648,
+      "mappingTimeMs": 150606,
+      "synthesisTimeMs": 60164,
       "paperCount": 212,
       "tokenUsage": {
         "promptTokens": 121994,
-        "candidatesTokens": 5600,
-        "totalTokens": 131652
+        "candidatesTokens": 6232,
+        "totalTokens": 134005
       }
     },
     "mappingModel": "gemini-3-flash-preview",
     "metadata": {
       "appVersion": "1.0.1",
-      "generationDate": "2026/7/26 19:58:08",
+      "generationDate": "2026/7/27 10:03:31",
       "githubRepoUrl": "https://github.com/zetazetalun/Space-Architecture-Literature/tree/main/Papers",
       "githubRef": "main"
     }
   },
-  "updatedAt": "2026-07-26T11:58:08.499Z"
+  "updatedAt": "2026-07-27T02:03:31.533Z"
 }
