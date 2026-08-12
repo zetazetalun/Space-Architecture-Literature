@@ -1,51 +1,58 @@
 # Understanding the Soil Bearing Resistance in a Different Gravity Environment via Particle Density Scaling
 
-**Authors:** Sumana Bhattacharya and Seung Jae Lee  
-**Affiliation:** Dept. of Civil and Environmental Engineering, Florida International Univ., Miami, FL.  
-**Publication:** Earth and Space 2021, pp. 757-766, © ASCE.
+**Sumana Bhattacharya**¹ and **Seung Jae Lee**²
+
+¹Dept. of Civil and Environmental Engineering, Florida International Univ., Miami, FL. Email: sbhat014@fiu.edu  
+²Dept. of Civil and Environmental Engineering, Florida International Univ., Miami, FL. Email: sjlee@fiu.edu
 
 ## ABSTRACT
+
 Understanding the bearing resistance of planetary regolith is essential to establish a long-term presence on the planets, e.g., extraterrestrial human habitat construction. Despite its importance, our understanding of the bearing resistance remains at best incomplete due to the dearth of data collected from the planetary surface missions as well as the limited amount of planetary soil samples available for the study. Moreover, it is hard to experimentally test the bearing resistance in a different gravity condition that can be obtained through parabolic flight, but which is expensive and can simulate a relatively short duration of different gravities. On the other hand, numerical studies using the discrete element method typically require high computational cost. This study hypothesizes a new approach to investigate the soil bearing resistance in a different gravity environment by simply scaling the particle density instead of reproducing the different gravity conditions. To this end, Terzaghi’s bearing capacity theory is tweaked and used to develop the hypothesis. This study performs a set of discrete element simulations to test the hypothesis and demonstrate the feasibility of the proposed approach.
 
 ## INTRODUCTION
-Extraterrestrial soil research is at the core of planetary missions to understand the geomechanical properties including the soil bearing resistance against surface loading. This effort is vital to enable successful future surface activities such as the human habitat construction (Lim et al. 2017). In spite of the importance of the space mission-related geomechanics study, our understanding is still limited due to the accessibility issues.
+
+Extraterrestrial soil research is at the core of planetary missions to understand the geomechanical properties including the soil bearing resistance against surface loading. This effort is vital to enable successful future surface activities such as the human habitat construction (Lim et al. 2017). In spite of the importance of the space mission-related geomechanics study, our understanding is still limited due to the accessibility issues. Seven Surveyor space crafts have been sent from 1966 to 1968 to investigate the geotechnical properties of the lunar surface. Two of them (Surveyor III and VII) were loaded with the soil mechanics surface sampler for various in-situ testing on the lunar surface (Scott and Roberson 1969). However, the data obtained from the in-situ testing is not sufficient to understand the soil bearing resistance.
 
 ## Terzaghi’s Bearing Capacity Theory
-Terzaghi’s formula to estimate the soil bearing capacity is shown in Equation (1):
 
-$$q_d = cN_c + \gamma D_f N_q + 0.5\gamma BN_\gamma = cN_c + \gamma(D_f N_q + 0.5BN_\gamma)$$ (1)
+Terzaghi’s formula to estimate the soil bearing capacity is shown in Equation (1) which shows the contribution by cohesion, surcharge, and weight of soil (Terzaghi et al. 1996).
 
-where:  
-- $q_d$: bearing capacity of a soil mass located above water table  
-- $c$: cohesion intercept  
-- $\gamma$: unit weight of soil  
-- $D_f, B$: depth and width of footing  
-- $N_c, N_q, N_\gamma$: bearing capacity factors  
+$$q_d = cN_c + \gamma D_f N_q + 0.5\gamma B N_\gamma = cN_c + \gamma(D_f N_q + 0.5 B N_\gamma)$$ (1)
 
-Considering the cohesion of lunar soil is relatively low, the effect of the first term ($cN_c$) is negligible. Because unit weight $\gamma = \rho g$ (where $\rho$ is density and $g$ is gravity), the formula can be expressed for partial gravity ($g/n$):
+where:
+- $q_d$: bearing capacity of a soil mass located above water table
+- $c$: cohesion intercept
+- $\gamma$: unit weight of soil
+- $D_f, B$: depth and width of footing
+- $N_c, N_q, N_\gamma$: bearing capacity factors with respect to cohesion, surcharge, and weight of soil
 
-$$q_d = \rho(g/n)(D_f N_q + 0.5BN_\gamma)$$ (2)
+Considering the cohesion of lunar soil is relatively low, the effect of the first term ($cN_c$) is negligible. Since $\gamma = \rho g$ (where $\rho$ is density and $g$ is gravity), Equation (1) can be expressed for partial gravity ($g/n$):
 
-This leads to the hypothesis that the soil bearing resistance of a planet may be reproduced in Earth gravity condition ($g$) by proportionally scaling the particle density to $(\rho/n)$:
+$$q_d = \rho(g/n)(D_f N_q + 0.5 B N_\gamma)$$ (2)
 
-$$q_d = (\rho/n)g(D_f N_q + 0.5BN_\gamma)$$ (3)
+Alternatively, considering a partial density $\rho/n$ in Earth gravity ($g$):
 
-## Discrete Element Modeling
-An open source DEM code, LIGGGHTS, is used. Toyoura sand with 60% relative density (void ratio ~ 0.76) is selected for modeling. To manage computational cost, particle sizes were enlarged by 30 times (8 mm diameter spheres).
+$$q_d = (\rho/n)g(D_f N_q + 0.5 B N_\gamma)$$ (3)
 
-**Table 1. DEM modeling parameters and values used for the simulations**
+## DISCRETE ELEMENT MODELING
+
+An open source DEM code, **LIGGGHTS**, is used for numerical study. Toyoura sand with 60% relative density (void ratio ~ 0.76) is selected. The study enlarges the original particle size by 30 times to keep computational costs manageable, resulting in 6770 spherical particles of 8 mm diameter.
+
+### Table 1. DEM modeling parameters and values used for the simulations
 
 | DEM modeling parameter | Value |
 | :--- | :--- |
 | Gravity ($g = 9.8$ m/s²) | $1/6g, 1/2g, 1g$ for $1\rho$ particle density |
 | Particle density ($\rho = 2650$ kg/m³) | $1/6\rho, 1/2\rho$ for $1g$ gravity condition |
-| $E$ Young's modulus of particle | $1 \times 10^{10}$ Pa |
-| $\nu$ Poisson's Ratio | 0.3 |
-| $\mu$ Coefficient of friction | 0.5 (~ tan 27°) |
-| $\mu_r$ Coefficient of rolling friction | 0.3 |
+| Young's modulus of particle ($E$) | $1 \times 10^{10}$ Pa |
+| Poisson's Ratio ($\nu$) | 0.3 |
+| Coefficient of friction ($\mu$) | 0.5 (~ tan 27°) |
+| Coefficient of rolling friction ($\mu_r$) | 0.3 |
 
 ## RESULTS AND DISCUSSIONS
-Simulation results for soil bearing resistance with $1/2\rho$ particle density in $1g$ gravity condition showed overall good agreement with simulations of $1\rho$ particle density in $1/2g$ gravity. Similarly, $1/6\rho$ density at $1g$ was comparable to $1\rho$ density at $1/6g$. This demonstrates that Terzaghi’s formula holds true for the developed hypothesis.
+
+Figure 6 compares the simulated bearing resistance of soil with $1/2\rho$ particle density in $1g$ gravity condition to the simulation result of soil with $1\rho$ particle density in $1/2g$ gravity. Overall good agreement is shown between the simulation results which demonstrates Terzaghi’s formula holds true for the developed hypothesis.
 
 ## CONCLUDING REMARKS
-This study demonstrates that gravity effects on soil bearing resistance can be reproduced by adopting synthetic soil (e.g., 3D-printed particles) with proportionally scaled density. This provides an inexpensive alternative for laboratory testing of extraterrestrial soil behavior.
+
+This study leverages Terzaghi’s bearing capacity theory to demonstrate that the gravity effect on the soil bearing resistance can be reproduced by adopting a synthetic soil with proportionally scaled particle density. With recent advances in 3D printing technology, 3D-printed synthetic particles can be easily produced with controlled particle density, allowing planetary soil behavior to be simulated in an inexpensive manner.
