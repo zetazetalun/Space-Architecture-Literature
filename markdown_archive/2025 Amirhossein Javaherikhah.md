@@ -1,42 +1,39 @@
 # Assessing the Efficiency of Integrating BIM and Blockchain to Improve Information Management for Mars Buildings: A SWOT-AHP Analysis
 
 ## Abstract
-This research investigates integrating Building Information Modeling (BIM) and blockchain technology to enhance building information’s security, reliability, and accuracy in Martian environments. Given the unique challenges posed by extraterrestrial construction, this study evaluates the feasibility of this hybrid approach through a structured SWOT (Strengths, Weaknesses, Opportunities, and Threats) analysis. Findings indicate that the strengths are cost calculation and budgeting (26.21), and the weaknesses are technology complexity (25.488). Increased productivity (19.16) is the most important criterion at the opportunity point, and defects in data security (20.68) are the most important at the threat point. The SWOT analysis places BIM and blockchain integration in a conservative strategy quadrant.
+This research investigates integrating Building Information Modeling (BIM) and blockchain technology to enhance building information’s security, reliability, and accuracy in Martian environments. Given the unique challenges posed by extraterrestrial construction, this study evaluates the feasibility of this hybrid approach through a structured SWOT (Strengths, Weaknesses, Opportunities, and Threats) analysis. Expert inputs were collected through a comprehensive questionnaire identifying nine strengths, eight weaknesses, eight opportunities, and six threats to implementing BIM and blockchain technology in space projects. The Analytical Hierarchy Process (AHP) was used to prioritize these factors.
 
 ## 1. Introduction
-Mars inhabitation requires the creation of infrastructure suitable for human life, dealing with soil toxicity, intense radiation, and low gravity. Advanced technologies like BIM and blockchain provide comprehensive solutions for controlling information management. BIM allows for accurate simulation and design, while blockchain provides transparency, security, and immutable data storage for construction processes and resource tracking.
+Mars presents specific challenges for habitation, such as soil toxicity, intense radiation, and low gravity. Constructing infrastructure suitable for human life requires advanced solutions for managing information and construction processes. BIM allows engineers to accurately design and plan, while blockchain provides a secure system for recording information, ensuring transparency and security. Together, they optimize construction processes and allow for precise tracking of resources and materials.
 
-## 2. Research Background
-Research highlights that BIM and blockchain can lead to accurate modeling, assurance of construction instructions, and resource management. However, implementation involves technological complications, high initial costs, and resistance to change. Specific Martian challenges include lack of infrastructure and the distance from Earth, which affects technology transfer.
+## 2. Technical Data and Criteria
 
-## 3. Research Method
-This study used a combination of SWOT and Analytic Hierarchy Process (AHP). Expert inputs from 10 specialists in Mars exploration and construction were collected via questionnaires. Pairwise comparisons (1-9 scale) were analyzed using Expert Choice 11 software to rank criteria.
-
-### Table 1: All criteria in SWOT with description (Summary)
+### Table 1: SWOT Criteria for BIM-Blockchain Integration in Mars Construction
 | SWOT | Criteria | Description |
 |---|---|---|
-| Strength | Detailed modeling | BIM provides critical 3D models for precision. |
-| Strength | Resource management | Blockchain allows verifiable material tracking. |
-| Weakness | Complexity | High expertise required for extraterrestrial adaptation. |
-| Opportunity | Innovation | Enabling futuristic construction methods suitable for Mars. |
-| Threat | Data security | Potential breaches in sensitive Mars project data. |
+| **Strength** | Detailed modeling | BIM provides comprehensive 3D models critical for Mars building precision. |
+| | Resource management | Blockchain allows for transparent material consumption tracking. |
+| | Cost calculation | Improved financial planning through safe transactions. |
+| | Quality and safety | Simulations and tamper-proof records improve standards. |
+| **Weakness** | Complexity | Both technologies require specialized expertise for extraterrestrial adaptions. |
+| | Limited infrastructure | Lack of Martian infrastructure makes implementation difficult. |
+| | Compatibility | Modifications are necessary to handle Mars-specific conditions. |
+| **Opportunity** | Innovation | Enables futuristic construction methods suitable for Mars. |
+| | Productivity | Automation and data integrity boost productivity in harsh conditions. |
+| **Threat** | Data security defects | Potential for breaches in sensitive Mars project data. |
+| | Environmental conditions | Extreme challenges in securing data exchange in harsh environments. |
+| | Technical risks | Dependency on advanced tech may lead to failures if not adapted. |
 
-## 4. Research Findings
-### Strengths Ranking (Table 7)
-1. Detailed modeling and construction instructions (Weight: 0.07)
-2. High precision (0.06)
-3. Data management (0.06)
-4. Continuous monitoring (0.06)
+## 3. Results and Findings
 
-### Weaknesses Ranking (Table 10)
-1. Limited infrastructure (Weight: 0.27)
-2. Complexity of technology (0.25)
-3. Problems of adapting to Mars conditions (0.19)
+### Weighting Results (AHP)
+- **Strengths:** Detailed modeling and construction instructions (0.07), High precision (0.06), Data management (0.06).
+- **Weaknesses:** Limited infrastructure (0.27), Complexity of technology (0.25), Problems of adapting to Mars (0.19).
+- **Opportunities:** Innovation in construction (0.23), Increase productivity (0.18).
+- **Threats:** Defects in data security (0.34), Difficult environmental conditions (0.25).
 
-### IFE Matrix Results (Table 18/19)
-- Total Weighted Score for Opportunities: 0.068
-- Total Weighted Score for Weaknesses (IFE): 0.053
-- The integration strategy falls into the **Conservative Strategy** quadrant (Figure 11).
+### SWOT Strategy Matrix
+The SWOT analysis places the integration of BIM and blockchain in a **conservative strategy quadrant**. This indicates that while the technology holds significant promise, it requires further development, particularly in overcoming infrastructure constraints and technical complexity before full implementation.
 
-## 5. Conclusions
-The study identifies BIM and blockchain as crucial for addressing precision and dependability in Martian buildings. However, the limited infrastructure on Mars remains the most critical obstacle. The research suggests that while the concept holds revolutionary potential, it requires significant infrastructural investment and further technical innovation to overcome high starting costs and complexity before deployment.
+## 4. Conclusions
+The study highlights that BIM and blockchain integration is crucial for the precision and dependability required for Martian buildings. However, the lack of existing infrastructure on Mars and high starting expenditures are significant barriers. Future research must focus on constructing frameworks for dealing with Martian construction information and exploring novel approaches to improve reliability in alien ecosystems.
