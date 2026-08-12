@@ -1,29 +1,13 @@
 # Growing fast and steady in space: Distributed rapid self-reconfiguration motion planning optimization methods for swarm intelligent space modular self-reconfigurable satellites
 
-**Authors:** Lei Chen, Naiming Qi, Mingying Huo, Qiufan Yuan, Ze Yu, Wenyu Feng  
-**Publication:** Aerospace Science and Technology 166 (2025) 110536  
-**DOI:** 10.1016/j.ast.2025.110536
+**Authors:** Lei Chen, Naiming Qi, Mingying Huo, Qiufan Yuan, Ze Yu, Wenyu Feng
+**Journal:** Aerospace Science and Technology 166 (2025) 110536
 
 ## Abstract
-The large-scale self-reconfiguration of Space Modular Self-Reconfigurable Satellites (SMSRS) faces critical challenges in the computational complexity of global assignment and motion space problems, low efficiency, as well as the low completion rate associated with the hollow structure, severely limiting their application in extraterrestrial infrastructure construction. In this study, we propose a Rapid Self-Reconfiguration Motion Planning Optimization (RSRMPO) method based on the distributed framework, specifically designed for pivoting cube modular systems. The proposed framework resolves the dual bottlenecks of near-optimal NP-complete problem computational demands and hollow structure formation through a decoupled optimization strategy. Simulation experiments confirm that RSRMPO framework provides near-optimal solutions to the NP-complete reconfiguration problem, effectively improving computational efficiency and structural robustness.
+The large-scale self-reconfiguration of Space Modular Self-Reconfigurable Satellites (SMSRS) faces critical challenges in the computational complexity of global assignment and motion space problems, low efficiency, as well as the low completion rate associated with the hollow structure, severely limiting their application in extraterrestrial infrastructure construction. In this study, we propose a Rapid Self-Reconfiguration Motion Planning Optimization (RSRMPO) method based on the distributed framework, specifically designed for pivoting cube modular systems. The proposed framework resolves the dual bottlenecks of near-optimal NP-complete problem computational demands and hollow structure formation through a decoupled optimization strategy: assignment optimization at the high-level module ensures structural integrity, while motion planning optimization at the execution layer guarantees swarm fast collision-free coordination. In reconfiguration with size spanning 10-1,200 modules, RSRMPO framework demonstrates less planning time and energy consumption and achieves a higher completion rate compared to the Graph-Based Configuration Search (GBCS) algorithm. 
 
-## Introduction
-Modular satellites offer advantages such as reusability, interchangeability, and robust data interfaces. SMSRS systems have emerged as versatile platforms for large-scale space missions, including on-orbit maintenance, debris removal, and assembly of large-scale structures like space telescope frames and manipulator arms. 
+## 1. Introduction
+As spacecraft missions become increasingly specialized and complex, the emergence of the Space Modular Self-Reconfigurable Satellite (SMSRS) offers considerable promise. SMSRS systems offer key advantages such as reusability, interchangeability, and robust data interfaces. These systems can self-assemble into deployable configurations for high-precision maneuvering, orbital capture, and in-orbit assembly of large aperture space telescopes. 
 
-## Methodology
-The study introduces the **Rapid Self-Reconfiguration Motion Planning Optimization (RSRMPO)** framework consisting of:
-1.  **Virtual Connection Technique (VCT):** Uses magnetic link sensors and a distributed framework for rapid identification of connection states.
-2.  **Degeneration-Growth Assignment (DGA):** An improved fractal method based on L-systems to topologically describe the reconfiguration process and prevent hollow structures.
-3.  **Feasible Space Map (FS_map):** A real-time generation technique for finite feasible space maps based on connectable surfaces.
-4.  **Energy-cost-optimized A* path planning:** Minimizes transfer steps to reduce energy consumption.
-5.  **Collision Avoidance:** A priority-based technique to prevent agent deadlocks.
-
-## Results and Experiments
-The methods were evaluated using configurations ranging from 10 to 1,200 modules.
-- **Computational Efficiency:** VCT reduces computation time by 51.2% compared to graph-link methods for 1,000 modules.
-- **Path Planning:** The MPO algorithm decreases reconfiguration planning time for each module by an average of 67.2% when configured with 1,200 modules.
-- **Completion Rate:** RSRMPO achieved a completion rate of 89.85% in 1,000-module random configurations with 50% overlap, significantly higher than the 78.14% achieved by the GBCS method.
-- **Energy/Time Savings:** Compared to GBCS, RSRMPO achieved a 93.3% reduction in planning time and an 85.3% decrease in energy consumption (measured by transfer steps).
-
-## Conclusion
-The RSRMPO framework demonstrates scalability and efficiency for large-scale space applications, preventing the formation of hollow structures and providing a robust solution for the assembly of modular spacecraft and infrastructure in microgravity environments.
+## 2. Conclusion
+In this study, we present a Rapid Self-Reconfiguration Motion Planning Optimization (RSRMPO) method based on the distributed framework to resolve the near-optimal NP-complete challenges associated with preventing the hollow structure formation and increasing efficiency in large-scale reconfiguration. Simulation experiments confirm that the RSRMPO framework achieves a 93.3% reduction in planning time, an 85.3% decrease in energy consumption, and a higher completion rate, 89.85%, compared to the GBCS algorithm in 1,000-module random configurations with 50% overlap. These advantages provide near-optimal solutions for reconfiguration scales spanning 10–1,200 modules, demonstrating scalability and computational efficiency for large-scale space applications.
