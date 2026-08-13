@@ -1,38 +1,43 @@
 # A modified Prandtl’s model for predicting the bearing capacity of lunar soil ground under extraterrestrial gravitational environment
 
-**Journal:** Acta Astronautica 234 (2025) 59–72
-**Authors:** Banglu Xi, Mingjing Jiang, Lin Qi, Jiaqiang Yang, Mingliang Chen
+**Journal:** Acta Astronautica 234 (2025) 59–72  
+**DOI:** https://doi.org/10.1016/j.actaastro.2025.04.054  
 
 ## Abstract
-The prediction of the bearing capacity of regolith on the Moon is vital for the design and construction of lunar bases. Classical analytical methods developed on Earth often exclude gravity effects. This paper examines Prandtl’s bearing capacity theory assumptions using Discrete Element Method (DEM) simulations under various gravity fields. A modified Prandtl’s model is developed and verified, showing results within 50% error of experimental data, effectively capturing the gravity effect on lunar soil bearing capacity.
+The prediction on bearing capacity of regolith on the Moon plays an important role in the design and construction of the future lunar base. Classical analytical methods developed on Earth may be unable to predict the bearing capacity of lunar soil on the Moon since the gravity effect is excluded. This study examines assumptions in Prandtl’s theory and proposes a modified model considering gravity effects, verified against experimental data under different gravity fields. Results show the model predicts bearing capacities within 50% error, capturing the gravity effect on lunar soil simulants.
 
 ## 1. Introduction
-Lunar habitation designs (inflatable, concrete, deployable, and lava tubes) require foundations that safely transfer loads to lunar soil. Standard terrestrial theories (Prandtl, Terzaghi) assume linear proportionality between gravity and bearing capacity, which contradicts experimental observations in low-gravity environments (e.g., parabolic flights, drop towers).
+The setup of permanent research stations on the Moon or Mars requires careful foundation design to transfer structure loads safely to lunar soil. Proposed designs include inflatable, concrete, and deployable structures, as well as lava tubes. Classical theories (Prandtl, Terzaghi) assume weightless soil or Earth-standard gravity, leading to potential inaccuracies in low-gravity environments like the Moon (1.63 m/s²).
 
-## 2. Modified Prandtl’s Model
-### 2.1 Soil Weight and Earth Pressure
-Prandtl’s original model assumes weightless soil. The modified model introduces:
-- **Initial Earth Pressure at Rest (Pr):** Significant in low-gravity analysis.
-- **Additional Pressure (Padd):** Pressure due to the applied load.
-- **Passive Earth Pressure Coefficient (kp):** Observed to increase non-linearly as gravity decreases.
+## 2. Methodology
+- **DEM Simulations:** Discrete element method simulations of plate loading tests under gravity fields from 0.01g to 10g.
+- **Modified Parameters:** Introduction of soil weight, additional pressure due to applied load, and gravity-dependent passive earth pressure coefficients.
+- **Stress-Dependency:** Consideration of internal friction angle (φ) dependency on confining pressure (stress level).
 
-### 2.2 Failure Surface
-The internal friction angle (φ) increases with decreasing confining pressure (lower gravity), leading to deeper and wider failure zones in low-gravity environments.
+## 3. Results & Findings
+### 3.1 Soil Weight and Earth Pressure
+- Earth pressure acting on the foundation includes initial pressure at rest ($P_r$) and additional pressure ($P_{add}$) due to applied load.
+- Passive earth pressure increases non-linearly with decreasing gravity.
 
-## 3. Results and Verification
+### 3.2 Model Verification
+- Comparison with experimental data from centrifuge tests and parabolic flights.
+- The modified Prandtl’s model predicts values within 50% error, significantly improving upon classical models which predict a purely linear relationship between gravity and bearing capacity.
+
+## 4. Conclusions
+1. Active earth pressure assumptions in classical Prandtl theory should be replaced by the sum of earth pressure at rest and additional pressure.
+2. Passive earth pressure increases non-linearly with gravity levels.
+3. The proposed model serves as an effective tool for the design and construction of future lunar bases.
+
 ### Table 1: Parameters for lunar soil bin in DEM simulations
 | Name | Value |
 |---|---|
 | Void ratio | 0.22 |
-| Dry density | 2600 kg/m³ |
-| Normal stiffness | 7.5 × 10⁷ N/m |
+| Dry density (kg/m³) | 2600 |
 | Frictional coefficient | 1.0 |
 | Rolling resistance coefficient | 1.3 |
+| Normal stiffness (N/m) | 7.5 x 10⁷ |
 
-### Comparison with Experimental Data
-The modified model was verified against datasets from KLS-1, MLS-1, FJS-1, and Toyoura sand. The relative error for the modified model is significantly lower than classical models, which tend to underestimate bearing capacity in low-gravity scenarios.
-
-## 4. Conclusions
-1. Earth pressure at rest and additional pressure should replace active earth pressure in bearing capacity formulas for extraterrestrial environments.
-2. Passive earth pressure increases non-linearly with decreasing gravity.
-3. The modified Prandtl's model predicts lunar soil bearing capacity within a 50% error margin across 0.01g to 10g environments, making it a viable tool for lunar base engineering.
+### Table 2: Bearing Capacity Factor Equations (Summary)
+- **Nq:** Modified for gravity and additional pressure coefficient.
+- **Nc:** Adjusted based on Nq and friction angle.
+- **Ny:** Derived from limit equilibrium including soil weight integrals.
