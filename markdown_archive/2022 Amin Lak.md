@@ -1,53 +1,56 @@
 # A new deployable pantographic lunar habitat
 
-**Authors:** Amin Lak, Maziar Asefi, PhD
-**Journal:** Acta Astronautica 192 (2022) 351–367
+**Authors:** Amin Lak, Maziar Asefi
+**Publication:** Acta Astronautica 192 (2022) 351–367
 **DOI:** https://doi.org/10.1016/j.actaastro.2021.12.049
 
 ## Abstract
-Deployable lunar structures have been and are being developed as an appropriate solution to the volumetric limitations of cargo mission flights. A deployable lunar habitat consisting of linear and planar elements connected through simple movable joints is introduced. This new structure is made of some linear units consisting of two types of scissor-like elements (SLE): 1) a modified polar scissor-like element and 2) a closed-loop of angulated scissor-like elements. After conducting theoretical research on lunar habitats, the evaluation criteria of transformable lunar structures are derived and then many new concepts are evaluated. The design considerations of such structures are discussed, and a proper form for these habitat types is selected. An experimental study is run to assess the best deployment strategy for the whole structure. By introducing the dimensional properties of the lunar habitats through physical and digital modeling process per crewmember, the derived alternatives from the previous stage are analyzed and the best transformation strategy that meets the aforementioned considerations is developed. Providing relatively high degrees of protection against environmental hazards through the combination of rigid plates with membrane, this proposed structure reduces the required extravehicular activity (EVA) time for assembly because of its quick and simple deployment mechanism. The folded state of the structure provides a low volume for the integration of subsystems.
+Deployable lunar structures are being developed as a solution to the volumetric limitations of cargo mission flights. This paper introduces a deployable lunar habitat consisting of linear and planar elements connected through simple movable joints. The structure utilizes two types of scissor-like elements (SLE): modified polar SLEs and a closed-loop of angulated SLEs. The design integrates rigid plates with membranes to provide protection against environmental hazards while reducing required extravehicular activity (EVA) time for assembly through a quick and simple deployment mechanism.
 
 ## 1. Introduction
-Provison of living and working pressurized units for supporting self-sufficiency in space missions is the main task of Exploration Habitats (XHabs). Structural concepts are categorized as:
+Space habitats are classified into three categories:
 - **Class-I:** Pre-integrated, hard-shell module (rigid)
 - **Class-II:** Prefabricated, destination assembled (deployable)
-- **Class-III:** In-Situ Resource Utilization (ISRU) derived structure
+- **Class-III:** In-Situ Resource Utilization (ISRU) derived structure.
 
-This study focuses on a Class-II geometric design consisting of rigid elements (bars and planar panels) connected through hinges and a membrane for air pressure.
+This research focuses on a Class-II hybrid structure that synthesizes rigid elements (bars and planar panels) with a membrane for atmospheric pressure.
 
-## 2. Design Considerations
-Main hazards include micrometeoroids, radiation, and vacuum. Design guidelines from Chua et al. emphasize:
-- Simple connections (mechanical, no welding).
-- Common components for easy replacement.
-- Modular design.
-- Pinned joints for easier analysis.
+## 2. Concepts Assessment
+Table 1 summarizes class-II structure strategies:
 
-## 3. Concepts Assessment
-Three Class-II concepts were evaluated: **Trigon**, **Inflated-torus**, and **Moon Base Two**. Assessment criteria included Volume expansion ratio, Pre-launch integration, Protection against hazards, Ease of assembly, and Automation. The Inflated-torus scored highest (24 points) due to its simple deployment and pre-integrated nature.
+| Type | Strategy applied within |
+| :--- | :--- |
+| Inflatable | A multi-layered membrane inflated after landing. |
+| Erectable | A set of rigid structural elements assembled on-site. |
+| Hybrid | Inflatable membrane and rigid elements implemented simultaneously or covered by ISRU. |
 
+### Table 3: Assessment Results
 | Criterion | TRIGON | Inflated-torus | Moon-base two |
 | :--- | :--- | :--- | :--- |
-| Volume expansion ratio | 6 | 4 | 6 |
-| Pre-launch integration | 3 | 5 | 5 |
-| Protection | 5 | 4 | 6 |
-| Ease of Assembly | 1 | 5 | 1 |
-| Automation | 2 | 6 | 1 |
-| **Sum** | **17** | **24** | **19** |
+| Volume expansion ratio | 6 points | 4 points | 6 points |
+| Pre-launch integration | 3 points | 5 points | 5 points |
+| Environmental Protection | 5 points | 4 points | 6 points |
+| Ease of Assembly | 1 point | 5 points | 1 point |
+| Automation and Robotics | 2 points | 6 points | 1 point |
+| **Sum** | **17 points** | **24 points** | **19 points** |
 
-## 5. Design and Results
-The proposed habitat uses a cylindrical geometry formed by extruding a closed SLE loop. The structure includes:
+## 3. Structural Design and Mechanism
+The proposed habitat utilizes Scissor Structural Mechanisms (SSM). Key components include:
 - Two identical loops of angulated SLE units.
 - A central structural core (1.10m diameter).
-- Modified Polar Scissor-Like Element (MP-SLE) units for the roof.
-- Carbon composite rigid panels for shielding.
-- A thin internal pressure barrier membrane (Dacron/Vectran/Kevlar layers).
+- Modified polar scissor-like element (MP-SLE) units for the roof.
+- Rigid panels for shielding and flooring.
+- A thin pressure barrier membrane.
 
-### Habitat Dimensions
-- **Nominal floor area:** 45.40 m²
-- **Nominal interior volume:** 169.2 m³
-- **Maximum internal height:** 4.42 m
-- **Crew capacity:** 4 members
-- **Mission term:** 180 days
+## 4. Habitat Properties
+Table 8: Habitat overall properties
+| Prototype overall geometry | Value |
+| :--- | :--- |
+| Maximum internal height | 4.42 (m) |
+| Minimum internal height | 3.50 (m) |
+| Central core height | 6.95 (m) |
+| Nominal floor area | 45.40 (m²) |
+| Nominal interior volume | 169.2 (m³) |
 
-## 6. Conclusions
-The design combines the quick deployment of inflatable structures with the protection of rigid systems. A central telescopic jack acts as the primary actuator for the transformation. This system reduces EVA time and improves the deployed-to-packaged volume ratio.
+## 5. Conclusions
+The design provides a nominal internal volume of ~170 m³ for four astronauts for a 180-day mission. The pre-assembled configuration of rigid elements allows for a simplified central actuation system, reducing the risks and costs associated with lunar settlement programs.
