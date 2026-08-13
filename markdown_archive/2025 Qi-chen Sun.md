@@ -1,42 +1,57 @@
 # DESIGN OF COMPOSITE SAMPLING SYSTEM FOR SURFACE SOIL OF EXTRATERRESTRIAL BODIES
 
-**Qi-Chen SUN, Zeng ZHAO, Jun-Shan GONG, Zhong-Wang YIN, Xiao-Ming LAI, Hai-Bin YU, Zhong-Xian ZHAO, Chao WANG, and Hui LV**
+**by**
 
-*Original scientific paper*  
-*DOI: 10.2298/TSCI2502267S*
+Qi-Chen SUN^a*, Zeng ZHAO^a, Jun-Shan GONG^a, Zhong-Wang YIN^a, Xiao-Ming LAI^a, Hai-Bin YU^a, Zhong-Xian ZHAO^a, Chao WANG^b, and Hui LV^a
+
+^a Beijing Spacecrafts, Beijing, China
+^b Qian Xuesen Laboratory of Space Technology, China Academy of Space Technology, Beijing, China
+
+Original scientific paper
+DOI: https://doi.org/10.2298/TSCI2502267S
 
 ## Abstract
-Space resource development has become a frontier hot topic in international space exploration. The utilization of asteroid resources necessitates extensive regolith mining operations. This paper presents the design and simulation analysis of an extraterrestrial surface regolith composite sampling system. The findings demonstrate that the composite sampling approach, which combines spiral drilling and transport with kinetic energy directional excitation, is highly effective. It is capable of collecting no less than 500 g within 5 seconds at a rotation speed of 3000 rpm, while the reaction force remains below 5 N.
+Space resource development has become a frontier hot topic in international space exploration. Amidst the growing scarcity of Earth’s resources and rare metals, the harnessing of asteroid resources has risen to prominence as a principal avenue of exploration. The utilization of asteroid resources necessitates extensive regolith mining operations. Catering to the demands of extensive space activities, extraterrestrial construction, and resource development, this paper presents the design and simulation analysis of an extraterrestrial surface regolith composite sampling system. The findings demonstrate that the composite sampling approach, which combines spiral drilling and transport with kinetic energy directional excitation, is highly effective. It is capable of collecting no less than 500 g within a mere 5 seconds at a rotation speed of 3000 rpm, while the reaction force exerted by the brush remains below 5 N, thus satisfying the requirement for a low reaction force.
+
+**Key words:** asteroid sampling, composite sampling system, simulation analysis, experimental verification
 
 ## Introduction
-Asteroid sampling is a key technical method for exploration and resource development. Near-Earth asteroids are rich in precious metals and elements like H, C, O, and N, offering raw materials for extraterrestrial construction. This paper focuses on large-scale mining and transportation technology for regolith particles to ensure the sustainability of future space activities.
+Space resource development is an important goal for planetary exploration and lunar space development. Asteroids are rich in precious metals and rare elements, which have great value for utilization. Previously implemented or planned asteroid exploration has mainly focused on scientific detection. With technological progress, space science and exploration have entered a new stage of space resource development.
 
-## Overview of Asteroid Sampling Detection Technology
-Current methods include:
-- **Projectile impact splash recovery**: Low efficiency.
-- **Anchoring and drilling**: Requires large reaction force; complex.
-- **Gas excitation**: High efficiency but requires consumable gas resources.
-- **Kinetic energy excitation**: Uses motor-driven brushes for low reaction force.
+## Overview of asteroid sampling detection technology
+The sampling methods include projectile impact splash recovery, anchoring and drilling, gas excitation, and kinetic energy excitation. 
 
-## Scheme Design of Sampling System
-The proposed system uses a **Composite Sampling Principle**:
-1.  **Kinetic Energy Directional Sampling**: Dual rotating brushes propel particles into a channel.
-2.  **Auger Drilling Transport**: Subsurface drilling excavations and transports materials via spiral flanges.
-3.  **Compound Mechanism**: Combines drilling (to crush rocks/excavate) with brushing (to direct particles) into a collection container.
+### Table 1. Implemented asteroid sampling mission
+| Mission name | Cycle | Target | Sampling method | 
+| :--- | :--- | :--- | :--- | 
+| Hayabusa [7] | 2003-2010 | Itokawa | Touch and go / Impact splash |
+| Rosetta [8] | 2004-2014 | 67P | On-line drilling analysis / Drilling after anchoring |
+| Hayabusa 2 [9] | 2014-2020 | Ryugu | Touch and go / Impact splash |
+| OSIRIS-Rex [10]| 2016-2023 | Bennu | Touch and go / Gas excitation |
 
-## Simulation Analysis and Experiment
+## Scheme design of sampling system
+### Design of kinetic energy directional sampling
+A motor drives a brush on a rotating shaft to spin at high speeds, interacting with sample particles to impart velocity and direct them into the sample channel. This is crucial for efficient collection in microgravity conditions.
 
-### Collection Efficiency
-| Feed speed [ms^-1] | Speed [rpm] | Time [s] | Equivalent mass collected [g] |
+### Design of auger drilling transport sampling
+Drilling involves a cutting process where debris is expelled through an outer spiral flange. This mechanism ensures drill cuttings are compactly filled within the sampling spiral section for transport.
+
+### Design of compound sampling principle
+The compound method employs auger drilling and directional kinetic energy collection. The drilling tool performs subsurface excavation, enabling the crushing of rocks, while high-speed rotation of the brush directs particles towards the collection container.
+
+## Simulation analysis and experiment
+### Analysis on collection efficiency
+The results show that high collection and transportation effects can be obtained using a rotating speed of 3000 rpm, with the collection of over 500 g completed in 5 seconds.
+
+### Table 2. Sampling results at different speeds
+| Feed speed [ms^-1] | Speed [rpm] | Time [s] | Equivalent mass of particles collected [g] |
 | :--- | :--- | :--- | :--- |
 | 0.01 | 1000 | 5 | 579.6 |
 | 0.01 | 2000 | 5 | 702.8 |
 | 0.01 | 3000 | 5 | 729.4 |
 
-### Reaction Force
-- Z-axis maximum: 6.6 N
-- X-axis maximum: 0.78 N
-- Y-axis maximum: < 1.3 N
+### Kinetic energy sampling reaction force
+Through calculation and analysis, the maximum reaction force excited by the brush is 6.6 N in the Z-axis, 0.78 N in the X-axis, and less than 1.3 N in the Y-axis.
 
 ## Conclusion
-The system integrates spiral drilling with kinetic energy acquisition, showing high adaptability to varied asteroid surfaces. It achieves peak efficiency at 3000 rpm, collecting ~730g in 5 seconds with reaction forces under 7 N, satisfying the requirements for microgravity operations.
+To address the demands of large-scale asteroid resource extraction, this paper presents a composite sampling system tailored for the surface layer of extraterrestrial bodies. The system integrates spiral drilling tool transportation with kinetic energy directional acquisition. The composite sampling system achieves peak efficiency at 3000 rpm, capable of collecting and transporting no less than 500 g within 5 seconds. The peak reaction force remains below 7 N, making it well-suited for asteroid sampling operations that require minimal reaction forces.
