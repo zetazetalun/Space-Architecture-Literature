@@ -1,37 +1,31 @@
 # Building Information Modelling- (BIM-) Based Generative Design for Drywall Installation Planning in Prefabricated Construction
 
-**Journal:** Advances in Civil Engineering  
-**Volume:** 2021, Article ID 6638236  
-**Authors:** Jose Daniel Cuellar Lobo, Zhen Lei, Hexu Liu, Hong Xian Li, SangHyeok Han  
-**DOI:** 10.1155/2021/6638236
-
 ## Abstract
-In prefabricated construction, building components are manufactured off-site before shipping. This study proposes a generative design (GD) approach utilizing BIM and analytical algorithms to optimize drywall installation layouts. The framework includes a decision support module considering environmental, cost, and aesthetic aspects. Practical implementation showed improvements of 37.5% (environmental), 7% (cost), and 54% (aesthetics) for the best design alternatives.
+In prefabricated construction, building components are manufactured off-site before shipping to the site for installation. This study proposes a generative design approach that utilizes the optimization of the drywall installation layout to improve overall project efficiency. The framework includes a decision support module that considers environmental, cost, and aesthetic aspects. The design improvements achieved were 37.5%, 7%, and 54% for environmental, cost, and aesthetic factors, respectively.
 
 ## 1. Introduction
-Prefabrication takes a manufacturing style to produce building components off-site, applying to residential, commercial, and heavy industrial sectors. In North American housing, wood panels are used where interior faces are covered with sheathing (gypsum/plywood). Cutting these materials generates significant scrap waste. BIM and GD offer potential to optimize layouts to minimize waste and improve efficiency.
+The prefabricated construction approach has been widely adopted to improve construction efficiency and productivity. Compared to traditional stick-built construction, prefabrication takes a manufacturing style to produce building components off-site and ship them to the installation site.
 
 ## 2. Methodology
-The research methodology consists of four analytical modules and one visualization module:
-1. **Data Extraction:** Extracting geometric coordinates from BIM 3D models (Revit).
-2. **Simulation-Based Design Algorithm:** Formalizing design and installation rules to generate multiple feasible layout alternatives.
-3. **Heuristic Optimization:** Using a greedy algorithm to locally minimize material waste for each alternative.
-4. **Decision-Making Support:** Implementing a fuzzy Analytical Hierarchy Process (AHP) to rank alternatives based on management criteria (Environmental, Cost, Aesthetics).
-5. **Visualization:** Returning results to Dynamo/BIM for visual evaluation.
+The research methodology consists of four analytical modules:
+1. **Data Extraction:** Geometric information (wall coordinates) is extracted from the BIM 3D model (Revit).
+2. **Simulation-Based Design Algorithm:** Generates multiple feasible design alternatives based on installation rules.
+3. **Heuristic Optimization Algorithm:** Uses a greedy algorithm to locally optimize material waste by reusing drywall cuts.
+4. **Decision-Making Support:** Implements a fuzzy analytical hierarchy process (AHP) to rank alternatives based on environmental, cost, and aesthetic criteria.
 
-### Table 1: Sample cost information for drywall material (Canadian market)
-| Item | Cost/Price | Units | Source |
+### Table 1: Sample cost information for drywall material and productivity
+| Item | Cost/price | Units | Source |
 | :--- | :--- | :--- | :--- |
-| 1/2 in x 4 ft. x 8 ft. panel | $13 | $CAD/unit | Home Depot |
-| 1/2 in x 4 ft. x 10 ft. panel | $16 | $CAD/unit | Home Depot |
-| 1/2 in x 4 ft. x 12 ft. panel | $19 | $CAD/unit | Home Depot |
-| Landfill tipping fee (NB) | $28 | $CAD/tonne | Fundy Recycles |
+| Drywall materials (4x8 ft) | $13 | $CAD/unit | homedepot.ca |
+| Drywall installation | $50 | $CAD/hr | Industry partner |
+| Drywall finishing | $70 | $CAD/hr | Industry partner |
+| Landfill tipping fee | $28 | $CAD/tonne | fundyrecycles.com |
 
-## 4. Evaluation of Results and Discussion
-The best design layout solutions achieved significant reductions compared to the statistical median:
-- **Environmental:** 37.5% reduction in material waste.
-- **Cost:** 7% reduction in total cost.
-- **Aesthetic:** 54% reduction in total drywall joint length.
+## 3. Implementation and Case Study
+A two-story wood residential house (53 wood frames) was used as a case study. Thirty simulation cycles were initiated to generate drywall layouts. The design rules included vertical/horizontal orientation, alignment with studs, staggered seams, and avoidance of joints near door/window openings.
+
+## 4. Evaluation of the Results and Discussion
+The model achieved a minimum of 10% material waste percentage. The results highlight the advantages of BIM-based generative design in exploring multiple design alternatives that vary according to different management criteria.
 
 ## 5. Conclusions
-The BIM-based generative design approach effectively provides optimized layouts for prefabricated scenarios, benefiting planning and waste reduction. The contributions include generative design for planning, incorporation of randomness in simulation, and fuzzy AHP for evaluation.
+The research introduced a generative design approach for drywall layout using fuzzy AHP. The results showed optimal alternatives with 37.5% reduction in waste, 7% in cost, and 54% in joint length compared to the median. This approach can be applied generically to other prefabricated construction scenarios.
