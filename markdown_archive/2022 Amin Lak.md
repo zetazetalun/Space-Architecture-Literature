@@ -1,56 +1,71 @@
 # A new deployable pantographic lunar habitat
 
-**Authors:** Amin Lak, Maziar Asefi
-**Publication:** Acta Astronautica 192 (2022) 351–367
+**Journal:** Acta Astronautica 192 (2022) 351–367  
+**Authors:** Amin Lak, Maziar Asefi  
 **DOI:** https://doi.org/10.1016/j.actaastro.2021.12.049
 
 ## Abstract
-Deployable lunar structures are being developed as a solution to the volumetric limitations of cargo mission flights. This paper introduces a deployable lunar habitat consisting of linear and planar elements connected through simple movable joints. The structure utilizes two types of scissor-like elements (SLE): modified polar SLEs and a closed-loop of angulated SLEs. The design integrates rigid plates with membranes to provide protection against environmental hazards while reducing required extravehicular activity (EVA) time for assembly through a quick and simple deployment mechanism.
+Deployable lunar structures have been and are being developed as an appropriate solution to the volumetric limitations of cargo mission flights. A deployable lunar habitat consisting of linear and planar elements connected through simple movable joints is introduced. This new structure is made of some linear units consisting of two types of scissor-like elements (SLE): 1) a modified polar scissor-like element and 2) a closed-loop of angulated scissor-like elements. After conducting theoretical research on lunar habitats, the evaluation criteria of transformable lunar structures are derived and then many new concepts are evaluated. The folded state of the structure provides a low volume for the integration of subsystems.
 
 ## 1. Introduction
-Space habitats are classified into three categories:
+Structural concepts for lunar habitation are typically classified into three classes:
 - **Class-I:** Pre-integrated, hard-shell module (rigid)
 - **Class-II:** Prefabricated, destination assembled (deployable)
-- **Class-III:** In-Situ Resource Utilization (ISRU) derived structure.
+- **Class-III:** In-Situ Resource Utilization (ISRU) derived structure
 
-This research focuses on a Class-II hybrid structure that synthesizes rigid elements (bars and planar panels) with a membrane for atmospheric pressure.
+This article focuses on Class-II structures, providing high protection through rigid plates combined with membranes while reducing packaging volume for transport.
 
-## 2. Concepts Assessment
-Table 1 summarizes class-II structure strategies:
+## 2. Design Considerations
+Key hazards addressed include micrometeoroids, radiation, and vacuum. Design guidelines include:
+- Simple mechanical connections (no welding).
+- Common components for easy replacement.
+- Modular design and pinned joints for easier analysis.
 
+## 3. Concepts Assessment
+
+### Table 1: Different types of class-II structures
 | Type | Strategy applied within |
 | :--- | :--- |
-| Inflatable | A multi-layered membrane inflated after landing. |
-| Erectable | A set of rigid structural elements assembled on-site. |
-| Hybrid | Inflatable membrane and rigid elements implemented simultaneously or covered by ISRU. |
+| Inflatable | A multi-layered membrane inflated after landing and traverse to the site |
+| Erectable | A set of rigid structural elements that are assembled on-site |
+| Hybrid | An inflatable membrane and a set of rigid elements |
 
-### Table 3: Assessment Results
+### Table 3: Assessment results (Summary)
 | Criterion | TRIGON | Inflated-torus | Moon-base two |
 | :--- | :--- | :--- | :--- |
 | Volume expansion ratio | 6 points | 4 points | 6 points |
-| Pre-launch integration | 3 points | 5 points | 5 points |
-| Environmental Protection | 5 points | 4 points | 6 points |
+| Protection | 5 points | 4 points | 6 points |
 | Ease of Assembly | 1 point | 5 points | 1 point |
-| Automation and Robotics | 2 points | 6 points | 1 point |
+| Automation | 2 points | 6 points | 1 point |
 | **Sum** | **17 points** | **24 points** | **19 points** |
 
-## 3. Structural Design and Mechanism
-The proposed habitat utilizes Scissor Structural Mechanisms (SSM). Key components include:
-- Two identical loops of angulated SLE units.
-- A central structural core (1.10m diameter).
-- Modified polar scissor-like element (MP-SLE) units for the roof.
-- Rigid panels for shielding and flooring.
-- A thin pressure barrier membrane.
+## 5. Design
 
-## 4. Habitat Properties
-Table 8: Habitat overall properties
+### 5.3.1 Closed loops
+By extruding an angulated SLE loop, a cylindrical form is obtained. The structure uses 20 angulated SLE units.
+
+### Table 4: Angulated element and loop properties
+| Loop Geometry | Value |
+| :--- | :--- |
+| Bar length | 0.65 m |
+| Kink angle (α) | 18° |
+| Number of units (n) | 20 |
+| Folded radius (rf) | 1.60 m |
+| Deployed radius (rd) | 3.80 m |
+| Maximum area | 45.40 m² |
+
+### 5.3.9 Material selection
+- **External panels:** Carbon composite (high radiation shielding, thermal insulation).
+- **Pressure barrier:** Multi-layer approach including Vectran or Kevlar structural restraint layers, redundant Combitherm bladders, and Nomex inner liner.
+
+### Table 8: Habitat overall properties
 | Prototype overall geometry | Value |
 | :--- | :--- |
-| Maximum internal height | 4.42 (m) |
-| Minimum internal height | 3.50 (m) |
-| Central core height | 6.95 (m) |
-| Nominal floor area | 45.40 (m²) |
-| Nominal interior volume | 169.2 (m³) |
+| Maximum internal height | 4.42 m |
+| Minimum internal height | 3.50 m |
+| Central core height | 6.95 m |
+| Nominal floor area | 45.40 m² |
+| Nominal interior volume | 169.2 m³ |
 
-## 5. Conclusions
-The design provides a nominal internal volume of ~170 m³ for four astronauts for a 180-day mission. The pre-assembled configuration of rigid elements allows for a simplified central actuation system, reducing the risks and costs associated with lunar settlement programs.
+## 6. Conclusions
+The proposed system allows four astronauts to settle on the lunar surface for 180 days. It combines the quick deployment of inflatable structures with the protection of rigid structures.
