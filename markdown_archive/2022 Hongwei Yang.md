@@ -1,39 +1,27 @@
-# Laboratory construction and curation scheme for returned samples of the chang’e-5 mission
-
-**Authors:** Hongwei Yang, Ruihong Yang, and Qian Wang
-**Journal:** Geoscience Letters (2022) 9:19
-**DOI:** https://doi.org/10.1186/s40562-022-00224-z
+# Laboratory construction and curation scheme for returned samples of the Chang’e-5 mission
 
 ## Abstract
-The analysis of samples returned from a planetary body is critical for understanding its origin and evolution. The Chang’e-5 mission acquired less than 2 kg of lunar samples, including a 1 m core. The China Lunar Exploration and Space Engineering Center (CLESEC) is constructing specialized laboratories and establishing regulations for sample preservation, measurement, and sharing. This paper establishes requirements for laboratory construction and curation based on Apollo experiences and advanced technologies.
+The analysis of samples returned from a planetary body is important to understand the origin, composition, evolution, and interactions with space or atmospheric weathering of the planet. The Chang’e-5 lander, the first Chinese science project involving the return of lunar samples, acquired less than 2 kg during this mission. The CLESEC (China Lunar Exploration and Space Engineering Center) is planning to construct at least two laboratories and develop standardized technologies for preservation, measurement, and sharing. This paper establishes detailed requirements and standardized conditions for constructing laboratories and curation with the aid of advanced technologies.
 
 ## Introduction
-Remote sensing and radar observations provide subsurface data, but direct analysis of returned samples is essential to understand the true mineralogical and petrological features, especially given the effects of space weathering and impact-induced regolith formation. Pristine samples from depth, such as those excavated by volcanic activity or impacts, provide the most significant scientific value.
+To rapidly realize the properties of materials on a planetary surface, remote sensing and radar observations are primary approaches. However, materials deep in the shallow surface (regolith) are affected by space weathering. Sampling activities on planetary surfaces such as the Moon are key to understanding these materials. The Chang’e-5 Sampling Station landed at 43.058 N, 51.916 W in the northern part of Ocean Procellarum on December 1, 2020, and returned 1731 g of samples, including a drilling core ~1 m long.
 
-### The Chang’e-5 Mission
-* **Landing Site:** 43.058 N, 51.916 W (Northern Oceanus Procellarum).
-* **Sample Quantity:** 1731 g total.
-* **Drilling Core:** ~1 m length, ~250 g weight.
-* **Collection Method:** Drilling and shoveling.
+## Comprehensive Studies on Lunar Sample Laboratory
+The returned lunar samples are securely stored in two locations: one for representative samples against unexpected calamity and another for preservation, preparation, and testing. 
 
-## Review of Apollo Sampling
-* **Total Apollo Samples:** 381.7 kg across six missions.
-* **Key Findings:** Only 260 sample rocks (~15% of Apollo samples) have been opened for research to date. Most samples are less than 1 mm in size. 
-* **Lessons:** Preservation requires safe, low-temperature, vacuum conditions similar to the lunar surface.
+### Contamination Control
+Contamination from solid particles and gaseous materials (oxygen, hydrates) must be strictly controlled. All rooms must have clean air. Water and oxygen concentrations in glove box cabinets must be maintained at:
+- **Oxygen:** < 20 molecules per million molecules of nitrogen.
+- **Water:** < 50 molecules per million molecules of nitrogen.
 
-## Laboratory Construction Requirements
-To prevent contamination and preserve sample integrity, the following conditions are established for the curation laboratories:
+### Air Pressure Conditions
+Nitrogen gas pressure in the cabinet must be kept slightly higher than the air pressure in the Pristine Sample Laboratory to prevent leakage of contaminated air into the cabinet.
 
-### 1. Contamination Control
-* **Atmosphere:** Sealed glove box cabinets filled with nitrogen (1000 times cleaner than standard clean labs).
-* **Thresholds:** Oxygen concentration < 20 ppm; Water concentration < 50 ppm.
-* **Materials:** Only stainless steel, aluminum, Teflon, and neoprene are permitted to touch or be in proximity to the samples.
+### Temperature Requirements
+A low controlled temperature is required to preserve samples in an environment similar to the lunar surface (-150 °C to 110 °C) and decrease chemical reactivity.
 
-### 2. Air Pressure and Atmosphere
-* **Pressure:** Nitrogen gas pressure in the cabinet is kept slightly higher than the laboratory room pressure to prevent inward leakage.
-* **Recycling:** Nitrogen must be recycled to prevent the buildup of oxygen and water vapor from gloves.
-
-### 3. Laboratory Layout (Sub-labs)
+### Laboratory Layout
+The laboratory comprises eight sub-labs:
 1. Change Rooms and Air Shower
 2. Pristine Sample Lab
 3. Pristine Sample Display Case
@@ -43,16 +31,12 @@ To prevent contamination and preserve sample integrity, the following conditions
 7. Return Sample Vault
 8. Observation Room
 
-## Procedures for Sample Processing
-1. **Scanning:** Non-destructive X-ray and CT scanning of sealed cores to determine grain size and internal structure.
-2. **Magnetic Detection:** Residual magnetism must be measured quickly to avoid terrestrial field interference.
-3. **Sawing:** Performed in a dry, slow process without lubricants or cooling materials to prevent contamination.
-4. **Usage Tiers:**
-   * Non-destructive (Optical/spectral)
-   * Minimally destructive (SHRIMP dating)
-   * Destructive (Mass Spectrometry)
+## Required Conditions for Chang’e-5 Laboratory
+The construction considerations include:
+- **Cleanliness:** Maximum cleanliness level up to $10^4 \sim 2 \times 10^5$ particles per centimeter square.
+- **Materials:** Only special materials like stainless steel, aluminum, and Teflon are allowed to touch samples.
+- **Inert Environment:** Higher nitrogen concentration and aridity in cabinets compared to the rooms.
+- **Analysis Tools:** X-ray, CT instruments, and HD cameras for non-destructive inner structure analysis.
 
-## Principles for Curation and Sharing
-* **CNSA/CLESEC:** Managing authorities for sample distribution.
-* **Usage Types:** Permanently stored, backup stored, researching, and public presentation.
-* **Security:** Samples are not stored in a single location to mitigate catastrophic risk.
+## Discussion and Conclusion
+Chang’e-5 is China’s first mission to acquire and return lunar samples. This paper establishes national standards for testing and curation. Future considerations include developments in sampling techniques on planetary surfaces and careful planning for the ratio of open to unopened samples to maximize scientific value.
